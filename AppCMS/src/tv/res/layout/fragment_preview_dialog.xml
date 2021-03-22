@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_clear_overlay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:background="@color/dialog_bg_color"
+    android:clickable="true"
+    android:focusable="false"
+    android:weightSum="1"
+    android:focusableInTouchMode="true">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_weight=".6">
+
+        <TextView
+            android:focusable="false"
+            android:id="@+id/text_overlay_title"
+            android:layout_width="223dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffffff"
+            android:layout_marginTop="80dp"
+            android:text="Ways To Watch"
+            android:textSize="26dp"
+            android:visibility="visible"/>
+
+        <TextView
+            android:id="@+id/text_overlay_description"
+            android:layout_width="223dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="To continue watching, and access so much more, subscribe or login below!"
+            android:focusable="false"
+            android:nextFocusLeft="@null"
+            android:nextFocusRight="@null"
+            android:nextFocusUp="@null"
+            android:textColor="#ffffff"
+            android:textSize="10sp"  />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="223dp"
+            android:layout_height="42dp"
+            android:letterSpacing="0.12"
+            android:nextFocusLeft="@null"
+            android:nextFocusRight="@null"
+            android:nextFocusUp="@+id/text_overlay_description"
+            android:textAllCaps="true"
+            android:layout_marginTop="20dp"
+            android:text="Become A Member"
+            android:textColor="@color/btn_color_with_opacity"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn_neutral"
+            android:layout_width="223dp"
+            android:layout_height="42dp"
+            android:letterSpacing="0.12"
+            android:nextFocusLeft="@null"
+            android:nextFocusRight="@null"
+            android:nextFocusUp="@+id/btn_cancel"
+            android:textAllCaps="true"
+            android:layout_marginTop="10dp"
+            android:text="Choose TV Provider"
+            android:textColor="@color/btn_color_with_opacity"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn_extra"
+            android:layout_width="223dp"
+            android:layout_height="42dp"
+            android:letterSpacing="0.12"
+            android:nextFocusLeft="@null"
+            android:nextFocusRight="@null"
+            android:textAllCaps="true"
+            android:layout_marginTop="10dp"
+            android:text="RENT"
+            android:textColor="@color/btn_color_with_opacity"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/text_login"
+            android:layout_width="223dp"
+            android:layout_height="wrap_content"
+            android:letterSpacing="0.12"
+            android:focusable="false"
+            android:layout_marginTop="20dp"
+            android:text="@string/have_account"
+            android:textColor="#ffffff"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn_yes"
+            android:layout_width="223dp"
+            android:layout_height="42dp"
+            android:letterSpacing="0.12"
+            android:nextFocusLeft="@null"
+            android:nextFocusRight="@null"
+            android:textAllCaps="true"
+            android:layout_marginTop="10dp"
+            android:text="LOG IN"
+            android:textColor="@color/btn_color_with_opacity"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:layout_weight=".4">
+
+        <ImageView
+            android:id="@+id/video_image"
+            android:layout_width="508dp"
+            android:layout_height="286dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/vid_image_placeholder_16x9"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

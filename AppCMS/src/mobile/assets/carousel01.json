@@ -1,0 +1,288 @@
+{
+  "version": "0.0.44",
+  "moduleList": [
+    {
+      "isConstrainteView": true,
+      "layout": {
+        "mobile": {
+          "yAxis": 0,
+          "leftMargin": 0,
+          "xAxis": 0,
+          "rightMargin": 0,
+          "width": 0,
+          "height": 0
+        },
+        "tabletLandscape": {
+          "yAxis": 0,
+          "leftMargin": 0,
+          "xAxis": 0,
+          "rightMargin": 0,
+          "height": 0
+        },
+        "tabletPortrait": {
+          "yAxis": 0,
+          "leftMargin": 0,
+          "xAxis": 0,
+          "rightMargin": 0,
+          "height": 0
+        }
+      },
+      "components": [
+        {
+          "layout": {
+            "mobile": {
+              "yAxis": 0,
+              "leftMargin": 0,
+              "xAxis": 0,
+              "rightMargin": 0,
+              "width": 375,
+              "height": 211
+            },
+            "tabletLandscape": {
+              "yAxis": 0,
+              "leftMargin": 0,
+              "xAxis": 0,
+              "rightMargin": 0,
+              "height": 383
+            },
+            "tabletPortrait": {
+              "yAxis": 0,
+              "leftMargin": 0,
+              "xAxis": 0,
+              "rightMargin": 0,
+              "height": 432
+            }
+          },
+          "trayClickAction": "lectureDetailPage",
+          "components": [
+            {
+              "layout": {
+                "mobile": {
+                  "leftMargin": 0,
+                  "topMargin": 0,
+                  "rightMargin": 0,
+                  "bottomMargin": 0,
+                  "width": 375,
+                  "height": 211,
+                  "constraint_MarginBottom": 30,
+                  "ratio": "16:9",
+                  "leftTo_leftOf": "parent",
+                  "topTo_topOf": "parent",
+                  "rightTo_rightOf": "parent",
+                  "bottomTo_bottomOf": "parent"
+                },
+                "tabletLandscape": {
+                  "leftMargin": 0,
+                  "topMargin": 0,
+                  "rightMargin": 33.5,
+                  "bottomMargin": 0,
+                  "width": 720,
+                  "height": 407,
+                  "constraint_MarginBottom": 30,
+                  "ratio": "16:9",
+                  "leftTo_leftOf": "parent",
+                  "topTo_topOf": "parent",
+                  "bottomTo_bottomOf": "parent"
+                },
+                "tabletPortrait": {
+                  "leftMargin": 0,
+                  "topMargin": 0,
+                  "rightMargin": 0,
+                  "bottomMargin": 0,
+                  "width": 768,
+                  "height": 432,
+                  "constraint_MarginBottom": 30,
+                  "ratio": "16:9",
+                  "leftTo_leftOf": "parent",
+                  "topTo_topOf": "parent",
+                  "rightTo_rightOf": "parent",
+                  "bottomTo_bottomOf": "parent"
+                }
+              },
+              "type": "image",
+              "key": "carouselImage",
+              "id": "carouselImage"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "leftMargin": 0,
+                  "topMargin": 0,
+                  "rightMargin": 0,
+                  "bottomMargin": 0,
+                  "width": 375,
+                  "height": 211,
+                  "constraint_MarginBottom": 30,
+                  "ratio": "16:9",
+                  "leftTo_leftOf": "parent",
+                  "topTo_topOf": "parent",
+                  "rightTo_rightOf": "parent",
+                  "bottomTo_bottomOf": "parent"
+                },
+                "tabletLandscape": {
+                  "leftMargin": 0,
+                  "topMargin": 0,
+                  "rightMargin": 33.5,
+                  "bottomMargin": 0,
+                  "width": 720,
+                  "height": 407,
+                  "constraint_MarginBottom": 30,
+                  "ratio": "16:9",
+                  "leftTo_leftOf": "parent",
+                  "topTo_topOf": "parent",
+                  "bottomTo_bottomOf": "parent"
+                },
+                "tabletPortrait": {
+                  "leftMargin": 0,
+                  "topMargin": 0,
+                  "rightMargin": 0,
+                  "bottomMargin": 0,
+                  "width": 768,
+                  "height": 432,
+                  "constraint_MarginBottom": 30,
+                  "ratio": "16:9",
+                  "leftTo_leftOf": "parent",
+                  "topTo_topOf": "parent",
+                  "rightTo_rightOf": "parent",
+                  "bottomTo_bottomOf": "parent"
+                }
+              },
+              "type": "image",
+              "key": "carouselBadgeImage",
+              "id": "carouselBadgeImage"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "leftMargin": 0,
+                  "rightMargin": 0,
+                  "bottomMargin": 18.74,
+                  "fontSize": 10,
+                  "height": 14,
+                  "constraint_MarginBottom": 90,
+                  "bottomTo_bottomOf": "parent",
+                  "leftTo_leftOf": "parent",
+                  "rightTo_rightOf": "parent"
+                },
+                "tabletLandscape": {
+                  "leftMargin": 66.5,
+                  "rightMargin": 0,
+                  "bottomMargin": 63.19,
+                  "fontSize": 14,
+                  "height": 14,
+                  "constraint_MarginBottom": 60,
+                  "topTo_bottomOf": "carouselTitle",
+                  "leftTo_rightOf": "carouselImage",
+                  "rightTo_rightOf": "parent"
+                },
+                "tabletPortrait": {
+                  "leftMargin": 0,
+                  "rightMargin": 0,
+                  "bottomMargin": 19.68,
+                  "fontSize": 14,
+                  "height": 14,
+                  "constraint_MarginBottom": 80,
+                  "bottomTo_bottomOf": "parent",
+                  "leftTo_leftOf": "parent",
+                  "rightTo_rightOf": "parent"
+                }
+              },
+              "fontFamily": "OpenSans",
+              "numberOfLines": 1,
+              "textAlignment": "center",
+              "type": "label",
+              "textColor": "#ffffff",
+              "key": "carouselInfo",
+              "id": "carouselInfo"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "leftMargin": 0,
+                  "rightMargin": 0,
+                  "bottomMargin": 20.85,
+                  "fontSize": 18,
+                  "height": 24,
+                  "bottomTo_topOf": "carouselInfo",
+                  "leftTo_leftOf": "parent",
+                  "rightTo_rightOf": "parent"
+                },
+                "tabletLandscape": {
+                  "rightMargin": 0,
+                  "bottomMargin": 124.84,
+                  "fontSize": 23,
+                  "height": 32,
+                  "topTo_topOf": "parent",
+                  "bottomTo_bottomOf": "parent",
+                  "leftTo_rightOf": "carouselImage",
+                  "rightTo_rightOf": "parent"
+                },
+                "tabletPortrait": {
+                  "leftMargin": 0,
+                  "rightMargin": 0,
+                  "bottomMargin": 30.69,
+                  "fontSize": 23,
+                  "height": 32,
+                  "bottomTo_topOf": "carouselInfo",
+                  "leftTo_leftOf": "parent",
+                  "rightTo_rightOf": "parent"
+                }
+              },
+              "fontFamily": "OpenSans",
+              "numberOfLines": 1,
+              "textAlignment": "center",
+              "type": "label",
+              "textColor": "#ffffff",
+              "fontWeight": "Bold",
+              "key": "carouselTitle",
+              "id": "carouselTitle",
+              "viewGravity": "view_center_horizontal"
+            }
+          ],
+          "type": "carousel",
+          "key": "carousel",
+          "id": "carousel"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "bottomMargin": 22.11,
+              "height": 8,
+              "constraint_MarginBottom": 50,
+              "bottomTo_bottomOf": "parent",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent"
+            },
+            "tabletLandscape": {
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "bottomMargin": 30,
+              "height": 8,
+              "constraint_MarginBottom": 50,
+              "bottomTo_bottomOf": "carousel",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent"
+            },
+            "tabletPortrait": {
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "bottomMargin": 30,
+              "height": 8,
+              "constraint_MarginBottom": 50,
+              "bottomTo_bottomOf": "carousel",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent"
+            }
+          },
+          "unSelectedColor": "FFFFFF",
+          "selectedColor": "008EE0",
+          "type": "pageControl",
+          "id": "pageControl"
+        }
+      ]
+    }
+  ],
+  "caching": {}
+}

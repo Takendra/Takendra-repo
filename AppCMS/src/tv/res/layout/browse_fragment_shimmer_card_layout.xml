@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="false"
+    android:focusable="false">
+
+    <io.supercharge.shimmerlayout.ShimmerLayout
+        android:id="@+id/shimmer_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:shimmer_animation_duration="1200">
+
+
+        <LinearLayout
+            android:id="@+id/shimmer_linear_layout"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent"/>
+
+        <!--<FrameLayout
+            android:id="@+id/placeholder_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/placeholder_image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#807a7a7a" />
+
+            <View
+                android:id="@+id/placeholder_title_view"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#807a7a7a" />
+        </FrameLayout>-->
+
+
+    </io.supercharge.shimmerlayout.ShimmerLayout>
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.percentlayout.widget.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/backgroundColor"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/tray_item_more_dialog_PanelPedding"
+        android:paddingRight="@dimen/tray_item_more_dialog_PanelPedding"
+        app:layout_heightPercent="@fraction/tray_item_more_dialog_Height">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/moreDialogAddToWatchListBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADD TO WATCHLIST" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/moreDialogDownloadBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/tray_item_more_dialog_ButtonMargin"
+            android:text="DOWNLOAD" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/moreDialogCloseBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/tray_item_more_dialog_ButtonMargin"
+            android:background="@drawable/more_dialog_closebtn"
+            android:text="CLOSE" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.percentlayout.widget.PercentRelativeLayout>

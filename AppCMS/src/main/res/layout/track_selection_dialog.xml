@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2018 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#000"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+  <androidx.appcompat.widget.LinearLayoutCompat
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="18dp"
+        android:id="@+id/downloadTextId"
+        android:text="@string/download_quality_text_key"
+        android:layout_marginTop="8dp"
+        android:textColor="#FFF">
+    </androidx.appcompat.widget.AppCompatTextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/darker_gray"/>
+  </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+  <androidx.viewpager.widget.ViewPager
+      android:id="@+id/track_selection_dialog_view_pager"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/track_selection_dialog_tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabGravity="fill"
+        app:tabMode="fixed"/>
+
+  </androidx.viewpager.widget.ViewPager>
+
+  <androidx.appcompat.widget.LinearLayoutCompat
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:weightSum="10"
+      android:layout_height="wrap_content"
+      android:gravity="end">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/track_selection_dialog_ok_button"
+        android:layout_width="wrap_content"
+        android:layout_weight="4"
+        android:layout_height="wrap_content"
+        android:text="CONTINUE"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#FFF"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_weight="2"
+        android:layout_height="wrap_content">
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/track_selection_dialog_cancel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CANCEL"
+        android:textColor="#FFF"
+        android:layout_weight="4"
+        style="?android:attr/borderlessButtonStyle"/>
+
+  </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

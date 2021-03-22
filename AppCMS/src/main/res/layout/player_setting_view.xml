@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/playerSettingRootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000">
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/buttonPlayerSettingSubmit"
+        android:layout_width="@dimen/player_control_setting_button_width_height"
+        android:layout_height="@dimen/player_control_setting_button_width_height"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:background="@android:color/transparent"
+        android:focusable="false"
+        android:padding="8dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/cancel" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/buttonPlayerSettingSubmit"
+        android:layout_margin="5dp">
+
+        <include
+            layout="@layout/item_list_player_setting"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+</RelativeLayout>

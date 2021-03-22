@@ -1,0 +1,1015 @@
+{
+  "moduleList": [
+    {
+      "id": "c2b57f33-6822-44ca-9660-9a4d77f9198a",
+      "view": "AC ShowDetail 08",
+      "type": "AC ShowDetail 08",
+      "blockName": "showDetail08",
+      "isConstrainteView": true,
+      "layout": {
+        "mobile": {
+          "yAxis": 0,
+          "leftMargin": 0,
+          "rightMargin": 0
+        },
+        "tabletLandscape": {
+          "yAxis": 0,
+          "leftMargin": 0,
+          "xAxis": 0,
+          "rightMargin": 0
+        },
+        "tabletPortrait": {
+          "yAxis": 0,
+          "leftMargin": 0,
+          "xAxis": 0,
+          "rightMargin": 0
+        }
+      },
+      "components": [
+        {
+          "layout": {
+            "mobile": {
+              "yAxis": 0,
+              "xAxis": 10,
+              "maximumWidth": 320,
+              "width": 320,
+              "fontSize": 18,
+              "height": 24,
+              "constraint_MarginLeft": 5,
+              "constraint_MarginTop": 10,
+              "rightTo_leftOf": "shareButton",
+              "topTo_topOf": "parent",
+              "leftTo_leftOf": "parent"
+            },
+            "tabletLandscape": {
+              "yAxis": 0,
+              "xAxis": 10,
+              "maximumWidth": 708,
+              "fontSize": 23,
+              "height": 32,
+              "constraint_MarginLeft": 5,
+              "constraint_MarginTop": 10,
+              "topTo_topOf": "parent",
+              "leftTo_leftOf": "parent"
+            },
+            "tabletPortrait": {
+              "yAxis": 0,
+              "xAxis": 10,
+              "maximumWidth": 500,
+              "fontSize": 23,
+              "height": 32,
+              "constraint_MarginLeft": 5,
+              "constraint_MarginTop": 10,
+              "topTo_topOf": "parent",
+              "leftTo_leftOf": "parent"
+            }
+          },
+          "fontFamily": "OpenSans",
+          "numberOfLines": 1,
+          "textAlignment": "left",
+          "type": "label",
+          "textColor": "#ffffff",
+          "fontWeight": "Bold",
+          "key": "showTitle",
+          "id": "showTitle"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "maximumWidth": 230,
+              "fontSize": 10,
+              "constraint_MarginLeft": 5,
+              "constraint_MarginTop": 10,
+              "topTo_bottomOf": "showTitle",
+              "leftTo_leftOf": "parent"
+            },
+            "tabletLandscape": {
+              "maximumWidth": 708,
+              "fontSize": 10,
+              "constraint_MarginLeft": 5,
+              "constraint_MarginTop": 5,
+              "topTo_bottomOf": "showTitle",
+              "leftTo_leftOf": "parent"
+            },
+            "tabletPortrait": {
+              "maximumWidth": 500,
+              "fontSize": 10,
+              "height": 14,
+              "constraint_MarginLeft": 5,
+              "constraint_MarginTop": 5,
+              "topTo_bottomOf": "showTitle",
+              "leftTo_leftOf": "parent"
+            }
+          },
+          "fontFamily": "OpenSans",
+          "numberOfLines": 1,
+          "textAlignment": "left",
+          "type": "label",
+          "textColor": "#ffffff",
+          "fontWeight": "Semibold",
+          "key": "showSubTitle",
+          "id": "showSubTitle"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 27,
+              "height": 27,
+              "constraint_MarginLeft": 5,
+              "constraint_MarginTop": 10,
+              "constraint_MarginRight": 5,
+              "topTo_topOf": "parent",
+              "rightTo_rightOf": "parent"
+            },
+            "tabletLandscape": {
+              "width": 27,
+              "height": 27,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginRight": 10,
+              "topTo_topOf": "parent",
+              "rightTo_rightOf": "parent"
+            },
+            "tabletPortrait": {
+              "width": 27,
+              "height": 27,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginRight": 10,
+              "topTo_topOf": "parent",
+              "rightTo_rightOf": "parent"
+            }
+          },
+          "action": "close",
+          "type": "button",
+          "key": "closeButton",
+          "id": "closeButton"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 27,
+              "height": 27,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginRight": 10,
+              "topTo_topOf": "parent",
+              "bottomTo_bottomOf": "closeButton",
+              "rightTo_leftOf": "closeButton"
+            },
+            "tabletLandscape": {
+              "width": 27,
+              "height": 27,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginRight": 10,
+              "topTo_topOf": "parent",
+              "bottomTo_bottomOf": "closeButton",
+              "rightTo_leftOf": "closeButton"
+            },
+            "tabletPortrait": {
+              "width": 27,
+              "height": 27,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginRight": 10,
+              "topTo_topOf": "parent",
+              "bottomTo_bottomOf": "closeButton",
+              "rightTo_leftOf": "closeButton"
+            }
+          },
+          "action": "share",
+          "type": "button",
+          "key": "shareButton",
+          "id": "shareButton"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 28,
+              "height": 28,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginRight": 10,
+              "topTo_bottomOf": "showImage",
+              "rightTo_rightOf": "parent"
+            },
+            "tabletLandscape": {
+              "width": 28,
+              "height": 28,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginRight": 20,
+              "topTo_topOf": "parent",
+              "rightTo_leftOf": "shareButton"
+            },
+            "tabletPortrait": {
+              "width": 28,
+              "height": 28,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginRight": 20,
+              "topTo_topOf": "parent",
+              "rightTo_leftOf": "shareButton"
+            }
+          },
+          "action": "addToWatchlist",
+          "type": "button",
+          "key": "watchlistButton",
+          "id": "watchlistButton"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 28,
+              "height": 28,
+              "constraint_MarginRight": 10,
+              "topTo_topOf": "watchlistButton",
+              "bottomTo_bottomOf": "watchlistButton",
+              "rightTo_leftOf": "watchlistButton"
+            },
+            "tabletLandscape": {
+              "width": 28,
+              "height": 28,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginRight": 20,
+              "topTo_topOf": "parent",
+              "rightTo_leftOf": "shareButton"
+            },
+            "tabletPortrait": {
+              "width": 28,
+              "height": 28,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginRight": 20,
+              "topTo_topOf": "parent",
+              "rightTo_leftOf": "shareButton"
+            }
+          },
+          "action": "launchWhatsApp",
+          "type": "button",
+          "key": "whatsAppButton",
+          "id": "whatsAppButton"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 375,
+              "height": 211,
+              "ratio": "16:9",
+              "constraint_MarginLeft": 0,
+              "constraint_MarginTop": 10,
+              "constraint_MarginBottom": 10,
+              "topTo_bottomOf": "showSubTitle",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent"
+            },
+            "tabletLandscape": {
+              "width": 720,
+              "height": 407,
+              "ratio": "16:9",
+              "constraint_MarginLeft": 0,
+              "constraint_MarginTop": 10,
+              "constraint_MarginBottom": 10,
+              "topTo_bottomOf": "showSubTitle",
+              "leftTo_leftOf": "parent"
+            },
+            "tabletPortrait": {
+              "yAxis": 44,
+              "xAxis": 0,
+              "width": 768,
+              "height": 432,
+              "ratio": "16:9",
+              "constraint_MarginLeft": 0,
+              "constraint_MarginTop": 10,
+              "constraint_MarginBottom": 10,
+              "topTo_bottomOf": "showSubTitle",
+              "leftTo_leftOf": "parent"
+            }
+          },
+          "type": "image",
+          "key": "showImage",
+          "id": "showImage"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 375,
+              "height": 211,
+              "ratio": "16:9",
+              "constraint_MarginLeft": 0,
+              "constraint_MarginTop": 10,
+              "constraint_MarginBottom": 10,
+              "topTo_bottomOf": "showSubTitle",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent"
+            },
+            "tabletLandscape": {
+              "width": 720,
+              "height": 407,
+              "ratio": "16:9",
+              "constraint_MarginLeft": 0,
+              "constraint_MarginTop": 10,
+              "constraint_MarginBottom": 10,
+              "topTo_bottomOf": "showSubTitle",
+              "leftTo_leftOf": "parent"
+            },
+            "tabletPortrait": {
+              "width": 768,
+              "height": 432,
+              "ratio": "16:9",
+              "constraint_MarginLeft": 0,
+              "constraint_MarginTop": 10,
+              "constraint_MarginBottom": 10,
+              "topTo_bottomOf": "showSubTitle",
+              "leftTo_leftOf": "parent"
+            }
+          },
+          "type": "image",
+          "key": "badgeImage",
+          "id": "badgeImage"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "bottomTo_bottomOf": "showImage",
+              "leftTo_leftOf": "showImage",
+              "rightTo_rightOf": "showImage"
+            },
+            "tabletLandscape": {
+              "bottomTo_bottomOf": "showImage",
+              "leftTo_leftOf": "showImage",
+              "rightTo_rightOf": "showImage"
+            },
+            "tabletPortrait": {
+              "bottomTo_bottomOf": "showImage",
+              "leftTo_leftOf": "showImage",
+              "rightTo_rightOf": "showImage"
+            }
+          },
+          "progressColor": "008EE0",
+          "unprogressColor": "0A151C",
+          "type": "progressView",
+          "key": "progressView",
+          "id": "progressView"
+        },
+        {
+          "fillColor": "008EE0",
+          "layout": {
+            "mobile": {
+              "yAxis": 264,
+              "xAxis": 10,
+              "width": 111,
+              "height": 21
+            },
+            "tabletLandscape": {
+              "yAxis": 162,
+              "xAxis": 732,
+              "width": 111,
+              "height": 21
+            },
+            "tabletPortrait": {
+              "yAxis": 491,
+              "xAxis": 585,
+              "width": 111,
+              "height": 21
+            }
+          },
+          "borderColor": "008EE0",
+          "action": "starAction",
+          "type": "starRating",
+          "key": "starButton",
+          "id": "starButton"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSizeKey": 14 ,
+              "fontSizeValue": 14,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginTop": 150,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginRight": 10,
+              "topTo_bottomOf": "showImage",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent"
+            },
+            "tabletLandscape": {
+              "fontSizeKey": 16,
+              "fontSizeValue": 16,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginTop": 40,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginRight": 10,
+              "topTo_bottomOf": "showDescriptionText",
+              "leftTo_rightOf": "showImage",
+              "bottomTo_topOf": "watchTrailer",
+              "rightTo_rightOf": "parent"
+            },
+            "tabletPortrait": {
+              "fontSizeKey": 16,
+              "fontSizeValue": 16,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginTop": 40,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginRight": 10,
+              "topTo_bottomOf": "showDescriptionText",
+              "leftTo_leftOf": "parent",
+              "rightTo_leftOf": "watchTrailer"
+            }
+          },
+          "type": "castView",
+          "textColor": "#ffffff",
+          "key": "castView",
+          "id": "castView"
+        },
+        {
+          "barrierDirection": "BOTTOM",
+          "referenceIds": "castView,watchlistButton,shareButton,showImage",
+          "type": "barrier",
+          "key": "barrier",
+          "id": "barrierShowDescriptionText"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "yAxis": 360,
+              "xAxis": 10,
+              "width": 355,
+              "fontSize": 12,
+              "height": 90,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginBottom": 30,
+              "constraint_MarginRight": 10,
+              "topTo_bottomOf": "barrierShowDescriptionText",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent"
+            },
+            "tabletLandscape": {
+              "fontSize": 14,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginBottom": 20,
+              "constraint_MarginRight": 10,
+              "topTo_topOf": "showImage",
+              "leftTo_rightOf": "showImage",
+              "rightTo_rightOf": "parent"
+            },
+            "tabletPortrait": {
+              "fontSize": 14,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginBottom": 20,
+              "constraint_MarginRight": 10,
+              "topTo_bottomOf": "showImage",
+              "leftTo_leftOf": "showImage",
+              "rightTo_rightOf": "showImage"
+            }
+          },
+          "fontFamily": "OpenSans",
+          "type": "label",
+          "textColor": "#ffffff",
+          "fontWeight": "Semibold",
+          "key": "showDescriptionText",
+          "id": "showDescriptionText"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 12,
+              "constraint_MarginLeft": 110,
+              "constraint_MarginTop": 20,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginRight": 110,
+              "topTo_bottomOf": "showDescriptionText",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent"
+            },
+            "tabletLandscape": {
+              "fontSize": 12,
+              "constraint_MarginLeft": 40,
+              "constraint_MarginTop": 0,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginRight": 40,
+              "bottomTo_bottomOf": "showImage",
+              "leftTo_rightOf": "showImage",
+              "rightTo_rightOf": "parent"
+            },
+            "tabletPortrait": {
+              "fontSize": 12,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginRight": 10,
+              "topTo_bottomOf": "showDescriptionText",
+              "leftTo_rightOf": "castView",
+              "rightTo_rightOf": "parent"
+            }
+          },
+          "borderColor": "ffffff",
+          "fontFamily": "OpenSans",
+          "borderWidth": 1,
+          "action": "watchTrailer",
+          "text": "WATCH TRAILER",
+          "type": "button",
+          "viewGravity": "view_center_horizontal",
+          "textColor": "ffffff",
+          "fontWeight": "Semibold",
+          "key": "watchTrailer",
+          "id": "watchTrailer"
+        },
+        {
+          "barrierDirection": "BOTTOM",
+          "referenceIds": "watchTrailer,showDescriptionText,castView,showImage",
+          "type": "barrier",
+          "key": "barrier",
+          "id": "barrierSeasonTabView"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "constraint_MarginLeft": 0,
+              "constraint_MarginTop": 30,
+              "constraint_MarginRight": 0,
+              "constraint_MarginBottom": 30,
+              "topTo_bottomOf": "barrierSeasonTabView",
+              "rightTo_rightOf": "parent",
+              "leftTo_leftOf": "parent"
+            },
+            "tabletLandscape": {
+              "constraint_MarginLeft": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginRight": 0,
+              "constraint_MarginBottom": 30,
+              "topTo_bottomOf": "barrierSeasonTabView",
+              "rightTo_rightOf": "parent",
+              "leftTo_leftOf": "parent"
+            },
+            "tabletPortrait": {
+              "constraint_MarginLeft": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginRight": 0,
+              "constraint_MarginBottom": 30,
+              "topTo_bottomOf": "barrierSeasonTabView",
+              "rightTo_rightOf": "parent",
+              "leftTo_leftOf": "parent"
+            }
+          },
+          "view": "seasonTabView",
+          "components": [
+            {
+              "layout": {
+                "mobile": {
+                  "yAxis": 0,
+                  "fontSize": 18,
+                  "height": 35,
+                  "constraint_MarginLeft": 10,
+                  "constraint_MarginTop": 10,
+                  "constraint_MarginRight": 10,
+                  "constraint_MarginBottom": 10,
+                  "topTo_topOf": "parent",
+                  "leftTo_leftOf": "parent"
+                },
+                "tabletLandscape": {
+                  "fontSize": 24,
+                  "height": 35,
+                  "constraint_MarginLeft": 10,
+                  "constraint_MarginTop": 10,
+                  "constraint_MarginRight": 10,
+                  "constraint_MarginBottom": 10,
+                  "topTo_topOf": "parent",
+                  "leftTo_leftOf": "parent"
+                },
+                "tabletPortrait": {
+                  "fontSize": 24,
+                  "height": 35,
+                  "constraint_MarginLeft": 10,
+                  "constraint_MarginTop": 10,
+                  "constraint_MarginRight": 10,
+                  "constraint_MarginBottom": 10,
+                  "topTo_topOf": "parent",
+                  "leftTo_leftOf": "parent"
+                }
+              },
+              "type": "tabLayout",
+              "key": "seasonTabs",
+              "id": "seasonTabs"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "gridHeight": 0,
+                  "trayPadding": 10,
+                  "yAxis": 0,
+                  "leftMargin": 0,
+                  "rightMargin": 0,
+                  "gridWidth": 0,
+                  "width": 0,
+                  "constraint_MarginLeft": 0,
+                  "constraint_MarginTop": 10,
+                  "constraint_MarginRight": 10,
+                  "constraint_MarginBottom": 10,
+                  "topTo_bottomOf": "seasonTabs",
+                  "leftTo_leftOf": "parent",
+                  "rightTo_rightOf": "parent"
+                },
+                "tabletLandscape": {
+                  "gridHeight": 174,
+                  "trayPadding": 10,
+                  "yAxis": -45,
+                  "leftMargin": 0.97,
+                  "rightMargin": 0.97,
+                  "gridWidth": 416,
+                  "constraint_MarginLeft": 0,
+                  "constraint_MarginTop": 10,
+                  "constraint_MarginRight": 10,
+                  "constraint_MarginBottom": 10,
+                  "topTo_bottomOf": "seasonTabs",
+                  "leftTo_leftOf": "parent",
+                  "rightTo_rightOf": "parent"
+                },
+                "tabletPortrait": {
+                  "gridHeight": 128,
+                  "trayPadding": 10,
+                  "yAxis": -45,
+                  "leftMargin": 1.3,
+                  "rightMargin": 1.3,
+                  "gridWidth": 378,
+                  "constraint_MarginLeft": 0,
+                  "constraint_MarginTop": 10,
+                  "constraint_MarginRight": 10,
+                  "constraint_MarginBottom": 10,
+                  "topTo_bottomOf": "seasonTabs",
+                  "leftTo_leftOf": "parent",
+                  "rightTo_rightOf": "parent"
+                }
+              },
+              "trayClickAction": "watchVideo",
+              "components": [
+                {
+                  "layout": {
+                    "mobile": {
+                      "width": 154,
+                      "height": 87,
+                      "constraint_MarginLeft": 10,
+                      "constraint_MarginTop": 20,
+                      "constraint_MarginRight": 0,
+                      "constraint_MarginBottom": 20,
+                      "ratio": "16:9",
+                      "topTo_topOf": "parent",
+                      "leftTo_leftOf": "parent",
+                      "bottomTo_bottomOf": "parent"
+                    },
+                    "tabletLandscape": {
+                      "width": 200,
+                      "height": 104,
+                      "constraint_MarginLeft": 10,
+                      "constraint_MarginTop": 10,
+                      "constraint_MarginRight": 10,
+                      "constraint_MarginBottom": 10,
+                      "ratio": "16:9",
+                      "topTo_topOf": "parent",
+                      "leftTo_leftOf": "parent",
+                      "bottomTo_bottomOf": "parent"
+                    },
+                    "tabletPortrait": {
+                      "width": 175,
+                      "height": 87,
+                      "constraint_MarginLeft": 0,
+                      "constraint_MarginTop": 10,
+                      "constraint_MarginRight": 10,
+                      "constraint_MarginBottom": 10,
+                      "ratio": "16:9",
+                      "topTo_topOf": "parent",
+                      "leftTo_leftOf": "parent",
+                      "bottomTo_bottomOf": "parent"
+                    }
+                  },
+                  "type": "image",
+                  "key": "thumbnailImage",
+                  "id": "thumbnailImage"
+                },
+                {
+                  "layout": {
+                    "mobile": {
+                      "width": 154,
+                      "height": 87,
+                      "constraint_MarginLeft": 0,
+                      "constraint_MarginTop": 20,
+                      "constraint_MarginRight": 0,
+                      "constraint_MarginBottom": 20,
+                      "ratio": "16:9",
+                      "topTo_topOf": "thumbnailImage",
+                      "leftTo_leftOf": "thumbnailImage",
+                      "bottomTo_bottomOf": "thumbnailImage"
+                    },
+                    "tabletLandscape": {
+                      "width": 200,
+                      "height": 104,
+                      "constraint_MarginLeft": 0,
+                      "constraint_MarginTop": 10,
+                      "constraint_MarginRight": 0,
+                      "constraint_MarginBottom": 10,
+                      "ratio": "16:9",
+                      "topTo_topOf": "thumbnailImage",
+                      "leftTo_leftOf": "thumbnailImage",
+                      "bottomTo_bottomOf": "thumbnailImage"
+                    },
+                    "tabletPortrait": {
+                      "width": 175,
+                      "height": 87,
+                      "constraint_MarginLeft": 0,
+                      "constraint_MarginTop": 10,
+                      "constraint_MarginRight": 0,
+                      "constraint_MarginBottom": 10,
+                      "ratio": "16:9",
+                      "topTo_topOf": "thumbnailImage",
+                      "leftTo_leftOf": "thumbnailImage",
+                      "bottomTo_bottomOf": "thumbnailImage"
+                    }
+                  },
+                  "type": "image",
+                  "key": "badgeImage",
+                  "id": "badgeImage"
+                },
+                {
+                  "layout": {
+                    "mobile": {
+                      "rightTo_rightOf": "thumbnailImage",
+                      "leftTo_leftOf": "thumbnailImage",
+                      "bottomTo_bottomOf": "thumbnailImage"
+                    },
+                    "tabletLandscape": {
+                      "rightTo_rightOf": "thumbnailImage",
+                      "leftTo_leftOf": "thumbnailImage",
+                      "bottomTo_bottomOf": "thumbnailImage"
+                    },
+                    "tabletPortrait": {
+                      "rightTo_rightOf": "thumbnailImage",
+                      "leftTo_leftOf": "thumbnailImage",
+                      "bottomTo_bottomOf": "thumbnailImage"
+                    }
+                  },
+                  "type": "progressView",
+                  "key": "progressView",
+                  "id": "progressView"
+                },
+                {
+                  "layout": {
+                    "mobile": {
+                      "width": 40,
+                      "height": 40,
+                      "constraint_MarginLeft": 10,
+                      "constraint_MarginRight": 0,
+                      "constraint_MarginTop": 10,
+                      "constraint_MarginBottom": 10,
+                      "bottomTo_topOf": "duration",
+                      "topTo_topOf": "thumbnailImage",
+                      "rightTo_rightOf": "parent"
+                    },
+                    "tabletLandscape": {
+                      "width": 40,
+                      "height": 40,
+                      "constraint_MarginLeft": 10,
+                      "constraint_MarginRight": 0,
+                      "constraint_MarginTop": 10,
+                      "constraint_MarginBottom": 10,
+                      "bottomTo_topOf": "duration",
+                      "topTo_topOf": "thumbnailImage",
+                      "rightTo_rightOf": "parent"
+                    },
+                    "tabletPortrait": {
+                      "width": 40,
+                      "height": 40,
+                      "constraint_MarginLeft": 10,
+                      "constraint_MarginRight": 0,
+                      "constraint_MarginTop": 10,
+                      "constraint_MarginBottom": 10,
+                      "bottomTo_topOf": "duration",
+                      "topTo_topOf": "thumbnailImage",
+                      "rightTo_rightOf": "parent"
+                    }
+                  },
+                  "action": "download",
+                  "viewGravity": "end",
+                  "type": "downloadComponent",
+                  "key": "downloadComponent",
+                  "id": "downloadButton"
+                },
+                {
+                  "layout": {
+                    "mobile": {
+                      "fontSize": 14,
+                      "constraint_MarginLeft": 20,
+                      "constraint_MarginTop": 10,
+                      "constraint_MarginRight": 10,
+                      "constraint_MarginBottom": 10,
+                      "topTo_topOf": "thumbnailImage",
+                      "leftTo_rightOf": "thumbnailImage",
+                      "rightTo_leftOf": "downloadButton"
+                    },
+                    "tabletLandscape": {
+                      "fontSize": 14,
+                      "constraint_MarginLeft": 20,
+                      "constraint_MarginTop": 10,
+                      "constraint_MarginRight": 10,
+                      "constraint_MarginBottom": 10,
+                      "topTo_topOf": "thumbnailImage",
+                      "leftTo_rightOf": "thumbnailImage",
+                      "rightTo_leftOf": "downloadButton"
+                    },
+                    "tabletPortrait": {
+                      "fontSize": 14,
+                      "constraint_MarginLeft": 20,
+                      "constraint_MarginTop": 10,
+                      "constraint_MarginRight": 10,
+                      "constraint_MarginBottom": 10,
+                      "topTo_topOf": "thumbnailImage",
+                      "leftTo_rightOf": "thumbnailImage",
+                      "rightTo_leftOf": "downloadButton"
+                    }
+                  },
+                  "fontFamily": "OpenSans",
+                  "textAlignment": "left",
+                  "type": "label",
+                  "textColor": "#ffffff",
+                  "fontWeight": "Semibold",
+                  "key": "episodeTitle",
+                  "id": "episodeTitle"
+                },
+                {
+                  "layout": {
+                    "mobile": {
+                      "fontSize": 8,
+                      "constraint_MarginLeft": 10,
+                      "constraint_MarginRight": 10,
+                      "constraint_MarginTop": 5,
+                      "constraint_MarginBottom": 5,
+                      "bottomTo_bottomOf": "thumbnailImage",
+                      "rightTo_rightOf": "parent"
+                    },
+                    "tabletLandscape": {
+                      "fontSize": 11,
+                      "constraint_MarginLeft": 10,
+                      "constraint_MarginRight": 10,
+                      "constraint_MarginTop": 5,
+                      "constraint_MarginBottom": 5,
+                      "bottomTo_bottomOf": "thumbnailImage",
+                      "rightTo_rightOf": "parent"
+                    },
+                    "tabletPortrait": {
+                      "fontSize": 11,
+                      "constraint_MarginLeft": 10,
+                      "constraint_MarginRight": 10,
+                      "constraint_MarginTop": 5,
+                      "constraint_MarginBottom": 5,
+                      "bottomTo_bottomOf": "thumbnailImage",
+                      "rightTo_rightOf": "parent"
+                    }
+                  },
+                  "fontFamily": "OpenSans",
+                  "textAlignment": "right",
+                  "type": "label",
+                  "textColor": "#ffffff",
+                  "fontWeight": "Semibold",
+                  "viewGravity": "end",
+                  "key": "durationUnit",
+                  "id": "durationUnit"
+                },
+                {
+                  "layout": {
+                    "mobile": {
+                      "topMargin": 64,
+                      "rightMargin": 12,
+                      "width": 25,
+                      "fontSize": 8,
+                      "height": 20,
+                      "constraint_MarginLeft": 10,
+                      "constraint_MarginRight": 10,
+                      "constraint_MarginTop": 5,
+                      "constraint_MarginBottom": 5,
+                      "bottomTo_topOf": "durationUnit",
+                      "rightTo_rightOf": "parent"
+                    },
+                    "tabletLandscape": {
+                      "topMargin": 60,
+                      "rightMargin": 8,
+                      "width": 25,
+                      "fontSize": 11,
+                      "height": 20,
+                      "constraint_MarginLeft": 10,
+                      "constraint_MarginRight": 10,
+                      "constraint_MarginTop": 5,
+                      "constraint_MarginBottom": 5,
+                      "bottomTo_topOf": "durationUnit",
+                      "rightTo_rightOf": "parent"
+                    },
+                    "tabletPortrait": {
+                      "fontSize": 11,
+                      "constraint_MarginLeft": 10,
+                      "constraint_MarginRight": 10,
+                      "constraint_MarginTop": 5,
+                      "constraint_MarginBottom": 5,
+                      "bottomTo_topOf": "durationUnit",
+                      "rightTo_rightOf": "parent"
+                    }
+                  },
+                  "fontFamily": "OpenSans",
+                  "textAlignment": "right",
+                  "type": "label",
+                  "textColor": "#ffffff",
+                  "fontWeight": "Semibold",
+                  "viewGravity": "end",
+                  "key": "episodeDuration",
+                  "id": "episodeDuration"
+                },
+
+                {
+                  "layout": {
+                    "mobile": {
+                      "leftMargin": 164,
+                      "topMargin": 28,
+                      "rightMargin": 10.67,
+                      "width": 136,
+                      "fontSize": 12,
+                      "height": 74,
+                      "constraint_MarginLeft": 20,
+                      "constraint_MarginRight": 10,
+                      "constraint_MarginTop": 10,
+                      "constraint_MarginBottom": 10,
+                      "topTo_bottomOf": "episodeTitle",
+                      "leftTo_rightOf": "thumbnailImage",
+                      "rightTo_leftOf": "downloadButton"
+                    },
+                    "tabletLandscape": {
+                      "fontSize": 12,
+                      "constraint_MarginLeft": 20,
+                      "constraint_MarginRight": 10,
+                      "constraint_MarginTop": 10,
+                      "constraint_MarginBottom": 10,
+                      "topTo_bottomOf": "episodeTitle",
+                      "leftTo_rightOf": "thumbnailImage",
+                      "rightTo_leftOf": "downloadButton"
+                    },
+                    "tabletPortrait": {
+                      "fontSize": 12,
+                      "constraint_MarginLeft": 20,
+                      "constraint_MarginRight": 10,
+                      "constraint_MarginTop": 10,
+                      "constraint_MarginBottom": 10,
+                      "topTo_bottomOf": "episodeTitle",
+                      "leftTo_rightOf": "thumbnailImage",
+                      "rightTo_leftOf": "downloadButton"
+                    }
+                  },
+                  "textAlignment": "left",
+                  "numberOfLines": 3,
+                  "type": "label",
+                  "opacity": 0.6,
+                  "key": "episodeDescription",
+                  "id": "episodeDescription"
+                },
+                {
+                  "layout": {
+                    "mobile": {
+                      "topTo_topOf": "thumbnailImage",
+                      "leftTo_leftOf": "thumbnailImage",
+                      "rightTo_rightOf": "thumbnailImage",
+                      "bottomTo_bottomOf": "thumbnailImage"
+                    },
+                    "tabletLandscape": {
+                      "topTo_topOf": "thumbnailImage",
+                      "leftTo_leftOf": "thumbnailImage",
+                      "rightTo_rightOf": "thumbnailImage",
+                      "bottomTo_bottomOf": "thumbnailImage"
+                    },
+                    "tabletPortrait": {
+                      "topTo_topOf": "thumbnailImage",
+                      "leftTo_leftOf": "thumbnailImage",
+                      "rightTo_rightOf": "thumbnailImage",
+                      "bottomTo_bottomOf": "thumbnailImage"
+                    }
+                  },
+                  "action": "watchVideo",
+                  "type": "button",
+                  "key": "playImage",
+                  "id": "playImage"
+                }
+              ],
+              "type": "collectionGrid",
+              "key": "collectionGridSeason",
+              "id": "collectionGrid"
+            }
+          ],
+          "type": "seasonTabView",
+          "id": "seasonTabView"
+        }
+      ]
+    }
+  ],
+  "caching": null,
+  "version": "0.0.4",
+  "pageStyle": null
+}

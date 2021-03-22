@@ -1,0 +1,117 @@
+{
+  "id": "347b3246-0931-49a4-9945-c15906a8afcf",
+  "settings": {
+    "loop": false,
+    "columns": {
+      "tablet": 2,
+      "desktop": 3,
+      "mobile": 2,
+      "ott": 3
+    },
+    "thumbnailType": "landscape"
+  },
+  "view": "AC Search 04",
+  "type": "AC Search 04",
+  "blockName": "search04",
+  "layout": {
+    "ftv": {
+      "yAxis": 0,
+      "leftMargin": 0,
+      "rightMargin": 0,
+      "height": 325,
+      "width": 550
+    }
+  },
+  "components": [
+    {
+      "layout": {
+        "ftv": {
+          "orientation": "vertical",
+          "width": 1920,
+          "height": -2,
+          "topMargin": 615,
+          "itemHeight": 248,
+          "itemWidth": 1920,
+          "rightMargin": 20
+        }
+      },
+
+      "components": [
+        {
+          "layout": {
+            "ftv": {
+              "yAxis": 0,
+              "xAxis": 0,
+              "width": 400,
+              "padding": 3,
+              "leftMargin": 60,
+              "height": 225
+            }
+          },
+          "itemClickAction": "lectureDetailPage",
+          "type": "image",
+          "stroke": 3,
+          "key": "newsThumbnailImage"
+        },
+        {
+          "layout": {
+            "ftv": {
+              "padding":3,
+              "topMargin":3,
+              "rightMargin":1463
+            }
+          },
+          "type": "label",
+          "key": "newsTrayTimeAndDataKey",
+          "fontFamily": "Lato",
+          "textAlignment": "end",
+          "textColor": "#FFFFFF",
+          "backgroundColor": "#000000",
+          "fontSize": 10,
+          "numberOfLines": 1
+        },
+        {
+          "layout": {
+            "ftv": {
+              "topMargin": 5,
+              "leftMargin": 476,
+              "rightMargin": 40,
+              "height": 50
+            }
+          },
+          "fontFamily": "Montserrat",
+          "fontWeight": "Bold",
+          "numberOfLines": 1,
+          "textAlignment": "left",
+          "lineHeight": 36,
+          "fontSize": 14,
+          "type": "label",
+          "textColor": "#ffffff",
+          "key": "thumbnailTitle"
+        },
+        {
+          "layout": {
+            "ftv": {
+              "leftMargin": 476,
+              "rightMargin": 80,
+              "topMargin": 50,
+              "height": 90
+            }
+          },
+          "fontFamily": "Montserrat",
+          "fontWeight": "Regular",
+          "numberOfLines": 2,
+          "textAlignment": "left",
+          "lineHeight": 36,
+          "fontSize": 12,
+          "type": "label",
+          "textColor": "#ffffff",
+          "key": "thumbnailDescription"
+        }
+
+      ],
+      "type": "collectionGrid",
+      "key": "collectionGrid"
+    }
+  ]
+}

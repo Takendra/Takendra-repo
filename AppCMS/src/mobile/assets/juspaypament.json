@@ -1,0 +1,1551 @@
+{
+  "moduleList": [
+    {
+      "id": "8ec1c6f6-1c98-49e3-bf5f-6b17f807630e",
+      "settings": {
+
+      },
+      "view": "AC Payment 01",
+      "type": "AC Payment 01",
+      "blockName": "paymentGateway01",
+      "layout": {
+        "mobile": {
+          "yAxis": 0,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "height": 0
+        },
+        "tabletLandscape": {
+          "yAxis": 8,
+          "leftMargin": 0,
+          "xAxis": 0,
+          "rightMargin": 0,
+          "height": 0
+        },
+        "tabletPortrait": {
+          "yAxis": 0,
+          "leftMargin": 0,
+          "xAxis": 0,
+          "rightMargin": 0,
+          "height": 0
+        }
+      },
+      "components": [
+        {
+          "layout": {
+            "mobile": {
+              "width": 0,
+              "height": 50,
+              "topTo_topOf": "parent",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            },
+            "tabletLandscape": {
+              "width": 0,
+              "height": 50,
+              "topTo_topOf": "parent",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            },
+            "tabletPortrait": {
+              "width": 0,
+              "height": 50,
+              "topTo_topOf": "parent",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            }
+          },
+          "backgroundColor": "#F4F4F5",
+          "id": "upiSeparatorView",
+          "key": "separatorView",
+          "type": "separatorView"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 12,
+              "constraint_MarginLeft": 20,
+              "topTo_topOf": "upiSeparatorView",
+              "start_toStartOf": "parent",
+              "bottomTo_bottomOf": "upiSeparatorView"
+            },
+            "tabletLandscape": {
+              "fontSize": 14,
+              "constraint_MarginLeft": 20,
+              "topTo_topOf": "upiSeparatorView",
+              "start_toStartOf": "parent",
+              "bottomTo_bottomOf": "upiSeparatorView"
+            },
+            "tabletPortrait": {
+              "fontSize": 14,
+              "constraint_MarginLeft": 20,
+              "topTo_topOf": "upiSeparatorView",
+              "start_toStartOf": "parent",
+              "bottomTo_bottomOf": "upiSeparatorView"
+            }
+          },
+          "id": "upiTitle",
+          "key": "walletTitle",
+          "type": "label",
+          "fontFamily": "OpenSans",
+          "textAlignment": "left",
+          "text": "UPI",
+          "textColor": "#535665",
+          "fontWeight": "Bold"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 12,
+              "constraint_MarginLeft": 20,
+              "start_toStartOf": "parent",
+              "topTo_bottomOf": "upiTitle",
+              "bottomTo_bottomOf": "upiSeparatorView"
+            },
+            "tabletLandscape": {
+              "fontSize": 14,
+              "constraint_MarginLeft": 20,
+              "topTo_topOf": "upiSeparatorView",
+              "start_toStartOf": "parent",
+              "bottomTo_bottomOf": "upiSeparatorView"
+            },
+            "tabletPortrait": {
+              "fontSize": 14,
+              "constraint_MarginLeft": 20,
+              "topTo_topOf": "upiSeparatorView",
+              "start_toStartOf": "parent",
+              "bottomTo_bottomOf": "upiSeparatorView"
+            }
+          },
+          "id": "upiTitleError",
+          "key": "upiTitleError",
+          "type": "label",
+          "numberOfLines": 1,
+          "fontFamily": "OpenSans",
+          "textAlignment": "left",
+          "text": "UPI Server Error",
+          "textColor": "#535665",
+          "fontWeight": "Bold"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 0,
+              "height": 1,
+              "topTo_bottomOf": "upiSeparatorView",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            },
+            "tabletLandscape": {
+              "width": 0,
+              "height": 1,
+              "topTo_bottomOf": "upiSeparatorView",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            },
+            "tabletPortrait": {
+              "width": 0,
+              "height": 1,
+              "topTo_bottomOf": "upiSeparatorView",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            }
+          },
+          "backgroundColor": "#F4F4F5",
+          "id": "lineSeparatorView3",
+          "key": "separatorView",
+          "type": "separatorView"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 0,
+              "height": 80,
+              "topTo_bottomOf": "lineSeparatorView3",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            },
+            "tabletLandscape": {
+              "width": 0,
+              "height": 100,
+              "topTo_bottomOf": "lineSeparatorView3",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            },
+            "tabletPortrait": {
+              "width": 0,
+              "height": 100,
+              "topTo_bottomOf": "lineSeparatorView3",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            }
+          },
+          "backgroundColor": "#ffffff",
+          "id": "bgSeparatorView3",
+          "key": "separatorView",
+          "type": "separatorView"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 14,
+              "constraint_MarginLeft": 30,
+              "constraint_MarginTop": 20,
+              "topTo_topOf": "bgSeparatorView3",
+              "start_toStartOf": "parent"
+            },
+            "tabletLandscape": {
+              "fontSize": 16,
+              "constraint_MarginLeft": 40,
+              "constraint_MarginTop": 20,
+              "topTo_topOf": "bgSeparatorView3",
+              "start_toStartOf": "parent"
+            },
+            "tabletPortrait": {
+              "fontSize": 16,
+              "constraint_MarginLeft": 40,
+              "constraint_MarginTop": 20,
+              "topTo_topOf": "bgSeparatorView3",
+              "start_toStartOf": "parent"
+            }
+          },
+          "id": "paymentAddressTitle",
+          "key": "walletTitle",
+          "type": "label",
+          "fontFamily": "OpenSans",
+          "textAlignment": "left",
+          "text": "Enter Virtual Payment Address",
+          "textColor": "#535665"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "topTo_bottomOf": "paymentAddressTitle",
+              "start_toStartOf": "paymentAddressTitle",
+              "end_toStartOf": "upiPayBtn",
+              "width": 0,
+              "constraint_MarginRight": 10,
+              "constraint_MarginTop": 5,
+              "fontSize": 14,
+              "height": 50
+            },
+            "tabletLandscape": {
+              "topTo_bottomOf": "paymentAddressTitle",
+              "start_toStartOf": "paymentAddressTitle",
+              "end_toStartOf": "upiPayBtn",
+              "width": 0,
+              "constraint_MarginRight": 20,
+              "constraint_MarginTop": 5,
+              "fontSize": 16,
+              "height": 60
+            },
+            "tabletPortrait": {
+              "topTo_bottomOf": "paymentAddressTitle",
+              "start_toStartOf": "paymentAddressTitle",
+              "end_toStartOf": "upiPayBtn",
+              "width": 0,
+              "constraint_MarginRight": 20,
+              "constraint_MarginTop": 5,
+              "fontSize": 16,
+              "height": 60
+            }
+          },
+          "id": "upiEditText",
+          "borderColor": "#33000000",
+          "borderWidth": 2,
+          "padding": 10,
+          "fontFamily": "OpenSans",
+          "textAlignment": "center_vertical",
+          "hint": "eg.abc123@upi",
+          "type": "editText",
+          "textColor": "#535665",
+          "hintColor": "#535665",
+          "numberOfLines": "1",
+          "key": "upiEditText"
+
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 14,
+              "constraint_MarginRight": 10,
+              "topTo_topOf": "upiEditText",
+              "bottomTo_bottomOf": "upiEditText",
+              "end_toEndOf": "parent"
+            },
+            "tabletLandscape": {
+              "fontSize": 16,
+              "constraint_MarginRight": 20,
+              "topTo_topOf": "upiEditText",
+              "bottomTo_bottomOf": "upiEditText",
+              "end_toEndOf": "parent"
+            },
+            "tabletPortrait": {
+              "fontSize": 16,
+              "constraint_MarginRight": 20,
+              "topTo_topOf": "upiEditText",
+              "bottomTo_bottomOf": "upiEditText",
+              "end_toEndOf": "parent"
+            }
+          },
+          "id": "upiPayBtn",
+          "key": "upiPayButtton",
+          "type": "button",
+          "fontFamily": "OpenSans",
+          "text": "PAY",
+          "textColor": "#ffffff",
+          "fontWeight": "Bold",
+          "backgroundColor": "#F81004"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 0,
+              "height": 80,
+              "topTo_bottomOf": "upiEditText",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            },
+            "tabletLandscape": {
+              "width": 0,
+              "height": 80,
+              "topTo_bottomOf": "upiEditText",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            },
+            "tabletPortrait": {
+              "width": 0,
+              "height": 80,
+              "topTo_bottomOf": "upiEditText",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            }
+          },
+          "backgroundColor": "#ffffff",
+          "id": "bgSeparatorView2",
+          "key": "separatorView",
+          "type": "separatorView"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "constraint_MarginLeft": 20,
+              "topTo_topOf": "bgSeparatorView2",
+              "start_toStartOf": "parent",
+              "bottomTo_bottomOf": "bgSeparatorView2"
+            },
+            "tabletLandscape": {
+              "constraint_MarginLeft": 20,
+              "topTo_topOf": "bgSeparatorView2",
+              "start_toStartOf": "parent",
+              "bottomTo_bottomOf": "bgSeparatorView2"
+            },
+            "tabletPortrait": {
+              "constraint_MarginLeft": 20,
+              "topTo_topOf": "bgSeparatorView2",
+              "start_toStartOf": "parent",
+              "bottomTo_bottomOf": "bgSeparatorView2"
+            }
+          },
+          "id": "upiIconsList",
+          "key": "upiIconsList",
+          "type": "tableView",
+          "components": [
+            {
+              "layout": {
+                "mobile": {
+                  "width": 60,
+                  "height": 30,
+                  "constraint_MarginTop": 20,
+                  "topTo_topOf": "parent",
+                  "bottomTo_bottomOf": "parent",
+                  "start_toStartOf": "parent",
+                  "ratio": "16:9"
+                },
+                "tabletLandscape": {
+                  "width": 100,
+                  "height": 60,
+                  "constraint_MarginTop": 20,
+                  "topTo_topOf": "parent",
+                  "bottomTo_bottomOf": "parent",
+                  "start_toStartOf": "parent",
+                  "ratio": "16:9"
+                },
+                "tabletPortrait": {
+                  "width": 100,
+                  "height": 60,
+                  "constraint_MarginTop": 20,
+                  "topTo_topOf": "parent",
+                  "bottomTo_bottomOf": "parent",
+                  "start_toStartOf": "parent",
+                  "ratio": "16:9"
+                }
+              },
+              "id": "upiIcon",
+              "key": "walletImage",
+              "type": "image"
+            }
+          ]
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 0,
+              "height": 50,
+              "topTo_bottomOf": "bgSeparatorView2",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            },
+            "tabletLandscape": {
+              "width": 0,
+              "height": 50,
+              "topTo_bottomOf": "bgSeparatorView2",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            },
+            "tabletPortrait": {
+              "width": 0,
+              "height": 50,
+              "topTo_bottomOf": "bgSeparatorView2",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            }
+          },
+          "backgroundColor": "#F4F4F5",
+          "id": "cardSeparatorView",
+          "key": "separatorView",
+          "type": "separatorView"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 12,
+              "constraint_MarginLeft": 20,
+              "topTo_topOf": "cardSeparatorView",
+              "start_toStartOf": "parent",
+              "bottomTo_bottomOf": "cardSeparatorView"
+            },
+            "tabletLandscape": {
+              "fontSize": 14,
+              "constraint_MarginLeft": 20,
+              "topTo_topOf": "cardSeparatorView",
+              "start_toStartOf": "parent",
+              "bottomTo_bottomOf": "cardSeparatorView"
+            },
+            "tabletPortrait": {
+              "fontSize": 14,
+              "constraint_MarginLeft": 20,
+              "topTo_topOf": "cardSeparatorView",
+              "start_toStartOf": "parent",
+              "bottomTo_bottomOf": "cardSeparatorView"
+            }
+          },
+          "id": "cardTitle",
+          "key": "walletTitle",
+          "type": "label",
+          "fontFamily": "OpenSans",
+          "textAlignment": "left",
+          "text": "CREDIT/DEBIT CARDS",
+          "textColor": "#535665",
+          "fontWeight": "Bold"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 12,
+              "constraint_MarginLeft": 20,
+              "topTo_bottomOf": "cardTitle",
+              "start_toStartOf": "parent"
+            },
+            "tabletLandscape": {
+              "fontSize": 14,
+              "constraint_MarginLeft": 20,
+              "topTo_topOf": "cardSeparatorView",
+              "start_toStartOf": "parent",
+              "bottomTo_bottomOf": "cardSeparatorView"
+            },
+            "tabletPortrait": {
+              "fontSize": 14,
+              "constraint_MarginLeft": 20,
+              "topTo_topOf": "cardSeparatorView",
+              "start_toStartOf": "parent",
+              "bottomTo_bottomOf": "cardSeparatorView"
+            }
+          },
+          "id": "cardTitleError",
+          "key": "cardTitleError",
+          "type": "label",
+          "text": "TEST",
+          "numberOfLines": 1,
+          "fontFamily": "OpenSans",
+          "textAlignment": "left",
+          "textColor": "#535665",
+          "fontWeight": "Bold"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "topTo_bottomOf": "cardSeparatorView",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            },
+            "tabletLandscape": {
+              "topTo_bottomOf": "cardSeparatorView",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            },
+            "tabletPortrait": {
+              "topTo_bottomOf": "cardSeparatorView",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            }
+          },
+          "id": "savedCardList",
+          "key": "savedCardList",
+          "type": "tableView",
+          "components": [
+            {
+              "layout": {
+                "mobile": {
+                  "width": 80,
+                  "height": 80,
+                  "topTo_topOf": "parent",
+                  "start_toStartOf": "parent",
+                  "bottomTo_bottomOf": "parent",
+                  "constraint_MarginLeft": 20,
+                  "ratio": "1:1"
+                },
+                "tabletLandscape": {
+                  "width": 80,
+                  "height": 80,
+                  "topTo_topOf": "parent",
+                  "start_toStartOf": "parent",
+                  "bottomTo_bottomOf": "parent",
+                  "constraint_MarginLeft": 20,
+                  "ratio": "1:1"
+                },
+                "tabletPortrait": {
+                  "width": 80,
+                  "height": 80,
+                  "topTo_topOf": "parent",
+                  "start_toStartOf": "parent",
+                  "bottomTo_bottomOf": "parent",
+                  "constraint_MarginLeft": 20,
+                  "ratio": "1:1"
+                }
+              },
+              "id": "thumbnailImage",
+              "key": "walletImage",
+              "type": "image"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "width": 0,
+                  "fontSize": 18,
+                  "constraint_MarginLeft": 20,
+                  "topTo_topOf": "parent",
+                  "start_toEndOf": "thumbnailImage",
+                  "end_toStartOf": "rightArrowImage",
+                  "bottomTo_bottomOf": "parent"
+                },
+                "tabletLandscape": {
+                  "width": 0,
+                  "fontSize": 18,
+                  "constraint_MarginLeft": 20,
+                  "topTo_topOf": "parent",
+                  "start_toEndOf": "thumbnailImage",
+                  "end_toStartOf": "rightArrowImage",
+                  "bottomTo_bottomOf": "parent"
+                },
+                "tabletPortrait": {
+                  "width": 0,
+                  "fontSize": 18,
+                  "constraint_MarginLeft": 20,
+                  "topTo_topOf": "parent",
+                  "start_toEndOf": "thumbnailImage",
+                  "end_toStartOf": "rightArrowImage",
+                  "bottomTo_bottomOf": "parent"
+                }
+              },
+              "id": "itemTitle",
+              "key": "walletTitle",
+              "type": "label",
+              "fontFamily": "OpenSans",
+              "textAlignment": "left",
+              "text": "PayPal",
+              "textColor": "#3D4152"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "width": 24,
+                  "height": 24,
+                  "topTo_topOf": "parent",
+                  "bottomTo_bottomOf": "parent",
+                  "end_toEndOf": "parent",
+                  "constraint_MarginRight": 20,
+                  "ratio": "1:1"
+                },
+                "tabletLandscape": {
+                  "width": 24,
+                  "height": 24,
+                  "topTo_topOf": "parent",
+                  "bottomTo_bottomOf": "parent",
+                  "end_toEndOf": "parent",
+                  "constraint_MarginRight": 20,
+                  "ratio": "1:1"
+                },
+                "tabletPortrait": {
+                  "width": 24,
+                  "height": 24,
+                  "topTo_topOf": "parent",
+                  "bottomTo_bottomOf": "parent",
+                  "end_toEndOf": "parent",
+                  "constraint_MarginRight": 20,
+                  "ratio": "1:1"
+                }
+              },
+              "icon_url": "",
+              "imageName":"right_arrow",
+              "tintColor":"#d4d8dc",
+              "id": "rightArrowImage",
+              "key": "walletImage",
+              "type": "image"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "width": 0,
+                  "fontSize": 14,
+                  "constraint_MarginRight": 20,
+                  "topTo_bottomOf": "thumbnailImage",
+                  "start_toStartOf": "thumbnailImage",
+                  "end_toEndOf": "parent",
+                  "bottomTo_bottomOf": "titleThumbnail"
+                },
+                "tabletLandscape": {
+                  "width": 0,
+                  "fontSize": 14,
+                  "constraint_MarginRight": 20,
+                  "topTo_bottomOf": "thumbnailImage",
+                  "start_toStartOf": "thumbnailImage",
+                  "end_toEndOf": "parent",
+                  "bottomTo_bottomOf": "titleThumbnail"
+                },
+                "tabletPortrait": {
+                  "width": 0,
+                  "fontSize": 14,
+                  "constraint_MarginRight": 20,
+                  "topTo_bottomOf": "thumbnailImage",
+                  "start_toStartOf": "thumbnailImage",
+                  "end_toEndOf": "parent",
+                  "bottomTo_bottomOf": "titleThumbnail"
+                }
+              },
+              "id": "view_text",
+              "key": "walletTitle",
+              "type": "label",
+              "fontFamily": "OpenSans",
+              "textAlignment": "left",
+              "text": "Paypal offers 10% cashback, up to ₹20",
+              "textColor": "#93959f"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "width": 0,
+                  "height": 1,
+                  "constraint_MarginTop": 10,
+                  "topTo_bottomOf": "view_text",
+                  "start_toStartOf": "parent",
+                  "end_toEndOf": "parent"
+                },
+                "tabletLandscape": {
+                  "width": 0,
+                  "height": 1,
+                  "constraint_MarginTop": 10,
+                  "topTo_bottomOf": "view_text",
+                  "start_toStartOf": "parent",
+                  "end_toEndOf": "parent"
+                },
+                "tabletPortrait": {
+                  "width": 0,
+                  "height": 1,
+                  "constraint_MarginTop": 10,
+                  "topTo_bottomOf": "view_text",
+                  "start_toStartOf": "parent",
+                  "end_toEndOf": "parent"
+                }
+              },
+              "backgroundColor": "#E3E3E3",
+              "id": "view",
+              "key": "separatorView",
+              "type": "separatorView"
+            }
+          ]
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 0,
+              "height": 1,
+              "topTo_bottomOf": "savedCardList",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            },
+            "tabletLandscape": {
+              "width": 0,
+              "height": 1,
+              "topTo_bottomOf": "savedCardList",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            },
+            "tabletPortrait": {
+              "width": 0,
+              "height": 1,
+              "topTo_bottomOf": "savedCardList",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            }
+          },
+          "backgroundColor": "#F4F4F5",
+          "id": "lineSeparatorView",
+          "key": "separatorView",
+          "type": "separatorView"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 0,
+              "height": 100,
+              "topTo_bottomOf": "lineSeparatorView",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            },
+            "tabletLandscape": {
+              "width": 0,
+              "height": 120,
+              "topTo_bottomOf": "lineSeparatorView",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            },
+            "tabletPortrait": {
+              "width": 0,
+              "height": 120,
+              "topTo_bottomOf": "lineSeparatorView",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            }
+          },
+          "backgroundColor": "#ffffff",
+          "id": "addCardSeparatorView",
+          "key": "separatorView",
+          "type": "separatorView"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 24,
+              "height": 24,
+              "topTo_topOf": "addCardSeparatorView",
+              "start_toStartOf": "parent",
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 30,
+              "ratio": "1:1"
+            },
+            "tabletLandscape": {
+              "width": 32,
+              "height": 32,
+              "topTo_topOf": "addCardSeparatorView",
+              "start_toStartOf": "parent",
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 30,
+              "ratio": "1:1"
+            },
+            "tabletPortrait": {
+              "width": 32,
+              "height": 32,
+              "topTo_topOf": "addCardSeparatorView",
+              "start_toStartOf": "parent",
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 30,
+              "ratio": "1:1"
+            }
+          },
+          "icon_url": "",
+          "imageName":"add_upi_icon",
+          "id": "addIcon",
+          "key": "walletImage",
+          "type": "image"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 14,
+              "constraint_MarginLeft": 20,
+              "topTo_topOf": "addIcon",
+              "start_toEndOf": "addIcon",
+              "end_toEndOf": "parent",
+              "bottomTo_bottomOf": "addIcon"
+            },
+            "tabletLandscape": {
+              "fontSize": 16,
+              "constraint_MarginLeft": 20,
+              "topTo_topOf": "addIcon",
+              "start_toEndOf": "addIcon",
+              "end_toEndOf": "parent",
+              "bottomTo_bottomOf": "addIcon"
+            },
+            "tabletPortrait": {
+              "fontSize": 16,
+              "constraint_MarginLeft": 20,
+              "topTo_topOf": "addIcon",
+              "start_toEndOf": "addIcon",
+              "end_toEndOf": "parent",
+              "bottomTo_bottomOf": "addIcon"
+            }
+          },
+          "id": "addCardTitle",
+          "key": "addNewCardTitle",
+          "type": "button",
+          "fontFamily": "OpenSans",
+          "text": "Add A New Card",
+          "textColor": "#F81004"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 12,
+              "topTo_bottomOf": "addCardTitle",
+              "start_toStartOf": "addCardTitle",
+              "end_toEndOf": "parent"
+            },
+            "tabletLandscape": {
+              "fontSize": 14,
+              "topTo_bottomOf": "addCardTitle",
+              "start_toStartOf": "addCardTitle",
+              "end_toEndOf": "parent"
+            },
+            "tabletPortrait": {
+              "fontSize": 14,
+              "topTo_bottomOf": "addCardTitle",
+              "start_toStartOf": "addCardTitle",
+              "end_toEndOf": "parent"
+            }
+          },
+          "id": "all_text",
+          "key": "walletTitle",
+          "type": "label",
+          "fontFamily": "OpenSans",
+          "textAlignment": "left",
+          "text": "Save and Pay via Cards.",
+          "textColor": "#93959f"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "constraint_MarginTop": 10,
+              "topTo_bottomOf": "all_text",
+              "start_toEndOf": "addIcon",
+              "bottomTo_bottomOf": "addCardSeparatorView"
+            },
+            "tabletLandscape": {
+              "constraint_MarginTop": 10,
+              "topTo_bottomOf": "all_text",
+              "start_toEndOf": "addIcon",
+              "bottomTo_bottomOf": "addCardSeparatorView"
+            },
+            "tabletPortrait": {
+              "constraint_MarginTop": 10,
+              "topTo_bottomOf": "all_text",
+              "start_toEndOf": "addIcon",
+              "bottomTo_bottomOf": "addCardSeparatorView"
+            }
+          },
+          "id": "cardIconsList",
+          "key": "cardIconsList",
+          "type": "tableView",
+          "components": [
+            {
+              "layout": {
+                "mobile": {
+                  "width": 40,
+                  "height": 20,
+                  "constraint_MarginBottom": 10,
+                  "constraint_MarginLeft": 20,
+                  "topTo_topOf": "parent",
+                  "bottomTo_bottomOf": "parent",
+                  "start_toStartOf": "parent",
+                  "ratio": "16:9"
+                },
+                "tabletLandscape": {
+                  "width": 60,
+                  "height": 20,
+                  "constraint_MarginBottom": 10,
+                  "constraint_MarginLeft": 20,
+                  "topTo_topOf": "parent",
+                  "bottomTo_bottomOf": "parent",
+                  "start_toStartOf": "parent",
+                  "ratio": "16:9"
+                },
+                "tabletPortrait": {
+                  "width": 60,
+                  "height": 40,
+                  "constraint_MarginBottom": 10,
+                  "constraint_MarginLeft": 20,
+                  "topTo_topOf": "parent",
+                  "bottomTo_bottomOf": "parent",
+                  "start_toStartOf": "parent",
+                  "ratio": "16:9"
+                }
+              },
+              "id": "cardIcon",
+              "key": "walletImage",
+              "type": "image"
+            }
+          ]
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 0,
+              "height": 50,
+              "topTo_bottomOf": "addCardSeparatorView",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            },
+            "tabletLandscape": {
+              "width": 0,
+              "height": 50,
+              "topTo_bottomOf": "addCardSeparatorView",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            },
+            "tabletPortrait": {
+              "width": 0,
+              "height": 50,
+              "topTo_bottomOf": "addCardSeparatorView",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            }
+          },
+          "backgroundColor": "#F4F4F5",
+          "id": "fullTopSeparatorView",
+          "key": "separatorView",
+          "type": "separatorView"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 12,
+              "constraint_MarginLeft": 20,
+              "topTo_topOf": "fullTopSeparatorView",
+              "start_toStartOf": "parent",
+              "bottomTo_bottomOf": "fullTopSeparatorView"
+            },
+            "tabletLandscape": {
+              "fontSize": 14,
+              "constraint_MarginLeft": 20,
+              "topTo_topOf": "fullTopSeparatorView",
+              "start_toStartOf": "parent",
+              "bottomTo_bottomOf": "fullTopSeparatorView"
+            },
+            "tabletPortrait": {
+              "fontSize": 14,
+              "constraint_MarginLeft": 20,
+              "topTo_topOf": "fullTopSeparatorView",
+              "start_toStartOf": "parent",
+              "bottomTo_bottomOf": "fullTopSeparatorView"
+            }
+          },
+          "id": "itemTitle",
+          "key": "walletTitle",
+          "type": "label",
+          "fontFamily": "OpenSans",
+          "textAlignment": "left",
+          "text": "WALLETS",
+          "textColor": "#535665",
+          "fontWeight": "Bold"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "topTo_bottomOf": "fullTopSeparatorView",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            },
+            "tabletLandscape": {
+              "topTo_bottomOf": "fullTopSeparatorView",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            },
+            "tabletPortrait": {
+              "topTo_bottomOf": "fullTopSeparatorView",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            }
+          },
+          "id": "walletListView",
+          "key": "walletListView",
+          "type": "tableView",
+          "trayClickAction": "launchWalletPaymentPage",
+          "components": [
+            {
+              "layout": {
+                "mobile": {
+                  "width": 45,
+                  "height": 45,
+                  "topTo_topOf": "parent",
+                  "start_toStartOf": "parent",
+                  "constraint_MarginLeft": 40,
+                  "constraint_MarginTop": 20,
+                  "ratio": "1:1"
+                },
+                "tabletLandscape": {
+                  "width": 50,
+                  "height": 50,
+                  "topTo_topOf": "parent",
+                  "start_toStartOf": "parent",
+                  "constraint_MarginLeft": 40,
+                  "constraint_MarginTop": 20,
+                  "ratio": "1:1"
+                },
+                "tabletPortrait": {
+                  "width": 50,
+                  "height": 50,
+                  "topTo_topOf": "parent",
+                  "start_toStartOf": "parent",
+                  "constraint_MarginLeft": 40,
+                  "constraint_MarginTop": 20,
+                  "ratio": "1:1"
+                }
+              },
+              "id": "thumbnailImage",
+              "key": "walletImage",
+              "type": "image"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "width": 0,
+                  "fontSize": 14,
+                  "constraint_MarginLeft": 20,
+                  "topTo_topOf": "thumbnailImage",
+                  "start_toEndOf": "thumbnailImage",
+                  "end_toEndOf": "parent",
+                  "bottomTo_bottomOf": "thumbnailImage"
+                },
+                "tabletLandscape": {
+                  "width": 0,
+                  "fontSize": 16,
+                  "constraint_MarginLeft": 20,
+                  "topTo_topOf": "thumbnailImage",
+                  "start_toEndOf": "thumbnailImage",
+                  "end_toEndOf": "parent",
+                  "bottomTo_bottomOf": "thumbnailImage"
+                },
+                "tabletPortrait": {
+                  "width": 0,
+                  "fontSize": 16,
+                  "constraint_MarginLeft": 20,
+                  "topTo_topOf": "thumbnailImage",
+                  "start_toEndOf": "thumbnailImage",
+                  "end_toEndOf": "parent",
+                  "bottomTo_bottomOf": "thumbnailImage"
+                }
+              },
+              "id": "itemTitle",
+              "key": "walletTitle",
+              "type": "label",
+              "fontFamily": "OpenSans",
+              "textAlignment": "left",
+              "text": "PayPal",
+              "textColor": "#000000"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "width": 24,
+                  "height": 24,
+                  "topTo_topOf": "parent",
+                  "bottomTo_bottomOf": "parent",
+                  "end_toEndOf": "parent",
+                  "constraint_MarginRight": 20,
+                  "ratio": "1:1"
+                },
+                "tabletLandscape": {
+                  "width": 24,
+                  "height": 24,
+                  "topTo_topOf": "parent",
+                  "bottomTo_bottomOf": "parent",
+                  "end_toEndOf": "parent",
+                  "constraint_MarginRight": 20,
+                  "ratio": "1:1"
+                },
+                "tabletPortrait": {
+                  "width": 24,
+                  "height": 24,
+                  "topTo_topOf": "parent",
+                  "bottomTo_bottomOf": "parent",
+                  "end_toEndOf": "parent",
+                  "constraint_MarginRight": 20,
+                  "ratio": "1:1"
+                }
+              },
+              "icon_url": "",
+              "imageName":"right_arrow",
+              "tintColor":"#d4d8dc",
+              "id": "rightArrowImage",
+              "key": "walletImage",
+              "type": "image"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "width": 0,
+                  "fontSize": 13,
+                  "constraint_MarginTop": 5,
+                  "constraint_MarginRight": 20,
+                  "topTo_bottomOf": "thumbnailImage",
+                  "start_toStartOf": "thumbnailImage",
+                  "end_toEndOf": "parent"
+                },
+                "tabletLandscape": {
+                  "width": 0,
+                  "fontSize": 15,
+                  "constraint_MarginTop": 5,
+                  "constraint_MarginRight": 20,
+                  "topTo_bottomOf": "thumbnailImage",
+                  "start_toStartOf": "thumbnailImage",
+                  "end_toEndOf": "parent"
+                },
+                "tabletPortrait": {
+                  "width": 0,
+                  "fontSize": 15,
+                  "constraint_MarginTop": 5,
+                  "constraint_MarginRight": 20,
+                  "topTo_bottomOf": "thumbnailImage",
+                  "start_toStartOf": "thumbnailImage",
+                  "end_toEndOf": "parent"
+                }
+              },
+              "id": "walletOfferText",
+              "key": "walletOfferText",
+              "type": "label",
+              "fontFamily": "OpenSans",
+              "textAlignment": "left",
+              "text": "Paypal offers 10% cashback, up to ₹20",
+              "textColor": "#93959f"
+            },
+            {
+              "barrierDirection": "BOTTOM",
+              "referenceIds": "thumbnailImage,itemTitle,walletOfferText",
+              "type": "barrier",
+              "key": "barrier",
+              "id": "barrierWalletList"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "width": 0,
+                  "height": 1,
+                  "constraint_MarginTop": 20,
+                  "topTo_bottomOf": "barrierWalletList",
+                  "start_toStartOf": "parent",
+                  "end_toEndOf": "parent"
+                },
+                "tabletLandscape": {
+                  "width": 0,
+                  "height": 1,
+                  "constraint_MarginTop": 20,
+                  "topTo_bottomOf": "barrierWalletList",
+                  "start_toStartOf": "parent",
+                  "end_toEndOf": "parent"
+                },
+                "tabletPortrait": {
+                  "width": 0,
+                  "height": 1,
+                  "constraint_MarginTop": 20,
+                  "topTo_bottomOf": "barrierWalletList",
+                  "start_toStartOf": "parent",
+                  "end_toEndOf": "parent"
+                }
+              },
+              "backgroundColor": "#E3E3E3",
+              "id": "separatorView",
+              "key": "separatorView",
+              "type": "separatorView"
+            }
+          ]
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 0,
+              "height": 50,
+              "topTo_bottomOf": "walletListView",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            },
+            "tabletLandscape": {
+              "width": 0,
+              "height": 50,
+              "topTo_bottomOf": "walletListView",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            },
+            "tabletPortrait": {
+              "width": 0,
+              "height": 50,
+              "topTo_bottomOf": "walletListView",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            }
+          },
+          "backgroundColor": "#F4F4F5",
+          "id": "netBankingSeparatorView",
+          "key": "separatorView",
+          "type": "separatorView"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 12,
+              "constraint_MarginLeft": 20,
+              "topTo_topOf": "netBankingSeparatorView",
+              "start_toStartOf": "parent",
+              "bottomTo_bottomOf": "netBankingSeparatorView"
+            },
+            "tabletLandscape": {
+              "fontSize": 14,
+              "constraint_MarginLeft": 20,
+              "topTo_topOf": "netBankingSeparatorView",
+              "start_toStartOf": "parent",
+              "bottomTo_bottomOf": "netBankingSeparatorView"
+            },
+            "tabletPortrait": {
+              "fontSize": 14,
+              "constraint_MarginLeft": 20,
+              "topTo_topOf": "netBankingSeparatorView",
+              "start_toStartOf": "parent",
+              "bottomTo_bottomOf": "netBankingSeparatorView"
+            }
+          },
+          "id": "netBankingTitle",
+          "key": "walletTitle",
+          "type": "label",
+          "fontFamily": "OpenSans",
+          "textAlignment": "left",
+          "text": "NETBANKING",
+          "textColor": "#535665",
+          "fontWeight": "Bold"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 12,
+              "constraint_MarginLeft": 20,
+              "topTo_bottomOf": "netBankingTitle",
+              "start_toStartOf": "parent"
+            },
+            "tabletLandscape": {
+              "fontSize": 14,
+              "constraint_MarginLeft": 20,
+              "topTo_bottomOf": "netBankingTitle",
+              "start_toStartOf": "parent"
+            },
+            "tabletPortrait": {
+              "fontSize": 14,
+              "constraint_MarginLeft": 20,
+              "topTo_bottomOf": "netBankingTitle",
+              "start_toStartOf": "parent"
+            }
+          },
+          "id": "netBankingTitleError",
+          "key": "netBankingTitleError",
+          "type": "label",
+          "numberOfLines": 1,
+          "fontFamily": "OpenSans",
+          "textAlignment": "left",
+          "textColor": "#535665",
+          "fontWeight": "Bold"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "topTo_bottomOf": "netBankingSeparatorView",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            },
+            "tabletLandscape": {
+              "topTo_bottomOf": "netBankingSeparatorView",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            },
+            "tabletPortrait": {
+              "topTo_bottomOf": "netBankingSeparatorView",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            }
+          },
+          "id": "netBankingList",
+          "key": "NetBankingList",
+          "type": "tableView",
+          "backgroundColor": "#ffffff",
+          "trayClickAction": "launchNetBankingPaymentPage",
+          "components": [
+            {
+              "layout": {
+                "mobile": {
+                  "width": 60,
+                  "height": 60,
+                  "topTo_topOf": "parent",
+                  "start_toStartOf": "parent",
+                  "constraint_MarginLeft": 30,
+                  "constraint_MarginTop": 20,
+                  "ratio": "1:1"
+                },
+                "tabletLandscape": {
+                  "width": 60,
+                  "height": 60,
+                  "topTo_topOf": "parent",
+                  "start_toStartOf": "parent",
+                  "constraint_MarginLeft": 40,
+                  "constraint_MarginTop": 20,
+                  "ratio": "1:1"
+                },
+                "tabletPortrait": {
+                  "width": 60,
+                  "height": 60,
+                  "topTo_topOf": "parent",
+                  "start_toStartOf": "parent",
+                  "constraint_MarginLeft": 40,
+                  "constraint_MarginTop": 20,
+                  "ratio": "1:1"
+                }
+              },
+              "id": "thumbnailImage",
+              "key": "walletImage",
+              "type": "image"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "width": 0,
+                  "fontSize": 14,
+                  "constraint_MarginLeft": 20,
+                  "constraint_MarginBottom": 20,
+                  "topTo_bottomOf": "thumbnailImage",
+                  "start_toStartOf": "parent",
+                  "end_toEndOf": "thumbnailImage",
+                  "bottomTo_bottomOf": "parent"
+                },
+                "tabletLandscape": {
+                  "width": 0,
+                  "fontSize": 16,
+                  "constraint_MarginLeft": 40,
+                  "constraint_MarginBottom": 20,
+                  "topTo_bottomOf": "thumbnailImage",
+                  "start_toStartOf": "parent",
+                  "end_toEndOf": "thumbnailImage",
+                  "bottomTo_bottomOf": "parent"
+                },
+                "tabletPortrait": {
+                  "width": 0,
+                  "fontSize": 16,
+                  "constraint_MarginLeft": 40,
+                  "constraint_MarginBottom": 20,
+                  "topTo_bottomOf": "thumbnailImage",
+                  "start_toStartOf": "parent",
+                  "end_toEndOf": "thumbnailImage",
+                  "bottomTo_bottomOf": "parent"
+                }
+              },
+              "id": "itemTitle",
+              "key": "walletTitle",
+              "type": "label",
+              "fontFamily": "OpenSans",
+              "textAlignment": "center",
+              "text": "",
+              "textColor": "#3D4152"
+            }
+          ]
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 0,
+              "height": 1,
+              "topTo_bottomOf": "netBankingList",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            },
+            "tabletLandscape": {
+              "width": 0,
+              "height": 1,
+              "topTo_bottomOf": "netBankingList",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            },
+            "tabletPortrait": {
+              "width": 0,
+              "height": 1,
+              "topTo_bottomOf": "netBankingList",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            }
+          },
+          "backgroundColor": "#F4F4F5",
+          "id": "lineSeparatorView2",
+          "key": "separatorView",
+          "type": "separatorView"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 0,
+              "height": 50,
+              "topTo_bottomOf": "lineSeparatorView2",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            },
+            "tabletLandscape": {
+              "width": 0,
+              "height": 50,
+              "topTo_bottomOf": "lineSeparatorView2",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            },
+            "tabletPortrait": {
+              "width": 0,
+              "height": 50,
+              "topTo_bottomOf": "lineSeparatorView2",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            }
+          },
+          "backgroundColor": "#ffffff",
+          "id": "bgSeparatorView",
+          "key": "separatorView",
+          "type": "separatorView"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 14,
+              "constraint_MarginLeft": 20,
+              "topTo_topOf": "bgSeparatorView",
+              "bottomTo_bottomOf": "bgSeparatorView",
+              "start_toStartOf": "parent",
+              "end_toStartOf": "rightArrowImage"
+            },
+            "tabletLandscape": {
+              "fontSize": 16,
+              "constraint_MarginLeft": 20,
+              "topTo_topOf": "bgSeparatorView",
+              "bottomTo_bottomOf": "bgSeparatorView",
+              "start_toStartOf": "parent",
+              "end_toStartOf": "rightArrowImage"
+            },
+            "tabletPortrait": {
+              "fontSize": 16,
+              "constraint_MarginLeft": 20,
+              "topTo_topOf": "bgSeparatorView",
+              "bottomTo_bottomOf": "bgSeparatorView",
+              "start_toStartOf": "parent",
+              "end_toStartOf": "rightArrowImage"
+            }
+          },
+          "id": "moreBanksBtn",
+          "key": "moreBanksTitle",
+          "type": "button",
+          "fontFamily": "OpenSans",
+          "text": "MORE BANKS",
+          "textColor": "#F81004"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 24,
+              "height": 24,
+              "topTo_topOf": "bgSeparatorView",
+              "bottomTo_bottomOf": "bgSeparatorView",
+              "end_toEndOf": "parent",
+              "constraint_MarginRight": 20,
+              "ratio": "1:1"
+            },
+            "tabletLandscape": {
+              "width": 24,
+              "height": 24,
+              "topTo_topOf": "bgSeparatorView",
+              "bottomTo_bottomOf": "bgSeparatorView",
+              "end_toEndOf": "parent",
+              "constraint_MarginRight": 20,
+              "ratio": "1:1"
+            },
+            "tabletPortrait": {
+              "width": 24,
+              "height": 24,
+              "topTo_topOf": "bgSeparatorView",
+              "bottomTo_bottomOf": "bgSeparatorView",
+              "end_toEndOf": "parent",
+              "constraint_MarginRight": 20,
+              "ratio": "1:1"
+            }
+          },
+          "icon_url": "",
+          "imageName":"right_arrow",
+          "tintColor":"#d4d8dc",
+          "id": "rightArrowImage",
+          "key": "walletImage",
+          "type": "image"
+        },
+        {
+          "layout": {
+            "mobile": {},
+            "tabletLandscape": {},
+            "tabletPortrait": {}
+          },
+          "referenceIds": "fullTopSeparatorView,itemTitle,walletListView",
+          "type": "group",
+          "key": "walletGroup",
+          "id": "walletGroup"
+        },
+        {
+          "layout": {
+            "mobile": {},
+            "tabletLandscape": {},
+            "tabletPortrait": {}
+          },
+          "referenceIds": "netBankingSeparatorView,netBankingTitle,netBankingTitleError,netBankingList,lineSeparatorView2,bgSeparatorView,moreBanksBtn,rightArrowImage",
+          "type": "group",
+          "key": "netBankingGroup",
+          "id": "netBankingGroup"
+        },
+        {
+          "layout": {
+            "mobile": {},
+            "tabletLandscape": {},
+            "tabletPortrait": {}
+          },
+          "referenceIds": "cardSeparatorView,cardTitle,cardTitleError,savedCardList,lineSeparatorView,addCardSeparatorView,addIcon,addCardTitle,all_text,cardIconsList",
+          "type": "group",
+          "key": "cardGroup",
+          "id": "cardGroup"
+        },
+        {
+          "layout": {
+            "mobile": {},
+            "tabletLandscape": {},
+            "tabletPortrait": {}
+          },
+          "referenceIds": "upiSeparatorView,upiTitle,upiTitleError,lineSeparatorView3,bgSeparatorView3,paymentAddressTitle,upiEditText,upiPayBtn,bgSeparatorView2,upiIconsList",
+          "type": "group",
+          "key": "upiGroup",
+          "id": "upiGroup"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,713 @@
+{
+  "moduleList": [
+    {
+      "id": "8ec1c6f6-1c98-49e3-bf5f-6b17f807630e",
+      "settings": {
+
+      },
+      "view": "AC Payment 01",
+      "type": "AC Payment 01",
+      "blockName": "cardPayment01",
+      "layout": {
+        "mobile": {
+          "yAxis": 0,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "height": 0
+        },
+        "tabletLandscape": {
+          "yAxis": 8,
+          "leftMargin": 0,
+          "xAxis": 0,
+          "rightMargin": 0,
+          "height": 0
+        },
+        "tabletPortrait": {
+          "yAxis": 0,
+          "leftMargin": 0,
+          "xAxis": 0,
+          "rightMargin": 0,
+          "height": 0
+        }
+      },
+      "components": [
+        {
+          "layout": {
+            "mobile": {
+              "width": 0,
+              "height": 60,
+              "topTo_topOf": "parent",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            },
+            "tabletLandscape": {
+              "width": 0,
+              "height": 60,
+              "topTo_topOf": "parent",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            },
+            "tabletPortrait": {
+              "width": 0,
+              "height": 60,
+              "topTo_topOf": "parent",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            }
+          },
+          "backgroundColor": "#ffffff",
+          "id": "fullTopSeparatorView",
+          "key": "separatorView",
+          "type": "separatorView"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 24,
+              "height": 24,
+              "topTo_topOf": "fullTopSeparatorView",
+              "bottomTo_bottomOf": "fullTopSeparatorView",
+              "start_toStartOf": "parent",
+              "constraint_MarginLeft": 16,
+              "ratio": "1:1"
+            },
+            "tabletLandscape": {
+              "width": 24,
+              "height": 24,
+              "topTo_topOf": "fullTopSeparatorView",
+              "bottomTo_bottomOf": "fullTopSeparatorView",
+              "start_toStartOf": "parent",
+              "constraint_MarginLeft": 20,
+              "ratio": "1:1"
+            },
+            "tabletPortrait": {
+              "width": 24,
+              "height": 24,
+              "topTo_topOf": "fullTopSeparatorView",
+              "bottomTo_bottomOf": "fullTopSeparatorView",
+              "start_toStartOf": "parent",
+              "constraint_MarginLeft": 20,
+              "ratio": "1:1"
+            }
+          },
+          "icon_url": "",
+          "imageName":"left_arrow_black",
+          "id": "rightArrowImage",
+          "key": "backButton",
+          "type": "image"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 14,
+              "constraint_MarginLeft": 10,
+              "topTo_topOf": "fullTopSeparatorView",
+              "start_toEndOf": "rightArrowImage",
+              "bottomTo_bottomOf": "fullTopSeparatorView"
+            },
+            "tabletLandscape": {
+              "fontSize": 18,
+              "constraint_MarginLeft": 10,
+              "topTo_topOf": "fullTopSeparatorView",
+              "start_toEndOf": "rightArrowImage",
+              "bottomTo_bottomOf": "fullTopSeparatorView"
+            },
+            "tabletPortrait": {
+              "fontSize": 18,
+              "constraint_MarginLeft": 10,
+              "topTo_topOf": "fullTopSeparatorView",
+              "start_toEndOf": "rightArrowImage",
+              "bottomTo_bottomOf": "fullTopSeparatorView"
+            }
+          },
+          "id": "itemTitle",
+          "key": "walletTitle",
+          "type": "label",
+          "fontFamily": "OpenSans",
+          "textAlignment": "left",
+          "text": "ADD A NEW CARD",
+          "textColor": "#282C3F",
+          "fontWeight": "Bold"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 0,
+              "height": 1,
+              "topTo_bottomOf": "fullTopSeparatorView",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            },
+            "tabletLandscape": {
+              "width": 0,
+              "height": 1,
+              "topTo_bottomOf": "fullTopSeparatorView",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            },
+            "tabletPortrait": {
+              "width": 0,
+              "height": 1,
+              "topTo_bottomOf": "fullTopSeparatorView",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            }
+          },
+          "backgroundColor": "#F4F4F5",
+          "id": "lineSeparatorView",
+          "key": "separatorView",
+          "type": "separatorView"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 14,
+              "topTo_bottomOf": "lineSeparatorView",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            },
+            "tabletLandscape": {
+              "fontSize": 16,
+              "topTo_bottomOf": "lineSeparatorView",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            },
+            "tabletPortrait": {
+              "fontSize": 16,
+              "topTo_bottomOf": "lineSeparatorView",
+              "start_toStartOf": "parent",
+              "end_toEndOf": "parent"
+            }
+          },
+          "id": "cardTitle",
+          "key": "walletTitle",
+          "type": "label",
+          "padding": "10",
+          "backgroundColor": "#F4F4F5",
+          "fontFamily": "OpenSans",
+          "textAlignment": "left",
+          "text": "ENTER YOUR CARD DETAILS",
+          "textColor": "#535665"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 15,
+              "constraint_MarginRight": 15,
+              "topTo_bottomOf": "cardTitle",
+              "start_toStartOf": "parent",
+              "bottomTo_bottomOf": "cardNameEditText",
+              "end_toEndOf": "parent"
+            },
+            "tabletLandscape": {
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 15,
+              "constraint_MarginRight": 15,
+              "topTo_bottomOf": "cardTitle",
+              "start_toStartOf": "parent",
+              "bottomTo_bottomOf": "cardNameEditText",
+              "end_toEndOf": "parent"
+            },
+            "tabletPortrait": {
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 15,
+              "constraint_MarginRight": 15,
+              "topTo_bottomOf": "cardTitle",
+              "start_toStartOf": "parent",
+              "bottomTo_bottomOf": "cardNameEditText",
+              "end_toEndOf": "parent"
+            }
+          },
+          "borderColor": "#33000000",
+          "borderWidth": "2",
+          "id": "bgSeparatorView",
+          "key": "blockView",
+          "type": "blockView"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "topTo_topOf": "bgSeparatorView",
+              "start_toStartOf": "bgSeparatorView",
+              "end_toEndOf": "bgSeparatorView",
+              "fontSize": 14,
+              "height": 50
+            },
+            "tabletLandscape": {
+              "topTo_topOf": "bgSeparatorView",
+              "start_toStartOf": "bgSeparatorView",
+              "end_toEndOf": "bgSeparatorView",
+              "fontSize": 16,
+              "height": 60
+            },
+            "tabletPortrait": {
+              "topTo_topOf": "bgSeparatorView",
+              "start_toStartOf": "bgSeparatorView",
+              "end_toEndOf": "bgSeparatorView",
+              "fontSize": 16,
+              "height": 60
+            }
+          },
+          "id": "cardNoEditText",
+          "maxLength": 19,
+          "padding": 5,
+          "fontFamily": "OpenSans",
+          "textAlignment": "center_vertical",
+          "hint": "Card Number",
+          "type": "editText",
+          "textColor": "#93959f",
+          "hintColor": "#93959f",
+          "backgroundColor": "#00000000",
+          "key": "cardEditText"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 0,
+              "height": 1,
+              "topTo_bottomOf": "cardNoEditText",
+              "start_toStartOf": "bgSeparatorView",
+              "end_toEndOf": "bgSeparatorView"
+            },
+            "tabletLandscape": {
+              "width": 0,
+              "height": 1,
+              "topTo_bottomOf": "cardNoEditText",
+              "start_toStartOf": "bgSeparatorView",
+              "end_toEndOf": "bgSeparatorView"
+            },
+            "tabletPortrait": {
+              "width": 0,
+              "height": 1,
+              "topTo_bottomOf": "cardNoEditText",
+              "start_toStartOf": "bgSeparatorView",
+              "end_toEndOf": "bgSeparatorView"
+            }
+          },
+          "backgroundColor": "#33000000",
+          "id": "lineSeparatorView2",
+          "key": "blockView",
+          "type": "blockView"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "topTo_bottomOf": "lineSeparatorView2",
+              "start_toStartOf": "bgSeparatorView",
+              "fontSize": 14,
+              "height": 50
+            },
+            "tabletLandscape": {
+              "topTo_bottomOf": "lineSeparatorView2",
+              "start_toStartOf": "bgSeparatorView",
+              "fontSize": 16,
+              "height": 60
+            },
+            "tabletPortrait": {
+              "topTo_bottomOf": "lineSeparatorView2",
+              "start_toStartOf": "bgSeparatorView",
+              "fontSize": 16,
+              "height": 60
+            }
+          },
+          "id": "cardMMEditText",
+          "maxLength": 2,
+          "padding": 5,
+          "fontFamily": "OpenSans",
+          "textAlignment": "center_vertical",
+          "hint": "MM",
+          "type": "editText",
+          "textColor": "#93959f",
+          "hintColor": "#93959f",
+          "backgroundColor": "#00000000",
+          "key": "cardEditText"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 2,
+              "height": 20,
+              "topTo_bottomOf": "lineSeparatorView2",
+              "bottomTo_topOf": "lineSeparatorView3",
+              "start_toEndOf": "cardMMEditText"
+            },
+            "tabletLandscape": {
+              "width": 2,
+              "height": 20,
+              "topTo_bottomOf": "lineSeparatorView2",
+              "bottomTo_topOf": "lineSeparatorView3",
+              "start_toEndOf": "cardMMEditText"
+            },
+            "tabletPortrait": {
+              "width": 2,
+              "height": 20,
+              "topTo_bottomOf": "lineSeparatorView2",
+              "bottomTo_topOf": "lineSeparatorView3",
+              "start_toEndOf": "cardMMEditText"
+            }
+          },
+          "rotation": 20,
+          "backgroundColor": "#93959f",
+          "id": "verticalSeparatorView",
+          "key": "blockView",
+          "type": "blockView"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "topTo_bottomOf": "lineSeparatorView2",
+              "start_toEndOf": "verticalSeparatorView",
+              "end_toStartOf": "verticalSeparatorView2",
+              "fontSize": 14,
+              "height": 50
+            },
+            "tabletLandscape": {
+              "topTo_bottomOf": "lineSeparatorView2",
+              "start_toEndOf": "verticalSeparatorView",
+              "end_toStartOf": "verticalSeparatorView2",
+              "fontSize": 16,
+              "height": 60
+            },
+            "tabletPortrait": {
+              "topTo_bottomOf": "lineSeparatorView2",
+              "start_toEndOf": "verticalSeparatorView",
+              "end_toStartOf": "verticalSeparatorView2",
+              "fontSize": 16,
+              "height": 60
+            }
+          },
+          "id": "cardYYEditText",
+          "maxLength": 2,
+          "padding": 5,
+          "fontFamily": "OpenSans",
+          "textAlignment": "center_vertical",
+          "hint": "YY",
+          "type": "editText",
+          "textColor": "#93959f",
+          "hintColor": "#93959f",
+          "backgroundColor": "#00000000",
+          "key": "cardEditText"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 2,
+              "topTo_bottomOf": "lineSeparatorView2",
+              "bottomTo_topOf": "lineSeparatorView3",
+              "start_toEndOf": "cardYYEditText",
+              "end_toStartOf": "cardCVVEditText"
+            },
+            "tabletLandscape": {
+              "width": 2,
+              "topTo_bottomOf": "lineSeparatorView2",
+              "bottomTo_topOf": "lineSeparatorView3",
+              "start_toEndOf": "cardYYEditText",
+              "end_toStartOf": "cardCVVEditText"
+            },
+            "tabletPortrait": {
+              "width": 2,
+              "topTo_bottomOf": "lineSeparatorView2",
+              "bottomTo_topOf": "lineSeparatorView3",
+              "start_toEndOf": "cardYYEditText",
+              "end_toStartOf": "cardCVVEditText"
+            }
+          },
+          "backgroundColor": "#33000000",
+          "id": "verticalSeparatorView2",
+          "key": "blockView",
+          "type": "blockView"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "topTo_bottomOf": "lineSeparatorView2",
+              "start_toEndOf": "verticalSeparatorView2",
+              "end_toEndOf": "bgSeparatorView",
+              "fontSize": 14,
+              "height": 50
+            },
+            "tabletLandscape": {
+              "topTo_bottomOf": "lineSeparatorView2",
+              "start_toEndOf": "verticalSeparatorView2",
+              "end_toEndOf": "bgSeparatorView",
+              "fontSize": 16,
+              "height": 60
+            },
+            "tabletPortrait": {
+              "topTo_bottomOf": "lineSeparatorView2",
+              "start_toEndOf": "verticalSeparatorView2",
+              "end_toEndOf": "bgSeparatorView",
+              "fontSize": 16,
+              "height": 60
+            }
+          },
+          "id": "cardCVVEditText",
+          "maxLength": 4,
+          "padding": 5,
+          "fontFamily": "OpenSans",
+          "textAlignment": "center_vertical",
+          "hint": "CVV",
+          "type": "editText",
+          "textColor": "#93959f",
+          "hintColor": "#93959f",
+          "backgroundColor": "#00000000",
+          "key": "cardEditText"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 0,
+              "height": 1,
+              "topTo_bottomOf": "cardMMEditText",
+              "start_toStartOf": "bgSeparatorView",
+              "end_toEndOf": "bgSeparatorView"
+            },
+            "tabletLandscape": {
+              "width": 0,
+              "height": 1,
+              "topTo_bottomOf": "cardMMEditText",
+              "start_toStartOf": "bgSeparatorView",
+              "end_toEndOf": "bgSeparatorView"
+            },
+            "tabletPortrait": {
+              "width": 0,
+              "height": 1,
+              "topTo_bottomOf": "cardMMEditText",
+              "start_toStartOf": "bgSeparatorView",
+              "end_toEndOf": "bgSeparatorView"
+            }
+          },
+          "backgroundColor": "#33000000",
+          "id": "lineSeparatorView3",
+          "key": "blockView",
+          "type": "blockView"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "topTo_bottomOf": "lineSeparatorView3",
+              "start_toStartOf": "bgSeparatorView",
+              "end_toEndOf": "bgSeparatorView",
+              "fontSize": 14,
+              "height": 50
+            },
+            "tabletLandscape": {
+              "topTo_bottomOf": "lineSeparatorView3",
+              "start_toStartOf": "bgSeparatorView",
+              "end_toEndOf": "bgSeparatorView",
+              "fontSize": 16,
+              "height": 60
+            },
+            "tabletPortrait": {
+              "topTo_bottomOf": "lineSeparatorView3",
+              "start_toStartOf": "bgSeparatorView",
+              "end_toEndOf": "bgSeparatorView",
+              "fontSize": 16,
+              "height": 60
+            }
+          },
+          "id": "cardNameEditText",
+          "padding": 5,
+          "fontFamily": "OpenSans",
+          "textAlignment": "center_vertical",
+          "hint": "Cardholder Name",
+          "type": "editText",
+          "textColor": "#93959f",
+          "hintColor": "#93959f",
+          "backgroundColor": "#00000000",
+          "key": "cardEditText"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "constraint_MarginTop": 20,
+              "topTo_bottomOf": "bgSeparatorView",
+              "start_toStartOf": "bgSeparatorView"
+            },
+            "tabletLandscape": {
+              "constraint_MarginTop": 30,
+              "topTo_bottomOf": "bgSeparatorView",
+              "start_toStartOf": "bgSeparatorView"
+            },
+            "tabletPortrait": {
+              "constraint_MarginTop": 30,
+              "topTo_bottomOf": "bgSeparatorView",
+              "start_toStartOf": "bgSeparatorView"
+            }
+          },
+          "id": "chkBoxSaveCard",
+          "type": "checkbox",
+          "key": "cardCheckBox"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 13,
+              "constraint_MarginLeft": 10,
+              "topTo_topOf": "chkBoxSaveCard",
+              "start_toEndOf": "chkBoxSaveCard",
+              "bottomTo_bottomOf": "chkBoxSaveCard"
+            },
+            "tabletLandscape": {
+              "fontSize": 15,
+              "constraint_MarginLeft": 10,
+              "topTo_topOf": "chkBoxSaveCard",
+              "start_toEndOf": "chkBoxSaveCard",
+              "bottomTo_bottomOf": "chkBoxSaveCard"
+            },
+            "tabletPortrait": {
+              "fontSize": 15,
+              "constraint_MarginLeft": 10,
+              "topTo_topOf": "chkBoxSaveCard",
+              "start_toEndOf": "chkBoxSaveCard",
+              "bottomTo_bottomOf": "chkBoxSaveCard"
+            }
+          },
+          "id": "tvSecurelySave",
+          "key": "walletTitle",
+          "type": "label",
+          "fontFamily": "OpenSans",
+          "textAlignment": "left",
+          "text": "Securely save card details",
+          "textColor": "#3d4152"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 14,
+              "height": 40,
+              "constraint_MarginTop": 20,
+              "topTo_bottomOf": "chkBoxSaveCard",
+              "start_toStartOf": "bgSeparatorView",
+              "end_toEndOf": "bgSeparatorView"
+            },
+            "tabletLandscape": {
+              "fontSize": 16,
+              "height": 50,
+              "constraint_MarginTop": 30,
+              "topTo_bottomOf": "chkBoxSaveCard",
+              "start_toStartOf": "bgSeparatorView",
+              "end_toEndOf": "bgSeparatorView"
+            },
+            "tabletPortrait": {
+              "fontSize": 16,
+              "height": 50,
+              "constraint_MarginTop": 30,
+              "topTo_bottomOf": "chkBoxSaveCard",
+              "start_toStartOf": "bgSeparatorView",
+              "end_toEndOf": "bgSeparatorView"
+            }
+          },
+          "id": "cardPayBtn",
+          "key": "cardPayButton",
+          "type": "button",
+          "fontFamily": "OpenSans",
+          "text": "PAY",
+          "textColor": "#ffffff",
+          "fontWeight": "Bold",
+          "backgroundColor": "#F81004"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 12,
+              "constraint_MarginTop": 10,
+              "topTo_bottomOf": "cardPayBtn",
+              "start_toStartOf": "cardPayBtn",
+              "end_toEndOf": "cardPayBtn"
+            },
+            "tabletLandscape": {
+              "fontSize": 14,
+              "constraint_MarginTop": 10,
+              "topTo_bottomOf": "cardPayBtn",
+              "start_toStartOf": "cardPayBtn",
+              "end_toEndOf": "cardPayBtn"
+            },
+            "tabletPortrait": {
+              "fontSize": 14,
+              "constraint_MarginTop": 10,
+              "topTo_bottomOf": "cardPayBtn",
+              "start_toStartOf": "cardPayBtn",
+              "end_toEndOf": "cardPayBtn"
+            }
+          },
+          "id": "all_text",
+          "key": "walletTitle",
+          "type": "label",
+          "fontFamily": "OpenSans",
+          "textAlignment": "left",
+          "text": "By Clicking pay, you authorize us to charge your card until you cancel",
+          "textColor": "#3d4152"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "constraint_MarginTop": 20,
+              "topTo_bottomOf": "all_text",
+              "start_toStartOf": "parent",
+              "ratio": "16:9"
+            },
+            "tabletLandscape": {
+              "constraint_MarginTop": 20,
+              "topTo_bottomOf": "all_text",
+              "start_toStartOf": "parent",
+              "ratio": "16:9"
+            },
+            "tabletPortrait": {
+              "constraint_MarginTop": 20,
+              "topTo_bottomOf": "all_text",
+              "start_toStartOf": "parent",
+              "ratio": "16:9"
+            }
+          },
+          "id": "cardIconsList",
+          "key": "cardIconsList",
+          "type": "tableView",
+          "components": [
+            {
+              "layout": {
+                "mobile": {
+                  "width": 40,
+                  "height": 20,
+                  "constraint_MarginTop": 10,
+                  "constraint_MarginBottom": 10,
+                  "constraint_MarginLeft": 20,
+                  "topTo_topOf": "parent",
+                  "bottomTo_bottomOf": "parent",
+                  "start_toStartOf": "parent",
+                  "ratio": "16:9"
+                },
+                "tabletLandscape": {
+                  "width": 60,
+                  "height": 20,
+                  "constraint_MarginTop": 10,
+                  "constraint_MarginBottom": 10,
+                  "constraint_MarginLeft": 20,
+                  "topTo_topOf": "parent",
+                  "bottomTo_bottomOf": "parent",
+                  "start_toStartOf": "parent",
+                  "ratio": "16:9"
+                },
+                "tabletPortrait": {
+                  "width": 60,
+                  "height": 40,
+                  "constraint_MarginTop": 10,
+                  "constraint_MarginBottom": 10,
+                  "constraint_MarginLeft": 20,
+                  "topTo_topOf": "parent",
+                  "bottomTo_bottomOf": "parent",
+                  "start_toStartOf": "parent",
+                  "ratio": "16:9"
+                }
+              },
+              "id": "cardIcon",
+              "key": "walletImage",
+              "type": "image"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

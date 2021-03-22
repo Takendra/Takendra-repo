@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="fragmentVar"
+            type="com.viewlift.views.fragments.AppCMSNavItemsFragment" />
+    </data>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/parentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@{fragmentVar.pageBackgroundColor}"
+        android:padding="20dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/tvProviderImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:adjustViewBounds="true"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/nav_items_list"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layoutManager="LinearLayoutManager"
+            tools:listitem="@layout/nav_item"
+            app:layout_constrainedHeight="true"
+            app:layout_constraintBottom_toTopOf="@+id/app_cms_nav_login_container"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvProviderImage" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/app_cms_nav_login_container"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/app_cms_nav_login_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:text="@{fragmentVar.loginButtonText}"
+                android:textColor="@{fragmentVar.loginButtonTextColor}"
+                android:textSize="@dimen/nav_item_text_size" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/app_cms_nav_tve_login_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@android:color/transparent"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:text="@{fragmentVar.tveButtonText}"
+                android:textColor="@{fragmentVar.loginButtonTextColor}"
+                android:textSize="@dimen/nav_item_text_size"
+                android:visibility="gone" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/app_cms_nav_subscribe_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@{fragmentVar.freeTrialButtonBackgroundColor}"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:text="@{fragmentVar.freeTrialButtonText}"
+                android:textColor="@{fragmentVar.freeTrialButtonTextColor}"
+                android:textSize="@dimen/nav_item_text_size" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

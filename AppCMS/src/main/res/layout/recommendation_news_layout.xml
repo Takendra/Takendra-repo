@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:focusable="true"
+    android:weightSum="10"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:background="@drawable/ic_close_black"
+            android:layout_gravity="right"
+            android:paddingLeft="25dp"
+            android:layout_marginRight="50dp"
+            android:id="@+id/recommendSkip"
+            android:paddingTop="5dp"
+            android:textSize="18dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1.5"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="User Personalization"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/headerText"
+            android:paddingLeft="25dp"
+            android:paddingTop="5dp"
+            android:textSize="18dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Select Genres You Would Love to Watch"
+            android:id="@+id/subHeadertext"
+            android:textColor="@color/colorAccent"
+            android:paddingLeft="25dp"
+            android:paddingTop="5dp"
+            android:textSize="18dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="3.5"
+        android:layout_height="120dp">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/card_recycler_view"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/recommendClose"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="@drawable/circle"
+            android:text="start"
+            android:textSize="22dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

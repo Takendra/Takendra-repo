@@ -1,0 +1,24 @@
+<resources>
+    <integer name="app_cms_beacon_timeout_msec">1000</integer>
+    <integer name="app_cms_beacon_buffering_timeout_msec">1000</integer>
+    <integer name="app_cms_default_connection_timeout_msec">20000</integer>
+    <integer name="app_cms_default_read_timeout_msec">20000</integer>
+    <integer name="app_cms_default_write_timeout_msec">20000</integer>
+    <integer name="app_cms_unknown_host_exception_connection_timeout_msec">20000</integer>
+    <integer name="app_cms_login_selector_margin">98</integer>
+    <integer name="app_cms_login_input_textsize">16</integer>
+    <integer name="app_cms_login_input_horizontal_margin">8</integer>
+    <integer name="app_cms_login_underline_padding">16</integer>
+    <integer name="app_cms_border_stroke_width">4</integer>
+    <integer name="app_cms_empty_list_message_textsize">24</integer>
+
+
+    <integer name="nav_bar_items_weightsum">100</integer>
+    <integer name="app_cms_show_details_discription_length">260</integer>
+    <integer name="app_cms_list_discription_length">82</integer>
+    <integer name="app_cms_show_details_discription_length_news_mobile">115</integer>
+    <integer name="app_cms_mobile_show_details_discription">140</integer>
+    <integer name="app_cms_tablet_list_discription_length">200</integer>
+    <integer name="app_cms_history_list_discription_length">53</integer>
+    <integer name="app_cms_max_text_length">600</integer>
+</resources>

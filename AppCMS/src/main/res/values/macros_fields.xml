@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+
+    <string name="application_bundle">VIEWLIFT_APP_BUNDLE</string>
+    <string name="application_name">VIEWLIFT_APP_NAME</string>
+    <string name="encoded_url">VIEWLIFT_ENCODED_URL</string>
+    <string name="double_encoded_url">VIEWLIFT_DOUBLE_ENCODED_URL</string>
+    <string name="device_id">VIEWLIFT_DEVICE_ID</string>
+    <string name="device_os">VIEWLIFT_OS</string>
+    <string name="device_latitude">VIEWLIFT_LAT</string>
+    <string name="device_longitude">VIEWLIFT_LON</string>
+    <string name="iab">VIEWLIFT_IAB</string>
+    <string name="device_width">VIEWLIFT_WIDTH</string>
+    <string name="device_height">VIEWLIFT_HEIGHT</string>
+    <string name="device_dimens">VIEWLIFT_SIZE</string>
+    <string name="device_make">VIEWLIFT_DEVICE_MAKE</string>
+    <string name="device_model">VIEWLIFT_DEVICE_MODEL</string>
+    <string name="device_os_version">VIEWLIFT_OS_VER</string>
+    <string name="cache_buster">VIEWLIFT_CACHEBUSTER</string>
+    <string name="domain">VIEWLIFT_DOMAIN</string>
+    <string name="user_agent">VIEWLIFT_USER_AGENT</string>
+    <string name="device_ip">VIEWLIFT_IP</string>
+    <string name="content_description">VIEWLIFT_DESCRIPTION</string>
+    <string name="content_id">VIEWLIFT_CONTENT_ID</string>
+    <string name="content_encoded_title">VIEWLIFT_ENCODED_VIDEO_TITLE</string>
+    <string name="content_title">VIEWLIFT_CONTENT_TITLE</string>
+    <string name="content_episode">VIEWLIFT_CONTENT_EPISODE</string>
+    <string name="content_season">VIEWLIFT_CONTENT_SEASON</string>
+    <string name="content_genre">VIEWLIFT_CONTENT_GENRE</string>
+    <string name="content_duration_ms">VIEWLIFT_CONTENT_DURATION_MS</string>
+    <string name="content_duration">VIEWLIFT_CONTENT_DURATION</string>
+    <string name="content_series_title">VIEWLIFT_CONTENT_SERIES_TITLE</string>
+    <string name="media_id">VIEWLIFT_MEDIA_ID</string>
+    <string name="video_id">VIEWLIFT_VIDEO_ID</string>
+    <string name="min_duration">VIEWLIFT_MIN_DURATION</string>
+    <string name="max_duration">VIEWLIFT_MAX_DURATION</string>
+    <string name="macro_autoplay">VIEWLIFT_AUTOPLAY</string>
+    <string name="ad_pos">VIEWLIFT_AD_POS</string>
+    <string name="app_store_url">VIEWLIFT_APP_STORE_URL</string>
+    <string name="keywords">VIEWLIFT_KEYWORDS</string>
+    <string name="viewlift_url">VIEWLIFT_URL</string>
+    <string name="consent">VIEWLIFT_CONSENT</string>
+    <string name="gdpr">VIEWLIFT_GDPR</string>
+    <string name="us_privacy">VIEWLIFT_US_PRIVACY</string>
+    <string name="coppa">VIEWLIFT_COPPA</string>
+    <string name="brand_name">VIEWLIFT_BRAND_NAME</string>
+    <string name="max_pod_duration">VIEWLIFT_MAX_POD_DURATION</string>
+    <string name="max_pod_duration_ms">VIEWLIFT_MAX_POD_DURATION_MS</string>
+    <string name="time_stamp">VIEWLIFT_TIMESTAMP</string>
+    <string name="time_stamp_ms">VIEWLIFT_TIMESTAMP_MS</string>
+    <string name="mute">VIEWLIFT_MUTE</string>
+    <string name="duration">VIEWLIFT_DURATION</string>
+    <string name="dnt">VIEWLIFT_DNT</string>
+
+</resources>

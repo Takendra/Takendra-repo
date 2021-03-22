@@ -1,0 +1,12 @@
+<resources>
+
+    <fraction name="app_cms_content_rating_progress_bar_margin_bottom_percent">5.5%</fraction>
+    <fraction name="mainContainerWidthPercent">54%</fraction>
+    <fraction name="mainContainerHeightPercent">44.2%</fraction>
+    <dimen name="arrow_button_margin">20dp</dimen>
+    <dimen name="sp12">12sp</dimen>
+    <dimen name="description_leble">80sp</dimen>
+    <dimen name="title_lbl">140sp</dimen>
+    <dimen name="app_cms_view_plan_cell_margin_10">10dp</dimen>
+    <dimen name="app_cms_view_plan_cell_margin_12">12dp</dimen>
+</resources>

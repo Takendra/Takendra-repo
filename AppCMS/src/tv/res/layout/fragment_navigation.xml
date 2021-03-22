@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/nav_top_line"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorAccent"
+        android:focusable="false"
+        android:textAlignment="center" />
+
+
+    <TextView
+        android:id="@+id/nav_menu_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18.5dp"
+        android:enabled="false"
+        android:focusable="false"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:id="@+id/nav_menu_subscription_module"
+        android:layout_width="505dp"
+        android:layout_height="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="143dp"
+        android:background="@drawable/st_subscriber_module_color_selector"
+        android:focusable="true"
+        android:gravity="center"
+        android:visibility="gone" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/navRecylerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        tools:listitem="@layout/st_navigation_item" />
+
+    <ImageView
+        android:id="@+id/left_menu_app_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="35dp"
+        android:src="@drawable/footer_logo"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/left_news_menu_app_logo"
+        android:layout_width="30dp"
+        android:layout_height="17dp"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="10dp"
+        android:focusable="false"
+        android:src="@drawable/footer_logo"
+        android:visibility="invisible" />
+    <View
+        android:id="@+id/layout_switch"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/left_navigation_unFocused_color"
+        android:focusable="false"
+        android:visibility="gone"
+        android:layout_above="@+id/navRecylerView">
+    </View>
+    <View
+        android:id="@+id/live_nav_item_separator"
+        android:layout_width="4dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:visibility="gone"
+        android:layout_above="@+id/navRecylerView" />
+    <Switch
+        android:id="@+id/setting_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/navRecylerView"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:checked="false"
+        android:textSize="@dimen/news_nav_item_text_size"
+        android:track="@drawable/track_selector"
+        android:thumb="@drawable/thumb_selector"
+        />
+
+
+
+</RelativeLayout>

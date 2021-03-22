@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <item name="home_nested_scroll_view" type="id" />
+    <item name="fight_stats_id" type="id" />
+    <item name="search_separator_view" type="id" />
+    <item name="fight_scroll_id" type="id" />
+    <item name="fight_summary_module_id" type="id" />
+    <item name="web_view_id" type="id" />
+
+    <item name="subscribe_edit_text_id" type="id" />
+    <item name="redemption_edit_text_id" type="id" />
+    <item name="redemption_error_text_id" type="id" />
+    <item name="download_quality_selection_list" type="id" />
+    <item name="download_quality_continue_button" type="id" />
+    <item name="download_quality_cancel_button" type="id" />
+    <item name="redeem_button_key" type="id" />
+    <item name="video_player_id" type="id" />
+    <item name="stand_alone_video_player_container_id" type="id" />
+    <item name="timer_id_root" type="id" />
+    <item name="timer_id" type="id" />
+    <item name="watch_live_button" type="id" />
+    <item name="timer_until_face_off" type="id" />
+    <item name="see_all_title_text_view" type="id" />
+    <item name="see_all_recycler_view" type="id" />
+    <item name="video_play_icon" type="id" />
+    <item name="imageAddCal" type="id" />
+    <item name="verticalGuidLine" type="id" />
+    <item name="verticalGuidLineRight" type="id" />
+
+    <item name="recyclerview_tray" type="id" />
+    <item name="video_play_image" type="id" />
+    <item name="play_live_image_id" type="id" />
+    <item name="scrollview_home" type="id" />
+    <item name="login_btn" type="id" />
+    <item name="full_screen_btn_id" type="id" />
+    <item name="edittext_email" type="id" />
+    <item name="edittext_password" type="id" />
+    <item name="submit_login_btn" type="id" />
+    <item name="custom_exo_controller" type="id" />
+    <item name="app_cms_video_player_done_button" type="id" />
+    <item name="media_route_button" type="id" />
+    <item name="app_cms_video_player_title_view" type="id" />
+    <item name="player_stop_watch" type="id" />
+    <item name="seekBarVolume" type="id" />
+    <item name="imageIconVolumeInfo" type="id" />
+    <item name="VolumeController" type="id" />
+    <item name="exo_subtitles" type="id" />
+    <item name="tv_recycler_view" type="id" />
+    <item name="pagelink_recycler_view" type="id" />
+    <item name="subscription_text" type="id" />
+    <item name="exo_media_controller" type="id" />
+    <item name="exo_controller_container" type="id" />
+    <item name="imageButtonMute" type="id" />
+    <item name="layoutMuteNotification" type="id" />
+    <item name="seek_bar_parent" type="id" />
+
+    <item name="playlist_download_id" type="id" />
+    <item name="remove_all_download_id" type="id" />
+
+    <item name="downloadComponent" type="id" />
+    <item name="imageButtonDownloadStatus" type="id" />
+    <item name="progressBarDownload" type="id" />
+
+    <item name="article_prev_button" type="id" />
+    <item name="article_next_button" type="id" />
+    <item name="photo_gallery_prev_button" type="id" />
+    <item name="photo_gallery_next_button" type="id" />
+    <item name="photo_gallery_prev_label" type="id" />
+    <item name="photo_gallery_next_label" type="id" />
+    <item name="photo_gallery_selectedImage" type="id" />
+    <item name="article_web_view" type="id" />
+    <item name="photo_gallery_image_count" type="id" />
+    <item name="photo_gallery_grid_recyclerview" type="id" />
+
+
+    <item name="appCMS_tcp_check" type="id" />
+    <item name="appCMS_sign_up_button" type="id" />
+
+    <item name="article_publisher" type="id" />
+    <item name="article_publish_date" type="id" />
+    <item name="article_feed_ads_id" type="id" />
+
+    <item name="code_sync_text_line_header" type="id" />
+    <item name="btn_activate_device" type="id" />
+    <item name="btn_login" type="id" />
+    <item name="videoTitleOnHover" type="id" />
+    <item name="videoSubTitleOnHover" type="id" />
+    <item name="videoDescriptionOnHover" type="id" />
+    <item name="videoBackgroundOnHover" type="id" />
+    <item name="sesaontab" type="id" />
+    <item name="btn_start_watching" type="id" />
+    <item name="btn_start_watching_from_beginning" type="id" />
+    <item name="btn_bundle_start_watching" type="id"/>
+    <item name="btn_watch_trailer" type="id" />
+    <item name="btn_add_to_watchlist" type="id" />
+    <item name="visualTimer" type="id" />
+    <item name="emailConsentCheckbox" type="id" />
+    <item name="whatsappConsentCheckbox" type="id" />
+    <item name="ageConsentCheckbox" type="id"/>
+    <item name="ageConsentError" type="id"/>
+
+    <item name="phone_input_box" type="id"/>
+    <item name="phone_country_code" type="id"/>
+
+    <item name="redemption_edit_box" type="id"/>
+
+    <item name="liveButtonHome" type="id" />
+    <item name="calendar_button_home" type="id" />
+    <item name="next_class_in" type="id" />
+    <item name="heart" type="id" />
+
+
+    <!--Video details page -->
+    <item name="mConstraintLayout" type="id" />
+    <item name="instructorTitle" type="id" />
+    <item name="categoryTitle" type="id" />
+    <item name="videoDuration" type="id" />
+    <item name="imageViewVideo" type="id" />
+    <item name="imageViewVideoBadge" type="id" />
+
+    <item name="videoDescription" type="id" />
+    <item name="videoAirDate" type="id" />
+    <item name="difficultyLabel" type="id" />
+    <item name="difficultyVal" type="id" />
+    <item name="ratingLabel" type="id" />
+    <item name="ratingVal" type="id" />
+    <item name="languageLabel" type="id" />
+    <item name="languageVal" type="id" />
+    <item name="playlistLabel" type="id" />
+    <item name="playlistVal" type="id" />
+    <item name="intensityLabel" type="id" />
+    <item name="intensityVal" type="id" />
+
+    <item name="downloadButton" type="id" />
+    <item name="imageAddToFavorite" type="id" />
+    <item name="imageLanguage" type="id" />
+    <item name="descriptionSeparator" type="id" />
+    <item name="equipmentSeparator" type="id" />
+    <item name="instructorSeparator" type="id" />
+    <item name="timerTextView" type="id" />
+
+
+    <item name="topSecondContainer" type="id" />
+    <item name="difficultyContainer" type="id" />
+    <item name="ratingContainer" type="id" />
+    <item name="languageContainer" type="id" />
+    <item name="languageSubContainer" type="id" />
+    <item name="playListContainer" type="id" />
+    <item name="airDateContainer" type="id" />
+    <item name="equipmentNeedList" type="id" />
+    <item name="liveScheduleGridNoData" type="id" />
+    <item name="liveScheduleGrid" type="id" />
+    <item name="scheduleGridNoData" type="id" />
+    <item name="scheduleGrid0" type="id" />
+    <item name="scheduleGrid1" type="id" />
+    <item name="scheduleGrid2" type="id" />
+    <item name="scheduleGrid3" type="id" />
+    <item name="scheduleGrid4" type="id" />
+    <item name="scheduleGrid5" type="id" />
+    <item name="scheduleGrid6" type="id" />
+    <item name="scheduleGridDate" type="id" />
+    <item name="scheduleWeekViewGrid" type="id" />
+    <item name="scheduleButton" type="id" />
+    <item name="emailAddress" type="id" />
+    <item name="firstName" type="id" />
+    <item name="lastName" type="id" />
+    <item name="password" type="id" />
+
+
+    <!-- Carousel [eventCarousel02] Ids-->
+    <item name="carouselLiveButton" type="id" />
+    <item name="carouselImage" type="id" />
+    <item name="nextClassTime" type="id" />
+    <item name="durationCarousel" type="id" />
+    <item name="addToCalendarButton" type="id" />
+    <item name="carouselBadgeImage" type="id" />
+    <item name="carouselInfo" type="id" />
+    <item name="carouselTitle" type="id" />
+    <item name="carousel" type="id" />
+    <item name="playImageCarousel" type="id" />
+    <item name="pageControl" type="id" />
+
+    <item name="guideLineLeft" type="id" />
+    <item name="guideLineTop" type="id" />
+    <item name="guideLineRight" type="id" />
+    <item name="guideLineBottom" type="id" />
+    <item name="guideLineCenter" type="id" />
+
+    <item name="badgeImage" type="id" />
+    <item name="thumbnailImage" type="id" />
+    <item name="trayTitle" type="id" />
+    <item name="titleThumbnail" type="id" />
+    <item name="descriptionThumbnail" type="id" />
+    <item name="thumbnailPlayImage" type="id" />
+    <item name="vodThumbnailPlayImage" type="id" />
+    <item name="separatorView" type="id" />
+    <item name="separatorViewTop" type="id" />
+    <item name="thumbnailTitle" type="id" />
+    <item name="videoThumbnailImage" type="id" />
+    <item name="collectionGrid" type="id" />
+    <item name="collectionGridVODMore" type="id" />
+    <item name="collectionGridVODConcept" type="id" />
+
+    <item name="shareButton" type="id" />
+    <item name="topVideoText" type="id" />
+    <item name="closeButton" type="id" />
+    <item name="chainGroupView" type="id" />
+    <item name="moreRelatedGroupView" type="id" />
+    <item name="youMayLikeGroupView" type="id" />
+
+    <item name="audioArtistName" type="id" />
+    <item name="gridOptions" type="id" />
+    <item name="thumbnailInfo" type="id" />
+    <item name="instructorVideoDescriptionText" type="id" />
+
+
+    <item name="collectionGridItemView" type="id" />
+
+    // new Ids
+    <item name="tagBrandTitle" type="id" />
+    <item name="tagClassTitle" type="id" />
+    <item name="nextClass" type="id" />
+    <item name="horizontalLine" type="id" />
+    <item name="itemLine" type="id" />
+    <item name="itemBackground" type="id" />
+    <item name="schedule_month" type="id" />
+    <item name="schedule_date" type="id" />
+    <item name="dateSeparator" type="id" />
+    <item name="schedule_day" type="id" />
+    <item name="weekScheduleDateGrid" type="id" />
+    <item name="pageLinkHorizontalViewGrid" type="id" />
+    <item name="itemTitle" type="id" />
+    <item name="scheduleNoData" type="id" />
+    <item name="verticalHeight" type="id" />
+    <item name="pageLinkScheduleGrid" type="id" />
+    <item name="tabGuideLineCenter" type="id" />
+    <item name="bodyFocusLabel" type="id" />
+    <item name="bodyFocusLabelValue" type="id" />
+    <item name="setUpLabel" type="id" />
+    <item name="setUpRequiredLabel" type="id" />
+    <item name="setUpOptionalLabel" type="id" />
+    <item name="separatorEquipmentView" type="id" />
+    <item name="fullTopSeparatorView" type="id" />
+    <item name="downloadBookMarkSeparator" type="id" />
+    <item name="timerFitnessKey" type="id" />
+    <item name="classFormatLabel" type="id" />
+    <item name="classFormatValue" type="id" />
+    <item name="classDuration" type="id" />
+    <item name="trayTitleBrand" type="id" />
+    <item name="collectionBrand" type="id" />
+    <item name="carouselBrands" type="id" />
+    <item name="pageControl03" type="id" />
+    <item name="vodPlayButton" type="id" />
+    <item name="badgeImageRecent" type="id" />
+    <item name="classDurationRecent" type="id" />
+    <item name="expandableGrid" type="id" />
+    <item name="recentGrid" type="id" />
+    <item name="viewAllDetail" type="id" />
+    <item name="thumbnailCategoryTitle" type="id" />
+    <item name="horizonatlLine" type="id" />
+    <item name="view_text" type="id" />
+    <item name="all_text" type="id" />
+    <item name="total_num_text" type="id" />
+    <item name="headBrowseAll" type="id" />
+    <item name="class_image" type="id" />
+    <item name="class_title" type="id" />
+    <item name="browseTopGrid" type="id" />
+    <item name="conceptsTitle" type="id" />
+    <item name="conceptsGrid" type="id" />
+    <item name="classesTitle" type="id" />
+    <item name="addToFavorites" type="id" />
+    <item name="durationCarouselBrowse" type="id" />
+    <item name="tagBrandTitleBrowse" type="id" />
+    <item name="tagClassTitleBrowse" type="id" />
+    <item name="filter" type="id" />
+    <item name="playerImage" type="id" />
+    <item name="carousel02" type="id" />
+    <item name="instructorDetailBadgeImage" type="id" />
+    <item name="instagramIcon" type="id" />
+    <item name="facebookIcon" type="id" />
+    <item name="twitterIcon" type="id" />
+    <item name="instructionDescription" type="id" />
+    <item name="expendableList" type="id" />
+    <item name="thumbnailBrandAndTitle" type="id" />
+    <item name="thumbnailTimeAndCategory" type="id" />
+    <item name="thumbnailImageTray07" type="id" />
+    <item name="trayBottomText1" type="id" />
+    <item name="trayBottomText2" type="id" />
+    <item name="guideLineForImage" type="id" />
+    <item name="noClassesScheduled" type="id" />
+    <item name="privateProfileGrid" type="id" />
+    <item name="publicProfileGrid" type="id" />
+    <item name="profileCameraButton" type="id" />
+    <item name="fullBottomSeparatorView" type="id" />
+    <item name="chainPublicProfile" type="id" />
+    <item name="publicProfile" type="id" />
+    <item name="publicProfileSeparator" type="id" />
+    <item name="username" type="id" />
+    <item name="usernameValue" type="id" />
+    <item name="usernameSeparator" type="id" />
+    <item name="location" type="id" />
+    <item name="locationValue" type="id" />
+    <item name="chainPrivateProfile" type="id" />
+    <item name="privateProfile" type="id" />
+    <item name="firstNameValue" type="id" />
+    <item name="lastNameValue" type="id" />
+    <item name="privateProfileSeparator" type="id" />
+    <item name="firstNameSeparator" type="id" />
+    <item name="lastNameSeparator" type="id" />
+    <item name="genderLabel" type="id" />
+    <item name="genderValue" type="id" />
+    <item name="genderSeparator" type="id" />
+    <item name="birthdayLabel" type="id" />
+    <item name="birthdayValue" type="id" />
+    <item name="birthdaySeparator" type="id" />
+    <item name="zipCodeLabel" type="id" />
+    <item name="zipCodeValue" type="id" />
+    <item name="zipCodeSeparator" type="id" />
+    <item name="fitnessGoalLabel" type="id" />
+    <item name="fitnessGoalValue" type="id" />
+    <item name="fitnessGoalSeparator" type="id" />
+    <item name="bodyTypeLabel" type="id" />
+    <item name="bodyTypeValue" type="id" />
+    <item name="bodyTypeSeparator" type="id" />
+    <item name="exerciseLabel" type="id" />
+    <item name="exerciseValue" type="id" />
+    <item name="exerciseSeparator" type="id" />
+    <item name="profileSeparator" type="id" />
+    <item name="historySeparator" type="id" />
+    <item name="bookmarkedSeparator" type="id" />
+    <item name="conceptsSeparator" type="id" />
+    <item name="profileHistory" type="id" />
+    <item name="chainBookmarkedProfile" type="id" />
+    <item name="chainConceptsProfile" type="id" />
+    <item name="chainProfile" type="id" />
+    <item name="chainHistoryProfile" type="id" />
+    <item name="profileBookmarked" type="id" />
+    <item name="profileConcepts" type="id" />
+    <item name="rightArrow" type="id" />
+    <item name="leftArrow" type="id" />
+    <item name="rightArrowImage" type="id" />
+    <item name="profileLocationValue" type="id" />
+    <item name="profileLocation" type="id" />
+    <item name="profileNameValue" type="id" />
+    <item name="profileEditImage" type="id" />
+    <item name="searchBackButton" type="id" />
+    <item name="searchResultLabel" type="id" />
+    <item name="gridSeparator" type="id" />
+    <item name="thumbnailImageSearch" type="id" />
+    <item name="bookmarkSearch" type="id" />
+    <item name="titleSearch" type="id" />
+    <item name="thumbnailBadgeImageSearch" type="id" />
+    <item name="bookmarkFlagSearch" type="id" />
+    <item name="downloadButtonSearch" type="id" />
+    <item name="playImageSearch" type="id" />
+    <item name="descriptionSearch" type="id" />
+    <item name="itemSeparatorView" type="id" />
+    <item name="gridSearchResult" type="id" />
+
+
+    <item name="chainAccount" type="id" />
+    <item name="moreAccountTitle" type="id" />
+    <item name="chainAccountSettings" type="id" />
+    <item name="accountSettingsTitle" type="id" />
+    <item name="accountConnectedTitle" type="id" />
+    <item name="moreSubscriptionsTitle" type="id" />
+    <item name="chainSignOutMore" type="id" />
+    <item name="moreSignOutTitle" type="id" />
+    <item name="chainLearnMore" type="id" />
+    <item name="learnMoreTitle" type="id" />
+    <item name="browseConceptsTitle" type="id" />
+    <item name="chainBrowseConcepts" type="id" />
+    <item name="chainAboutNeou" type="id" />
+    <item name="aboutNeouTitle" type="id" />
+    <item name="chainTermsOfService" type="id" />
+    <item name="termsOfServiceTitle" type="id" />
+    <item name="privacyPolicyTitle" type="id" />
+    <item name="chainPrivacyPolicy" type="id" />
+    <item name="chainFeedback" type="id" />
+    <item name="feedbackTitle" type="id" />
+    <item name="popupCloseButton" type="id" />
+    <item name="popupTextView" type="id" />
+    <item name="categoryLayoutTray07" type="id" />
+    <item name="chainDownloadProfile" type="id" />
+    <item name="downloadSeparator" type="id" />
+    <item name="profileDownloads" type="id" />
+    <item name="browseConcept" type="id" />
+    <item name="follow_Empty_Label_Id" type="id" />
+    <item name="takePhoto" type="id" />
+    <item name="profileImage" type="id" />
+
+    <item name="backButton" type="id" />
+    <item name="DownloadQualityTitle" type="id" />
+    <item name="tableViewSettingsList" type="id" />
+    <item name="continueButton" type="id" />
+    <item name="cancelButton" type="id" />
+
+    <item name="playButtonAutoplay" type="id" />
+    <item name="playInLabel" type="id" />
+    <item name="movieImage" type="id" />
+    <item name="castView" type="id" />
+    <item name="ageLabel" type="id" />
+    <item name="starRating" type="id" />
+    <item name="movieDescription" type="id" />
+    <item name="movieNameSubheading" type="id" />
+    <item name="movieNameTitle" type="id" />
+    <item name="finishedUptitle" type="id" />
+    <item name="countdown_id" type="id" />
+    <item name="autoplay_play_button" type="id" />
+    <item name="autoplay_cancel_button" type="id" />
+    <item name="guideLineAutoplayImageLeft" type="id" />
+    <item name="autoplayThumbImage" type="id" />
+    <item name="pageTitle" type="id" />
+    <item name="pageDescription" type="id" />
+    <item name="description" type="id" />
+    <item name="searchBlock" type="id" />
+    <item name="play" type="id" />
+    <item name="save" type="id" />
+    <item name="contentTitle" type="id" />
+    <item name="contentDescription" type="id" />
+
+    <item name="emailorMobileValue" type="id" />
+    <item name="resetPasswordButton" type="id" />
+    <item name="forgotPassword" type="id" />
+    <item name="lostOrPasswordTitle" type="id" />
+    <item name="contactCustomerValue" type="id" />
+    <item name="orAtLabelValue" type="id" />
+    <item name="contactusLabel" type="id" />
+    <item name="customerCareNumber" type="id" />
+    <item name="lostMobleLabel" type="id" />
+    <item name="confirmpassword" type="id" />
+    <item name="thanksuplabel" type="id" />
+    <item name="dropDownCountry" type="id" />
+    <item name="checkboxAgree" type="id" />
+    <item name="mobileNumber" type="id" />
+    <item name="signUpWithGooglelabel" type="id" />
+    <item name="singUpwithFacebooklabel" type="id" />
+    <item name="postalCode" type="id" />
+    <item name="orLabel" type="id" />
+    <item name="rightseparatorView" type="id" />
+    <item name="leftseparatorView" type="id" />
+    <item name="allowAccesslabel" type="id" />
+    <item name="enterotpManuallylabel" type="id" />
+    <item name="video_image" type="id" />
+    <item name="watchingTitle" type="id" />
+    <item name="register" type="id" />
+    <item name="rtaLogin" type="id" />
+    <item name="appLogoImage" type="id" />
+    <item name="incorrectDetails" type="id" />
+    <item name="showDetailsDate" type="id" />
+    <item name="resetPasswordLabel" type="id" />
+    <item name="loginWithGoogle" type="id" />
+    <item name="publishDate" type="id" />
+    <item name="videoTrailer" type="id" />
+    <item name="bottomSheet" type="id" />
+    <item name="season" type="id" />
+    <item name="episodes" type="id" />
+    <item name="segments" type="id" />
+    <item name="createDate" type="id" />
+
+
+    <item name="directorListTitleViewId" type="id" />
+    <item name="directorListViewId" type="id" />
+    <item name="starringListTitleViewId" type="id" />
+    <item name="starringListViewId" type="id" />
+
+    <item name="playFirstEpisodeFirstSeason" type="id" />
+    <item name="durationUnit" type="id" />
+    <item name="duration" type="id" />
+    <item name="episodeDescription" type="id" />
+    <item name="episodeTitle" type="id" />
+    <item name="progressView" type="id" />
+    <item name="seasonTabs" type="id" />
+    <item name="showDescriptionText" type="id" />
+    <item name="episodeImage" type="id" />
+    <item name="showImage" type="id" />
+    <item name="showGradientImage" type="id" />
+    <item name="watchlistButtonWithText" type="id" />
+    <item name="showSubTitle" type="id" />
+    <item name="showTitle" type="id" />
+    <item name="seasonTabView" type="id" />
+    <item name="watchTrailer" type="id" />
+    <item name="playImage" type="id" />
+    <item name="watchlistButton" type="id" />
+    <item name="barrierSeasonTabView" type="id" />
+    <item name="barrierShowDescriptionText" type="id" />
+    <item name="episodeDuration" type="id" />
+    <item name="trailerthumbnailImage" type="id" />
+    <item name="page_view_constraint_header" type="id" />
+    <item name="page_view_linear_layout" type="id" />
+    <item name="videoPlayerSettingButton" type="id" />
+    <item name="videoPlayer" type="id" />
+    <item name="navigation_recycler_view" type="id" />
+
+    <item name="barrier" type="id" />
+    <item name="pagelinktitle" type="id" />
+
+    <item name="walletListView" type="id" />
+    <item name="savedCardList" type="id" />
+    <item name="netBankingList" type="id" />
+    <item name="cardIcon" type="id" />
+    <item name="masterCardIcon" type="id" />
+    <item name="americanExpIcon" type="id" />
+    <item name="rupayIcon" type="id" />
+    <item name="moreBanksBtn" type="id" />
+    <item name="cardSeparatorView" type="id" />
+    <item name="cardTitle" type="id" />
+    <item name="lineSeparatorView" type="id" />
+    <item name="addCardSeparatorView" type="id" />
+    <item name="addIcon" type="id" />
+    <item name="addCardTitle" type="id" />
+    <item name="netBankingSeparatorView" type="id" />
+    <item name="netBankingTitle" type="id" />
+    <item name="lineSeparatorView2" type="id" />
+    <item name="bgSeparatorView" type="id" />
+    <item name="upiSeparatorView" type="id" />
+    <item name="upiTitle" type="id" />
+    <item name="upiTitleError" type="id" />
+    <item name="bgSeparatorView2" type="id" />
+    <item name="paymentAddressTitle" type="id" />
+    <item name="upiEditText" type="id" />
+    <item name="upiPayBtn" type="id" />
+    <item name="banksList" type="id" />
+    <item name="upiIcon" type="id" />
+    <item name="gPayIcon" type="id" />
+    <item name="phonePeIcon" type="id" />
+    <item name="bhmIcon" type="id" />
+    <item name="pocketIcon" type="id" />
+    <item name="lineSeparatorView3" type="id" />
+    <item name="bgSeparatorView3" type="id" />
+    <item name="cardNoEditText" type="id" />
+    <item name="cardMMEditText" type="id" />
+    <item name="cardYYEditText" type="id" />
+    <item name="cardCVVEditText" type="id" />
+    <item name="cardNameEditText" type="id" />
+    <item name="verticalSeparatorView" type="id" />
+    <item name="verticalSeparatorView2" type="id" />
+    <item name="chkBoxSaveCard" type="id" />
+    <item name="chkBoxRecurring" type="id" />
+    <item name="tvSecurelySave" type="id" />
+    <item name="tvRecurring" type="id" />
+    <item name="cardPayBtn" type="id" />
+    <item name="walletOfferText" type="id" />
+    <item name="upiIconsList" type="id" />
+    <item name="cardIconsList" type="id" />
+
+    <item name="autoplayText" type="id" />
+    <item name="captionTitle" type="id" />
+    <item name="captionToggleButton" type="id" />
+    <item name="videoQuailtyTitle" type="id" />
+    <item name="cellDataToggleButton" type="id" />
+    <item name="cellDataTitle" type="id" />
+    <item name="helpTitle" type="id" />
+    <item name="changeVideoQuality" type="id" />
+    <item name="logoutTitle" type="id" />
+    <item name="videoTitle" type="id" />
+    <item name="videoSubTitle" type="id" />
+    <item name="barrierAgeLabel" type="id" />
+    <item name="videoImage" type="id" />
+    <item name="barriervideoDescriptionText" type="id" />
+    <item name="videoDescriptionText" type="id" />
+    <item name="watchlistLabel" type="id" />
+    <item name="trayDescriptionLabel" type="id" />
+    <item name="selectionView" type="id" />
+    <item name="tableView" type="id" />
+    <item name="deleteWatchlist" type="id" />
+    <item name="title" type="id" />
+    <item name="planPageTitle" type="id"/>
+    <item name="watchListDurationKey" type="id" />
+    <item name="removeAll" type="id" />
+    <item name="collapsible_view" type="id" />
+
+
+    <item name="barrierPlanSetting" type="id" />
+    <item name="barrierPlanPage" type="id" />
+    <item name="barrierPlanPageBottom" type="id" />
+
+    <item name="barrierPaymentValue" type="id" />
+    <item name="barrierPaymentProcessorBottom" type="id" />
+    <item name="barrierCellularData" type="id" />
+    <item name="editPersonalization" type="id" />
+    <item name="editPersonalizationHeader" type="id" />
+    <item name="cellularDataTitle" type="id" />
+    <item name="cellularDataToggle" type="id" />
+    <item name="downloadQualityValue" type="id" />
+    <item name="manageDownload" type="id" />
+    <item name="downloadQuality" type="id" />
+    <item name="separatorViewDownloadSettinng" type="id" />
+    <item name="downloadsSettings" type="id" />
+    <item name="appVersionValue" type="id" />
+    <item name="appVersionTitle" type="id" />
+    <item name="use_SD_Card_For_Downloads" type="id" />
+    <item name="useSDCardForDownloadsToggle" type="id" />
+    <item name="autoplayTitle" type="id" />
+    <item name="autoplayToggle" type="id" />
+    <item name="separatorViewAppSetting" type="id" />
+    <item name="appSettings" type="id" />
+    <item name="paymentProcessorValue" type="id" />
+    <item name="barrierPhoneField" type="id" />
+    <item name="planValue" type="id" />
+    <item name="planPriceValue" type="id" />
+    <item name="paymentProcess" type="id" />
+    <item name="upgradeSubscription" type="id" />
+    <item name="cancelSubscription" type="id" />
+    <item name="planLabel" type="id" />
+    <item name="separatorViewSubscription" type="id" />
+    <item name="subscriptionAndBilling" type="id" />
+    <item name="emailValue" type="id" />
+    <item name="changePasswordLabel" type="id" />
+    <item name="email" type="id" />
+    <item name="nameValue" type="id" />
+    <item name="editProfileButton" type="id" />
+    <item name="name" type="id" />
+    <item name="separatorViewAccoutSetting" type="id" />
+    <item name="settingsTitle" type="id" />
+    <item name="separatorViewPageTitle" type="id" />
+
+
+    <item name="articleTitle" type="id" />
+    <item name="articleDescription" type="id" />
+    <item name="thumbnailBadgeImage" type="id" />
+    <item name="startWorkoutButton" type="id" />
+    <item name="playButton" type="id" />
+    <item name="separatorViewParentalControls" type="id" />
+    <item name="parentalControlsButton" type="id" />
+    <item name="setParentalRatingBtn" type="id" />
+    <item name="parentalControlsGroup" type="id" />
+    <item name="parentalControlToggle" type="id" />
+    <item name="phoneLabel" type="id" />
+    <item name="phoneValue" type="id" />
+    <item name="parentalControlsHeader" type="id" />
+
+    <item name="customPreviewContainer" type="id" />
+    <item name="previewCustomMessageView" type="id" />
+    <item name="whatsAppButton" type="id" />
+    <item name="personalization" type="id" />
+    <item name="separatorViewPersonalization" type="id" />
+    <item name="subscriptionGroup" type="id" />
+    <item name="autoPlayGroup" type="id" />
+    <item name="mobileInfoGroup" type="id" />
+    <item name="downloadGroup" type="id" />
+    <item name="personalizationGroup" type="id" />
+    <item name="tableLayoutPlanFeatures" type="id" />
+    <item name="buttonSubscribe" type="id" />
+    <item name="planTerms" type="id" />
+
+
+
+
+    <item name="reSubscription" type="id" />
+    <item name="barrierReSubscribed" type="id" />
+    <item name="planCancelationScheduleLabel" type="id" />
+    <item name="barrierCancelationSchedule" type="id" />
+    <item name="barrierAppSetting" type="id" />
+
+
+    <item name="volumeButtonMiniPlayer" type="id" />
+    <item name="closeButtonMiniPlayer" type="id" />
+    <item name="walletGroup" type="id" />
+    <item name="netBankingGroup" type="id" />
+    <item name="cardGroup" type="id" />
+    <item name="upiGroup" type="id" />
+    <item name="expandDescription" type="id" />
+
+    <item name="ccToggleId" type="id"/>
+    <item name="countDownTimerView" type="id"/>
+    <item name="barrierCastView" type="id"/>
+    <item name="custom_exo_pause" type="id"/>
+    <item name="custom_exo_play" type="id"/>
+    <item name="editPhoneNumber" type="id" />
+    <item name="barrierPlanPriceValue" type="id" />
+
+    <item name="planLayout" type="id"/>
+    <item name="featureDetailText" type="id"/>
+    <item name="viewPlanStrikeOutPriceInfo" type="id"/>
+    <item name="planStrikeOutPriceInfo" type="id"/>
+    <item name="viewPlanPriceInfo" type="id"/>
+    <item name="planTitle" type="id"/>
+    <item name="viewPlanTitle" type="id"/>
+    <item name="planMetaDataView" type="id"/>
+    <item name="nextBillingDueDate" type="id" />
+    <item name="nextBillingDueDateValue" type="id" />
+    <item name="billingHistory" type="id" />
+    <item name="seriesImage" type="id" />
+    <item name="contentCarousel" type="id"/>
+    <item name="planPriceInfo" type="id" />
+    <item name="btn_rent_option" type="id" />
+    <item name="btn_buy_option" type="id" />
+    <item name="btn_become_a_member" type="id" />
+    <item name="login_text" type="id"/>
+    <item name="linear_activate_device_view" type="id"/>
+    <item name="seriesIndicatorImage" type="id"/>
+    <item name="offerImage" type="id"/>
+    <item name="proceedToPayment" type="id"/>
+    <item name="offerPlanName" type="id"/>
+    <item name="referredBy" type="id"/>
+    <item name="offerPrice" type="id"/>
+    <item name="strikeThrough" type="id"/>
+    <item name="crossImage" type="id"/>
+    <item name="videopublishdate" type="id" />
+    <item name="barrierPublishedDate" type="id" />
+    <item name="PAGE_GRID_VIEW_COLLECTIONGRID_KEY" type="id"/>
+    <item name="barrierWalletList" type="id" />
+    <item name="barrierSeasonList" type="id" />
+    <item name="subscribeButtonForViewPlan" type="id"/>
+    <item name="termAndCondition" type="id"/>
+    <item name="titlePlanPage" type="id"/>
+    <item name="priceSeparator" type="id"/>
+    <item name="planBenefit1" type="id"/>
+    <item name="verticalCollectionGridViewPlan" type="id"/>
+    <item name="planStrikeOutLine" type="id"/>
+    <item name="cardTitleError" type="id"/>
+    <item name="walletTitleError" type="id"/>
+    <item name="netBankingTitleError" type="id"/>
+    <item name="chainGroupViewPlay" type="id"/>
+    <item name="chainGroupViewShare" type="id"/>
+    <item name="chainGroupViewDownload" type="id"/>
+    <item name="chainGroupViewSave" type="id"/>
+
+    <item name="startPlayFromBeginning" type="id"/>
+    <item name="playNextEpisodeContainer" type="id"/>
+    <item name="playNextEpisodeImage" type="id"/>
+    <item name="playNextTitle" type="id"/>
+    <item name="playNextEpisodeTitle" type="id"/>
+    <item name="playNextEpisodeDescription" type="id"/>
+
+
+</resources>

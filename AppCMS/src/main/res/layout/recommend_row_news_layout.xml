@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:id="@+id/ll_mainLayout"
+    android:background="@drawable/recommend_news_button"
+    android:focusable="true"
+    android:padding="1dp"
+    android:layout_marginBottom="7dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/recommendBackground"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <ImageView
+            android:id="@+id/img_android"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_height="50dp" />
+
+        <RelativeLayout
+            android:background="@drawable/genre_custom_border"
+            android:id="@+id/img_shadow"
+            android:layout_width="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_height="match_parent" >
+            <TextView
+                android:id="@+id/tv_android"
+                android:layout_gravity="center"
+                android:textColor="#FFF"
+                android:text="GENRE"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:maxWidth="100dp"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:ellipsize="end"
+                />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

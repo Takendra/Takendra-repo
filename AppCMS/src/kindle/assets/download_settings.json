@@ -1,0 +1,260 @@
+{
+  "moduleList": [
+    {
+      "id": "ae6b982c-e0a2-4822-bc82-c412d7ed2273",
+      "settings": {},
+      "view": "AC LanguageSettings 01",
+      "type": "AC LanguageSettings 01",
+      "blockName": "languageSettings01",
+      "layout": {
+        "mobile": {},
+        "tabletLandscape": {},
+        "tabletPortrait": {}
+      },
+      "backgroundColor": "#0A151C",
+      "components": [
+        {
+          "layout": {
+            "mobile": {
+              "yAxis": 10,
+              "xAxis": 10,
+              "width": 60,
+              "height": 26
+            },
+            "tabletLandscape": {
+              "yAxis": 10,
+              "xAxis": 10,
+              "width": 60,
+              "height": 26
+            },
+            "tabletPortrait": {
+              "yAxis": 10,
+              "xAxis": 10,
+              "width": 60,
+              "height": 26
+            }
+          },
+          "action": "back",
+          "type": "button",
+          "key": "backButton"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "xAxis": 10,
+              "topMargin": 5,
+              "width": 220,
+              "fontSize": 18
+            },
+            "tabletLandscape": {
+              "xAxis": 10,
+              "topMargin": 5,
+              "width": 250,
+              "fontSize": 22
+            },
+            "tabletPortrait": {
+              "xAxis": 10,
+              "topMargin": 5,
+              "width": 250,
+              "fontSize": 22
+            }
+          },
+          "fontFamily": "OpenSans",
+          "numberOfLines": 2,
+          "textAlignment": "center",
+          "type": "label",
+          "textColor": "#ffffff",
+          "key": "DownloadQualityTitle",
+          "fontWeight": "Regular"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "yAxis": 75,
+              "leftMargin": 1.73,
+              "rightMargin": 1.73,
+              "height": 2
+            },
+            "tabletLandscape": {
+              "yAxis": 110,
+              "leftMargin": 0.68,
+              "rightMargin": 0.68,
+              "height": 2
+            },
+            "tabletPortrait": {
+              "yAxis": 115,
+              "leftMargin": 0.91,
+              "rightMargin": 0.91,
+              "height": 2
+            }
+          },
+          "backgroundColor": "#808080",
+          "type": "separatorView"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "gridHeight": 40,
+              "leftMargin": 0,
+              "topMargin": 15,
+              "rightMargin": 0,
+              "bottomMargin": 12
+            },
+            "tabletLandscape": {
+              "gridHeight": 40,
+              "leftMargin": 37,
+              "topMargin": 15,
+              "rightMargin": 37,
+              "bottomMargin": 12
+            },
+            "tabletPortrait": {
+              "gridHeight": 40,
+              "leftMargin": 36,
+              "topMargin": 15,
+              "rightMargin": 36,
+              "bottomMargin": 12
+            }
+          },
+          "trayClickAction": "checkDownloadQuality",
+          "components": [
+            {
+              "layout": {
+                "mobile": {
+                  "leftMargin": 7,
+                  "topMargin": 0.6,
+                  "width": 34,
+                  "height": 34
+                },
+                "tabletLandscape": {
+                  "leftMargin": 7,
+                  "topMargin": 0.6,
+                  "width": 34,
+                  "height": 34
+                },
+                "tabletPortrait": {
+                  "leftMargin": 7,
+                  "topMargin": 0.6,
+                  "width": 34,
+                  "height": 34
+                }
+              },
+              "action": "checkDownloadQuality",
+              "type": "button",
+              "key": "checkbox"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "leftMargin": 20,
+                  "topMargin": 22,
+                  "rightMargin": 0,
+                  "width": 50,
+                  "fontSize": 14,
+                  "height": 19
+                },
+                "tabletLandscape": {
+                  "leftMargin": 13,
+                  "topMargin": 22,
+                  "rightMargin": 0,
+                  "width": 80,
+                  "fontSize": 20,
+                  "height": 24
+                },
+                "tabletPortrait": {
+                  "leftMargin": 14,
+                  "topMargin": 22,
+                  "rightMargin": 0,
+                  "width": 80,
+                  "fontSize": 20,
+                  "height": 24
+                }
+              },
+              "fontFamily": "OpenSans",
+              "textAlignment": "left",
+              "type": "label",
+              "textColor": "#ffffff",
+              "fontWeight": "Semibold",
+              "key": "title"
+            }
+          ],
+          "type": "tableView",
+          "key": "tableView"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 2.6,
+              "topMargin": 90,
+              "bottomMargin": 1.65,
+              "width": 173,
+              "fontSize": 12,
+              "height": 40
+            },
+            "tabletLandscape": {
+              "leftMargin": 335,
+              "topMargin": 91,
+              "width": 173,
+              "fontSize": 12,
+              "height": 40
+            },
+            "tabletPortrait": {
+              "leftMargin": 203,
+              "topMargin": 91,
+              "width": 173,
+              "fontSize": 12,
+              "height": 40
+            }
+          },
+          "backgroundColor": "#F81004",
+          "fontFamily": "OpenSans",
+          "action": "continue",
+          "text": "Continue",
+          "type": "button",
+          "key": "continueButton",
+          "fontWeight": "Semibold"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "topMargin": 90,
+              "rightMargin": 2.6,
+              "bottomMargin": 1.42,
+              "width": 173,
+              "fontSize": 12,
+              "height": 40
+            },
+            "tabletLandscape": {
+              "leftMargin": 517,
+              "topMargin": 91,
+              "width": 173,
+              "fontSize": 12,
+              "height": 40
+            },
+            "tabletPortrait": {
+              "leftMargin": 385,
+              "topMargin": 91,
+              "width": 173,
+              "fontSize": 12,
+              "height": 40
+            }
+          },
+          "backgroundColor": "#0A151C",
+          "borderColor": "#ffffff",
+          "fontFamily": "OpenSans",
+          "borderWidth": 1,
+          "action": "cancel",
+          "text": "CANCEL",
+          "type": "button",
+          "key": "cancelButton",
+          "fontWeight": "Semibold"
+        }
+      ],
+      "alpha": 0.75,
+      "value": 15
+    }
+  ],
+  "caching": {
+    "isEnabled": false
+  },
+  "version": "0.0.3"
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/nav_item_selector"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:background="@android:color/holo_red_dark"
+            app:layout_constraintBottom_toBottomOf="@+id/nav_item_logo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/nav_item_logo" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/nav_item_logo"
+            android:layout_width="@dimen/app_cms_audio_item_padding"
+            android:layout_height="@dimen/app_cms_audio_item_padding"
+            android:layout_marginStart="10dp"
+            app:layout_constraintBottom_toBottomOf="@+id/nav_item_seperator"
+            app:layout_constraintStart_toEndOf="@+id/nav_item_selector"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/nav_item_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textAllCaps="true"
+            android:textSize="@dimen/nav_item_text_size"
+            app:layout_constraintBottom_toBottomOf="@+id/nav_item_logo"
+            app:layout_constraintStart_toEndOf="@+id/nav_item_logo"
+            app:layout_constraintTop_toTopOf="@+id/nav_item_logo" />
+
+        <View
+            android:id="@+id/nav_item_seperator"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nav_item_logo" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

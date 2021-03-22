@@ -1,0 +1,325 @@
+{
+  "id": "bae2a7c3-3aaf-460e-a13c-fd8250b19592",
+  "settings": {
+    "columns": {
+      "tablet": 3,
+      "desktop": 4,
+      "mobile": 2,
+      "ott": 4
+    },
+    "thumbnailType": "landscape"
+  },
+  "modules": [
+    //Landscape 0
+    {
+      "layout": {
+        "ftv": {
+          "padding": 0,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "height": 280
+        }
+      },
+      "components": [
+        {
+          "layout": {
+            "ftv": {
+              "width": 350,
+              "height": 260
+            }
+          },
+          "trayClickAction": "lectureDetailPage",
+          "components": [
+            {
+              "layout": {
+                "ftv": {
+                  "padding": 6,
+                  "topMargin": 0,
+                  "width": 350,
+                  "height": 197
+                }
+              },
+              "type": "image",
+              "key": "thumbnailImage"
+            },
+            {
+              "layout": {
+                "ftv": {
+                  "padding": 6,
+                  "topMargin": 0,
+                  "width": 350,
+                  "height": 197
+                }
+              },
+              "type": "image",
+              "key": "badgeImage"
+            },
+            {
+              "layout": {
+                "ftv": {
+                  "leftMargin": 0,
+                  "topMargin": 200,
+                  "rightMargin": 0,
+                  "fontSize": 11,
+                  "height": 40
+                }
+              },
+              "fontFamily": "OpenSans",
+              "textAlignment": "left",
+              "type": "label",
+              "textColor": "#ffffff",
+              "fontWeight": "Semibold",
+              "key": "thumbnailTitle"
+            }
+          ],
+          "type": "collectionGrid",
+          "key": "collectionGrid"
+        }
+      ],
+      "view": "AC Personalization 01",
+      "type": "AC Personalization 01",
+      "blockName": "userPersonalizatio01",
+      "key": "userPersonalizatio01"
+    },
+    //Portrait 1
+    {
+      "layout": {
+        "ftv": {
+          "padding": 0,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "height": 470
+        }
+      },
+      "components": [
+        {
+          "layout": {
+            "ftv": {
+              "width": 260,
+              "height": 470
+            }
+          },
+          "trayClickAction": "lectureDetailPage",
+          "components": [
+            {
+              "layout": {
+                "ftv": {
+                  "padding": 6,
+                  "topMargin": 10,
+                  "width": 260,
+                  "height": 380
+                }
+              },
+              "type": "image",
+              "key": "thumbnailImage"
+            },
+            {
+              "layout": {
+                "ftv": {
+                  "padding": 6,
+                  "topMargin": 0,
+                  "width": 260,
+                  "height": 380
+                }
+              },
+              "type": "image",
+              "key": "badgeImage"
+            },
+            {
+              "layout": {
+                "ftv": {
+                  "leftMargin": 0,
+                  "topMargin": 395,
+                  "rightMargin": 0,
+                  "fontSize": 11,
+                  "height": 40
+                }
+              },
+              "fontFamily": "OpenSans",
+              "textAlignment": "left",
+              "type": "label",
+              "textColor": "#ffffff",
+              "fontWeight": "Semibold",
+              "key": "thumbnailTitle"
+            }
+          ],
+          "type": "collectionGrid",
+          "key": "collectionGrid"
+        }
+      ],
+      "view": "AC Personalization 01",
+      "type": "AC Personalization 01",
+      "blockName": "userPersonalizatio01",
+      "key": "userPersonalizatio01"
+    },
+    //32:9 2
+    {
+      "layout": {
+        "ftv": {
+          "padding": 0,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "height": 530
+        }
+      },
+      "components": [
+        {
+          "layout": {
+            "ftv": {
+              "width": 1800,
+              "height": 530
+            }
+          },
+          "trayClickAction": "lectureDetailPage",
+          "components": [
+            {
+              "layout": {
+                "ftv": {
+                  "leftMargin": 35,
+                  "topMargin": 20,
+                  "height": 464,
+                  "padding": 6,
+                  "width": 1650
+                }
+              },
+              "type": "image",
+              "key": "wideCarouselImage"
+            },
+            {
+              "layout": {
+                "ftv": {
+                  "leftMargin": 35,
+                  "topMargin": 20,
+                  "height": 464,
+                  "padding": 6,
+                  "width": 1650
+                }
+              },
+              "type": "image",
+              "key": "wideBadgeImage"
+            },
+            {
+              "layout": {
+                "ftv": {
+                  "leftMargin": 72,
+                  "topMargin": 360,
+                  "rightMargin": 0,
+                  "height": 40
+                }
+              },
+              "fontSize": 14,
+              "fontFamily": "OpenSans",
+              "textAlignment": "left",
+              "type": "label",
+              "textColor": "#ffffff",
+              "fontWeight": "Regular",
+              "key": "thumbnailTitleWithBg"
+            },
+            {
+              "layout": {
+                "ftv": {
+                  "topMargin": 410,
+                  "leftMargin": 72,
+                  "height": 40
+                }
+              },
+              "fontSize": 8,
+              "borderColor": "#ffffff",
+              "fontFamily": "OpenSans",
+              "borderWidth": 4,
+              "cornerRadius": 10,
+              "letterSpacing": 0.12,
+              "text": "WATCH NOW",
+              "type": "button",
+              "key": "watchNowCarousel",
+              "textColor": "#ffffff",
+              "fontWeight": "Semibold"
+            }
+          ],
+          "type": "collectionGrid",
+          "key": "collectionGrid"
+        }
+      ],
+      "view": "AC Personalization 01",
+      "type": "AC Personalization 01",
+      "blockName": "userPersonalizatio01",
+      "key": "userPersonalizatio01"
+    },
+    // 9:16 3
+    {
+      "layout": {
+        "ftv": {
+          "padding": 0,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "height": 550,
+          "width": 260
+        }
+      },
+      "components": [
+        {
+          "layout": {
+            "ftv": {
+              "width": 260,
+              "height": 530
+            }
+          },
+          "trayClickAction": "lectureDetailPage",
+          "components": [
+            {
+              "layout": {
+                "ftv": {
+                  "padding": 6,
+                  "topMargin": 20,
+                  "width": 260,
+                  "height": 462
+                }
+              },
+              "type": "image",
+              "key": "thumbnailImageTall"
+            },
+            {
+              "layout": {
+                "ftv": {
+                  "padding": 6,
+                  "topMargin": 20,
+                  "width": 260,
+                  "height": 462
+                }
+              },
+              "type": "image",
+              "key": "tallBadgeImage"
+            },
+            {
+              "layout": {
+                "ftv": {
+                  "leftMargin": 0,
+                  "topMargin": 484,
+                  "rightMargin": 0,
+                  "fontSize": 11,
+                  "height": 40
+                }
+              },
+              "fontFamily": "OpenSans",
+              "textAlignment": "left",
+              "type": "label",
+              "textColor": "#ffffff",
+              "fontWeight": "Semibold",
+              "key": "thumbnailTitle"
+            }
+          ],
+          "type": "collectionGrid",
+          "key": "collectionGrid"
+        }
+      ],
+      "view": "AC Personalization 01",
+      "type": "AC Personalization 01",
+      "blockName": "userPersonalizatio01",
+      "key": "userPersonalizatio01"
+    }
+  ],
+  "view": "AC Personalization 01",
+  "type": "AC Personalization 01",
+  "blockName": "userPersonalizatio01",
+  "key": "userPersonalizatio01"
+}

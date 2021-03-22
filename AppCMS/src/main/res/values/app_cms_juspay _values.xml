@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="op_name" translatable="false">opName</string>
+    <string name="payment_method" translatable="false">paymentMethod</string>
+
+    // for UPI Payment
+    <string name="upi" translatable="false">UPI</string>
+    <string name="upi_txn" translatable="false">upiTxn</string>
+    <string name="upi_sdk_present" translatable="false">upiSdkPresent</string>
+    <string name="cust_vpa" translatable="false">custVpa</string>
+
+
+    // for Card Payment
+    <string name="card" translatable="false">CARD</string>
+    <string name="save_card" translatable="false">SAVE CARD</string>
+    <string name="card_txn" translatable="false">cardTxn</string>
+    <string name="cardNumber" translatable="false">cardNumber</string>
+    <string name="card_exp_month" translatable="false">cardExpMonth</string>
+    <string name="card_exp_year" translatable="false">cardExpYear</string>
+    <string name="name_on_card" translatable="false">nameOnCard</string>
+    <string name="card_security_code" translatable="false">cardSecurityCode</string>
+    <string name="save_to_locker" translatable="false">saveToLocker</string>
+    <string name="should_create_mandate" translatable="false">shouldCreateMandate</string>
+    <string name="card_token" translatable="false">cardToken</string>
+
+
+    // for wallet and netBanking
+    <string name="wallet" translatable="false">WALLET</string>
+    <string name="nb" translatable="false">NB</string>
+    <string name="wallet_txn" translatable="false">walletTxn</string>
+    <string name="nb_txn" translatable="false">nbTxn</string>
+    <string name="sdk_present" translatable="false">sdkPresent</string>
+
+    <string name="paypal" translatable="false">PAYPAL</string>
+    <string name="android_paypal" translatable="false">ANDROID_PAYPAL</string>
+    <string name="amazon_pay" translatable="false">AMAZONPAY</string>
+    <string name="android_amazon_pay_non_tokenized" translatable="false">ANDROID_AMAZONPAY_NONTOKENIZED</string>
+    <string name="phonepe" translatable="false">PHONEPE</string>
+    <string name="android_phonepe" translatable="false">ANDROID_PHONEPE</string>
+    <string name="google_pay" translatable="false">GOOGLEPAY</string>
+    <string name="android_google_pay" translatable="false">ANDROID_GOOGLEPAY</string>
+    <string name="wallet_mobile_number" translatable="false">walletMobileNumber</string>
+
+    <string name="jp_paytm" translatable="false">JP_PAYTM</string>
+    <string name="mandate_type" translatable="false">mandateType</string>
+    <string name="emandate" translatable="false">EMANDATE</string>
+
+    <string name="net_banking" translatable="false">NET BANKING</string>
+    <string name="cards" translatable="false">CARDS</string>
+
+    <string-array name="plan_payment_wallet_options">
+        <item>AMAZONPAY WALLET</item>
+        <item>FREECHARGE WALLET</item>
+        <item>GOOGLEPAY WALLET</item>
+        <item>MOBIKWIK WALLET</item>
+        <item>PAYPAL WALLET</item>
+        <item>PAYTM WALLET</item>
+        <item>PHONEPE WALLET</item>
+    </string-array>
+
+
+    <string name="offer_code" translatable="false">offerCode</string>
+    <string name="subscription_plan_id" translatable="false">subscriptionPlanId</string>
+    <string name="site" translatable="false">site</string>
+
+    <string name="recurring_payment_msg" translatable="false">This card does not support recurring payment. please use other card to pay</string>
+</resources>

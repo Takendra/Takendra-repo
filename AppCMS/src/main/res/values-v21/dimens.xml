@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sp12">12sp</dimen>
+    <dimen name="description_leble">80sp</dimen>
+    <dimen name="title_lbl">140sp</dimen>
+    <dimen name="app_cms_view_plan_cell_margin_10">10dp</dimen>
+    <dimen name="app_cms_view_plan_cell_margin_12">12dp</dimen>
+</resources>

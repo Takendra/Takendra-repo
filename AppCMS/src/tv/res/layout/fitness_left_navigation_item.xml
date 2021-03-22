@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fitness_parent_layout"
+    android:layout_width="100dp"
+    android:layout_height="37dp"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:id="@+id/nav_item_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:focusable="true"
+        android:gravity="center"
+        android:paddingStart="0dp">
+
+        <RelativeLayout
+            android:layout_width="47dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/nav_item_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/icon_home" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/nav_item_separator_first"
+            android:layout_width="4dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="42.5dp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/nav_item_label"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="46dp"
+            android:gravity="center_vertical"
+            android:letterSpacing="0.04"
+            android:text="Home"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/news_nav_item_text_size" />
+
+        <View
+            android:id="@+id/nav_item_separator"
+            android:layout_width="4dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+</LinearLayout>

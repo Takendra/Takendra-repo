@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <View
+            android:id="@+id/carouselSpace"
+            android:layout_width="match_parent"
+            android:layout_height="245dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            >
+        </View>
+
+        <View
+            android:id="@+id/carouselDivider"
+            android:layout_width="0dp"
+            android:layout_height="0.1dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintStart_toStartOf="@id/carouselSpace"
+            app:layout_constraintEnd_toEndOf="@id/carouselSpace"
+            app:layout_constraintTop_toBottomOf="@id/carouselSpace"
+            app:layout_constraintBottom_toTopOf="@id/recyclerview">
+        </View>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@id/carouselSpace"
+            app:layout_constraintEnd_toEndOf="@id/carouselSpace"
+            app:layout_constraintTop_toBottomOf="@id/carouselDivider"
+            app:layout_constraintBottom_toTopOf="@id/recyclerviewDivider"
+            android:background="@color/expandable_grid_color"
+            />
+
+        <View
+            android:id="@+id/recyclerviewDivider"
+            android:layout_width="0dp"
+            android:layout_height="0.1dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintStart_toStartOf="@id/carouselSpace"
+            app:layout_constraintEnd_toEndOf="@id/carouselSpace"
+            app:layout_constraintTop_toBottomOf="@id/recyclerview"
+            app:layout_constraintBottom_toTopOf="@id/recent_classes_title">
+        </View>
+
+        <TextView
+            android:id="@+id/recent_classes_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/color_white"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toTopOf="@id/recentDivider"
+            app:layout_constraintStart_toStartOf="@id/recyclerview"
+            app:layout_constraintTop_toBottomOf="@id/recyclerviewDivider"
+            />
+
+        <View
+            android:id="@+id/recentDivider"
+            android:layout_width="0dp"
+            android:layout_height="0.1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintStart_toStartOf="@id/carouselSpace"
+            app:layout_constraintEnd_toEndOf="@id/carouselSpace"
+            app:layout_constraintTop_toBottomOf="@id/recent_classes_title"
+            app:layout_constraintBottom_toTopOf="@id/list">
+        </View>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@id/recentDivider"
+            app:layout_constraintTop_toBottomOf="@id/recentDivider"
+            app:layout_constraintEnd_toEndOf="@id/recentDivider">
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

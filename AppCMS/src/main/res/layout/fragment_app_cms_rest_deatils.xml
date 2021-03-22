@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="#ffe7d6"
+        app:layout_constraintRight_toLeftOf="@+id/verticalGuideline" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/app_cms_audio_next_height"
+        android:layout_marginLeft="@dimen/app_cms_audio_item_padding"
+        android:layout_marginRight="@dimen/app_cms_audio_item_padding"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="@dimen/app_cms_audio_next_height"
+        android:background="@android:color/white"
+        app:layout_constraintRight_toLeftOf="@+id/verticalGuideline"
+        android:elevation="5dp"
+        app:cardUseCompatPadding="true">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/chromecast_toolbar_padding"
+            android:layout_marginRight="@dimen/chromecast_toolbar_padding"
+            android:fontFamily="@font/font_bold"
+            android:id="@+id/tv_title"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="@dimen/mobile_video_detail_item_margin"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/player_control_setting_button_width_height"
+            app:layout_constraintRight_toLeftOf="parent"
+            android:text="CIRCUIT !"
+            />
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/scollview_more"
+                android:layout_marginTop="@dimen/app_cms_episode_tray_marginStart"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginLeft="@dimen/chromecast_toolbar_padding"
+                android:layout_marginRight="@dimen/chromecast_toolbar_padding"
+                app:layout_constraintTop_toBottomOf="@+id/tv_title"
+                app:layout_constraintBottom_toBottomOf="parent"
+                >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_equipmentDetails"
+            app:layout_constraintTop_toBottomOf="@+id/tv_title"
+            android:textColor="@color/colorBlack"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:text="@string/rest_details"
+            />
+            </ScrollView>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/app_cms_audio_play_width"
+            android:layout_marginRight="@dimen/app_cms_audio_item_padding"
+            android:id="@+id/tv_exercise"
+            app:layout_constraintTop_toBottomOf="@+id/scollview_more"
+            android:layout_marginTop="@dimen/app_cms_episode_tray_marginStart"
+            android:textColor="@color/colorBlack"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:visibility="gone"
+            android:text="equipmentDetails BACK TO VIDEO"
+            />
+
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/insidehorizontalGuideline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.5"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:visibility="gone"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintLeft_toRightOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/insidehorizontalGuideline"
+                android:id="@+id/timer_background"
+                android:background="@android:color/white"
+                 />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/insidehorizontalGuideline"
+                android:visibility="gone"
+                android:id="@+id/tv_Countdown"
+                android:fontFamily="@font/font_bold"
+
+                android:textSize="@dimen/player_control_button_width_height"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:textColor="@color/colorWhite"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:text="01:0"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!--    <TextView-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        />-->
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/verticalGuideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horizontalGuideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5"/>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/app_cms_audio_play_width"
+        android:layout_marginRight="@dimen/app_cms_audio_item_padding"
+        android:id="@+id/tv_RepeatTimer"
+        app:layout_constraintLeft_toRightOf="@+id/verticalGuideline"
+        android:layout_marginBottom="@dimen/app_cms_episode_tray_marginStart"
+        android:textColor="@color/colorBlack"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/btn_repeatCircuit"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="jkjnkjn"
+        />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/app_cms_audio_item_padding"
+        android:layout_marginRight="@dimen/app_cms_audio_item_padding"
+        android:id="@+id/btn_backVideo"
+        android:fontFamily="@font/font_bold"
+        app:layout_constraintLeft_toRightOf="@+id/verticalGuideline"
+        android:text="@string/back_video_btn_txt"
+        android:textColor="@color/colorBlack"
+        android:layout_marginBottom="@dimen/app_cms_rest_work_out_margin"
+        app:layout_constraintBottom_toBottomOf="@+id/horizontalGuideline"
+        app:layout_constraintRight_toRightOf="parent"/>
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/app_cms_audio_item_padding"
+        android:id="@+id/btn_rest"
+        android:layout_marginRight="@dimen/app_cms_audio_item_padding"
+        app:layout_constraintLeft_toRightOf="@+id/verticalGuideline"
+        android:text="@string/rest_btn_txt"
+        android:textColor="@color/color_white"
+        android:fontFamily="@font/font_bold"
+        android:layout_marginTop="@dimen/app_cms_rest_work_out_margin"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalGuideline"
+        app:layout_constraintRight_toRightOf="parent"/>
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/app_cms_audio_item_padding"
+        android:layout_marginRight="@dimen/app_cms_audio_item_padding"
+        android:id="@+id/btn_repeatCircuit"
+        app:layout_constraintLeft_toRightOf="@+id/verticalGuideline"
+        android:visibility="gone"
+        android:textColor="@color/colorBlack"
+        android:fontFamily="@font/font_bold"
+        android:text="@string/repeat_circuit_btn_txt"
+        android:layout_marginBottom="@dimen/app_cms_rest_work_out_margin"
+        app:layout_constraintBottom_toBottomOf="@+id/horizontalGuideline"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/app_cms_audio_item_padding"
+        android:id="@+id/btn_nextCircuit"
+        android:visibility="gone"
+        android:textColor="@color/color_white"
+        android:fontFamily="@font/font_bold"
+        android:layout_marginRight="@dimen/app_cms_audio_item_padding"
+        app:layout_constraintLeft_toRightOf="@+id/verticalGuideline"
+        android:text="@string/next_circuit_btn_txt"
+        android:layout_marginTop="@dimen/app_cms_rest_work_out_margin"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalGuideline"
+        app:layout_constraintRight_toRightOf="parent"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:src="@drawable/ic_close_black"
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/closeButton"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="@dimen/app_cms_rest_work_out_margin"
+        android:layout_marginTop= "@dimen/app_cms_rest_work_out_margin"
+        android:layout_height="wrap_content"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

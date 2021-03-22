@@ -1,0 +1,347 @@
+{
+  "version": "0.0.44",
+  "moduleList": [
+    {
+      "view": "AC SelectPlan 02",
+      "type": "AC SelectPlan 02",
+      "blockName":"selectPlan02",
+      "isConstrainteView": true,
+      "layout": {
+        "mobile": {
+          "leftMargin": 0,
+          "topMargin": 0,
+          "rightMargin": 0,
+          "bottomMargin": 0
+        },
+        "tabletLandscape": {
+          "leftMargin": 0,
+          "topMargin": 0,
+          "rightMargin": 0,
+          "bottomMargin": 0
+        },
+        "tabletPortrait": {
+          "leftMargin": 0,
+          "topMargin": 0,
+          "rightMargin": 0,
+          "bottomMargin": 0
+        }
+      },
+      "components": [
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 20,
+              "height": 0,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_topOf": "parent",
+              "constraint_MarginTop": 10,
+              "constraint_MarginBottom": 10
+            },
+            "tabletLandscape": {
+              "fontSize": 25,
+              "height": 0,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_topOf": "parent",
+              "constraint_MarginTop": 20,
+              "constraint_MarginBottom": 20
+            },
+            "tabletPortrait": {
+              "fontSize": 25,
+              "height": 0,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_topOf": "parent",
+              "constraint_MarginTop": 20,
+              "constraint_MarginBottom": 20
+            }
+          },
+          "fontFamily": "OpenSans",
+          "numberOfLines": 1,
+          "textAlignment": "center",
+          "type": "label",
+          "textColor": "#ffffff",
+          "fontWeight": "Bold",
+          "key": "planPageTitle",
+          "id": "planPageTitle"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "gridHeight": 130,
+              "constraint_MarginTop": 10,
+              "constraint_MarginBottom": 10,
+              "rightTo_rightOf": "parent",
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "planPageTitle"
+            },
+            "tabletLandscape": {
+              "gridHeight": 140,
+              "constraint_MarginTop": 10,
+              "constraint_MarginBottom": 10,
+              "rightTo_rightOf": "parent",
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "planPageTitle"
+            },
+            "tabletPortrait": {
+              "gridHeight": 140,
+              "constraint_MarginTop": 10,
+              "constraint_MarginBottom": 10,
+              "rightTo_rightOf": "parent",
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "planPageTitle"
+            }
+          },
+          "components": [
+            {
+              "layout": {
+                "mobile": {
+                  "fontSize": 25,
+                  "leftTo_leftOf": "parent",
+                  "bottomTo_topOf": "planPriceInfo",
+                  "rightTo_rightOf": "parent"
+                },
+                "tabletLandscape": {
+                  "fontSize": 30,
+                  "leftTo_leftOf": "parent",
+                  "bottomTo_topOf": "planPriceInfo",
+                  "rightTo_rightOf": "parent"
+                },
+                "tabletPortrait": {
+                  "fontSize": 30,
+                  "leftTo_leftOf": "parent",
+                  "bottomTo_topOf": "planPriceInfo",
+                  "rightTo_rightOf": "parent"
+                }
+              },
+              "fontFamily": "OpenSans",
+              "numberOfLines": 1,
+              "textAlignment": "center",
+              "type": "label",
+              "fontWeight": "Bold",
+              "key": "planTitle",
+              "id": "planTitle"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "fontSize": 33,
+                  "rightTo_leftOf": "planPriceInfo",
+                  "topTo_topOf": "parent",
+                  "constraint_MarginRight": 30,
+                  "bottomTo_bottomOf": "parent"
+                },
+                "tabletLandscape": {
+                  "fontSize": 40,
+                  "rightTo_leftOf": "planPriceInfo",
+                  "topTo_topOf": "parent",
+                  "constraint_MarginRight": 30,
+                  "bottomTo_bottomOf": "parent"
+                },
+                "tabletPortrait": {
+                  "fontSize": 40,
+                  "rightTo_leftOf": "planPriceInfo",
+                  "topTo_topOf": "parent",
+                  "constraint_MarginRight": 30,
+                  "bottomTo_bottomOf": "parent"
+                }
+              },
+              "fontFamily": "OpenSans",
+              "numberOfLines": 1,
+              "textAlignment": "center",
+              "type": "label",
+              "fontWeight": "Bold",
+              "key": "planStrikeOutPriceInfo",
+              "id": "planStrikeOutPriceInfo"
+            },
+           /* {
+              "layout": {
+                "mobile": {
+                  "height": 6,
+                  "fontSize": 32,
+                  "rightTo_leftOf": "planPriceInfo",
+
+                  "topTo_topOf": "parent",
+                  "constraint_MarginRight": 30,
+                  "bottomTo_bottomOf": "parent"
+
+
+
+                },
+                "tabletLandscape": {
+                  "height": 6,
+                  "fontSize": 35,
+                  "rightTo_leftOf": "planPriceInfo",
+                  "leftTo_leftOf": "planStrikeOutPriceInfo",
+                  "topTo_topOf": "parent",
+                  "constraint_MarginRight": 30,
+                  "bottomTo_bottomOf": "parent"
+                },
+                "tabletPortrait": {
+                  "height": 6,
+                  "fontSize": 35,
+                  "rightTo_leftOf": "planPriceInfo",
+                  "leftTo_leftOf": "planStrikeOutPriceInfo",
+                  "topTo_topOf": "parent",
+                  "constraint_MarginRight": 30,
+                  "bottomTo_bottomOf": "parent"
+                }
+              },
+              "fontFamily": "OpenSans",
+              "numberOfLines": 1,
+              "textAlignment": "center",
+              "type": "label",
+              "fontWeight": "Bold",
+              "key": "planStrikeOutLine",
+              "id": "planStrikeOutLine"
+            },*/
+            {
+              "layout": {
+                "mobile": {
+                  "fontSize": 33,
+                  "rightTo_rightOf": "parent",
+                  "topTo_topOf": "parent",
+                  "bottomTo_bottomOf": "parent"
+                },
+                "tabletLandscape": {
+                  "fontSize": 40,
+                  "rightTo_rightOf": "parent",
+                  "topTo_topOf": "parent",
+                  "bottomTo_bottomOf": "parent"
+                },
+                "tabletPortrait": {
+                  "fontSize": 40,
+                  "rightTo_rightOf": "parent",
+                  "topTo_topOf": "parent",
+                  "bottomTo_bottomOf": "parent"
+                }
+              },
+              "fontFamily": "OpenSans",
+              "numberOfLines": 1,
+              "textAlignment": "center",
+              "type": "label",
+              "fontWeight": "Bold",
+              "key": "planPriceInfo",
+              "id": "planPriceInfo"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "fontSize": 13,
+                  "width": 130,
+                  "constraint_MarginBottom" : 10,
+                  "topTo_bottomOf": "planPriceInfo",
+                  "leftTo_leftOf": "parent",
+                  "rightTo_rightOf": "parent"
+                },
+                "tabletLandscape": {
+                  "fontSize": 15,
+                  "width": 140,
+                  "constraint_MarginBottom" : 15,
+                  "topTo_bottomOf": "planPriceInfo",
+                  "leftTo_leftOf": "parent",
+                  "rightTo_rightOf": "parent"
+                },
+                "tabletPortrait": {
+                  "fontSize": 15,
+                  "width": 140,
+                  "constraint_MarginBottom" : 15,
+                  "topTo_bottomOf": "planPriceInfo",
+                  "leftTo_leftOf": "parent",
+                  "rightTo_rightOf": "parent"
+
+                }
+              },
+              "fontFamily": "OpenSans",
+              "type": "label",
+              "text": "SUBSCRIBE",
+              "textColor": "#ffffff",
+              "textAlignment": "center",
+              "fontWeight": "Bold",
+              "key": "subscribeButtonForViewPlan",
+              "id": "subscribeButtonForViewPlan"
+            }
+          ],
+          "action": "purchasePlan",
+          "type": "collectionGrid",
+          "key": "verticalCollectionGridViewPlan",
+          "id":  "verticalCollectionGridViewPlan"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "constraint_MarginTop": 15,
+              "constraint_MarginBottom": 15,
+              "topTo_bottomOf": "verticalCollectionGridViewPlan"
+            },
+            "tabletLandscape": {
+              "fontSize": 15,
+              "constraint_MarginTop": 20,
+              "constraint_MarginBottom": 15,
+              "rightTo_rightOf": "parent",
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "verticalCollectionGridViewPlan"
+            },
+            "tabletPortrait": {
+              "fontSize": 15,
+              "constraint_MarginTop": 20,
+              "constraint_MarginBottom": 15,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "verticalCollectionGridViewPlan"
+            }
+          },
+          "fontFamily": "OpenSans",
+          "numberOfLines": 1,
+          "textAlignment": "left",
+          "type": "label",
+          "text": "Term and Conditions",
+          "fontWeight": "Semibold",
+          "key": "termAndCondition",
+          "id": "termAndCondition"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 15,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "termAndCondition",
+              "constraint_MarginTop" : 20,
+              "constraint_MarginLeft" : 20
+            },
+            "tabletLandscape": {
+              "fontSize": 20,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "termAndCondition",
+              "constraint_MarginTop" : 20,
+              "constraint_MarginLeft" : 20
+            },
+            "tabletPortrait": {
+              "fontSize": 20,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "termAndCondition",
+              "constraint_MarginTop" : 20,
+              "constraint_MarginLeft" : 20
+            }
+          },
+          "fontFamily": "OpenSans",
+          "textAlignment": "left",
+          "type": "label",
+          "key": "planBenefit1",
+          "id": "planBenefit1"
+        }
+
+      ],
+      "key": "selectPlan02"
+    }
+
+  ],
+  "caching": {}
+}

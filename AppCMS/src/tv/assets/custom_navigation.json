@@ -1,0 +1,52 @@
+{
+  "layout": {
+    "ftv": {
+      "yAxis": 0,
+      "xAxis": 0,
+      "width": 400
+    }
+  },
+  "components": [
+    {
+      "layout": {
+        "ftv": {
+          "trayPadding": 10,
+          "leftMargin": 80,
+          "rightMargin": 2.67,
+          "itemHeight": 118,
+          "itemWidth": 400,
+          "height": 757,
+          "padding": 10
+        }
+      },
+      "components": [
+
+
+        {
+          "layout": {
+            "ftv": {
+              "fontSize": 20,
+              "height" : 70,
+              "width" : 400,
+              "topMargin": 10
+            }
+          },
+          "textAlignment": "center",
+          "fontFamily": "OpenSans",
+          "type": "label",
+          "textColor": "#7a7a7a",
+          "fontWeight": "SemiBold",
+          "key": "navtitleLabel"
+        }
+
+      ],
+      "id": "navigation_recycler_view",
+      "itemClickAction": "navigationClick",
+      "type": "tableView",
+      "key": "navigationtableView"
+    }
+  ],
+  "view": "AC CustomNavigation 01",
+  "type": "AC CustomNavigation 01",
+  "blockName": "customNavigation"
+}

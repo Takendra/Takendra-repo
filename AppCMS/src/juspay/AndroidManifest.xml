@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.viewlift">
+
+    <uses-permission
+        android:name="android.permission.RECEIVE_SMS"
+        tools:node="remove" />
+
+    <uses-permission
+        android:name="android.permission.READ_SMS"
+        tools:node="remove" />
+
+
+    <application
+        android:allowBackup="false"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/app_logo"
+        android:label="@string/default_app_name"
+        android:roundIcon="@mipmap/app_logo"
+        android:theme="@style/AppTheme"
+        tools:replace="android:theme,android:label,android:allowBackup">
+
+        <activity
+            android:name=".juspay.JuspayPaymentActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize" />
+        <!---Orientation property of JuspayPaymentActivity is set in JuspayPaymentActivity Class.-->
+
+    </application>
+
+</manifest>

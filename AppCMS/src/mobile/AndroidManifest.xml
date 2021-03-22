@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.viewlift">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.VIBRATE" /> <!-- Forground service -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- Allows unlocking your device and activating its screen so UI tests can succeed -->
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Allows for storing and retrieving screenshots -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- Allows changing locales -->
+    <uses-permission
+        android:name="android.permission.CHANGE_CONFIGURATION"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="${gcmPermission}" />
+
+    <permission
+        android:name="${packageName}.permission.MIPUSH_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="${packageName}.permission.MIPUSH_RECEIVE" />
+
+    <application
+        android:allowBackup="false"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/app_logo"
+        android:label="@string/default_app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/app_logo_circular"
+        android:theme="@style/AppTheme"
+        tools:replace="android:theme,android:label,android:allowBackup,android:roundIcon">
+
+        <provider
+            android:name="im.getsocial.sdk.AutoInitSdkContentProvider"
+            android:authorities="${applicationId}.AutoInitSdkContentProvider"
+            android:enabled="true"
+            android:exported="false"
+            tools:replace="android:authorities" />
+
+        <provider
+            android:name="im.getsocial.sdk.invites.ImageContentProvider"
+            android:authorities="${applicationId}.smartinvite.images.provider"
+            android:exported="true"
+            android:grantUriPermissions="true" />
+
+        <receiver
+            android:name="im.getsocial.sdk.invites.MultipleInstallReferrerReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="im.getsocial.sdk.AutoInitSdk"
+            android:value="false" />
+
+        <meta-data
+            android:name="im.getsocial.sdk.AutoRegisterForPush"
+            android:value="true" />
+
+        <meta-data
+            android:name="im.getsocial.sdk.NotificationIcon"
+            android:resource="@mipmap/app_logo" />
+
+        <meta-data
+            android:name="im.getsocial.sdk.ShowNotificationInForeground"
+            android:value="true" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true" />
+        <meta-data
+            android:name="CLEVERTAP_NOTIFICATION_ICON"
+            android:value="logo_icon" />
+        <meta-data
+            android:name="GCM_SENDER_ID"
+            android:value="@string/app_cms_gcm_sender_id" />
+        <meta-data
+            android:name="CLEVERTAP_INAPP_EXCLUDE"
+            android:value="com.viewlift.mobile.AppCMSLaunchActivity" />
+        <meta-data
+            android:name="CLEVERTAP_BACKGROUND_SYNC"
+            android:value="1" /> <!-- [START fcm_default_icon] -->
+        <!--
+ Set custom default icon. This is used when no icon is set for incoming notification messages.
+             See README(https://goo.gl/l4GJaQ) for more.
+        -->
+        <!--
+ Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" /> <!-- [END fcm_default_icon] -->
+        <!-- [START fcm_default_channel] -->
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+
+        <!--
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="${gcmPackageName}" />
+            </intent-filter>
+        </receiver>
+        -->
+        <receiver
+            android:name=".analytics.CleverTapGcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.viewlift" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name="com.clevertap.android.sdk.pushnotification.CTPushNotificationReceiver"
+            android:enabled="true"
+            android:exported="false"></receiver>
+
+
+        <service
+            android:name="com.clevertap.android.sdk.pushnotification.CTNotificationIntentService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.clevertap.PUSH_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.clevertap.android.sdk.InAppNotificationActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.urbanairship.autopilot"
+            android:value="com.viewlift.mobile.pushnotif.AppCMSAutoPilot" />
+        <meta-data
+            android:name="com.urbanairship.push.iam.EXCLUDE_FROM_AUTO_SHOW"
+            android:value="true" />
+
+        <service
+            android:name=".mobile.initialization.AppCMSFirebaseMessagingService"
+            tools:ignore="ExportedService">
+            <intent-filter android:priority="-1">
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.appsflyer.SingleInstallBroadcastReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <!--
+        <receiver
+            android:name=".mobile.pushnotif.AppCMSAirshipReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.urbanairship.push.CHANNEL_UPDATED" />
+                <action android:name="com.urbanairship.push.OPENED" />
+                <action android:name="com.urbanairship.push.RECEIVED" />
+                <action android:name="com.urbanairship.push.DISMISSED" />
+
+                <category android:name="${applicationId}" />
+            </intent-filter>
+        </receiver>
+        -->
+        <!--
+                <receiver
+                    android:name=".mobile.initialization.UrbanAirshipInitReceiver"
+                    android:exported="false">
+                    <intent-filter>
+                        <action android:name="INITIALIZATION" />
+                        <category android:name="${applicationId}" />
+                    </intent-filter>
+                </receiver>
+
+                <receiver
+                    android:name=".mobile.initialization.GMSInitReceiver"
+                    android:exported="false">
+                    <intent-filter>
+                        <action android:name="INITIALIZATION" />
+                        <category android:name="${applicationId}" />
+                    </intent-filter>
+                </receiver>
+        -->
+        <!--
+     ========================
+     Urban Airship - Receiver
+     ========================
+        -->
+        <!--
+ <receiver
+             android:name="com.viewlift.mobile.pushnotif.ZendeskAirshipReceiver"
+             android:exported="false">
+
+             <intent-filter>
+                 <action android:name="com.urbanairship.push.CHANNEL_UPDATED" />
+                 <action android:name="com.urbanairship.push.OPENED" />
+                 <action android:name="com.urbanairship.push.RECEIVED" />
+                 <action android:name="com.urbanairship.push.DISMISSED" />
+
+                 <category android:name="${applicationId}" />
+             </intent-filter>
+         </receiver>
+        -->
+        <activity
+            android:name=".mobile.AppCMSLaunchActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:theme="@style/AppThemeTransparent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="miui.intent.category.SYSAPP_RECOMMEND" />
+            </intent-filter>
+
+            <intent-filter
+                android:autoVerify="true"
+                tools:targetApi="m">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/kids"
+                    android:scheme="http" />
+
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/referral"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/referral"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/referral"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/refer_earn"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/refer_earn"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/referEarn"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/refer_earn"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/kids"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/kids"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/originals/"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/originals/"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/originals/"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/video"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/video"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/video"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/watch"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/watch"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/watch"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/videos"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/videos"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/videos"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/movies"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/movies"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/movies"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/films"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/films"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/films"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/show/title"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/show/title"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/show/title"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/shows"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/shows"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/shows"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/bundle"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/bundle"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/bundle"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/films/title/"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/films/title/"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/films/title/"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/photo-gallery/"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/photo-gallery/"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/photo-gallery/"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/photos/"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/photos/"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/photos/"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/article/"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/article/"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/article/"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/person/"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/person/"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/person/"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/home"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/home"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/home"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/my-aha"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/my-aha"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/my-aha"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/concepts"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/concepts"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/concepts"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/concepts"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/concepts"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/concepts"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/browse"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/browse"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/browse"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/browse"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/browse"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/browse"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/conceptLandingPage"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/conceptLandingPage"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/conceptLandingPage"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/conceptLandingPage"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/conceptLandingPage"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/conceptLandingPage"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/liveschedule"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/liveschedule"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name_suffix"
+                    android:pathPrefix="/liveschedule"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/liveschedule"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/liveschedule"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/liveschedule"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/webseries"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/webseries"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/webseries"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/series"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/series"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/series"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/viewplans"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/viewplans"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/viewplans"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/signin"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/signin"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/signin"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/signup"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/signup"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/signup"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/openVideoPlayer"
+                    android:pathPrefix="/videos"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/openVideoPlayer"
+                    android:pathPrefix="/"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/user/watchlist"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/user/watchlist"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/user/watchlist"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/user/downloads"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/user/downloads"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/user/downloads"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/genres/action"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/genres/action"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/genres/action"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/genres/comedy"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/genres/comedy"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/genres/comedy"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/get_social_host_name"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/get_social_default_host_name"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/genres/drama"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/genres/drama"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/genres/drama"
+                    android:scheme="app" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/genres/romance"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/genres/romance"
+                    android:scheme="https" />
+                <data
+                    android:host="@string/app_cms_app_host_name"
+                    android:pathPrefix="/genres/romance"
+                    android:scheme="app" />
+            </intent-filter>
+
+            <intent-filter
+                android:autoVerify="true"
+                tools:targetApi="m">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="${getsocial_hostName_0}"
+                    android:scheme="https" />
+                <data
+                    android:host="${getsocial_hostName_1}"
+                    android:scheme="https" />
+            </intent-filter>
+
+            <intent-filter
+                android:autoVerify="false"
+                tools:targetApi="m">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="${getsocial_scheme}"
+                    android:scheme="getsocial" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+
+        <!--        <activity-->
+        <!--            android:name="com.facebook.CustomTabActivity"-->
+        <!--            android:exported="true">-->
+        <!--            <intent-filter>-->
+        <!--                <action android:name="android.intent.action.VIEW" />-->
+
+        <!--                <category android:name="android.intent.category.DEFAULT" />-->
+        <!--                <category android:name="android.intent.category.BROWSABLE" />-->
+
+        <!--                <data android:scheme="@string/fb_login_protocol_scheme" />-->
+        <!--            </intent-filter>-->
+        <!--        </activity>-->
+
+        <activity
+            android:name=".casting.roku.RokuCastingOverlay"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTask" />
+        <!--
+ A receiver that will receive media buttons and send as
+    intents to your MediaBrowserServiceCompat implementation.
+    Required on pre-Lollipop. More information at
+    http://developer.android.com/reference/android/support/v4/media/session/MediaButtonReceiver.html
+        -->
+        <receiver android:name="androidx.media.session.MediaButtonReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".audio.MusicService"
+            android:exported="true"
+            tools:ignore="ExportedService">
+            <intent-filter>
+                <action android:name="android.media.browse.MediaBrowserService" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".audio.utils.TaskRemoveService"
+            android:stopWithTask="false" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <service
+            android:name="com.xiaomi.push.service.XMPushService"
+            android:enabled="true"
+            android:process=":pushservice" />
+        <service
+            android:name="com.xiaomi.push.service.XMJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:process=":pushservice" /> <!-- Note：This service must be added to the version 3.0.1 or later（including version 3.0.1） -->
+        <service
+            android:name="com.xiaomi.mipush.sdk.PushMessageHandler"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.xiaomi.mipush.sdk.MessageHandleService"
+            android:enabled="true" /> <!-- Note：this service must be added to version 2.2.5 or later （includes version 2.2.5） -->
+        <receiver
+            android:name="com.xiaomi.push.service.receivers.NetworkStatusReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.xiaomi.push.service.receivers.PingReceiver"
+            android:exported="false"
+            android:process=":pushservice">
+            <intent-filter>
+                <action android:name="com.xiaomi.push.PING_TIMER" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".receivers.MiReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.RECEIVE_MESSAGE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.MESSAGE_ARRIVED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.ERROR" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".receivers.SMSBroadcastReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.auth.api.phone.SMS_RETRIEVED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

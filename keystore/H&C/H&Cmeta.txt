@@ -1,0 +1,12 @@
+SE 
+file: keysv.store
+storePassword: 'eNCsA"U(kxlVPw&YRRGnHgVC[Pn(%AUux|D8X-a~bpnbA0j~MUTixA<AllMtJD>&zRu;eW'
+keyAlias: 'horse & country'
+keyPassword: '@.]*d@2^+.}!|_;O5+e:A:2,~UJ0/D'ai&1;}$~-^!D5>T;(bSr//''L;O+.1:T|&?/:4<0t#@>[B}'L'
+
+
+Others Use for play Store
+file: key.store
+storePassword: 'eNCsA"U(kxlVPw&YRRGnHgVC[Pn(%AUux|D8X-a~bpnbA0j~MUTixA<AllMtJD>&zRu;eW'
+keyAlias: 'horse & country'
+keyPassword: '@.]*d@2^+.}!|_;O5+e:A:2,~UJ0/D'ai&1;}$~-^!D5>T;(bSr//''L;O+.1:T|&?/:4<0t#@>[B}'L'

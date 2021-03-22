@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="43dp"
+    android:layout_gravity="center"
+    android:focusable="false">
+
+    <RelativeLayout
+        android:id="@+id/rootView"
+        android:layout_width="228dp"
+        android:layout_height="43dp"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="153dp"
+            android:layout_height="match_parent"
+            android:ellipsize="end"
+            android:focusable="false"
+            android:gravity="left|center"
+            android:maxLines="1"
+            android:paddingLeft="20dp"
+            android:text="Rent Optionshdsjdhsjdh jdhjdhsjhd hdhjshdjsh sdjskdjksd"
+            android:textColor="#ffffff"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/planPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_toRightOf="@+id/title"
+            android:focusable="false"
+            android:gravity="center"
+            android:text="Rent Options dkdsfjskfjkd"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:visibility="visible" />
+
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/edit"
+        android:layout_width="64dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_toRightOf="@+id/rootView"
+        android:focusable="true"
+        android:nextFocusDown="@null"
+        android:gravity="center"
+        android:text="Edit"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        android:visibility="visible" />
+
+
+</RelativeLayout>

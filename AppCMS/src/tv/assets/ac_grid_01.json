@@ -1,0 +1,99 @@
+{
+  "id": "bae2a7c3-3aaf-460e-a13c-fd8250b19592",
+  "settings": {
+    "columns": {
+      "tablet": 3,
+      "desktop": 4,
+      "mobile": 2,
+      "ott": 4
+    },
+    "thumbnailType": "landscape"
+  },
+  "view": "AC Grid 01",
+  "type": "AC Grid 01",
+  "blockName": "grid01",
+  "layout": {
+    "ftv": {
+      "yAxis": 0,
+      "leftMargin": 0,
+      "rightMargin": 0,
+
+      "height": 390
+    }
+  },
+  "components": [
+    {
+      "layout": {
+        "ftv": {
+          "fontSize": 18
+        }
+      },
+      "fontFamily": "Lato",
+      "textAlignment": "left",
+      "textCase": "caps",
+      "type": "label",
+      "textColor": "#008EE0",
+      "fontWeight": "Bold",
+      "key": "trayTitle"
+    },
+    {
+      "layout": {
+        "ftv": {
+          "width": 560,
+          "height": 388
+        }
+      },
+      "trayClickAction": "lectureDetailPage",
+      "components": [
+        {
+          "layout": {
+            "ftv": {
+              "padding": 5,
+              "leftMargin": 8,
+              "topMargin": 9,
+              "width": 551,
+              "height": 310
+            }
+          },
+          "type": "image",
+          "key": "thumbnailImage"
+        },
+        {
+          "layout": {
+            "ftv": {
+              "padding": 5,
+              "leftMargin": 8,
+              "topMargin": 9,
+              "width": 551,
+              "height": 310
+            }
+          },
+          "type": "image",
+          "key": "badgeImage"
+        },
+        {
+          "layout": {
+            "ftv": {
+              "leftMargin": 8,
+              "topMargin": 320,
+              "rightMargin": 0,
+              "height": 68
+            }
+          },
+          "fontFamily": "Lato",
+          "numberOfLines": 2,
+          "textAlignment": "left",
+          "fontSize": 12,
+          "type": "label",
+          "textColor": "#ffffff",
+          "fontWeight": "Regular",
+          "key": "thumbnailTitle"
+        }
+      ],
+      "textAlignment": "center",
+      "type": "collectionGrid",
+      "key": "collectionGrid"
+    }
+  ],
+  "key": "grid01"
+}

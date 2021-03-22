@@ -1,0 +1,5751 @@
+{
+  "moduleList": [
+    {
+      "settings": {},
+      "view": "AC UserManagement 01",
+      "type": "AC UserManagement 01",
+      "blockName": "userManagement01",
+      "layout": {
+        "mobile": {
+          "leftMargin": 0,
+          "marginLeft": 0,
+          "marginRight": 0,
+          "yAxis": 0,
+          "topMargin": 0,
+          "rightMargin": 0,
+          "bottomMargin": 0,
+          "width": 0,
+          "marginBottom": 0,
+          "marginTop": 0,
+          "height": 0
+        },
+        "tabletLandscape": {
+          "gridHeight": 0,
+          "leftMargin": 0,
+          "xAxis": 0,
+          "yAxis": 0,
+          "topMargin": 0,
+          "rightMargin": 0,
+          "bottomMargin": 0,
+          "width": 0,
+          "gridWidth": 0,
+          "height": 0
+        },
+        "tabletPortrait": {
+          "gridHeight": 0,
+          "trayPadding": 0,
+          "leftMargin": 0,
+          "xAxis": 0,
+          "yAxis": 0,
+          "topMargin": 0,
+          "rightMargin": 0,
+          "bottomMargin": 0,
+          "width": 0,
+          "fontSize": 0,
+          "height": 0
+        }
+      },
+      "components": [
+        {
+          "type": "label",
+          "textColor": "#ffffff",
+          "layout": {
+            "mobile": {
+              "leftMargin": 2.67,
+              "topMargin": 3.05,
+              "rightMargin": 12,
+              "fontSize": 18,
+              "height": 24
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.98,
+              "topMargin": 0.91,
+              "rightMargin": 4.69,
+              "fontSize": 18,
+              "height": 24
+            },
+            "tabletPortrait": {
+              "leftMargin": 1.3,
+              "topMargin": 0.68,
+              "rightMargin": 6.25,
+              "fontSize": 18,
+              "height": 24
+            }
+          },
+          
+          "textAlignment": "left",
+          "fontWeight": "Bold",
+          "key": "title"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "topMargin": 2.25,
+              "rightMargin": 7.3,
+              "width": 24,
+              "height": 24
+            },
+            "tabletLandscape": {
+              "topMargin": 0.91,
+              "rightMargin": 0.49,
+              "width": 24,
+              "height": 24
+            },
+            "tabletPortrait": {
+              "topMargin": 0.68,
+              "rightMargin": 0.65,
+              "width": 24,
+              "height": 24
+            }
+          },
+          "action": "close",
+          "key": "closeButton",
+          "viewGravity": "end",
+          "type": "button"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "yAxis": 42,
+              "height": 1
+            },
+            "tabletLandscape": {
+              "yAxis": 30,
+              "height": 1
+            },
+            "tabletPortrait": {
+              "yAxis": 30,
+              "height": 1
+            }
+          },
+          "backgroundColor": "6C7074",
+          "type": "separatorView"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 2.67,
+              "rightMargin": 2.67,
+              "yAxis": 42,
+              "fontSize": 18,
+              "height": 24
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.98,
+              "rightMargin": 0.98,
+              "yAxis": 32,
+              "fontSize": 18,
+              "height": 24
+            },
+            "tabletPortrait": {
+              "leftMargin": 1.3,
+              "rightMargin": 1.3,
+              "yAxis": 32,
+              "fontSize": 18,
+              "height": 24
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "ACCOUNT",
+          "fontWeight": "Semibold",
+          "key": "settingsTitle",
+          "numberOfLines": 1,
+          "type": "label",
+          "textColor": "#008EE0"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 1.33,
+              "yAxis": 68,
+              "rightMargin": 1.33,
+              "height": 1
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.49,
+              "yAxis": 58,
+              "rightMargin": 0.49,
+              "height": 1
+            },
+            "tabletPortrait": {
+              "leftMargin": 0.65,
+              "yAxis": 58,
+              "rightMargin": 0.65,
+              "height": 1
+            }
+          },
+          "backgroundColor": "#6C7074",
+          "type": "separatorView"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 2.67,
+              "xAxis": 0,
+              "yAxis": 70,
+              "width": 100,
+              "fontSize": 12,
+              "height": 30
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.98,
+              "xAxis": 0,
+              "yAxis": 62,
+              "width": 180,
+              "fontSize": 12,
+              "height": 30
+            },
+            "tabletPortrait": {
+              "leftMargin": 1.3,
+              "xAxis": 0,
+              "yAxis": 62,
+              "width": 180,
+              "fontSize": 12,
+              "height": 30
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "Name: ",
+          "fontWeight": "Extrabold",
+          "key": "name",
+          "type": "label",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "xAxis": 120,
+              "yAxis": 70,
+              "rightMargin": 28,
+              "fontSize": 12,
+              "height": 30
+            },
+            "tabletLandscape": {
+              "xAxis": 150,
+              "yAxis": 62,
+              "rightMargin": 10.25,
+              "fontSize": 12,
+              "height": 30
+            },
+            "tabletPortrait": {
+              "xAxis": 140,
+              "yAxis": 62,
+              "rightMargin": 13.67,
+              "fontSize": 12,
+              "height": 30
+            }
+          },
+          
+          "isVisibleForTablet": false,
+          "textAlignment": "left",
+          "fontWeight": "Semibold",
+          "key": "nameValue",
+          "numberOfLines": 1,
+          "type": "label",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "yAxis": 70,
+              "rightMargin": 2.67,
+              "width": 116,
+              "fontSize": 12,
+              "height": 34
+            },
+            "tabletLandscape": {
+              "yAxis": 62,
+              "rightMargin": 5,
+              "width": 180,
+              "fontSize": 12,
+              "height": 42
+            },
+            "tabletPortrait": {
+              "yAxis": 62,
+              "rightMargin": 5,
+              "width": 180,
+              "fontSize": 12,
+              "height": 42
+            }
+          },
+          
+          "textAlignment": "center",
+          "action": "editProfile",
+          "text": "EDIT PROFILE",
+          "fontWeight": "Semibold",
+          "viewGravity": "end",
+          "key": "editProfileButton",
+          "backgroundColor": "#00000000",
+          "type": "button",
+          "textColor": "#008EE0"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 2.67,
+              "xAxis": 0,
+              "yAxis": 108,
+              "width": 100,
+              "fontSize": 12,
+              "height": 30
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.98,
+              "yAxis": 102,
+              "width": 180,
+              "fontSize": 12,
+              "height": 42
+            },
+            "tabletPortrait": {
+              "leftMargin": 1.3,
+              "yAxis": 102,
+              "width": 180,
+              "fontSize": 12,
+              "height": 42
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "Email: ",
+          "fontWeight": "Extrabold",
+          "key": "email",
+          "numberOfLines": 1,
+          "type": "label",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "xAxis": 120,
+              "yAxis": 108,
+              "rightMargin": 36,
+              "fontSize": 12,
+              "height": 30
+            },
+            "tabletLandscape": {
+              "yAxis": 102,
+              "xAxis": 150,
+              "rightMargin": 13.18,
+              "fontSize": 12,
+              "height": 30
+            },
+            "tabletPortrait": {
+              "xAxis": 140,
+              "yAxis": 102,
+              "rightMargin": 17.58,
+              "fontSize": 12,
+              "height": 30
+            }
+          },
+          
+          "textAlignment": "left",
+          "fontWeight": "Semibold",
+          "key": "emailValue",
+          "numberOfLines": 1,
+          "type": "label",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "yAxis": 108,
+              "rightMargin": 2.67,
+              "width": 116,
+              "fontSize": 12,
+              "height": 42
+            },
+            "tabletLandscape": {
+              "yAxis": 102,
+              "rightMargin": 5,
+              "width": 148,
+              "fontSize": 12,
+              "height": 42
+            },
+            "tabletPortrait": {
+              "yAxis": 102,
+              "rightMargin": 5,
+              "width": 148,
+              "fontSize": 12,
+              "height": 42
+            }
+          },
+          
+          "action": "changePassword",
+          "text": "CHANGE PASSWORD",
+          "fontWeight": "Semibold",
+          "textAlignment": "center",
+          "viewGravity": "end",
+          "key": "changePasswordLabel",
+          "backgroundColor": "#00000000",
+          "type": "button",
+          "textColor": "#008EE0"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 2.67,
+              "xAxis": 0,
+              "yAxis": 145,
+              "width": 100,
+              "fontSize": 12,
+              "height": 30
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.98,
+              "yAxis": 150,
+              "width": 180,
+              "fontSize": 12,
+              "height": 42
+            },
+            "tabletPortrait": {
+              "leftMargin": 1.3,
+              "yAxis": 150,
+              "width": 180,
+              "fontSize": 12,
+              "height": 42
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "Phone: ",
+          "fontWeight": "Extrabold",
+          "key": "phone",
+          "numberOfLines": 1,
+          "type": "label",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "xAxis": 120,
+              "yAxis": 145,
+              "rightMargin": 36,
+              "fontSize": 12,
+              "height": 30
+            },
+            "tabletLandscape": {
+              "yAxis": 145,
+              "xAxis": 150,
+              "rightMargin": 13.18,
+              "fontSize": 12,
+              "height": 30
+            },
+            "tabletPortrait": {
+              "xAxis": 140,
+              "yAxis": 145,
+              "rightMargin": 17.58,
+              "fontSize": 12,
+              "height": 30
+            }
+          },
+          
+          "textAlignment": "left",
+          "fontWeight": "Semibold",
+          "key": "phoneValue",
+          "numberOfLines": 1,
+          "type": "label",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "numberOfLines": 1,
+          "type": "label",
+          "textColor": "#008EE0",
+          "layout": {
+            "mobile": {
+              "leftMargin": 2.67,
+              "yAxis": 170,
+              "rightMargin": 2.67,
+              "fontSize": 18,
+              "height": 24
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.98,
+              "yAxis": 170,
+              "rightMargin": 0.98,
+              "fontSize": 18,
+              "height": 24
+            },
+            "tabletPortrait": {
+              "leftMargin": 1.3,
+              "yAxis": 200,
+              "rightMargin": 1.3,
+              "fontSize": 18,
+              "height": 24
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "SUBSCRIPTION & BILLING",
+          "fontWeight": "Semibold",
+          "key": "subscriptionAndBilling"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 1.33,
+              "yAxis": 198,
+              "rightMargin": 1.33,
+              "height": 1
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.49,
+              "yAxis": 198,
+              "height": 1
+            },
+            "tabletPortrait": {
+              "leftMargin": 0.65,
+              "yAxis": 228,
+              "rightMargin": 0.65,
+              "height": 1
+            }
+          },
+          "backgroundColor": "#6C7074",
+          "type": "separatorView"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 2.67,
+              "yAxis": 200,
+              "width": 100,
+              "fontSize": 12,
+              "height": 30
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.98,
+              "yAxis": 200,
+              "width": 180,
+              "fontSize": 12,
+              "height": 42
+            },
+            "tabletPortrait": {
+              "leftMargin": 1.3,
+              "yAxis": 232,
+              "width": 180,
+              "fontSize": 12,
+              "height": 42
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "Plan: ",
+          "fontWeight": "Extrabold",
+          "key": "plan",
+          "numberOfLines": 1,
+          "type": "label",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "xAxis": 120,
+              "yAxis": 200,
+              "rightMargin": 84,
+              "fontSize": 12,
+              "height": 30
+            },
+            "tabletLandscape": {
+              "xAxis": 150,
+              "yAxis": 200,
+              "rightMargin": 84,
+              "fontSize": 12,
+              "height": 30
+            },
+            "tabletPortrait": {
+              "xAxis": 140,
+              "yAxis": 232,
+              "rightMargin": 84,
+              "fontSize": 12,
+              "height": 30
+            }
+          },
+          
+          "textAlignment": "left",
+          "fontWeight": "Semibold",
+          "key": "planValue",
+          "numberOfLines": 1,
+          "type": "label",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "yAxis": 205,
+              "rightMargin": 2.67,
+              "width": 80,
+              "fontSize": 12,
+              "height": 30
+            },
+            "tabletLandscape": {
+              "yAxis": 200,
+              "rightMargin": 5,
+              "width": 80,
+              "fontSize": 12,
+              "height": 30
+            },
+            "tabletPortrait": {
+              "yAxis": 232,
+              "rightMargin": 5,
+              "width": 80,
+              "fontSize": 12
+            }
+          },
+          
+          "action": "manageSubscription",
+          "text": "CANCEL",
+          "fontWeight": "Semibold",
+          "textAlignment": "center",
+          "viewGravity": "end",
+          "key": "Cancel Subscription",
+          "backgroundColor": "#00000000",
+          "type": "button",
+          "textColor": "#008EE0"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "yAxis": 205,
+              "rightMargin": 2.67,
+              "fontSize": 12,
+              "height": 35
+            },
+            "tabletLandscape": {
+              "yAxis": 200,
+              "rightMargin": 5,
+              "fontSize": 12,
+              "height": 35
+            },
+            "tabletPortrait": {
+              "yAxis": 232,
+              "rightMargin": 5,
+              "fontSize": 12,
+              "height": 35
+            }
+          },
+          
+          "action": "manageSubscription",
+          "text": "UPGRADE",
+          "textAlignment": "center",
+          "fontWeight": "Semibold",
+          "viewGravity": "end",
+          "key": "Upgrade Subscription",
+          "backgroundColor": "#00000000",
+          "type": "button",
+          "textColor": "#008EE0"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 2.67,
+              "yAxis": 232,
+              "width": 120,
+              "fontSize": 12,
+              "height": 30
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.98,
+              "yAxis": 232,
+              "width": 180,
+              "fontSize": 12,
+              "height": 42
+            },
+            "tabletPortrait": {
+              "leftMargin": 1.3,
+              "yAxis": 280,
+              "width": 180,
+              "fontSize": 12,
+              "height": 42
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "Payment Processor: ",
+          "fontWeight": "Extrabold",
+          "key": "paymentProcess",
+          "numberOfLines": 1,
+          "type": "label",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "xAxis": 120,
+              "yAxis": 232,
+              "rightMargin": 36,
+              "fontSize": 12,
+              "height": 30
+            },
+            "tabletLandscape": {
+              "xAxis": 150,
+              "yAxis": 232,
+              "rightMargin": 13.18,
+              "fontSize": 12,
+              "height": 30
+            },
+            "tabletPortrait": {
+              "xAxis": 140,
+              "yAxis": 280,
+              "rightMargin": 17.58,
+              "fontSize": 12,
+              "height": 30
+            }
+          },
+          
+          "textAlignment": "left",
+          "fontWeight": "Semibold",
+          "key": "paymentProcessorValue",
+          "numberOfLines": 1,
+          "type": "label",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 2.67,
+              "rightMargin": 2.67,
+              "yAxis": 272,
+              "fontSize": 18,
+              "height": 24
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.98,
+              "rightMargin": 0.98,
+              "yAxis": 272,
+              "fontSize": 18,
+              "height": 24
+            },
+            "tabletPortrait": {
+              "leftMargin": 1.3,
+              "rightMargin": 1.3,
+              "yAxis": 380,
+              "fontSize": 18,
+              "height": 24
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "APP SETTINGS",
+          "fontWeight": "Semibold",
+          "key": "appSettings",
+          "numberOfLines": 1,
+          "type": "label",
+          "textColor": "#008EE0"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 1.33,
+              "yAxis": 298,
+              "rightMargin": 1.33,
+              "height": 1
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.49,
+              "yAxis": 298,
+              "rightMargin": 0.49,
+              "height": 1
+            },
+            "tabletPortrait": {
+              "leftMargin": 0.65,
+              "yAxis": 406,
+              "rightMargin": 0.65,
+              "height": 1
+            }
+          },
+          "backgroundColor": "#6C7074",
+          "type": "separatorView"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 2.67,
+              "yAxis": 300,
+              "fontSize": 12,
+              "height": 30
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.98,
+              "yAxis": 300,
+              "fontSize": 12,
+              "height": 42
+            },
+            "tabletPortrait": {
+              "leftMargin": 1.3,
+              "yAxis": 408,
+              "fontSize": 12,
+              "height": 42
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "Autoplay",
+          "fontWeight": "Extrabold",
+          "key": "autoplayTitle",
+          "supportPagination": false,
+          "numberOfLines": 1,
+          "type": "label",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 86.67,
+              "yAxis": 300,
+              "rightMargin": 28,
+              "fontSize": 12,
+              "height": 30
+            },
+            "tabletLandscape": {
+              "leftMargin": 86.67,
+              "xAxis": 300,
+              "yAxis": 300,
+              "rightMargin": 10.25,
+              "fontSize": 12,
+              "height": 30
+            },
+            "tabletPortrait": {
+              "leftMargin": 86.67,
+              "yAxis": 408,
+              "rightMargin": 13.67,
+              "fontSize": 12,
+              "height": 30
+            }
+          },
+          "action": "changeAutoplay",
+          "key": "autoplayToggle",
+          "type": "toggle"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 2.67,
+              "yAxis": 334,
+              "width": 280,
+              "fontSize": 12,
+              "height": 30
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.98,
+              "yAxis": 334,
+              "width": 360,
+              "fontSize": 12,
+              "height": 42
+            },
+            "tabletPortrait": {
+              "leftMargin": 1.3,
+              "yAxis": 442,
+              "width": 360,
+              "fontSize": 12,
+              "height": 42
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "Use SD Card For Downloads",
+          "fontWeight": "Extrabold",
+          "key": "Use SD Card For Downloads",
+          "numberOfLines": 1,
+          "type": "label",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 86.67,
+              "yAxis": 334,
+              "rightMargin": 28,
+              "fontSize": 12,
+              "height": 30
+            },
+            "tabletLandscape": {
+              "leftMargin": 86.67,
+              "yAxis": 334,
+              "rightMargin": 10.25,
+              "fontSize": 12,
+              "height": 30
+            },
+            "tabletPortrait": {
+              "leftMargin": 86.67,
+              "yAxis": 442,
+              "rightMargin": 13.67,
+              "fontSize": 12,
+              "height": 30
+            }
+          },
+          "action": "changeSDCardForDownloads",
+          "key": "useSDCardForDownloadsToggle",
+          "type": "toggle"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 2.67,
+              "yAxis": 368,
+              "width": 150,
+              "fontSize": 12,
+              "height": 20
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.98,
+              "yAxis": 368,
+              "width": 180,
+              "fontSize": 12,
+              "height": 30
+            },
+            "tabletPortrait": {
+              "leftMargin": 1.3,
+              "yAxis": 474,
+              "width": 180,
+              "fontSize": 12,
+              "height": 30
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "App Version: ",
+          "fontWeight": "Extrabold",
+          "key": "appVersionTitle",
+          "numberOfLines": 1,
+          "type": "label",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "xAxis": 130,
+              "yAxis": 368,
+              "width": 80,
+              "fontSize": 12,
+              "height": 20
+            },
+            "tabletLandscape": {
+              "xAxis": 150,
+              "yAxis": 368,
+              "width": 80,
+              "fontSize": 12,
+              "height": 30
+            },
+            "tabletPortrait": {
+              "xAxis": 140,
+              "yAxis": 474,
+              "width": 80,
+              "fontSize": 12,
+              "height": 30
+            }
+          },
+          
+          "fontWeight": "Semibold",
+          "key": "appVersionValue",
+          "numberOfLines": 1,
+          "type": "label",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 2.67,
+              "yAxis": 397,
+              "rightMargin": 2.67,
+              "fontSize": 18,
+              "height": 24
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.98,
+              "yAxis": 397,
+              "rightMargin": 0.98,
+              "fontSize": 18,
+              "height": 24
+            },
+            "tabletPortrait": {
+              "leftMargin": 1.3,
+              "yAxis": 574,
+              "rightMargin": 1.3,
+              "fontSize": 18,
+              "height": 24
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "DOWNLOADS",
+          "fontWeight": "Semibold",
+          "key": "downloadsSettings",
+          "numberOfLines": 1,
+          "type": "label",
+          "textColor": "#008EE0"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 1.33,
+              "yAxis": 420,
+              "rightMargin": 1.33,
+              "height": 1
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.49,
+              "yAxis": 420,
+              "rightMargin": 0.49,
+              "height": 1
+            },
+            "tabletPortrait": {
+              "leftMargin": 0.65,
+              "yAxis": 600,
+              "rightMargin": 0.65,
+              "height": 1
+            }
+          },
+          "backgroundColor": "#6C7074",
+          "type": "separatorView"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 2.67,
+              "yAxis": 422,
+              "width": 120,
+              "fontSize": 12,
+              "height": 30
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.98,
+              "yAxis": 422,
+              "width": 180,
+              "fontSize": 12,
+              "height": 42
+            },
+            "tabletPortrait": {
+              "leftMargin": 1.3,
+              "yAxis": 602,
+              "width": 180,
+              "fontSize": 12,
+              "height": 42
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "Download Quality: ",
+          "fontWeight": "Extrabold",
+          "key": "downloadQuality",
+          "numberOfLines": 1,
+          "type": "label",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "xAxis": 120,
+              "yAxis": 422,
+              "rightMargin": 28,
+              "fontSize": 12,
+              "height": 30
+            },
+            "tabletLandscape": {
+              "xAxis": 150,
+              "yAxis": 422,
+              "rightMargin": 10.25,
+              "fontSize": 12,
+              "height": 30
+            },
+            "tabletPortrait": {
+              "xAxis": 140,
+              "yAxis": 602,
+              "rightMargin": 17.58,
+              "fontSize": 12,
+              "height": 30
+            }
+          },
+          
+          "textAlignment": "left",
+          "fontWeight": "Semibold",
+          "key": "downloadQualityValue",
+          "numberOfLines": 1,
+          "type": "label",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "yAxis": 422,
+              "rightMargin": 2.67,
+              "fontSize": 12,
+              "height": 30
+            },
+            "tabletLandscape": {
+              "yAxis": 422,
+              "rightMargin": 0.98,
+              "fontSize": 12,
+              "height": 30
+            },
+            "tabletPortrait": {
+              "yAxis": 602,
+              "rightMargin": 1.3,
+              "fontSize": 12,
+              "height": 30
+            }
+          },
+          
+          "action": "changeDownloadQuality",
+          "text": "CHANGE",
+          "fontWeight": "Semibold",
+          "viewGravity": "end",
+          "key": "manageDownload",
+          "backgroundColor": "#000000",
+          "type": "button",
+          "textColor": "#008EE0"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 2.67,
+              "yAxis": 456,
+              "width": 120,
+              "fontSize": 12,
+              "height": 30
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.98,
+              "yAxis": 456,
+              "width": 180,
+              "fontSize": 12,
+              "height": 30
+            },
+            "tabletPortrait": {
+              "leftMargin": 1.3,
+              "yAxis": 644,
+              "width": 180,
+              "fontSize": 12,
+              "height": 30
+            }
+          },
+          
+          "numberOfLines": 1,
+          "textAlignment": "left",
+          "text": "Cellular Data: ",
+          "type": "label",
+          "textColor": "#FFFFFF",
+          "fontWeight": "Extrabold",
+          "key": "cellularDataTitle"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 86.67,
+              "yAxis": 456,
+              "rightMargin": 28,
+              "fontSize": 12,
+              "height": 30
+            },
+            "tabletLandscape": {
+              "leftMargin": 86.67,
+              "yAxis": 456,
+              "rightMargin": 10.25,
+              "fontSize": 12,
+              "height": 30
+            },
+            "tabletPortrait": {
+              "leftMargin": 86.67,
+              "yAxis": 644,
+              "rightMargin": 13.67,
+              "fontSize": 12,
+              "height": 30
+            }
+          },
+          "action": "changeCellularData",
+          "type": "toggle",
+          "key": "cellularDataToggle"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 2.67,
+              "yAxis": 500,
+              "rightMargin": 2.67,
+              "fontSize": 18,
+              "height": 24
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.98,
+              "yAxis": 500,
+              "rightMargin": 0.98,
+              "fontSize": 18,
+              "height": 24
+            },
+            "tabletPortrait": {
+              "leftMargin": 1.3,
+              "yAxis": 690,
+              "rightMargin": 1.3,
+              "fontSize": 18,
+              "height": 24
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "PERSONALIZATION",
+          "fontWeight": "Semibold",
+          "key": "editPersonalizationHeader",
+          "numberOfLines": 1,
+          "type": "label",
+          "textColor": "#008EE0"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 1.33,
+              "yAxis": 520,
+              "rightMargin": 1.33,
+              "height": 1
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.49,
+              "yAxis": 520,
+              "rightMargin": 0.49,
+              "height": 1
+            },
+            "tabletPortrait": {
+              "leftMargin": 0.65,
+              "yAxis": 710,
+              "rightMargin": 0.65,
+              "height": 1
+            }
+          },
+          "backgroundColor": "#6C7074",
+          "type": "separatorView"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 2.67,
+              "yAxis": 535,
+              "width": 180,
+              "fontSize": 12,
+              "height": 30
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.98,
+              "yAxis": 535,
+              "width": 200,
+              "fontSize": 12,
+              "height": 42
+            },
+            "tabletPortrait": {
+              "leftMargin": 1.3,
+              "yAxis": 725,
+              "width": 200,
+              "fontSize": 12,
+              "height": 42
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "EDIT PERSONALIZATION",
+          "fontWeight": "Extrabold",
+          "key": "editPersonalizationHeader",
+          "numberOfLines": 1,
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "view": "AC UserManagement 05",
+      "type": "AC UserManagement 05",
+      "blockName": "userManagement05",
+      "isConstrainteView": true,
+      "layout": {
+        "mobile": {},
+        "tabletLandscape": {},
+        "tabletPortrait": {}
+      },
+      "components": [
+        {
+          "layout": {
+            "mobile": {
+              "width": 24,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginRight": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_topOf": "parent"
+            },
+            "tabletLandscape": {
+              "width": 24,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginRight": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_topOf": "parent"
+            },
+            "tabletPortrait": {
+              "width": 24,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginRight": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_topOf": "parent"
+            }
+          },
+          "action": "close",
+          "key": "closeButton",
+          "id": "closeButton",
+          "viewGravity": "end",
+          "type": "button"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginRight": 10,
+              "topTo_bottomOf": "closeButton",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent"
+            },
+            "tabletLandscape": {
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginRight": 10,
+              "topTo_bottomOf": "closeButton",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent"
+            },
+            "tabletPortrait": {
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginRight": 10,
+              "topTo_bottomOf": "closeButton",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent"
+            }
+          },
+          "backgroundColor": "#6C7074",
+          "type": "separatorView",
+          "id": "separatorViewPageTitle"
+        },
+        {
+          "type": "label",
+          "layout": {
+            "mobile": {
+              "fontSize": 18,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTO_topOf": "parent",
+              "rightTo_leftOf": "closeButton",
+              "bottomTo_topOf": "separatorViewPageTitle"
+            },
+            "tabletLandscape": {
+              "fontSize": 18,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTO_topOf": "parent",
+              "rightTo_leftOf": "closeButton",
+              "bottomTo_topOf": "separatorViewPageTitle"
+            },
+            "tabletPortrait": {
+
+              "fontSize": 18,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTO_topOf": "parent",
+              "rightTo_leftOf": "closeButton",
+              "bottomTo_topOf": "separatorViewPageTitle"
+            }
+          },
+          
+          "textAlignment": "left",
+          "fontWeight": "Bold",
+          "key": "title",
+          "id": "title"
+        },
+        {
+          "layout": {
+            "mobile": {
+
+              "fontSize": 18,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "separatorViewPageTitle"
+            },
+            "tabletLandscape": {
+              "fontSize": 18,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "separatorViewPageTitle"
+            },
+            "tabletPortrait": {
+              "fontSize": 18,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "separatorViewPageTitle"
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "ACCOUNT",
+          "fontWeight": "Semibold",
+          "key": "settingsTitle",
+          "id": "settingsTitle",
+          "numberOfLines": 1,
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "settingsTitle"
+            },
+            "tabletLandscape": {
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "settingsTitle"
+            },
+            "tabletPortrait": {
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "settingsTitle"
+            }
+          },
+          "backgroundColor": "#6C7074",
+          "type": "separatorView",
+          "id": "separatorViewAccoutSetting"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 100,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "baseline_toBaselineOf": "editProfileButton"
+            },
+            "tabletLandscape": {
+              "width": 180,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_topOf": "editProfileButton"
+            },
+            "tabletPortrait": {
+              "width": 180,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_topOf": "editProfileButton"
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "Name: ",
+          "fontWeight": "Bold",
+          "key": "name",
+          "id": "name",
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 116,
+              "fontSize": 12,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginRight": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "separatorViewAccoutSetting"
+            },
+            "tabletLandscape": {
+              "width": 180,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginRight": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "separatorViewAccoutSetting"
+            },
+            "tabletPortrait": {
+              "width": 180,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginRight": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "separatorViewAccoutSetting"
+            }
+          },
+          
+          "textAlignment": "center",
+          "action": "editProfile",
+          "text": "EDIT PROFILE",
+          "fontWeight": "Semibold",
+          "viewGravity": "end",
+          "key": "editProfileButton",
+          "id": "editProfileButton",
+          "backgroundColor": "#00000000",
+          "type": "button"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_rightOf": "name",
+              "rightTo_leftOf": "editProfileButton",
+              "baseline_toBaselineOf": "editProfileButton"
+            },
+            "tabletLandscape": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_rightOf": "name",
+              "rightTo_leftOf": "editProfileButton",
+              "topTo_topOf": "editProfileButton"
+            },
+            "tabletPortrait": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_rightOf": "name",
+              "rightTo_leftOf": "editProfileButton",
+              "topTo_topOf": "editProfileButton"
+            }
+          },
+          
+          "isVisibleForTablet": false,
+          "textAlignment": "left",
+          "fontWeight": "Semibold",
+          "key": "nameValue",
+          "id": "nameValue",
+          "numberOfLines": 1,
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 100,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_topOf": "changePasswordLabel"
+            },
+            "tabletLandscape": {
+              "width": 180,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_topOf": "changePasswordLabel"
+            },
+            "tabletPortrait": {
+              "width": 180,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_topOf": "changePasswordLabel"
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "Email: ",
+          "fontWeight": "Bold",
+          "key": "email",
+          "id": "email",
+          "numberOfLines": 1,
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 116,
+              "fontSize": 12,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginRight": 10,
+              "rightTo_rightOf": "parent",
+              "leftTo_leftOf": "editProfileButton",
+              "topTo_bottomOf": "editProfileButton"
+            },
+            "tabletLandscape": {
+              "width": 148,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginRight": 10,
+              "rightTo_rightOf": "parent",
+              "leftTo_leftOf": "editProfileButton",
+              "topTo_bottomOf": "editProfileButton"
+            },
+            "tabletPortrait": {
+              "width": 148,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginRight": 10,
+              "rightTo_rightOf": "parent",
+              "leftTo_leftOf": "editProfileButton",
+              "topTo_bottomOf": "editProfileButton"
+            }
+          },
+          
+          "action": "changePassword",
+          "text": "CHANGE PASSWORD",
+          "fontWeight": "Semibold",
+          "textAlignment": "center",
+          "viewGravity": "end",
+          "key": "changePasswordLabel",
+          "id": "changePasswordLabel",
+          "backgroundColor": "#00000000",
+          "type": "button"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "rightTo_leftOf": "changePasswordLabel",
+              "leftTo_leftOf": "nameValue",
+              "topTo_topOf": "changePasswordLabel"
+            },
+            "tabletLandscape": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "rightTo_leftOf": "changePasswordLabel",
+              "leftTo_leftOf": "nameValue",
+              "topTo_topOf": "changePasswordLabel"
+            },
+            "tabletPortrait": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "rightTo_leftOf": "changePasswordLabel",
+              "leftTo_leftOf": "nameValue",
+              "topTo_topOf": "changePasswordLabel"
+            }
+          },
+          
+          "textAlignment": "left",
+          "fontWeight": "Semibold",
+          "key": "emailValue",
+          "id": "emailValue",
+          "numberOfLines": 1,
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 100,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "changePasswordLabel"
+            },
+            "tabletLandscape": {
+              "width": 180,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "changePasswordLabel"
+            },
+            "tabletPortrait": {
+              "width": 180,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "changePasswordLabel"
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "Phone: ",
+          "fontWeight": "Bold",
+          "key": "phone",
+          "numberOfLines": 1,
+          "type": "label",
+          "id":"phoneLabel"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "leftTo_leftOf": "emailValue",
+              "baseline_toBaselineOf": "phoneLabel"
+            },
+            "tabletLandscape": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "leftTo_leftOf": "emailValue",
+              "baseline_toBaselineOf": "phoneLabel"
+            },
+            "tabletPortrait": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "leftTo_leftOf": "emailValue",
+              "baseline_toBaselineOf": "phoneLabel"
+            }
+          },
+          
+          "textAlignment": "left",
+          "fontWeight": "Semibold",
+          "key": "phoneValue",
+          "numberOfLines": 1,
+          "type": "label",
+          "id":"phoneValue"
+        },
+        {
+          "layout": {
+            "mobile": {},
+            "tabletLandscape": {},
+            "tabletPortrait": {}
+          },
+          "barrierDirection": "BOTTOM",
+          "referenceIds": "changePasswordLabel,phoneLabel",
+          "type": "barrier",
+          "key": "barrier",
+          "id": "barrierPlanSetting"
+        },
+        {
+          "numberOfLines": 1,
+          "type": "label",
+          "layout": {
+            "mobile": {
+              "fontSize": 18,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "barrierPlanSetting"
+            },
+            "tabletLandscape": {
+              "fontSize": 18,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 40,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "barrierPlanSetting"
+            },
+            "tabletPortrait": {
+              "fontSize": 18,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 40,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "barrierPlanSetting"
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "SUBSCRIPTION",
+          "fontWeight": "Semibold",
+          "key": "subscriptionAndBilling",
+          "id": "subscriptionAndBilling"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "subscriptionAndBilling"
+            },
+            "tabletLandscape": {
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "subscriptionAndBilling"
+            },
+            "tabletPortrait": {
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "subscriptionAndBilling"
+            }
+          },
+          "backgroundColor": "#6C7074",
+          "type": "separatorView",
+          "id": "separatorViewSubscription"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 100,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "separatorViewSubscription"
+            },
+            "tabletLandscape": {
+              "width": 180,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "separatorViewSubscription"
+            },
+            "tabletPortrait": {
+              "width": 180,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "separatorViewSubscription"
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "Plan: ",
+          "fontWeight": "Bold",
+          "key": "plan",
+          "id": "planLabel",
+          "numberOfLines": 1,
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 80,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "separatorViewSubscription"
+            },
+            "tabletLandscape": {
+              "width": 80,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "separatorViewSubscription"
+            },
+            "tabletPortrait": {
+              "width": 80,
+              "fontSize": 12,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "separatorViewSubscription"
+            }
+          },
+          
+          "action": "manageSubscription",
+          "text": "CANCEL",
+          "fontWeight": "Semibold",
+          "textAlignment": "center",
+          "viewGravity": "end",
+          "key": "Cancel Subscription",
+          "id": "cancelSubscription",
+          "backgroundColor": "#00000000",
+          "type": "button"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 12,
+              "height": 35,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginRight": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "separatorViewSubscription"
+            },
+            "tabletLandscape": {
+              "fontSize": 12,
+              "height": 35,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "separatorViewSubscription"
+            },
+            "tabletPortrait": {
+              "fontSize": 12,
+              "height": 35,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "separatorViewSubscription"
+            }
+          },
+          
+          "action": "manageSubscription",
+          "text": "UPGRADE",
+          "textAlignment": "center",
+          "fontWeight": "Semibold",
+          "viewGravity": "end",
+          "key": "Upgrade Subscription",
+          "id": "upgradeSubscription",
+          "backgroundColor": "#00000000",
+          "type": "button"
+        },
+        {
+          "layout": {
+            "mobile": {
+
+            },
+            "tabletLandscape": {
+
+            },
+            "tabletPortrait": {
+
+            }
+          },
+          "barrierDirection": "LEFT",
+          "referenceIds": "upgradeSubscription,cancelSubscription",
+          "type": "barrier",
+          "key": "barrier",
+          "id": "barrierPaymentValue"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_rightOf": "planLabel",
+              "rightTo_leftOf": "barrierPaymentValue",
+              "topTo_bottomOf": "separatorViewSubscription"
+            },
+            "tabletLandscape": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_rightOf": "planLabel",
+              "rightTo_leftOf": "barrierPaymentValue",
+              "topTo_bottomOf": "separatorViewSubscription"
+            },
+            "tabletPortrait": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_rightOf": "planLabel",
+              "rightTo_leftOf": "barrierPaymentValue",
+              "topTo_bottomOf": "separatorViewSubscription"
+            }
+          },
+          
+          "textAlignment": "left",
+          "fontWeight": "Semibold",
+          "key": "planValue",
+          "id": "planValue",
+          "numberOfLines": 1,
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {
+
+            },
+            "tabletLandscape": {
+
+            },
+            "tabletPortrait": {
+
+            }
+          },
+          "barrierDirection": "BOTTOM",
+          "referenceIds": "upgradeSubscription,cancelSubscription,planLabel",
+          "type": "barrier",
+          "key": "barrier",
+          "id": "barrierPaymentProcessorBottom"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 120,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "barrierPaymentProcessorBottom"
+            },
+            "tabletLandscape": {
+              "width": 180,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "barrierPaymentProcessorBottom"
+            },
+            "tabletPortrait": {
+              "width": 180,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "barrierPaymentProcessorBottom"
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "Payment Processor: ",
+          "fontWeight": "Bold",
+          "key": "paymentProcess",
+          "id": "paymentProcess",
+          "numberOfLines": 1,
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_rightOf": "paymentProcess",
+              "topTo_bottomOf": "barrierPaymentProcessorBottom"
+            },
+            "tabletLandscape": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_rightOf": "paymentProcess",
+              "topTo_bottomOf": "barrierPaymentProcessorBottom"
+            },
+            "tabletPortrait": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_rightOf": "paymentProcess",
+              "topTo_bottomOf": "barrierPaymentProcessorBottom"
+            }
+          },
+          
+          "textAlignment": "left",
+          "fontWeight": "Semibold",
+          "key": "paymentProcessorValue",
+          "id": "paymentProcessorValue",
+          "numberOfLines": 1,
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {},
+            "tabletLandscape": {},
+            "tabletPortrait": {}
+          },
+          "barrierDirection": "BOTTOM",
+          "referenceIds": "paymentProcessorValue,paymentProcessor,upgradeSubscription,cancelSubscription,planLabel,upgradeSubscription,cancelSubscription",
+          "type": "barrier",
+          "key": "barrier",
+          "id": "barrierCancelationSchedule"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "barrierCancelationSchedule"
+            },
+            "tabletLandscape": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "barrierCancelationSchedule"
+            },
+            "tabletPortrait": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "barrierCancelationSchedule"
+            }
+          },
+          
+          "textAlignment": "left",
+          "fontWeight": "Bold",
+          "key": "planCancelationScheduleLabel",
+          "id": "planCancelationScheduleLabel",
+          "numberOfLines": 1,
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {},
+            "tabletLandscape": {},
+            "tabletPortrait": {}
+          },
+          "barrierDirection": "BOTTOM",
+          "referenceIds": "planCancelationScheduleLabel,paymentProcessorValue,paymentProcessor,upgradeSubscription,cancelSubscription,planLabel,separatorViewSubscription",
+          "type": "barrier",
+          "key": "barrier",
+          "id": "barrierReSubscribed"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 120,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "barrierReSubscribed"
+            },
+            "tabletLandscape": {
+              "width": 120,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "barrierReSubscribed"
+            },
+            "tabletPortrait": {
+              "width": 120,
+              "height": 30,
+              "fontSize": 12,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "barrierReSubscribed"
+            }
+          },
+          
+          "action": "manageSubscription",
+          "text": "Re-Subscribe",
+          "fontWeight": "Semibold",
+          "textAlignment": "center",
+          "key": "reSubscription",
+          "id": "reSubscription",
+          "backgroundColor": "#00000000",
+          "type": "button"
+        },
+        {
+          "layout": {
+            "mobile": {},
+            "tabletLandscape": {},
+            "tabletPortrait": {}
+          },
+          "barrierDirection": "BOTTOM",
+          "referenceIds": "reSubscription,planCancelationScheduleLabel,paymentProcessorValue,paymentProcessor,upgradeSubscription,cancelSubscription,planLabel",
+          "type": "barrier",
+          "key": "barrier",
+          "id": "barrierAppSetting"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 18,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "barrierAppSetting"
+            },
+            "tabletLandscape": {
+              "fontSize": 18,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 100,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "barrierAppSetting"
+            },
+            "tabletPortrait": {
+              "fontSize": 18,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 100,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "barrierAppSetting"
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "APP SETTINGS",
+          "fontWeight": "Semibold",
+          "key": "appSettings",
+          "id": "appSettings",
+          "numberOfLines": 1,
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "appSettings"
+            },
+            "tabletLandscape": {
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "appSettings"
+            },
+            "tabletPortrait": {
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "appSettings"
+            }
+          },
+          "backgroundColor": "#6C7074",
+          "type": "separatorView",
+          "id": "separatorViewAppSetting"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "separatorViewAppSetting"
+            },
+            "tabletLandscape": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "separatorViewAppSetting"
+            },
+            "tabletPortrait": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "separatorViewAppSetting"
+            }
+          },
+          "action": "changeAutoplay",
+          "key": "autoplayToggle",
+          "id": "autoplayToggle",
+          "type": "toggle"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_leftOf": "autoplayToggle",
+              "topTo_bottomOf": "separatorViewAppSetting"
+            },
+            "tabletLandscape": {
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_leftOf": "autoplayToggle",
+              "topTo_bottomOf": "separatorViewAppSetting"
+            },
+            "tabletPortrait": {
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_leftOf": "autoplayToggle",
+              "topTo_bottomOf": "separatorViewAppSetting"
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "Autoplay",
+          "fontWeight": "Bold",
+          "key": "autoplayTitle",
+          "id": "autoplayTitle",
+          "supportPagination": false,
+          "numberOfLines": 1,
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 150,
+              "fontSize": 12,
+              "height": 20,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "autoplayToggle"
+            },
+            "tabletLandscape": {
+              "width": 180,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "autoplayToggle"
+            },
+            "tabletPortrait": {
+              "width": 180,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "autoplayToggle"
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "App Version: ",
+          "fontWeight": "Bold",
+          "key": "appVersionTitle",
+          "id": "appVersionTitle",
+          "numberOfLines": 1,
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 80,
+              "fontSize": 12,
+              "height": 20,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_rightOf": "appVersionTitle",
+              "topTo_bottomOf": "autoplayToggle"
+            },
+            "tabletLandscape": {
+              "width": 80,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_rightOf": "appVersionTitle",
+              "topTo_bottomOf": "autoplayToggle"
+            },
+            "tabletPortrait": {
+              "width": 80,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_rightOf": "appVersionTitle",
+              "topTo_bottomOf": "autoplayToggle"
+            }
+          },
+          
+          "fontWeight": "Semibold",
+          "key": "appVersionValue",
+          "id": "appVersionValue",
+          "numberOfLines": 1,
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 18,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "appVersionValue"
+            },
+            "tabletLandscape": {
+              "fontSize": 18,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "appVersionValue"
+            },
+            "tabletPortrait": {
+              "fontSize": 18,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "appVersionValue"
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "DOWNLOADS",
+          "fontWeight": "Semibold",
+          "key": "downloadsSettings",
+          "id": "downloadsSettings",
+          "numberOfLines": 1,
+          "type": "label"
+
+        },
+        {
+          "layout": {
+            "mobile": {
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "downloadsSettings"
+            },
+            "tabletLandscape": {
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "downloadsSettings"
+            },
+            "tabletPortrait": {
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "downloadsSettings"
+            }
+          },
+          "backgroundColor": "#6C7074",
+          "type": "separatorView",
+          "id": "separatorViewDownloadSettinng"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 120,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "baseline_toBaselineOf": "manageDownload"
+            },
+            "tabletLandscape": {
+              "width": 180,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "baseline_toBaselineOf": "manageDownload"
+            },
+            "tabletPortrait": {
+              "width": 180,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "baseline_toBaselineOf": "manageDownload"
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "Download Quality: ",
+          "fontWeight": "Bold",
+          "key": "downloadQuality",
+          "id": "downloadQuality",
+          "numberOfLines": 1,
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "separatorViewDownloadSettinng"
+            },
+            "tabletLandscape": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "separatorViewDownloadSettinng"
+            },
+            "tabletPortrait": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "separatorViewDownloadSettinng"
+            }
+          },
+          
+          "action": "changeDownloadQuality",
+          "text": "CHANGE",
+          "fontWeight": "Semibold",
+          "viewGravity": "end",
+          "key": "manageDownload",
+          "id": "manageDownload",
+          "backgroundColor": "#000000",
+          "type": "button"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_rightOf": "downloadQuality",
+              "rightTo_leftOf": "manageDownload",
+              "baseline_toBaselineOf": "manageDownload"
+            },
+            "tabletLandscape": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_rightOf": "downloadQuality",
+              "rightTo_rleftOf": "manageDownload",
+              "baseline_toBaselineOf": "manageDownload"
+            },
+            "tabletPortrait": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_rightOf": "downloadQuality",
+              "rightTo_leftOf": "manageDownload",
+              "baseline_toBaselineOf": "manageDownload"
+            }
+          },
+          
+          "textAlignment": "left",
+          "fontWeight": "Semibold",
+          "key": "downloadQualityValue",
+          "id": "downloadQualityValue",
+          "numberOfLines": 1,
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "manageDownload"
+            },
+            "tabletLandscape": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "manageDownload"
+            },
+            "tabletPortrait": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "manageDownload"
+            }
+          },
+          "action": "changeCellularData",
+          "type": "toggle",
+          "key": "cellularDataToggle",
+          "id": "cellularDataToggle"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_leftOf": "cellularDataToggle",
+              "baseline_toBaselineOf": "cellularDataToggle"
+            },
+            "tabletLandscape": {
+              "width": 180,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_leftOf": "cellularDataToggle",
+              "baseline_toBaselineOf": "cellularDataToggle"
+            },
+            "tabletPortrait": {
+              "width": 180,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_leftOf": "cellularDataToggle",
+              "baseline_toBaselineOf": "cellularDataToggle"
+            }
+          },
+          
+          "numberOfLines": 1,
+          "textAlignment": "left",
+          "text": "Cellular Data: ",
+          "type": "label",
+          "fontWeight": "Bold",
+          "key": "cellularDataTitle",
+          "id": "cellularDataTitle"
+        },
+        {
+          "layout": {
+            "mobile": {
+
+            },
+            "tabletLandscape": {
+
+            },
+            "tabletPortrait": {
+
+            }
+          },
+          "barrierDirection": "BOTTOM",
+          "referenceIds": "cellularDataTitle,cellularDataToggle",
+          "type": "barrier",
+          "key": "barrier",
+          "id": "barrierCellularData"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "barrierCellularData"
+            },
+            "tabletLandscape": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "barrierCellularData"
+            },
+            "tabletPortrait": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "barrierCellularData"
+            }
+          },
+          "action": "changeSDCardForDownloads",
+          "key": "useSDCardForDownloadsToggle",
+          "id": "useSDCardForDownloadsToggle",
+          "type": "toggle"
+        },
+
+        {
+          "layout": {
+            "mobile": {
+              "width": 280,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_leftOf": "useSDCardForDownloadsToggle",
+              "topTo_bottomOf": "barrierCellularData"
+            },
+            "tabletLandscape": {
+              "width": 360,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_leftOf": "useSDCardForDownloadsToggle",
+              "topTo_bottomOf": "barrierCellularData"
+            },
+            "tabletPortrait": {
+              "width": 360,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_leftOf": "useSDCardForDownloadsToggle",
+              "topTo_bottomOf": "barrierCellularData"
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "Use SD Card For Downloads",
+          "fontWeight": "Bold",
+          "key": "Use SD Card For Downloads",
+          "id": "use_SD_Card_For_Downloads",
+          "numberOfLines": 1,
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 120,
+              "fontSize": 18,
+              "height": 30,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "useSDCardForDownloadsToggle"
+            },
+            "tabletLandscape": {
+              "width": 180,
+              "fontSize": 18,
+              "height": 30,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "useSDCardForDownloadsToggle"
+            },
+            "tabletPortrait": {
+              "width": 180,
+              "fontSize": 18,
+              "height": 30,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "useSDCardForDownloadsToggle"
+            }
+          },
+          
+          "numberOfLines": 1,
+          "textAlignment": "left",
+          "text": "PERSONALIZATION",
+          "type": "label",
+          "fontWeight": "Semibold",
+          "key": "personalization",
+          "id": "personalization"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "personalization"
+            },
+            "tabletLandscape": {
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "personalization"
+            },
+            "tabletPortrait": {
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "personalization"
+            }
+          },
+          "backgroundColor": "#6C7074",
+          "type": "separatorView",
+          "id": "separatorViewPersonalization"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 180,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "separatorViewPersonalization"
+            },
+            "tabletLandscape": {
+              "width": 200,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "separatorViewPersonalization"
+            },
+            "tabletPortrait": {
+              "width": 200,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "separatorViewPersonalization"
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "EDIT PERSONALIZATION",
+          "fontWeight": "Extrabold",
+          "key": "editPersonalizationHeader",
+          "numberOfLines": 1,
+          "type": "label",
+          "id": "editPersonalizationHeader"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 120,
+              "fontSize": 18,
+              "height": 30,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "editPersonalizationHeader"
+            },
+            "tabletLandscape": {
+              "width": 180,
+              "fontSize": 18,
+              "height": 30,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "editPersonalizationHeader"
+            },
+            "tabletPortrait": {
+              "width": 180,
+              "fontSize": 18,
+              "height": 30,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "editPersonalizationHeader"
+            }
+          },
+          
+          "numberOfLines": 1,
+          "textAlignment": "left",
+          "text": "PARENTAL CONTROLS",
+          "type": "label",
+          "fontWeight": "Semibold",
+          "key": "parentalControlsHeader",
+          "id": "parentalControlsHeader"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "parentalControlsHeader"
+            },
+            "tabletLandscape": {
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "parentalControlsHeader"
+            },
+            "tabletPortrait": {
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "parentalControlsHeader"
+            }
+          },
+          "backgroundColor": "#6C7074",
+          "type": "separatorView",
+          "id": "separatorViewParentalControls"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "separatorViewParentalControls"
+            },
+            "tabletLandscape": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "separatorViewParentalControls"
+            },
+            "tabletPortrait": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "separatorViewParentalControls"
+            }
+          },
+          
+          "text": "Parental Controls",
+          "viewGravity": "end",
+          "type": "button",
+          "action": "launchParentalControls",
+          "fontWeight": "Semibold",
+          "key": "parentalControls",
+          "id": "parentalControlsButton"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "height": 30,
+              "constraint_MarginRight": 10,
+              "rightTo_rightOf": "parent",
+              "baseline_toBaselineOf": "parentalControlsButton"
+            },
+            "tabletLandscape": {
+              "height": 30,
+              "constraint_MarginRight": 10,
+              "rightTo_rightOf": "parent",
+              "baseline_toBaselineOf": "parentalControlsButton"
+            },
+            "tabletPortrait": {
+              "height": 30,
+              "constraint_MarginRight": 10,
+              "rightTo_rightOf": "parent",
+              "baseline_toBaselineOf": "parentalControlsButton"
+            }
+          },
+          "action": "manageParentalControls",
+          "type": "toggle",
+          "key": "parentalControlToggle",
+          "id": "parentalControlToggle"
+        },
+        {
+          "layout": {
+            "mobile": {},
+            "tabletLandscape": {},
+            "tabletPortrait": {}
+          },
+          "referenceIds": "phoneLabel,phoneValue",
+          "type": "group",
+          "key": "mobileInfoGroup",
+          "id": "mobileInfoGroup"
+        },
+        {
+          "layout": {
+            "mobile": {},
+            "tabletLandscape": {},
+            "tabletPortrait": {}
+          },
+          "referenceIds": "autoplayToggle,autoplayTitle",
+          "type": "group",
+          "key": "autoPlayGroup",
+          "id": "autoPlayGroup"
+        },
+        {
+          "layout": {
+            "mobile": {},
+            "tabletLandscape": {},
+            "tabletPortrait": {}
+          },
+          "referenceIds": "downloadsSettings,separatorViewDownloadSettinng,downloadQuality,manageDownload,downloadQualityValue,cellularDataToggle,cellularDataTitle,use_SD_Card_For_Downloads,useSDCardForDownloadsToggle",
+          "type": "group",
+          "key": "downloadGroup",
+          "id": "downloadGroup"
+        },
+        {
+          "layout": {
+            "mobile": {},
+            "tabletLandscape": {},
+            "tabletPortrait": {}
+          },
+          "referenceIds": "barrierCancelationSchedule,planCancelationScheduleLabel,barrierReSubscribed,reSubscription,subscriptionAndBilling,separatorViewSubscription,planLabel,cancelSubscription,upgradeSubscription,planValue,paymentProcess,paymentProcessorValue",
+          "type": "group",
+          "key": "subscriptionGroup",
+          "id": "subscriptionGroup"
+        },
+        {
+          "layout": {
+            "mobile": {},
+            "tabletLandscape": {},
+            "tabletPortrait": {}
+          },
+          "referenceIds": "personalization,separatorViewPersonalization,editPersonalizationHeader",
+          "type": "group",
+          "key": "personalizationGroup",
+          "id": "personalizationGroup"
+        },
+        {
+          "layout": {
+            "mobile": {},
+            "tabletLandscape": {},
+            "tabletPortrait": {}
+          },
+          "referenceIds": "parentalControlsHeader,separatorViewParentalControls,parentalControlsButton,parentalControlToggle",
+          "type": "group",
+          "key": "parentalControlsGroup",
+          "id": "parentalControlsGroup"
+        }
+      ]
+    },
+    {
+      "settings": {},
+      "view": "AC UserManagement 01",
+      "type": "AC UserManagement 01",
+      "blockName": "userManagement01",
+      "isConstrainteView": true,
+      "layout": {
+        "mobile": {
+          "leftMargin": 0,
+          "marginLeft": 0,
+          "marginRight": 0,
+          "yAxis": 0,
+          "topMargin": 0,
+          "rightMargin": 0,
+          "bottomMargin": 0,
+          "width": 0,
+          "marginBottom": 0,
+          "marginTop": 0,
+          "height": 0
+        },
+        "tabletLandscape": {
+          "gridHeight": 0,
+          "leftMargin": 0,
+          "xAxis": 0,
+          "yAxis": 0,
+          "topMargin": 0,
+          "rightMargin": 0,
+          "bottomMargin": 0,
+          "width": 0,
+          "gridWidth": 0,
+          "height": 0
+        },
+        "tabletPortrait": {
+          "gridHeight": 0,
+          "trayPadding": 0,
+          "leftMargin": 0,
+          "xAxis": 0,
+          "yAxis": 0,
+          "topMargin": 0,
+          "rightMargin": 0,
+          "bottomMargin": 0,
+          "width": 0,
+          "fontSize": 0,
+          "height": 0
+        }
+      },
+      "components": [
+        {
+          "layout": {
+            "mobile": {
+              "topMargin": 2.25,
+              "rightMargin": 7.3,
+              "width": 24,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginRight": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_topOf": "parent"
+            },
+            "tabletLandscape": {
+              "topMargin": 0.91,
+              "rightMargin": 0.49,
+              "width": 24,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginRight": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_topOf": "parent"
+            },
+            "tabletPortrait": {
+              "topMargin": 0.68,
+              "rightMargin": 0.65,
+              "width": 24,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginRight": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_topOf": "parent"
+            }
+          },
+          "action": "close",
+          "key": "closeButton",
+          "id": "closeButton",
+          "viewGravity": "end",
+          "type": "button"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "yAxis": 42,
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginRight": 10,
+              "topTo_bottomOf": "closeButton",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent"
+            },
+            "tabletLandscape": {
+              "yAxis": 30,
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginRight": 10,
+              "topTo_bottomOf": "closeButton",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent"
+            },
+            "tabletPortrait": {
+              "yAxis": 30,
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginRight": 10,
+              "topTo_bottomOf": "closeButton",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent"
+            }
+          },
+          "backgroundColor": "#6C7074",
+          "type": "separatorView",
+          "id": "separatorViewPageTitle"
+        },
+        {
+          "type": "label",
+          "layout": {
+            "mobile": {
+              "leftMargin": 2.67,
+              "topMargin": 3.05,
+              "rightMargin": 12,
+              "fontSize": 18,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTO_topOf": "parent",
+              "rightTo_leftOf": "closeButton",
+              "bottomTo_topOf": "separatorViewPageTitle"
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.98,
+              "topMargin": 0.91,
+              "rightMargin": 4.69,
+              "fontSize": 18,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTO_topOf": "parent",
+              "rightTo_leftOf": "closeButton",
+              "bottomTo_topOf": "separatorViewPageTitle"
+            },
+            "tabletPortrait": {
+              "leftMargin": 1.3,
+              "topMargin": 0.68,
+              "rightMargin": 6.25,
+              "fontSize": 18,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTO_topOf": "parent",
+              "rightTo_leftOf": "closeButton",
+              "bottomTo_topOf": "separatorViewPageTitle"
+            }
+          },
+          
+          "textAlignment": "left",
+          "fontWeight": "Bold",
+          "key": "title",
+          "id": "title"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 2.67,
+              "rightMargin": 2.67,
+              "yAxis": 42,
+              "fontSize": 18,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "separatorViewPageTitle"
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.98,
+              "rightMargin": 0.98,
+              "yAxis": 32,
+              "fontSize": 18,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "separatorViewPageTitle"
+            },
+            "tabletPortrait": {
+              "leftMargin": 1.3,
+              "rightMargin": 1.3,
+              "yAxis": 32,
+              "fontSize": 18,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "separatorViewPageTitle"
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "ACCOUNT",
+          "fontWeight": "Semibold",
+          "key": "settingsTitle",
+          "id": "settingsTitle",
+          "numberOfLines": 1,
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 1.33,
+              "yAxis": 68,
+              "rightMargin": 1.33,
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "settingsTitle"
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.49,
+              "yAxis": 58,
+              "rightMargin": 0.49,
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "settingsTitle"
+            },
+            "tabletPortrait": {
+              "leftMargin": 0.65,
+              "yAxis": 58,
+              "rightMargin": 0.65,
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "settingsTitle"
+            }
+          },
+          "backgroundColor": "#6C7074",
+          "type": "separatorView",
+          "id": "separatorViewAccoutSetting"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 2.67,
+              "xAxis": 0,
+              "yAxis": 70,
+              "width": 100,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "baseline_toBaselineOf": "editProfileButton"
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.98,
+              "xAxis": 0,
+              "yAxis": 62,
+              "width": 180,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_topOf": "editProfileButton"
+            },
+            "tabletPortrait": {
+              "leftMargin": 1.3,
+              "xAxis": 0,
+              "yAxis": 62,
+              "width": 180,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_topOf": "editProfileButton"
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "Name: ",
+          "fontWeight": "Bold",
+          "key": "name",
+          "id": "name",
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "yAxis": 70,
+              "rightMargin": 2.67,
+              "width": 116,
+              "fontSize": 12,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginRight": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "separatorViewAccoutSetting"
+            },
+            "tabletLandscape": {
+              "yAxis": 62,
+              "rightMargin": 5,
+              "width": 180,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginRight": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "separatorViewAccoutSetting"
+            },
+            "tabletPortrait": {
+              "yAxis": 62,
+              "rightMargin": 5,
+              "width": 180,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginRight": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "separatorViewAccoutSetting"
+            }
+          },
+          
+          "textAlignment": "center",
+          "action": "editProfile",
+          "text": "EDIT PROFILE",
+          "fontWeight": "Semibold",
+          "viewGravity": "end",
+          "key": "editProfileButton",
+          "id": "editProfileButton",
+          "backgroundColor": "#00000000",
+          "type": "button"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "xAxis": 120,
+              "yAxis": 70,
+              "rightMargin": 28,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_rightOf": "name",
+              "rightTo_leftOf": "editProfileButton",
+              "baseline_toBaselineOf": "editProfileButton"
+            },
+            "tabletLandscape": {
+              "xAxis": 150,
+              "yAxis": 62,
+              "rightMargin": 10.25,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_rightOf": "name",
+              "rightTo_leftOf": "editProfileButton",
+              "topTo_topOf": "editProfileButton"
+            },
+            "tabletPortrait": {
+              "xAxis": 140,
+              "yAxis": 62,
+              "rightMargin": 13.67,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_rightOf": "name",
+              "rightTo_leftOf": "editProfileButton",
+              "topTo_topOf": "editProfileButton"
+            }
+          },
+          
+          "isVisibleForTablet": false,
+          "textAlignment": "left",
+          "fontWeight": "Semibold",
+          "key": "nameValue",
+          "id": "nameValue",
+          "numberOfLines": 1,
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 2.67,
+              "xAxis": 0,
+              "yAxis": 108,
+              "width": 100,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_topOf": "changePasswordLabel"
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.98,
+              "yAxis": 102,
+              "width": 180,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_topOf": "changePasswordLabel"
+            },
+            "tabletPortrait": {
+              "leftMargin": 1.3,
+              "yAxis": 102,
+              "width": 180,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_topOf": "changePasswordLabel"
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "Email: ",
+          "fontWeight": "Bold",
+          "key": "email",
+          "id": "email",
+          "numberOfLines": 1,
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "yAxis": 108,
+              "rightMargin": 2.67,
+              "width": 116,
+              "fontSize": 12,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginRight": 10,
+              "rightTo_rightOf": "parent",
+              "leftTo_leftOf": "editProfileButton",
+              "topTo_bottomOf": "editProfileButton"
+            },
+            "tabletLandscape": {
+              "yAxis": 102,
+              "rightMargin": 5,
+              "width": 148,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginRight": 10,
+              "rightTo_rightOf": "parent",
+              "leftTo_leftOf": "editProfileButton",
+              "topTo_bottomOf": "editProfileButton"
+            },
+            "tabletPortrait": {
+              "yAxis": 102,
+              "rightMargin": 5,
+              "width": 148,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginRight": 10,
+              "rightTo_rightOf": "parent",
+              "leftTo_leftOf": "editProfileButton",
+              "topTo_bottomOf": "editProfileButton"
+            }
+          },
+          
+          "action": "changePassword",
+          "text": "CHANGE PASSWORD",
+          "fontWeight": "Semibold",
+          "textAlignment": "center",
+          "viewGravity": "end",
+          "key": "changePasswordLabel",
+          "id": "changePasswordLabel",
+          "backgroundColor": "#00000000",
+          "type": "button"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "xAxis": 120,
+              "yAxis": 108,
+              "rightMargin": 36,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "rightTo_leftOf": "changePasswordLabel",
+              "leftTo_rightOf": "email",
+              "topTo_topOf": "changePasswordLabel"
+            },
+            "tabletLandscape": {
+              "yAxis": 102,
+              "xAxis": 150,
+              "rightMargin": 13.18,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "rightTo_leftOf": "changePasswordLabel",
+              "leftTo_leftOf": "nameValue",
+              "topTo_topOf": "changePasswordLabel"
+            },
+            "tabletPortrait": {
+              "xAxis": 140,
+              "yAxis": 102,
+              "rightMargin": 17.58,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "rightTo_leftOf": "changePasswordLabel",
+              "leftTo_leftOf": "nameValue",
+              "topTo_topOf": "changePasswordLabel"
+            }
+          },
+          
+          "textAlignment": "left",
+          "fontWeight": "Semibold",
+          "key": "emailValue",
+          "id": "emailValue",
+          "numberOfLines": 1,
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {},
+            "tabletLandscape": {},
+            "tabletPortrait": {}
+          },
+          "barrierDirection": "BOTTOM",
+          "referenceIds": "changePasswordLabel,emailValue,email,editProfileButton,name,separatorViewAccoutSetting",
+          "type": "barrier",
+          "key": "barrier",
+          "id": "barrierPhoneField"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 2.67,
+              "xAxis": 0,
+              "yAxis": 145,
+              "width": 100,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "barrierPhoneField"
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.98,
+              "yAxis": 150,
+              "width": 180,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "barrierPhoneField"
+            },
+            "tabletPortrait": {
+              "leftMargin": 1.3,
+              "yAxis": 150,
+              "width": 180,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "barrierPhoneField"
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "Phone: ",
+          "fontWeight": "Bold",
+          "key": "phoneLabel",
+          "numberOfLines": 1,
+          "type": "label",
+          "id":"phoneLabel"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "yAxis": 70,
+              "rightMargin": 2.67,
+              "width": 116,
+              "fontSize": 12,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginRight": 10,
+              "rightTo_rightOf": "parent",
+              "baseline_toBaselineOf": "phoneLabel"
+            },
+            "tabletLandscape": {
+              "yAxis": 62,
+              "rightMargin": 5,
+              "width": 180,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginRight": 10,
+              "rightTo_rightOf": "parent",
+              "baseline_toBaselineOf": "phoneLabel"
+            },
+            "tabletPortrait": {
+              "yAxis": 62,
+              "rightMargin": 5,
+              "width": 180,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginRight": 10,
+              "rightTo_rightOf": "parent",
+              "baseline_toBaselineOf": "phoneLabel"
+            }
+          },
+          
+          "textAlignment": "center",
+          "action": "editProfile",
+          "text": "UPDATE",
+          "fontWeight": "Semibold",
+          "viewGravity": "end",
+          "key": "editPhoneNumber",
+          "id": "editPhoneNumber",
+          "backgroundColor": "#00000000",
+          "type": "button"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "xAxis": 120,
+              "yAxis": 108,
+              "rightMargin": 36,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "leftTo_rightOf": "phoneLabel",
+              "baseline_toBaselineOf": "phoneLabel"
+            },
+            "tabletLandscape": {
+              "yAxis": 102,
+              "xAxis": 150,
+              "rightMargin": 13.18,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "leftTo_rightOf": "phoneLabel",
+              "baseline_toBaselineOf": "phoneLabel"
+            },
+            "tabletPortrait": {
+              "xAxis": 140,
+              "yAxis": 102,
+              "rightMargin": 17.58,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "leftTo_rightOf": "phoneLabel",
+              "baseline_toBaselineOf": "phoneLabel"
+            }
+          },
+          
+          "textAlignment": "left",
+          "fontWeight": "Semibold",
+          "key": "phoneValue",
+          "numberOfLines": 1,
+          "type": "label",
+          "id":"phoneValue"
+        },
+        {
+          "layout": {
+            "mobile": {},
+            "tabletLandscape": {},
+            "tabletPortrait": {}
+          },
+          "barrierDirection": "BOTTOM",
+          "referenceIds": "changePasswordLabel,phoneLabel",
+          "type": "barrier",
+          "key": "barrier",
+          "id": "barrierPlanSetting"
+        },
+        {
+          "numberOfLines": 1,
+          "type": "label",
+          "layout": {
+            "mobile": {
+              "leftMargin": 2.67,
+              "yAxis": 170,
+              "rightMargin": 2.67,
+              "fontSize": 18,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "barrierPlanSetting"
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.98,
+              "yAxis": 170,
+              "rightMargin": 0.98,
+              "fontSize": 18,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 40,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "barrierPlanSetting"
+            },
+            "tabletPortrait": {
+              "leftMargin": 1.3,
+              "yAxis": 200,
+              "rightMargin": 1.3,
+              "fontSize": 18,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 40,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "barrierPlanSetting"
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "SUBSCRIPTION",
+          "fontWeight": "Semibold",
+          "key": "subscriptionAndBilling",
+          "id": "subscriptionAndBilling"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 1.33,
+              "yAxis": 198,
+              "rightMargin": 1.33,
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "subscriptionAndBilling"
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.49,
+              "yAxis": 198,
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "subscriptionAndBilling"
+            },
+            "tabletPortrait": {
+              "leftMargin": 0.65,
+              "yAxis": 228,
+              "rightMargin": 0.65,
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "subscriptionAndBilling"
+            }
+          },
+          "backgroundColor": "#6C7074",
+          "type": "separatorView",
+          "id": "separatorViewSubscription"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 2.67,
+              "yAxis": 200,
+              "width": 100,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 30,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "separatorViewSubscription"
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.98,
+              "yAxis": 200,
+              "width": 180,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "separatorViewSubscription"
+            },
+            "tabletPortrait": {
+              "leftMargin": 1.3,
+              "yAxis": 232,
+              "width": 180,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "separatorViewSubscription"
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "Plan: ",
+          "fontWeight": "Bold",
+          "key": "plan",
+          "id": "planLabel",
+          "numberOfLines": 1,
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "yAxis": 205,
+              "rightMargin": 2.67,
+              "width": 80,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "separatorViewSubscription"
+            },
+            "tabletLandscape": {
+              "yAxis": 200,
+              "rightMargin": 5,
+              "width": 80,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "separatorViewSubscription"
+            },
+            "tabletPortrait": {
+              "yAxis": 232,
+              "rightMargin": 5,
+              "width": 80,
+              "fontSize": 12,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "separatorViewSubscription"
+            }
+          },
+          
+          "action": "manageSubscription",
+          "text": "CANCEL",
+          "fontWeight": "Semibold",
+          "textAlignment": "center",
+          "viewGravity": "end",
+          "key": "Cancel Subscription",
+          "id": "cancelSubscription",
+          "backgroundColor": "#00000000",
+          "type": "button"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "yAxis": 205,
+              "rightMargin": 2.67,
+              "fontSize": 12,
+              "height": 35,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginRight": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "separatorViewSubscription"
+            },
+            "tabletLandscape": {
+              "yAxis": 200,
+              "rightMargin": 5,
+              "fontSize": 12,
+              "height": 35,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "separatorViewSubscription"
+            },
+            "tabletPortrait": {
+              "yAxis": 232,
+              "rightMargin": 5,
+              "fontSize": 12,
+              "height": 35,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "separatorViewSubscription"
+            }
+          },
+          
+          "action": "manageSubscription",
+          "text": "UPGRADE",
+          "textAlignment": "center",
+          "fontWeight": "Semibold",
+          "viewGravity": "end",
+          "key": "Upgrade Subscription",
+          "id": "upgradeSubscription",
+          "backgroundColor": "#00000000",
+          "type": "button"
+        },
+        {
+          "layout": {
+            "mobile": {
+
+            },
+            "tabletLandscape": {
+
+            },
+            "tabletPortrait": {
+
+            }
+          },
+          "barrierDirection": "LEFT",
+          "referenceIds": "upgradeSubscription,cancelSubscription",
+          "type": "barrier",
+          "key": "barrier",
+          "id": "barrierPaymentValue"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "xAxis": 120,
+              "yAxis": 200,
+              "rightMargin": 84,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_rightOf": "planLabel",
+              "rightTo_leftOf": "barrierPaymentValue",
+              "topTo_bottomOf": "separatorViewSubscription"
+            },
+            "tabletLandscape": {
+              "xAxis": 150,
+              "yAxis": 200,
+              "rightMargin": 84,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_rightOf": "planLabel",
+              "rightTo_leftOf": "barrierPaymentValue",
+              "topTo_bottomOf": "separatorViewSubscription"
+            },
+            "tabletPortrait": {
+              "xAxis": 140,
+              "yAxis": 232,
+              "rightMargin": 84,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_rightOf": "planLabel",
+              "rightTo_leftOf": "barrierPaymentValue",
+              "topTo_bottomOf": "separatorViewSubscription"
+            }
+          },
+          
+          "textAlignment": "left",
+          "fontWeight": "Semibold",
+          "key": "planValue",
+          "id": "planValue",
+
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {},
+            "tabletLandscape": {},
+            "tabletPortrait": {}
+          },
+          "barrierDirection": "BOTTOM",
+          "referenceIds": "upgradeSubscription,cancelSubscription,planLabel,planValue",
+          "type": "barrier",
+          "key": "barrier",
+          "id": "barrierPlanPriceValue"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 2.67,
+              "yAxis": 232,
+              "width": 120,
+              "fontSize": 10,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "barrierPlanPriceValue"
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.98,
+              "yAxis": 232,
+              "width": 180,
+              "fontSize": 10,
+              "height": 42,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "barrierPlanPriceValue"
+            },
+            "tabletPortrait": {
+              "leftMargin": 1.3,
+              "yAxis": 280,
+              "width": 180,
+              "fontSize": 10,
+              "height": 42,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "barrierPlanPriceValue"
+            }
+          },
+          
+          "textAlignment": "left",
+          "fontWeight": "Semibold",
+          "key": "planPriceValue",
+          "id": "planPriceValue",
+          "numberOfLines": 1,
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 2.67,
+              "yAxis": 232,
+              "width": 120,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "planPriceValue"
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.98,
+              "yAxis": 200,
+              "width": 180,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "planPriceValue"
+            },
+            "tabletPortrait": {
+              "leftMargin": 1.3,
+              "yAxis": 232,
+              "width": 180,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "planPriceValue"
+            }
+          },
+          "fontFamily": "OpenSans",
+          "textAlignment": "left",
+          "text": "Next billing date: ",
+          "fontWeight": "Bold",
+          "key": "nextBillingDueDate",
+          "id": "nextBillingDueDate",
+          "numberOfLines": 1,
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "xAxis": 120,
+              "yAxis": 200,
+              "rightMargin": 84,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_rightOf": "nextBillingDueDate",
+              "baseline_toBaselineOf": "nextBillingDueDate"
+            },
+            "tabletLandscape": {
+              "xAxis": 150,
+              "yAxis": 200,
+              "rightMargin": 84,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_rightOf": "nextBillingDueDate",
+              "baseline_toBaselineOf": "nextBillingDueDate"
+            },
+            "tabletPortrait": {
+              "xAxis": 140,
+              "yAxis": 232,
+              "rightMargin": 84,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_rightOf": "nextBillingDueDate",
+              "baseline_toBaselineOf": "nextBillingDueDate"
+            }
+          },
+          "textAlignment": "left",
+          "fontWeight": "Semibold",
+          "text": "dd-mm-yy",
+          "key": "nextBillingDueDateValue",
+          "id": "nextBillingDueDateValue",
+          "numberOfLines": 1,
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {},
+            "tabletLandscape": {},
+            "tabletPortrait": {}
+          },
+          "barrierDirection": "BOTTOM",
+          "referenceIds": "upgradeSubscription,cancelSubscription,planLabel,nextBillingDueDate,nextBillingDueDateValue,planValue,planPriceValue",
+          "type": "barrier",
+          "key": "barrier",
+          "id": "barrierPaymentProcessorBottom"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 2.67,
+              "yAxis": 232,
+              "width": 120,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 40,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "barrierPaymentProcessorBottom"
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.98,
+              "yAxis": 232,
+              "width": 180,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "barrierPaymentProcessorBottom"
+            },
+            "tabletPortrait": {
+              "leftMargin": 1.3,
+              "yAxis": 280,
+              "width": 180,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "barrierPaymentProcessorBottom"
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "Payment Processor: ",
+          "fontWeight": "Bold",
+          "key": "paymentProcess",
+          "id": "paymentProcess",
+          "numberOfLines": 1,
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "yAxis": 200,
+              "rightMargin": 2.67,
+              "fontSize": 12,
+              "height": 35,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginRight": 10,
+              "rightTo_rightOf": "parent",
+              "baseline_toBaselineOf": "nextBillingDueDate"
+            },
+            "tabletLandscape": {
+              "yAxis": 200,
+              "rightMargin": 5,
+              "fontSize": 12,
+              "height": 35,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "baseline_toBaselineOf": "nextBillingDueDate"
+            },
+            "tabletPortrait": {
+              "yAxis": 232,
+              "rightMargin": 5,
+              "fontSize": 12,
+              "height": 35,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "baseline_toBaselineOf": "nextBillingDueDate"
+            }
+          },
+          "action": "manageSubscription",
+          "text": "Billing History",
+          "textAlignment": "center",
+          "fontWeight": "Semibold",
+          "viewGravity": "end",
+          "key": "billingHistory",
+          "id": "billingHistory",
+          "backgroundColor": "#00000000",
+          "type": "button"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "xAxis": 120,
+              "yAxis": 232,
+              "rightMargin": 36,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 40,
+              "constraint_MarginLeft": 10,
+              "leftTo_rightOf": "paymentProcess",
+              "topTo_bottomOf": "barrierPaymentProcessorBottom"
+            },
+            "tabletLandscape": {
+              "xAxis": 150,
+              "yAxis": 232,
+              "rightMargin": 13.18,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_rightOf": "paymentProcess",
+              "topTo_bottomOf": "barrierPaymentProcessorBottom"
+            },
+            "tabletPortrait": {
+              "xAxis": 140,
+              "yAxis": 280,
+              "rightMargin": 17.58,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_rightOf": "paymentProcess",
+              "topTo_bottomOf": "barrierPaymentProcessorBottom"
+            }
+          },
+          
+          "textAlignment": "left",
+          "fontWeight": "Semibold",
+          "key": "paymentProcessorValue",
+          "id": "paymentProcessorValue",
+          "numberOfLines": 1,
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {},
+            "tabletLandscape": {},
+            "tabletPortrait": {}
+          },
+          "barrierDirection": "BOTTOM",
+          "referenceIds": "planPriceValue,paymentProcessorValue,paymentProcessor,upgradeSubscription,cancelSubscription,planLabel,upgradeSubscription,cancelSubscription",
+          "type": "barrier",
+          "key": "barrier",
+          "id": "barrierCancelationSchedule"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "barrierCancelationSchedule"
+            },
+            "tabletLandscape": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "barrierCancelationSchedule"
+            },
+            "tabletPortrait": {
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "barrierCancelationSchedule"
+            }
+          },
+          
+          "textAlignment": "left",
+          "fontWeight": "Bold",
+          "key": "planCancelationScheduleLabel",
+          "id": "planCancelationScheduleLabel",
+          "numberOfLines": 1,
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {},
+            "tabletLandscape": {},
+            "tabletPortrait": {}
+          },
+          "barrierDirection": "BOTTOM",
+          "referenceIds": "planCancelationScheduleLabel,paymentProcessorValue,paymentProcessor,upgradeSubscription,cancelSubscription,planLabel,separatorViewSubscription",
+          "type": "barrier",
+          "key": "barrier",
+          "id": "barrierReSubscribed"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 150,
+              "fontSize": 12,
+              "height": 25,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "barrierReSubscribed"
+            },
+            "tabletLandscape": {
+              "width": 150,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "barrierReSubscribed"
+            },
+            "tabletPortrait": {
+              "width": 150,
+              "height": 30,
+              "fontSize": 12,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "barrierReSubscribed"
+            }
+          },
+          
+          "action": "manageSubscription",
+          "text": "Re-Subscribe",
+          "fontWeight": "Semibold",
+          "textAlignment": "center",
+          "key": "reSubscription",
+          "id": "reSubscription",
+          "backgroundColor": "#00000000",
+          "type": "button"
+        },
+        {
+          "layout": {
+            "mobile": {},
+            "tabletLandscape": {},
+            "tabletPortrait": {}
+          },
+          "barrierDirection": "BOTTOM",
+          "referenceIds": "reSubscription,planCancelationScheduleLabel,paymentProcessorValue,paymentProcessor,upgradeSubscription,cancelSubscription,planLabel",
+          "type": "barrier",
+          "key": "barrier",
+          "id": "barrierAppSetting"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 18,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 40,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "barrierAppSetting"
+            },
+            "tabletLandscape": {
+              "fontSize": 18,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 100,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "barrierAppSetting"
+            },
+            "tabletPortrait": {
+              "fontSize": 18,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 100,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "barrierAppSetting"
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "APP SETTINGS",
+          "fontWeight": "Semibold",
+          "key": "appSettings",
+          "id": "appSettings",
+          "numberOfLines": 1,
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 1.33,
+              "yAxis": 298,
+              "rightMargin": 1.33,
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "appSettings"
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.49,
+              "yAxis": 298,
+              "rightMargin": 0.49,
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "appSettings"
+            },
+            "tabletPortrait": {
+              "leftMargin": 0.65,
+              "yAxis": 406,
+              "rightMargin": 0.65,
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "appSettings"
+            }
+          },
+          "backgroundColor": "#6C7074",
+          "type": "separatorView",
+          "id": "separatorViewAppSetting"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 86.67,
+              "yAxis": 300,
+              "rightMargin": 28,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "separatorViewAppSetting"
+            },
+            "tabletLandscape": {
+              "leftMargin": 86.67,
+              "xAxis": 300,
+              "yAxis": 300,
+              "rightMargin": 10.25,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "separatorViewAppSetting"
+            },
+            "tabletPortrait": {
+              "leftMargin": 86.67,
+              "yAxis": 408,
+              "rightMargin": 13.67,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "separatorViewAppSetting"
+            }
+          },
+          "action": "changeAutoplay",
+          "key": "autoplayToggle",
+          "id": "autoplayToggle",
+          "type": "toggle"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 2.67,
+              "yAxis": 300,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_leftOf": "autoplayToggle",
+              "topTo_bottomOf": "separatorViewAppSetting"
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.98,
+              "yAxis": 300,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_leftOf": "autoplayToggle",
+              "topTo_bottomOf": "separatorViewAppSetting"
+            },
+            "tabletPortrait": {
+              "leftMargin": 1.3,
+              "yAxis": 408,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_leftOf": "autoplayToggle",
+              "topTo_bottomOf": "separatorViewAppSetting"
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "Autoplay",
+          "fontWeight": "Bold",
+          "key": "autoplayTitle",
+          "id": "autoplayTitle",
+          "supportPagination": false,
+          "numberOfLines": 1,
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 2.67,
+              "yAxis": 368,
+              "width": 150,
+              "fontSize": 12,
+              "height": 20,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "autoplayToggle"
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.98,
+              "yAxis": 368,
+              "width": 180,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "autoplayToggle"
+            },
+            "tabletPortrait": {
+              "leftMargin": 1.3,
+              "yAxis": 474,
+              "width": 180,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "autoplayToggle"
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "App Version: ",
+          "fontWeight": "Bold",
+          "key": "appVersionTitle",
+          "id": "appVersionTitle",
+          "numberOfLines": 1,
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "xAxis": 130,
+              "yAxis": 368,
+              "width": 80,
+              "fontSize": 12,
+              "height": 20,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_rightOf": "appVersionTitle",
+              "topTo_bottomOf": "autoplayToggle"
+            },
+            "tabletLandscape": {
+              "xAxis": 150,
+              "yAxis": 368,
+              "width": 80,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_rightOf": "appVersionTitle",
+              "topTo_bottomOf": "autoplayToggle"
+            },
+            "tabletPortrait": {
+              "xAxis": 140,
+              "yAxis": 474,
+              "width": 80,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_rightOf": "appVersionTitle",
+              "topTo_bottomOf": "autoplayToggle"
+            }
+          },
+          
+          "fontWeight": "Semibold",
+          "key": "appVersionValue",
+          "id": "appVersionValue",
+          "numberOfLines": 1,
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 2.67,
+              "yAxis": 397,
+              "rightMargin": 2.67,
+              "fontSize": 18,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "appVersionValue"
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.98,
+              "yAxis": 397,
+              "rightMargin": 0.98,
+              "fontSize": 18,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "appVersionValue"
+            },
+            "tabletPortrait": {
+              "leftMargin": 1.3,
+              "yAxis": 574,
+              "rightMargin": 1.3,
+              "fontSize": 18,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "appVersionValue"
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "DOWNLOADS",
+          "fontWeight": "Semibold",
+          "key": "downloadsSettings",
+          "id": "downloadsSettings",
+          "numberOfLines": 1,
+          "type": "label"
+
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 1.33,
+              "yAxis": 420,
+              "rightMargin": 1.33,
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "downloadsSettings"
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.49,
+              "yAxis": 420,
+              "rightMargin": 0.49,
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "downloadsSettings"
+            },
+            "tabletPortrait": {
+              "leftMargin": 0.65,
+              "yAxis": 600,
+              "rightMargin": 0.65,
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "downloadsSettings"
+            }
+          },
+          "backgroundColor": "#6C7074",
+          "type": "separatorView",
+          "id": "separatorViewDownloadSettinng"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 2.67,
+              "yAxis": 422,
+              "width": 120,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "baseline_toBaselineOf": "manageDownload"
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.98,
+              "yAxis": 422,
+              "width": 180,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "baseline_toBaselineOf": "manageDownload"
+            },
+            "tabletPortrait": {
+              "leftMargin": 1.3,
+              "yAxis": 602,
+              "width": 180,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "baseline_toBaselineOf": "manageDownload"
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "Download Quality: ",
+          "fontWeight": "Bold",
+          "key": "downloadQuality",
+          "id": "downloadQuality",
+          "numberOfLines": 1,
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "yAxis": 422,
+              "rightMargin": 2.67,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "separatorViewDownloadSettinng"
+            },
+            "tabletLandscape": {
+              "yAxis": 422,
+              "rightMargin": 0.98,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "separatorViewDownloadSettinng"
+            },
+            "tabletPortrait": {
+              "yAxis": 602,
+              "rightMargin": 1.3,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "separatorViewDownloadSettinng"
+            }
+          },
+          
+          "action": "changeDownloadQuality",
+          "text": "CHANGE",
+          "fontWeight": "Semibold",
+          "viewGravity": "end",
+          "key": "manageDownload",
+          "id": "manageDownload",
+          "backgroundColor": "#000000",
+          "type": "button"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "xAxis": 120,
+              "yAxis": 422,
+              "rightMargin": 28,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_rightOf": "downloadQuality",
+              "rightTo_leftOf": "manageDownload",
+              "baseline_toBaselineOf": "manageDownload"
+            },
+            "tabletLandscape": {
+              "xAxis": 150,
+              "yAxis": 422,
+              "rightMargin": 10.25,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_rightOf": "downloadQuality",
+              "rightTo_rleftOf": "manageDownload",
+              "baseline_toBaselineOf": "manageDownload"
+            },
+            "tabletPortrait": {
+              "xAxis": 140,
+              "yAxis": 602,
+              "rightMargin": 17.58,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_rightOf": "downloadQuality",
+              "rightTo_leftOf": "manageDownload",
+              "baseline_toBaselineOf": "manageDownload"
+            }
+          },
+          
+          "textAlignment": "left",
+          "fontWeight": "Semibold",
+          "key": "downloadQualityValue",
+          "id": "downloadQualityValue",
+          "numberOfLines": 1,
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 86.67,
+              "yAxis": 456,
+              "rightMargin": 28,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "manageDownload"
+            },
+            "tabletLandscape": {
+              "leftMargin": 86.67,
+              "yAxis": 456,
+              "rightMargin": 10.25,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "manageDownload"
+            },
+            "tabletPortrait": {
+              "leftMargin": 86.67,
+              "yAxis": 644,
+              "rightMargin": 13.67,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "manageDownload"
+            }
+          },
+          "action": "changeCellularData",
+          "type": "toggle",
+          "key": "cellularDataToggle",
+          "id": "cellularDataToggle"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 2.67,
+              "yAxis": 456,
+              "width": 120,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_leftOf": "cellularDataToggle",
+              "baseline_toBaselineOf": "cellularDataToggle"
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.98,
+              "yAxis": 456,
+              "width": 180,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_leftOf": "cellularDataToggle",
+              "baseline_toBaselineOf": "cellularDataToggle"
+            },
+            "tabletPortrait": {
+              "leftMargin": 1.3,
+              "yAxis": 644,
+              "width": 180,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_leftOf": "cellularDataToggle",
+              "baseline_toBaselineOf": "cellularDataToggle"
+            }
+          },
+          
+          "numberOfLines": 1,
+          "textAlignment": "left",
+          "text": "Cellular Data: ",
+          "type": "label",
+          "fontWeight": "Bold",
+          "key": "cellularDataTitle",
+          "id": "cellularDataTitle"
+        },
+        {
+          "layout": {
+            "mobile": {
+
+            },
+            "tabletLandscape": {
+
+            },
+            "tabletPortrait": {
+
+            }
+          },
+          "barrierDirection": "BOTTOM",
+          "referenceIds": "cellularDataTitle,cellularDataToggle",
+          "type": "barrier",
+          "key": "barrier",
+          "id": "barrierCellularData"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 86.67,
+              "yAxis": 334,
+              "rightMargin": 28,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "barrierCellularData"
+            },
+            "tabletLandscape": {
+              "leftMargin": 86.67,
+              "yAxis": 334,
+              "rightMargin": 10.25,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "barrierCellularData"
+            },
+            "tabletPortrait": {
+              "leftMargin": 86.67,
+              "yAxis": 442,
+              "rightMargin": 13.67,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "barrierCellularData"
+            }
+          },
+          "action": "changeSDCardForDownloads",
+          "key": "useSDCardForDownloadsToggle",
+          "id": "useSDCardForDownloadsToggle",
+          "type": "toggle"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 2.67,
+              "yAxis": 334,
+              "width": 280,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_leftOf": "useSDCardForDownloadsToggle",
+              "topTo_bottomOf": "barrierCellularData"
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.98,
+              "yAxis": 334,
+              "width": 360,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_leftOf": "useSDCardForDownloadsToggle",
+              "topTo_bottomOf": "barrierCellularData"
+            },
+            "tabletPortrait": {
+              "leftMargin": 1.3,
+              "yAxis": 442,
+              "width": 360,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_leftOf": "useSDCardForDownloadsToggle",
+              "topTo_bottomOf": "barrierCellularData"
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "Use SD Card For Downloads",
+          "fontWeight": "Bold",
+          "key": "Use SD Card For Downloads",
+          "id": "use_SD_Card_For_Downloads",
+          "numberOfLines": 1,
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 2.67,
+              "yAxis": 456,
+              "width": 120,
+              "fontSize": 18,
+              "height": 30,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "useSDCardForDownloadsToggle"
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.98,
+              "yAxis": 456,
+              "width": 180,
+              "fontSize": 18,
+              "height": 30,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "useSDCardForDownloadsToggle"
+            },
+            "tabletPortrait": {
+              "leftMargin": 1.3,
+              "yAxis": 644,
+              "width": 180,
+              "fontSize": 18,
+              "height": 30,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "useSDCardForDownloadsToggle"
+            }
+          },
+          
+          "numberOfLines": 1,
+          "textAlignment": "left",
+          "text": "PERSONALIZATION",
+          "type": "label",
+          "fontWeight": "Semibold",
+          "key": "personalization",
+          "id": "personalization"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 1.33,
+              "yAxis": 420,
+              "rightMargin": 1.33,
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "personalization"
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.49,
+              "yAxis": 420,
+              "rightMargin": 0.49,
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "personalization"
+            },
+            "tabletPortrait": {
+              "leftMargin": 0.65,
+              "yAxis": 600,
+              "rightMargin": 0.65,
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "personalization"
+            }
+          },
+          "backgroundColor": "#6C7074",
+          "type": "separatorView",
+          "id": "separatorViewPersonalization"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 2.67,
+              "yAxis": 535,
+              "width": 180,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "separatorViewPersonalization"
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.98,
+              "yAxis": 422,
+              "width": 200,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "separatorViewPersonalization"
+            },
+            "tabletPortrait": {
+              "leftMargin": 1.3,
+              "yAxis": 602,
+              "width": 200,
+              "fontSize": 12,
+              "height": 42,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "separatorViewPersonalization"
+            }
+          },
+          
+          "textAlignment": "left",
+          "text": "EDIT PERSONALIZATION",
+          "fontWeight": "Extrabold",
+          "key": "editPersonalizationHeader",
+          "numberOfLines": 1,
+          "type": "label",
+          "id": "editPersonalizationHeader"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 2.67,
+              "yAxis": 456,
+              "width": 120,
+              "fontSize": 18,
+              "height": 30,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "editPersonalizationHeader"
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.98,
+              "yAxis": 456,
+              "width": 180,
+              "fontSize": 18,
+              "height": 30,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "editPersonalizationHeader"
+            },
+            "tabletPortrait": {
+              "leftMargin": 1.3,
+              "yAxis": 644,
+              "width": 180,
+              "fontSize": 18,
+              "height": 30,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "editPersonalizationHeader"
+            }
+          },
+          
+          "numberOfLines": 1,
+          "textAlignment": "left",
+          "text": "PARENTAL CONTROLS",
+          "type": "label",
+          "fontWeight": "Semibold",
+          "key": "parentalControlsHeader",
+          "id": "parentalControlsHeader"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 1.33,
+              "yAxis": 420,
+              "rightMargin": 1.33,
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "parentalControlsHeader"
+            },
+            "tabletLandscape": {
+              "leftMargin": 0.49,
+              "yAxis": 420,
+              "rightMargin": 0.49,
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "parentalControlsHeader"
+            },
+            "tabletPortrait": {
+              "leftMargin": 0.65,
+              "yAxis": 600,
+              "rightMargin": 0.65,
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "parentalControlsHeader"
+            }
+          },
+          "backgroundColor": "#6C7074",
+          "type": "separatorView",
+          "id": "separatorViewParentalControls"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "yAxis": 422,
+              "rightMargin": 2.67,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "separatorViewParentalControls"
+            },
+            "tabletLandscape": {
+              "yAxis": 422,
+              "rightMargin": 0.98,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "separatorViewParentalControls"
+            },
+            "tabletPortrait": {
+              "yAxis": 602,
+              "rightMargin": 1.3,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTo_bottomOf": "separatorViewParentalControls"
+            }
+          },
+          
+          "text": "Parental Controls",
+          "viewGravity": "end",
+          "type": "button",
+          "action": "launchParentalControls",
+          "fontWeight": "Semibold",
+          "key": "parentalControls",
+          "id": "parentalControlsButton"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 86.67,
+              "yAxis": 456,
+              "rightMargin": 28,
+              "height": 30,
+              "constraint_MarginRight": 10,
+              "rightTo_rightOf": "parent",
+              "baseline_toBaselineOf": "parentalControlsButton"
+            },
+            "tabletLandscape": {
+              "leftMargin": 86.67,
+              "yAxis": 456,
+              "rightMargin": 10.25,
+              "height": 30,
+              "constraint_MarginRight": 10,
+              "rightTo_rightOf": "parent",
+              "baseline_toBaselineOf": "parentalControlsButton"
+            },
+            "tabletPortrait": {
+              "leftMargin": 86.67,
+              "yAxis": 644,
+              "rightMargin": 13.67,
+              "height": 30,
+              "constraint_MarginRight": 10,
+              "rightTo_rightOf": "parent",
+              "baseline_toBaselineOf": "parentalControlsButton"
+            }
+          },
+          "action": "manageParentalControls",
+          "type": "toggle",
+          "key": "parentalControlToggle",
+          "id": "parentalControlToggle"
+        },
+        {
+          "layout": {
+            "mobile": {},
+            "tabletLandscape": {},
+            "tabletPortrait": {}
+          },
+          "referenceIds": "phoneLabel,phoneValue",
+          "type": "group",
+          "key": "mobileInfoGroup",
+          "id": "mobileInfoGroup"
+        },
+        {
+          "layout": {
+            "mobile": {},
+            "tabletLandscape": {},
+            "tabletPortrait": {}
+          },
+          "referenceIds": "autoplayToggle,autoplayTitle",
+          "type": "group",
+          "key": "autoPlayGroup",
+          "id": "autoPlayGroup"
+        },
+        {
+          "layout": {
+            "mobile": {},
+            "tabletLandscape": {},
+            "tabletPortrait": {}
+          },
+          "referenceIds": "downloadsSettings,separatorViewDownloadSettinng,downloadQuality,manageDownload,downloadQualityValue,cellularDataToggle,cellularDataTitle,use_SD_Card_For_Downloads,useSDCardForDownloadsToggle",
+          "type": "group",
+          "key": "downloadGroup",
+          "id": "downloadGroup"
+        },
+        {
+          "layout": {
+            "mobile": {},
+            "tabletLandscape": {},
+            "tabletPortrait": {}
+          },
+          "referenceIds": "barrierCancelationSchedule,planCancelationScheduleLabel,barrierReSubscribed,reSubscription,subscriptionAndBilling,separatorViewSubscription,planLabel,cancelSubscription,upgradeSubscription,planValue,paymentProcess,paymentProcessorValue,nextBillingDueDate,nextBillingDueDateValue",
+          "type": "group",
+          "key": "subscriptionGroup",
+          "id": "subscriptionGroup"
+        },
+        {
+          "layout": {
+            "mobile": {},
+            "tabletLandscape": {},
+            "tabletPortrait": {}
+          },
+          "referenceIds": "personalization,separatorViewPersonalization,editPersonalizationHeader",
+          "type": "group",
+          "key": "personalizationGroup",
+          "id": "personalizationGroup"
+        },
+        {
+          "layout": {
+            "mobile": {},
+            "tabletLandscape": {},
+            "tabletPortrait": {}
+          },
+          "referenceIds": "parentalControlsHeader,separatorViewParentalControls,parentalControlsButton,parentalControlToggle",
+          "type": "group",
+          "key": "parentalControlsGroup",
+          "id": "parentalControlsGroup"
+        }
+      ]
+    }
+
+  ],
+  "caching": {},
+  "version": "0.0.11"
+}

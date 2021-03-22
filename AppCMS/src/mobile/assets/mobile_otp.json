@@ -1,0 +1,987 @@
+{
+  "moduleList": [
+    {
+      "view": "AC Authentication 01",
+      "type": "AC Authentication 01",
+      "blockName": "authentication01_activate_device",
+      "layout": {
+        "mobile": {
+          "yAxis": 0,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "height": 603
+        },
+        "tabletLandscape": {
+          "yAxis": 0,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "height": 704
+        },
+        "tabletPortrait": {
+          "yAxis": 0,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "height": 960
+        }
+      },
+      "components": [
+        {
+          "layout": {
+            "mobile": {
+              "yAxis": 22.5,
+              "xAxis": 1.73,
+              "width": 371.4,
+              "height": 1
+            },
+            "tabletLandscape": {
+              "yAxis": 32,
+              "xAxis": 0.68,
+              "width": 1022.64,
+              "height": 1
+            },
+            "tabletPortrait": {
+              "yAxis": 32,
+              "xAxis": 0.91,
+              "width": 766.18,
+              "height": 1
+            }
+          },
+          "components": [
+            {
+              "layout": {
+                "mobile": {
+                  "yAxis": 20,
+                  "xAxis": 97,
+                  "width": 181,
+                  "height": 17
+                },
+                "tabletLandscape": {
+                  "yAxis": 50,
+                  "xAxis": 225,
+                  "width": 181,
+                  "height": 17
+                },
+                "tabletPortrait": {
+                  "yAxis": 50,
+                  "xAxis": 293.5,
+                  "width": 181,
+                  "height": 17
+                }
+              },
+              "components": [
+                {
+                  "backgroundColor": "#000000",
+                  "underlineWidth": 1,
+                  "type": "label",
+                  "textColor": "#ffffff",
+                  "layout": {
+                    "mobile": {
+                      "yAxis": 1.5,
+                      "xAxis": 0,
+                      "width": 57,
+                      "fontSize": 10,
+                      "height": 14
+                    },
+                    "tabletLandscape": {
+                      "yAxis": 1.5,
+                      "xAxis": 0,
+                      "width": 57,
+                      "fontSize": 10,
+                      "height": 14
+                    },
+                    "tabletPortrait": {
+                      "yAxis": 1.5,
+                      "xAxis": 0,
+                      "width": 57,
+                      "fontSize": 10,
+                      "height": 14
+                    }
+                  },
+                  "fontFamily": "OpenSans",
+                  "underlineColor": "#008ee0",
+                  "textAlignment": "center",
+                  "underlined": true,
+                  "action": "login",
+                  "text": "LOG IN",
+                  "fontWeight": "Bold",
+                  "key": "login label"
+                },
+                {
+                  "layout": {
+                    "mobile": {
+                      "yAxis": 1.5,
+                      "xAxis": 116,
+                      "width": 65,
+                      "fontSize": 10,
+                      "height": 14
+                    },
+                    "tabletLandscape": {
+                      "yAxis": 1.5,
+                      "xAxis": 116,
+                      "width": 65,
+                      "fontSize": 10,
+                      "height": 14
+                    },
+                    "tabletPortrait": {
+                      "yAxis": 1.5,
+                      "xAxis": 116,
+                      "width": 65,
+                      "fontSize": 10,
+                      "height": 14
+                    }
+                  },
+                  "backgroundColor": "#000000",
+                  "fontFamily": "OpenSans",
+                  "textAlignment": "center",
+                  "action": "signup",
+                  "text": "SIGN UP",
+                  "type": "label",
+                  "textColor": "#ffffff",
+                  "fontWeight": "Semibold",
+                  "key": "sign up label"
+                }
+              ],
+              "type": "AC SegmentedView",
+              "value": "AVOD",
+              "selectedIndex": 0
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "yAxis": 20,
+                  "xAxis": 97,
+                  "width": 181,
+                  "height": 17
+                },
+                "tabletLandscape": {
+                  "yAxis": 50,
+                  "xAxis": 225,
+                  "width": 181,
+                  "height": 17
+                },
+                "tabletPortrait": {
+                  "yAxis": 50,
+                  "xAxis": 293.5,
+                  "width": 181,
+                  "height": 17
+                }
+              },
+              "components": [
+                {
+                  "backgroundColor": "#000000",
+                  "underlineWidth": 1,
+                  "type": "label",
+                  "textColor": "#ffffff",
+                  "layout": {
+                    "mobile": {
+                      "yAxis": 1.5,
+                      "xAxis": 62,
+                      "width": 57,
+                      "fontSize": 10,
+                      "height": 14
+                    },
+                    "tabletLandscape": {
+                      "yAxis": 1.5,
+                      "xAxis": 62,
+                      "width": 57,
+                      "fontSize": 10,
+                      "height": 14
+                    },
+                    "tabletPortrait": {
+                      "yAxis": 1.5,
+                      "xAxis": 62,
+                      "width": 57,
+                      "fontSize": 10,
+                      "height": 14
+                    }
+                  },
+                  "fontFamily": "OpenSans",
+                  "underlineColor": "#008ee0",
+                  "textAlignment": "center",
+                  "underlined": true,
+                  "action": "login",
+                  "text": "LOG IN",
+                  "fontWeight": "Bold",
+                  "key": "login label"
+                }
+              ],
+              "type": "AC SegmentedView",
+              "value": "SVOD",
+              "selectedIndex": 0
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "yAxis": 241,
+                  "xAxis": 10,
+                  "width": 355,
+                  "fontSize": 10,
+                  "height": 60
+                },
+                "tabletLandscape": {
+                  "yAxis": 125,
+                  "xAxis": 140,
+                  "width": 355,
+                  "fontSize": 10,
+                  "height": 60
+                },
+                "tabletPortrait": {
+                  "yAxis": 354,
+                  "xAxis": 206.5,
+                  "width": 355,
+                  "fontSize": 10,
+                  "height": 60
+                }
+              },
+              "key": "phoneTextField",
+              "backgroundColor": "#ffffff",
+              "fontFamily": "OpenSans",
+              "protected": false,
+              "textAlignment": "left",
+              "text": "PHONE",
+              "opacity": 46,
+              "maxLength": 11,
+              "type": "textfield",
+              "textColor": "#162732"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "yAxis": 365,
+                  "xAxis": 78,
+                  "width": 219,
+                  "fontSize": 12,
+                  "height": 40
+                },
+                "tabletLandscape": {
+                  "yAxis": 280,
+                  "xAxis": 206,
+                  "width": 219,
+                  "fontSize": 12,
+                  "height": 40
+                },
+                "tabletPortrait": {
+                  "yAxis": 440,
+                  "xAxis": 274.5,
+                  "width": 219,
+                  "fontSize": 12,
+                  "height": 40
+                }
+              },
+              "key": "login button",
+              "backgroundColor": "#008ee0",
+              "fontFamily": "OpenSans",
+              "action": "login",
+              "text": "LOG IN",
+              "opacity": 100,
+              "type": "button",
+              "textColor": "#ffffff",
+              "fontWeight": "Semibold"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "yAxis": 218,
+                  "xAxis": 0,
+                  "width": 167.5,
+                  "height": 1
+                },
+                "tabletLandscape": {
+                  "yAxis": 0,
+                  "xAxis": 579,
+                  "width": 1,
+                  "height": 132
+                },
+                "tabletPortrait": {
+                  "yAxis": 318,
+                  "xAxis": 0,
+                  "width": 364,
+                  "height": 1
+                }
+              },
+              "type": "separatorView",
+              "backgroundColor": "#808080"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "yAxis": 211,
+                  "xAxis": 167.5,
+                  "width": 40,
+                  "fontSize": 10,
+                  "height": 14
+                },
+                "tabletLandscape": {
+                  "yAxis": 143,
+                  "xAxis": 567,
+                  "width": 26,
+                  "fontSize": 10,
+                  "height": 14
+                },
+                "tabletPortrait": {
+                  "yAxis": 314,
+                  "xAxis": 364,
+                  "width": 40,
+                  "fontSize": 10,
+                  "height": 14
+                }
+              },
+              "key": "orLabel",
+              "fontFamily": "OpenSans",
+              "textAlignment": "center",
+              "text": "OR",
+              "type": "label",
+              "textColor": "#ffffff",
+              "fontWeight": "Semibold"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "yAxis": 218,
+                  "xAxis": 207.5,
+                  "width": 167.5,
+                  "height": 1
+                },
+                "tabletLandscape": {
+                  "yAxis": 167,
+                  "xAxis": 579,
+                  "width": 1,
+                  "height": 534
+                },
+                "tabletPortrait": {
+                  "yAxis": 318,
+                  "xAxis": 404,
+                  "width": 364,
+                  "height": 1
+                }
+              },
+              "type": "separatorView",
+              "backgroundColor": "#808080"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "yAxis": 110,
+                  "xAxis": 78,
+                  "width": 220,
+                  "fontSize": 12,
+                  "height": 40
+                },
+                "tabletLandscape": {
+                  "yAxis": 140,
+                  "xAxis": 665,
+                  "width": 220,
+                  "fontSize": 12,
+                  "height": 40
+                },
+                "tabletPortrait": {
+                  "yAxis": 170,
+                  "xAxis": 274.5,
+                  "width": 220,
+                  "fontSize": 12,
+                  "height": 40
+                }
+              },
+              "key": "login google button",
+              "borderColor": "#D36462",
+              "fontFamily": "OpenSans",
+              "borderWidth": 1,
+              "action": "logingoogle",
+              "text": "LOG IN WITH GOOGLE",
+              "opacity": 100,
+              "type": "button",
+              "textColor": "#ffffff",
+              "fontWeight": "Semibold"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "yAxis": 56,
+                  "xAxis": 78,
+                  "width": 219,
+                  "fontSize": 12,
+                  "height": 40
+                },
+                "tabletLandscape": {
+                  "yAxis": 86,
+                  "xAxis": 665,
+                  "width": 219,
+                  "fontSize": 12,
+                  "height": 40
+                },
+                "tabletPortrait": {
+                  "yAxis": 86,
+                  "xAxis": 274.5,
+                  "width": 219,
+                  "fontSize": 12,
+                  "height": 40
+                }
+              },
+              "key": "login facebook button",
+              "borderColor": "#4764AA",
+              "fontFamily": "OpenSans",
+              "borderWidth": 1,
+              "action": "loginFacebook",
+              "text": "LOG IN WITH FACEBOOK",
+              "opacity": 100,
+              "type": "button",
+              "textColor": "#ffffff",
+              "fontWeight": "Semibold"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "yAxis": 164,
+                  "xAxis": 78,
+                  "width": 220,
+                  "fontSize": 12,
+                  "height": 40
+                },
+                "tabletLandscape": {
+                  "yAxis": 194,
+                  "xAxis": 665,
+                  "width": 220,
+                  "fontSize": 12,
+                  "height": 40
+                },
+                "tabletPortrait": {
+                  "yAxis": 254,
+                  "xAxis": 274.5,
+                  "width": 220,
+                  "fontSize": 12,
+                  "height": 40
+                }
+              },
+              "key": "loginWithEmaiLPassword",
+              "borderColor": "#D36462",
+              "borderWidth": 1,
+              "opacity": 100,
+              "fontFamily": "OpenSans",
+              "action": "login",
+              "type": "button",
+              "textColor": "#ffffff",
+              "fontWeight": "Semibold",
+              "text": "Log in With Email"
+            }
+          ],
+          "type": "AC Login Component",
+          "key": "login"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "yAxis": 22.5,
+              "leftMargin": 1.73,
+              "rightMargin": 1.73,
+              "height": 1
+            },
+            "tabletLandscape": {
+              "yAxis": 32,
+              "leftMargin": 0.68,
+              "rightMargin": 0.68,
+              "height": 1
+            },
+            "tabletPortrait": {
+              "yAxis": 32,
+              "leftMargin": 0.91,
+              "rightMargin": 0.91,
+              "height": 1
+            }
+          },
+          "components": [
+            {
+              "layout": {
+                "mobile": {
+                  "yAxis": 20,
+                  "xAxis": 97,
+                  "width": 181,
+                  "height": 17
+                },
+                "tabletLandscape": {
+                  "yAxis": 50,
+                  "xAxis": 225,
+                  "width": 181,
+                  "height": 17
+                },
+                "tabletPortrait": {
+                  "yAxis": 50,
+                  "xAxis": 293.5,
+                  "width": 181,
+                  "height": 17
+                }
+              },
+              "components": [
+                {
+                  "layout": {
+                    "mobile": {
+                      "yAxis": 1.5,
+                      "xAxis": 0,
+                      "width": 57,
+                      "fontSize": 10,
+                      "height": 14
+                    },
+                    "tabletLandscape": {
+                      "yAxis": 1.5,
+                      "xAxis": 0,
+                      "width": 57,
+                      "fontSize": 10,
+                      "height": 14
+                    },
+                    "tabletPortrait": {
+                      "yAxis": 1.5,
+                      "xAxis": 0,
+                      "width": 57,
+                      "fontSize": 10,
+                      "height": 14
+                    }
+                  },
+                  "backgroundColor": "#000000",
+                  "fontFamily": "OpenSans",
+                  "textAlignment": "center",
+                  "action": "login",
+                  "text": "LOG IN",
+                  "type": "label",
+                  "textColor": "#ffffff",
+                  "fontWeight": "Semibold",
+                  "key": "login label"
+                },
+                {
+                  "backgroundColor": "#000000",
+                  "underlineWidth": 1,
+                  "type": "label",
+                  "textColor": "#ffffff",
+                  "layout": {
+                    "mobile": {
+                      "yAxis": 1.5,
+                      "xAxis": 116,
+                      "width": 65,
+                      "fontSize": 10,
+                      "height": 14
+                    },
+                    "tabletLandscape": {
+                      "yAxis": 1.5,
+                      "xAxis": 116,
+                      "width": 65,
+                      "fontSize": 10,
+                      "height": 14
+                    },
+                    "tabletPortrait": {
+                      "yAxis": 1.5,
+                      "xAxis": 116,
+                      "width": 65,
+                      "fontSize": 10,
+                      "height": 14
+                    }
+                  },
+                  "fontFamily": "OpenSans",
+                  "underlineColor": "#008ee0",
+                  "textAlignment": "center",
+                  "underlined": true,
+                  "action": "signup",
+                  "text": "SIGN UP",
+                  "fontWeight": "Bold",
+                  "key": "sign up label"
+                }
+              ],
+              "type": "AC SegmentedView",
+              "value": "AVOD",
+              "selectedIndex": 1
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "yAxis": 177,
+                  "xAxis": 10,
+                  "width": 355,
+                  "fontSize": 10,
+                  "height": 60
+                },
+                "tabletLandscape": {
+                  "yAxis": 115,
+                  "xAxis": 140,
+                  "width": 355,
+                  "fontSize": 10,
+                  "height": 60
+                },
+                "tabletPortrait": {
+                  "yAxis": 260,
+                  "xAxis": 206.5,
+                  "width": 355,
+                  "fontSize": 10,
+                  "height": 60
+                }
+              },
+              "key": "phoneTextField",
+              "backgroundColor": "#ffffff",
+              "fontFamily": "OpenSans",
+              "protected": false,
+              "textAlignment": "left",
+              "text": "PHONE",
+              "opacity": 46,
+              "maxLength": 11,
+              "type": "textfield",
+              "textColor": "#162732"
+
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "yAxis": 246,
+                  "xAxis": 10,
+                  "width": 355,
+                  "fontSize": 10,
+                  "height": 60
+                },
+                "tabletLandscape": {
+                  "yAxis": 175,
+                  "xAxis": 140,
+                  "width": 355,
+                  "fontSize": 10,
+                  "height": 60
+                },
+                "tabletPortrait": {
+                  "yAxis": 325,
+                  "xAxis": 206.5,
+                  "width": 355,
+                  "fontSize": 10,
+                  "height": 60
+                }
+              },
+              "key": "emailTextField",
+              "backgroundColor": "#ffffff",
+              "fontFamily": "OpenSans",
+              "protected": false,
+              "textAlignment": "left",
+              "text": "EMAIL",
+              "opacity": 46,
+              "type": "textfield",
+              "textColor": "#162732"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "yAxis": 304,
+                  "xAxis": 10,
+                  "fontSize": 12,
+                  "height": 50
+                },
+                "tabletLandscape": {
+                  "yAxis": 254,
+                  "xAxis": 135,
+                  "width": 360,
+                  "fontSize": 12,
+                  "height": 60
+                },
+                "tabletPortrait": {
+                  "yAxis": 395,
+                  "xAxis": 200,
+                  "width": 360,
+                  "fontSize": 12,
+                  "height": 60
+                }
+              },
+              "key": "emailConsentCheckbox",
+              "backgroundColor": "#000000",
+              "fontFamily": "OpenSans",
+              "action": "enableSignup",
+              "text": "",
+              "opacity": 100,
+              "numberOfLines": 3,
+              "type": "emailConsentCheckbox",
+              "textColor": "#ffffff",
+              "fontWeight": "Semibold"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "yAxis": 354,
+                  "xAxis": 10,
+                  "marginLeft": 20,
+                  "marginRight": 20,
+                  "fontSize": 12,
+                  "height": 50
+                },
+                "tabletLandscape": {
+                  "yAxis": 310,
+                  "xAxis": 135,
+                  "width": 360,
+                  "fontSize": 12,
+                  "height": 60
+                },
+                "tabletPortrait": {
+                  "yAxis": 455,
+                  "xAxis": 200,
+                  "width": 360,
+                  "fontSize": 12,
+                  "height": 60
+                }
+              },
+              "type": "whatsappConsentCheckbox",
+              "backgroundColor": "#000000",
+              "fontFamily": "OpenSans",
+              "action": "enableSignup",
+              "text": "",
+              "opacity": 100,
+              "numberOfLines": 3,
+              "textColor": "#ffffff",
+              "fontWeight": "Semibold",
+              "key": "whatsappConsentCheckbox"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "yAxis": 418,
+                  "xAxis": 78,
+                  "width": 219,
+                  "fontSize": 12,
+                  "height": 40
+                },
+                "tabletLandscape": {
+                  "yAxis": 400,
+                  "xAxis": 206,
+                  "width": 219,
+                  "fontSize": 12,
+                  "height": 40
+                },
+                "tabletPortrait": {
+                  "yAxis": 520,
+                  "xAxis": 274.5,
+                  "width": 219,
+                  "fontSize": 12,
+                  "height": 40
+                }
+              },
+              "key": "signup button",
+              "backgroundColor": "#008ee0",
+              "fontFamily": "OpenSans",
+              "action": "signup",
+              "text": "SIGN UP",
+              "opacity": 100,
+              "type": "button",
+              "textColor": "#ffffff",
+              "fontWeight": "Semibold"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "yAxis": 164,
+                  "xAxis": 0,
+                  "width": 167.5,
+                  "height": 1
+                },
+                "tabletLandscape": {
+                  "yAxis": 0,
+                  "xAxis": 579,
+                  "width": 1,
+                  "height": 132
+                },
+                "tabletPortrait": {
+                  "yAxis": 234,
+                  "xAxis": 0,
+                  "width": 364,
+                  "height": 1
+                }
+              },
+              "type": "separatorView",
+              "backgroundColor": "#808080"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "yAxis": 157,
+                  "xAxis": 167.5,
+                  "width": 40,
+                  "fontSize": 10,
+                  "height": 14
+                },
+                "tabletLandscape": {
+                  "yAxis": 143,
+                  "xAxis": 567,
+                  "width": 26,
+                  "fontSize": 10,
+                  "height": 14
+                },
+                "tabletPortrait": {
+                  "yAxis": 230,
+                  "xAxis": 364,
+                  "width": 40,
+                  "fontSize": 10,
+                  "height": 14
+                }
+              },
+              "key": "orLabel",
+              "fontFamily": "OpenSans",
+              "textAlignment": "center",
+              "text": "OR",
+              "type": "label",
+              "textColor": "#ffffff",
+              "fontWeight": "Semibold"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "yAxis": 164,
+                  "xAxis": 207.5,
+                  "width": 167.5,
+                  "height": 1
+                },
+                "tabletLandscape": {
+                  "yAxis": 167,
+                  "xAxis": 579,
+                  "width": 1,
+                  "height": 534
+                },
+                "tabletPortrait": {
+                  "yAxis": 234,
+                  "xAxis": 404,
+                  "width": 364,
+                  "height": 1
+                }
+              },
+              "type": "separatorView",
+              "backgroundColor": "#808080"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "yAxis": 56,
+                  "xAxis": 78,
+                  "width": 219,
+                  "fontSize": 12,
+                  "height": 40
+                },
+                "tabletLandscape": {
+                  "yAxis": 86,
+                  "xAxis": 665,
+                  "width": 219,
+                  "fontSize": 12,
+                  "height": 40
+                },
+                "tabletPortrait": {
+                  "yAxis": 86,
+                  "xAxis": 274.5,
+                  "width": 219,
+                  "fontSize": 12,
+                  "height": 40
+                }
+              },
+              "key": "signup facebook button",
+              "borderColor": "#4764AA",
+              "fontFamily": "OpenSans",
+              "borderWidth": 1,
+              "action": "signupfacebook",
+              "text": "SIGN UP WITH FACEBOOK",
+              "opacity": 100,
+              "type": "button",
+              "textColor": "#ffffff",
+              "fontWeight": "Semibold"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "yAxis": 110,
+                  "xAxis": 78,
+                  "width": 220,
+                  "fontSize": 12,
+                  "height": 40
+                },
+                "tabletLandscape": {
+                  "yAxis": 140,
+                  "xAxis": 665,
+                  "width": 220,
+                  "fontSize": 12,
+                  "height": 40
+                },
+                "tabletPortrait": {
+                  "yAxis": 170,
+                  "xAxis": 274.5,
+                  "width": 220,
+                  "fontSize": 12,
+                  "height": 40
+                }
+              },
+              "key": "signup google button",
+              "borderColor": "#D36462",
+              "fontFamily": "OpenSans",
+              "borderWidth": 1,
+              "action": "signupgoogle",
+              "text": "SIGN UP WITH GOOGLE",
+              "opacity": 100,
+              "type": "button",
+              "textColor": "#ffffff",
+              "fontWeight": "Semibold"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "yAxis": 470,
+                  "marginLeft": 28,
+                  "marginRight": 28,
+                  "fontSize": 12,
+                  "height": 25
+                },
+                "tabletLandscape": {
+                  "yAxis": 460,
+                  "xAxis": 170,
+                  "width": 355,
+                  "fontSize": 14,
+                  "height": 25
+                },
+                "tabletPortrait": {
+                  "yAxis": 580,
+                  "xAxis": 206.5,
+                  "width": 355,
+                  "fontSize": 14,
+                  "height": 25
+                }
+              },
+              "key": "alreadyHaveAnAccountText",
+              "fontFamily": "OpenSans",
+              "textAlignment": "center",
+              "action": "login",
+              "type": "label",
+              "textColor": "#ffffff",
+              "fontWeight": "Semibold",
+              "text": "Already have an account? Login"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "yAxis": 500,
+                  "marginLeft": 20,
+                  "marginRight": 20,
+                  "fontSize": 12,
+                  "height": 40
+                },
+                "tabletLandscape": {
+                  "yAxis": 500,
+                  "xAxis": 170,
+                  "width": 355,
+                  "fontSize": 14,
+                  "height": 40
+                },
+                "tabletPortrait": {
+                  "yAxis": 620,
+                  "xAxis": 206.5,
+                  "width": 355,
+                  "fontSize": 14,
+                  "height": 40
+                }
+              },
+              "key": "signupAgrement",
+              "backgroundColor": "#000000",
+              "fontFamily": "OpenSans",
+              "textAlignment": "center_vertical",
+              "action": "login",
+              "type": "label",
+              "textColor": "#ffffff",
+              "fontWeight": "Semibold"
+            }
+          ],
+          "type": "AC SignUp Component",
+          "key": "signup"
+        }
+      ]
+    }
+    ]
+}

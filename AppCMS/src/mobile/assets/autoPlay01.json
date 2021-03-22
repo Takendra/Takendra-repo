@@ -1,0 +1,644 @@
+{
+  "moduleList": [
+    {
+      "id": "4a441d24-5816-446a-997b-4e72a297ade7",
+      "settings": {},
+      "view": "AC AutoPlay 01",
+      "type": "AC AutoPlay 01",
+      "blockName": "autoPlay01",
+      "layout": {
+        "mobile": {
+          "height": 1000
+        },
+        "tabletLandscape": {},
+        "tabletPortrait": {}
+      },
+      "components": [
+        {
+          "fontWeight": "Semibold",
+          "text": "Finished! Up next is:",
+          "numberOfLines": 1,
+          "layout": {
+            "tabletLandscape": {
+              "rightMargin": 0,
+              "leftMargin": 0,
+              "fontSize": 16,
+              "topMargin": 8.09,
+              "constraint_MarginTop": 30,
+              "topTo_topOf": "parent",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent"
+            },
+            "tabletPortrait": {
+              "height": 24,
+              "rightMargin": 0,
+              "leftMargin": 0,
+              "fontSize": 18,
+              "topMargin": 5.9,
+              "constraint_MarginTop": 30,
+              "topTo_topOf": "parent",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent"
+            },
+            "mobile": {
+              "height": 24,
+              "rightMargin": 1.46,
+              "leftMargin": 1.46,
+              "fontSize": 16,
+              "topMargin": 8.62,
+              "constraint_MarginTop": 30,
+              "topTo_topOf": "parent",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent"
+            }
+          },
+          "textAlignment": "center",
+          "fontFamily": "OpenSans",
+          "type": "label",
+          "key": "finishedUptitle",
+          "id": "finishedUptitle"
+        },
+        {
+          "fontWeight": "Bold",
+          "text": "Movie Name",
+          "numberOfLines": 1,
+          "layout": {
+            "tabletLandscape": {
+              "width": 282,
+              "rightMargin": 0.35,
+              "leftMargin": 483,
+              "fontSize": 23,
+              "topMargin": 13.7,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 30,
+              "constraint_MarginRight": 30,
+              "topTo_bottomOf": "finishedUptitle",
+              "leftTo_rightOf": "guideLineCenter"
+            },
+            "tabletPortrait": {
+              "width": 282,
+              "rightMargin": 0.35,
+              "leftMargin": 351,
+              "fontSize": 23,
+              "topMargin": 13.7,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 30,
+              "constraint_MarginRight": 30,
+              "topTo_bottomOf": "finishedUptitle",
+              "leftTo_rightOf": "guideLineCenter"
+            },
+            "mobile": {
+              "rightMargin": 0,
+              "leftMargin": 2.93,
+              "fontSize": 21,
+              "topMargin": 14.9,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 30,
+              "constraint_MarginRight": 30,
+              "topTo_bottomOf": "finishedUptitle",
+              "leftTo_leftOf": "parent"
+            }
+          },
+          "textAlignment": "left",
+          "fontFamily": "OpenSans",
+          "type": "label",
+          "key": "movieNameTitle",
+          "id": "movieNameTitle"
+        },
+        {
+          "fontWeight": "Semibold",
+          "numberOfLines": 1,
+          "layout": {
+            "tabletLandscape": {
+              "height": 14,
+              "rightMargin": 0.35,
+              "leftMargin": 483,
+              "fontSize": 10,
+              "topMargin": 17.75,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 30,
+              "constraint_MarginRight": 30,
+              "topTo_bottomOf": "movieNameTitle",
+              "leftTo_rightOf": "guideLineCenter"
+            },
+            "tabletPortrait": {
+              "height": 14,
+              "rightMargin": 0.35,
+              "leftMargin": 351,
+              "fontSize": 10,
+              "topMargin": 16.75,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 30,
+              "constraint_MarginRight": 30,
+              "topTo_bottomOf": "movieNameTitle",
+              "leftTo_rightOf": "guideLineCenter"
+            },
+            "mobile": {
+              "height": 14,
+              "rightMargin": 37.2,
+              "leftMargin": 2.93,
+              "fontSize": 9,
+              "topMargin": 20.15,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 30,
+              "constraint_MarginRight": 30,
+              "topTo_bottomOf": "movieNameTitle",
+              "leftTo_leftOf": "parent"
+            }
+          },
+          "textAlignment": "left",
+          "fontFamily": "OpenSans",
+          "type": "label",
+          "key": "movieNameSubheading",
+          "id": "movieNameSubheading"
+        },
+        {
+          "numberOfLines": 4,
+          "layout": {
+            "tabletLandscape": {
+              "height": 108,
+              "width": 282,
+              "leftMargin": 483,
+              "rightMargin": 279,
+              "fontSize": 12,
+              "topMargin": 21.1,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 30,
+              "constraint_MarginRight": 30,
+              "topTo_bottomOf": "movieNameSubheading",
+              "leftTo_rightOf": "guideLineCenter",
+              "rightTo_rightOf": "parent"
+            },
+            "tabletPortrait": {
+              "height": 108,
+              "width": 282,
+              "rightMargin": 227,
+              "leftMargin": 351,
+              "fontSize": 12,
+              "topMargin": 19.1,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 30,
+              "constraint_MarginRight": 30,
+              "topTo_bottomOf": "movieNameSubheading",
+              "leftTo_rightOf": "guideLineCenter",
+              "rightTo_rightOf": "parent"
+            },
+            "mobile": {
+              "height": 90,
+              "rightMargin": 2.6,
+              "leftMargin": 2.93,
+              "fontSize": 12,
+              "topMargin": 22.58,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 30,
+              "constraint_MarginRight": 30,
+              "topTo_bottomOf": "movieNameSubheading",
+              "leftTo_leftOf": "parent",
+              "rightTo_righttOf": "parent"
+            }
+          },
+          "textAlignment": "left",
+          "fontFamily": "OpenSans",
+          "type": "label",
+          "key": "movieDescription",
+          "id": "movieDescription"
+        },
+        {
+          "view": "AC StarView 01",
+          "type": "starRating",
+          "id": "starRating",
+          "borderColor": "#F81004",
+          "fillColor": "#F81004",
+          "layout": {
+            "tabletLandscape": {
+              "topMargin": 37.9,
+              "height": 21,
+              "width": 111,
+              "leftMargin": 483
+            },
+            "tabletPortrait": {
+              "topMargin": 32.5,
+              "height": 21,
+              "width": 111,
+              "leftMargin": 351
+            },
+            "mobile": {
+              "topMargin": 41.53,
+              "height": 21,
+              "width": 111,
+              "xAxis": 11
+            }
+          },
+          "star-margin": 24
+        },
+        {
+          "layout": {
+            "tabletLandscape": {
+              "height": 24,
+              "rightMargin": 4.84,
+              "leftMargin": 734,
+              "width": 31,
+              "fontSize": 18,
+              "topMargin": 37.9,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 30,
+              "constraint_MarginRight": 30,
+              "topTo_bottomOf": "movieDescription",
+              "leftTo_rightOf": "guideLineRight"
+            },
+            "tabletPortrait": {
+              "height": 24,
+              "leftMargin": 602,
+              "rightMargin": 4.84,
+              "width": 31,
+              "fontSize": 18,
+              "topMargin": 32.5,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 30,
+              "constraint_MarginRight": 30,
+              "topTo_bottomOf": "movieDescription",
+              "leftTo_rightOf": "guideLineRight"
+            },
+            "mobile": {
+              "height": 28,
+              "rightMargin": 2.6,
+              "width": 31,
+              "fontSize": 12,
+              "topMargin": 41.53,
+              "constraint_MarginTop": 50,
+              "constraint_MarginLeft": 30,
+              "constraint_MarginRight": 30,
+              "topTo_bottomOf": "movieDescription",
+              "rightTo_rightOf": "parent"
+            }
+          },
+          "textAlignment": "right",
+          "borderColor": "#d7d7d7",
+          "fontFamily": "OpenSans",
+          "borderWidth": 2,
+          "type": "label",
+          "key": "ageLabel",
+          "id": "ageLabel"
+        },
+        {
+          "textColor": "#ffffff",
+          "layout": {
+            "tabletLandscape": {
+              "height": 170,
+              "leftMargin": 483,
+              "fontSizeValue": 14,
+              "fontSizeKey": 13,
+              "width": 281,
+              "topMargin": 47
+            },
+            "tabletPortrait": {
+              "height": 40,
+              "leftMargin": 351,
+              "fontSizeValue": 14,
+              "fontSizeKey": 13,
+              "width": 280,
+              "topMargin": 38.6
+            },
+            "mobile": {}
+          },
+          "fontFamilyKey": "OpenSans-Extrabold",
+          "fontFamilyValue": "OpenSans",
+          "type": "castView",
+          "key": "castView",
+          "id": "castView"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "guidLineOriantation": 1,
+              "guideLinePositionPercent": 0.45
+            },
+            "tabletLandscape": {
+              "guidLineOriantation": 1,
+              "guideLinePositionPercent": 0.35
+            },
+            "tabletPortrait": {
+              "guidLineOriantation": 1,
+              "guideLinePositionPercent": 0.25
+            }
+          },
+          "id": "guideLineLeft",
+          "type": "constraintGuideLine",
+          "key": "guideLineLeft"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "guidLineOriantation": 1,
+              "guideLinePositionPercent": 0.55
+            },
+            "tabletLandscape": {
+              "guidLineOriantation": 1,
+              "guideLinePositionPercent": 0.65
+            },
+            "tabletPortrait": {
+              "guidLineOriantation": 1,
+              "guideLinePositionPercent": 0.75
+            }
+          },
+          "id": "guideLineRight",
+          "type": "constraintGuideLine",
+          "key": "guideLineRight"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "guidLineOriantation": 1,
+              "guideLinePositionPercent": 0.5
+            },
+            "tabletLandscape": {
+              "guidLineOriantation": 1,
+              "guideLinePositionPercent": 0.5
+            },
+            "tabletPortrait": {
+              "guidLineOriantation": 1,
+              "guideLinePositionPercent": 0.5
+            }
+          },
+          "id": "guideLineCenter",
+          "type": "constraintGuideLine",
+          "key": "guideLineCenter"
+        },
+        {
+          "backgroundColor": "008ee0",
+          "textColor": "ffffff",
+          "layout": {
+            "tabletLandscape": {
+              "height": 317,
+              "width": 214,
+              "leftMargin": 259,
+              "fontSize": 18,
+              "yAxis": 101,
+              "constraint_MarginTop": 60,
+              "constraint_MarginLeft": 30,
+              "ratio": "16:9",
+              "topTo_bottomOf": "ageLabel",
+              "rightTo_leftOf": "guideLineCenter"
+            },
+            "tabletPortrait": {
+              "height": 317,
+              "width": 214,
+              "leftMargin": 127,
+              "fontSize": 18,
+              "yAxis": 121,
+              "constraint_MarginTop": 60,
+              "constraint_MarginLeft": 30,
+              "ratio": "16:9",
+              "topTo_bottomOf": "ageLabel",
+              "rightTo_leftOf": "guideLineCenter"
+            },
+            "mobile": {
+              "width": 156,
+              "rightMargin": 53.2,
+              "leftMargin": 2.93,
+              "fontSize": 18,
+              "yAxis": 305,
+              "constraint_MarginTop": 60,
+              "constraint_MarginLeft": 30,
+              "ratio": "16:9",
+              "topTo_bottomOf": "ageLabel",
+              "leftTo_leftOf": "parent",
+              "rightTo_leftOf": "guideLineCenter"
+            }
+          },
+          "type": "image",
+          "key": "movieImage",
+          "id": "movieImage"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "leftMargin": 2.93,
+              "yAxis": 305,
+              "rightMargin": 53.2,
+              "fontSize": 18,
+              "width": 225
+            },
+            "tabletLandscape": {
+              "leftMargin": 5.39,
+              "yAxis": 101,
+              "width": 214,
+              "fontSize": 18,
+              "height": 317
+            },
+            "tabletPortrait": {
+              "leftMargin": 5.39,
+              "yAxis": 121,
+              "width": 214,
+              "fontSize": 18,
+              "height": 317
+            }
+          },
+          "backgroundColor": "008ee0",
+          "type": "image",
+          "textColor": "ffffff",
+          "key": "badgeImage1",
+          "id": "badgeImage"
+        },
+        {
+          "textColor": "#ffffff",
+          "backgroundColor": "#F81004",
+          "fontWeight": "Semibold",
+          "fontFamily": "OpenSans",
+          "viewGravity": "start",
+          "text": "PLAY",
+          "layout": {
+            "tabletLandscape": {
+              "height": 40,
+              "leftMargin": 335,
+              "fontSize": 12,
+              "width": 173,
+              "topMargin": 91,
+              "constraint_MarginBottom": 50,
+              "constraint_MarginLeft": 8,
+              "constraint_MarginRight": 30,
+              "bottomTo_bottomOf": "parent",
+              "topTo_bottomOf": "guideLineBottom",
+              "rightTo_leftOf": "guideLineCenter",
+              "leftTo_rightOf": "guideLineLeft"
+            },
+            "tabletPortrait": {
+              "height": 40,
+              "leftMargin": 203,
+              "width": 173,
+              "fontSize": 12,
+              "topMargin": 91,
+              "constraint_MarginBottom": 50,
+              "constraint_MarginLeft": 8,
+              "constraint_MarginRight": 30,
+              "bottomTo_bottomOf": "parent",
+              "topTo_bottomOf": "guideLineBottom",
+              "rightTo_leftOf": "guideLineCenter",
+              "leftTo_rightOf": "guideLineLeft"
+            },
+            "mobile": {
+              "height": 40,
+              "leftMargin": 2.6,
+              "fontSize": 12,
+              "width": 173,
+              "topMargin": 90,
+              "bottomMargin": 1.65,
+              "constraint_MarginLeft": 20,
+              "constraint_MarginRight": 10,
+              "constraint_MarginBottom": 30,
+              "bottomTo_bottomOf": "parent",
+              "leftTo_leftOf": "parent",
+              "rightTo_leftOf": "guideLineCenter"
+            }
+          },
+          "action": "watchVideo",
+          "type": "button",
+          "key": "playButtonAutoplay",
+          "id": "playButtonAutoplay"
+        },
+        {
+          "textColor": "#ffffff",
+          "borderWidth": 1,
+          "fontWeight": "Semibold",
+          "fontFamily": "OpenSans",
+          "borderColor": "#ffffff",
+          "viewGravity": "end",
+          "text": "CANCEL",
+          "layout": {
+            "tabletLandscape": {
+              "height": 40,
+              "leftMargin": 517,
+              "width": 173,
+              "fontSize": 12,
+              "topMargin": 91,
+              "constraint_MarginBottom": 50,
+              "constraint_MarginRight": 8,
+              "constraint_MarginLeft": 30,
+              "bottomTo_bottomOf": "parent",
+              "topTo_bottomOf": "guideLineBottom",
+              "leftTo_rightOf": "guideLineCenter",
+              "rightTo_leftOf": "guideLineRight"
+            },
+            "tabletPortrait": {
+              "height": 40,
+              "leftMargin": 385,
+              "width": 173,
+              "fontSize": 12,
+              "topMargin": 91,
+              "constraint_MarginBottom": 50,
+              "constraint_MarginRight": 8,
+              "constraint_MarginLeft": 30,
+              "bottomTo_bottomOf": "parent",
+              "topTo_bottomOf": "guideLineBottom",
+              "leftTo_rightOf": "guideLineCenter",
+              "rightTo_leftOf": "guideLineRight"
+            },
+            "mobile": {
+              "height": 40,
+              "rightMargin": 2.6,
+              "width": 173,
+              "topMargin": 90,
+              "fontSize": 12,
+              "bottomMargin": 1.42,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginRight": 20,
+              "constraint_MarginBottom": 30,
+              "bottomTo_bottomOf": "parent",
+              "leftTo_rightOf": "guideLineCenter",
+              "rightTo_rightOf": "parent"
+            }
+          },
+          "action": "close",
+          "type": "button",
+          "key": "cancelButton",
+          "id": "cancelButton"
+        },
+        {
+          "fontWeight": "Semibold",
+          "text": "Playing in",
+          "numberOfLines": 1,
+          "layout": {
+            "tabletLandscape": {
+              "fontSize": 16,
+              "bottomMargin": 15.34,
+              "constraint_MarginTop": 60,
+              "constraint_MarginLeft": 30,
+              "constraint_MarginRight": 30,
+              "topTo_bottomOf": "movieImage",
+              "leftTo_rightOf": "guideLineCenter"
+            },
+            "tabletPortrait": {
+              "fontSize": 18,
+              "bottomMargin": 14.34,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 30,
+              "constraint_MarginRight": 30,
+              "topTo_bottomOf": "movieImage",
+              "leftTo_rightOf": "guideLineCenter"
+            },
+            "mobile": {
+              "height": 22,
+              "width": 85,
+              "leftMargin": 220.5,
+              "fontSize": 16,
+              "bottomMargin": 31.1,
+              "constraint_MarginTop": 60,
+              "constraint_MarginLeft": 30,
+              "constraint_MarginRight": 30,
+              "topTo_bottomOf": "movieImage",
+              "rightTo_rightOf": "parent"
+            }
+          },
+          "textAlignment": "center",
+          "fontFamily": "OpenSans",
+          "type": "label",
+          "key": "playInLabel",
+          "id": "playInLabel"
+        },
+        {
+          "fontWeight": "Bold",
+          "numberOfLines": 1,
+          "layout": {
+            "tabletLandscape": {
+              "fontSize": 18,
+              "bottomMargin": 12.9,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 30,
+              "constraint_MarginRight": 30,
+              "topTo_bottomOf": "playInLabel",
+              "leftTo_rightOf": "guideLineCenter"
+            },
+            "tabletPortrait": {
+              "fontSize": 18,
+              "bottomMargin": 11.9,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 30,
+              "constraint_MarginRight": 30,
+              "topTo_bottomOf": "playInLabel",
+              "leftTo_rightOf": "guideLineCenter"
+            },
+            "mobile": {
+              "height": 24,
+              "width": 120,
+              "rightMargin": 55,
+              "fontSize": 20,
+              "bottomMargin": 27.1,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 30,
+              "constraint_MarginRight": 30,
+              "topTo_bottomOf": "playInLabel",
+              "rightTo_rightOf": "parent"
+            }
+          },
+          "textAlignment": "center",
+          "fontFamily": "OpenSans",
+          "type": "label",
+          "key": "timerLabel",
+          "id": "countdown_id"
+        }
+      ],
+      "alpha": 0.75,
+      "value": 15
+    }
+  ]
+}

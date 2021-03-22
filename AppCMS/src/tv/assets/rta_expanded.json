@@ -1,0 +1,249 @@
+{
+  "moduleList": [
+
+    {
+      "id": "f701f918-973f-41c3-a050-e538121ed622",
+      "settings": {},
+      "view": "AC Expanded 01",
+      "type": "AC Expanded 01",
+      "blockName": "expanded01",
+      "layout": {
+        "ftv": {
+          "yAxis": 0,
+          "xAxis": 0,
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "components": [
+        {
+          "layout": {
+            "ftv": {
+              "xAxis": 112,
+              "width": 340,
+              "yAxis": 30,
+              "height": 96
+            }
+          },
+          "type": "image",
+          "key": "showImage"
+        },
+        {
+          "layout": {
+            "ftv": {
+              "yAxis": 136,
+              "xAxis": 112,
+              "width": 800,
+              "fontSize": 18,
+              "height": 48
+            }
+          },
+          "fontFamily": "OpenSans",
+          "numberOfLines": 1,
+          "type": "label",
+          "textColor": "#ffffff",
+          "fontWeight": "Semibold",
+          "key": "expandedViewTitle",
+          "id":"trayTitle"
+        },
+        {
+          "layout": {
+            "ftv": {
+              "yAxis": 200,
+              "xAxis": 112,
+              "width": 800,
+              "fontSize": 12,
+              "height": 140
+            }
+          },
+          "fontFamily": "OpenSans",
+          "numberOfLines": 4,
+          "type": "label",
+          "textColor": "#ffffff",
+          "key": "expandedViewDescription",
+          "id":"trayDescriptionLabel"
+        },
+        {
+          "layout": {
+            "ftv": {
+              "yAxis": 350,
+              "xAxis": 0,
+              "width": 400,
+              "height": 130,
+              "orientation":"VERTICAL"
+            }
+          },
+          "components": [
+            {
+              "layout": {
+                "ftv": {
+                  "xAxis": 112,
+                  "fontSize": 9,
+                  "width": 0,
+                  "height": 30
+                }
+              },
+              "leftPadding":5,
+              "rightPadding":5,
+              "borderColor": "ffffff",
+              "fontFamily": "OpenSans",
+              "borderWidth": 4,
+              "action": "watchVideo",
+              "text": "PLAY EPISODE",
+              "backgroundColor":"#00000000",
+              "letterSpacing": 0.1,
+              "type": "button",
+              "textColor": "ffffff",
+              "key": "playEpisode"
+            },
+            {
+              "layout": {
+                "ftv": {
+                  "yAxis": 12,
+                  "xAxis": 112,
+                  "fontSize": 9,
+                  "width": 0,
+                  "height": 30
+                }
+              },
+              "leftPadding":5,
+              "rightPadding":5,
+              "borderColor": "ffffff",
+              "fontFamily": "OpenSans",
+              "borderWidth": 4,
+              "action": "showDetailPage",
+              "backgroundColor":"#00000000",
+              "text": "MORE EPISODES",
+              "key":"showDetailButton",
+              "type": "button",
+              "fontSize": 9,
+              "textColor": "ffffff"
+            },
+            {
+              "layout": {
+                "ftv": {
+                  "yAxis": 12,
+                  "xAxis": 112,
+                  "fontSize": 9,
+                  "width": 0,
+                  "height": 30
+                }
+              },
+              "leftPadding":5,
+              "rightPadding":5,
+              "letterSpacing": 0.1,
+              "borderColor": "ffffff",
+              "fontFamily": "OpenSans",
+              "borderWidth": 4,
+              "backgroundColor":"#00000000",
+              "action": "addToWatchlist",
+              "key": "watchlistButtonWithIcon",
+              "text": "ADD TO SAVED",
+              "fontSize": 9,
+              "type": "button",
+              "textColor": "ffffff"
+            }
+          ],
+          "itemClickAction": "lectureDetailPage",
+          "type": "parentLinearLayout",
+          "key": "parentLinearLayout"
+        },
+        {
+          "layout": {
+            "ftv": {
+              "yAxis": 540,
+              "leftMargin": 12,
+              "fontSize": 12,
+              "height": 24
+            }
+          },
+          "fontFamily": "OpenSans",
+          "numberOfLines": 1,
+          "fontSize": 12,
+          "type": "label",
+          "key":"title"
+        },
+        {
+          "layout": {
+            "ftv": {
+              "topMargin": 12,
+              "leftMargin":927,
+              "width": 981,
+              "height": 552
+            }
+          },
+          "type": "image",
+          "key": "videoThumbnailImage"
+        },
+        {
+          "layout": {
+            "ftv": {
+              "topMargin": 12,
+              "leftMargin":927,
+              "height": 552,
+              "width": 981
+            }
+          },
+          "type": "player",
+          "key": "trailerVideoPlayer",
+          "stroke":3,
+          "padding":3
+        },
+        {
+          "layout": {
+            "ftv": {
+              "trayPadding": 0,
+              "yAxis": 573,
+              "height": 255,
+              "fontSize": 18,
+              "itemSpacing": 9,
+              "orientation":"horizontal"
+            }
+          },
+          "components": [
+            {
+              "layout": {
+                "ftv": {
+                  "padding": 3,
+                  "width": 400,
+                  "height": 225
+                }
+              },
+              "type": "image",
+              "key": "thumbnailImageExpanded"
+            },
+            {
+              "layout": {
+                "ftv": {
+                  "width":0,
+                  "padding":3,
+                  "topMargin":3,
+                  "rightMargin":3
+                }
+              },
+              "type": "label",
+              "key": "newsTrayTimeAndDataKey",
+              "fontFamily": "Lato",
+              "textAlignment": "end",
+              "textColor": "#FFFFFF",
+              "backgroundColor": "#000000",
+              "fontSize": 10,
+              "numberOfLines": 1
+            }
+          ],
+          "itemClickAction": "lectureDetailPage",
+          "type": "tableView",
+          "key": "tableView"
+        }
+
+      ],
+      "key": "expanded01"
+
+    }
+  ],
+  "caching": {
+    "isEnabled": false
+  },
+  "version": "0.0.11",
+  "pageStyle": null
+}

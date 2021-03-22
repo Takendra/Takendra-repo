@@ -1,0 +1,409 @@
+{
+  "version": "0.0.3",
+  "moduleList": [
+    {
+      "id": "3df4637b-5369-435a-bc19-0ebdb7b3233e",
+      "settings": {},
+      "view": "AC VideoPlaylistDetail 01",
+      "type": "AC VideoPlaylistDetail 01",
+      "blockName": "videoPlaylistDetail01",
+      "layout": {
+        "mobile": {
+          "yAxis": 0,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "height": 0
+        },
+        "tabletLandscape": {
+          "yAxis": 0,
+          "leftMargin": 0,
+          "xAxis": 0,
+          "rightMargin": 0,
+          "height": 0
+        },
+        "tabletPortrait": {
+          "yAxis": 0,
+          "leftMargin": 0,
+          "xAxis": 0,
+          "rightMargin": 0,
+          "height": 0
+        }
+      },
+      "components": [
+        {
+          "layout": {
+            "mobile": {
+              "yAxis": 22,
+              "xAxis": 2,
+              "maximumWidth": 250,
+              "fontSize": 16,
+              "height": 22
+            },
+            "tabletLandscape": {
+              "yAxis": 22,
+              "xAxis": 2,
+              "maximumWidth": 250,
+              "fontSize": 18,
+              "height": 24
+            },
+            "tabletPortrait": {
+              "yAxis": 22,
+              "xAxis": 2,
+              "maximumWidth": 250,
+              "fontSize": 18,
+              "height": 24
+            }
+          },
+          "fontFamily": "OpenSans",
+          "numberOfLines": 1,
+          "textAlignment": "left",
+          "type": "label",
+          "textColor": "#ffffff",
+          "key": "playlistTitle",
+          "fontWeight": "Bold"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "yAxis": 40,
+              "xAxis": 2,
+              "height": 17,
+              "maximumWidth": 90,
+              "fontSize": 12
+            },
+            "tabletLandscape": {
+              "yAxis": 43,
+              "xAxis": 2,
+              "height": 17,
+              "maximumWidth": 115,
+              "fontSize": 12
+            },
+            "tabletPortrait": {
+              "yAxis": 43,
+              "xAxis": 2,
+              "height": 17,
+              "maximumWidth": 115,
+              "fontSize": 12
+            }
+          },
+          "type": "label",
+          "key": "playlistSubTitle",
+          "fontFamily": "OpenSans",
+          "numberOfLines": 1,
+          "textAlignment": "left",
+          "textColor": "#777777"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "yAxis": 20,
+              "height": 26,
+              "xAxis": 312,
+              "width": 26
+            },
+            "tabletLandscape": {
+              "yAxis": 22,
+              "height": 24,
+              "xAxis": 960,
+              "width": 27
+            },
+            "tabletPortrait": {
+              "yAxis": 22,
+              "height": 27,
+              "xAxis": 707,
+              "width": 27
+            }
+          },
+          "type": "button",
+          "action": "share",
+          "key": "shareButton"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "yAxis": 22,
+              "height": 24,
+              "xAxis": 346,
+              "width": 24
+            },
+            "tabletLandscape": {
+              "yAxis": 22,
+              "height": 24,
+              "xAxis": 993,
+              "width": 24
+            },
+            "tabletPortrait": {
+              "yAxis": 22,
+              "height": 24,
+              "xAxis": 735,
+              "width": 24
+            }
+          },
+          "type": "button",
+          "key": "closeButton",
+          "action": "close"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "yAxis": 64,
+              "height": 1,
+              "leftMargin": 1.73,
+              "rightMargin": 1.73
+            },
+            "tabletLandscape": {
+              "yAxis": 64,
+              "height": 1,
+              "leftMargin": 0.68,
+              "rightMargin": 0.68
+            },
+            "tabletPortrait": {
+              "yAxis": 64,
+              "height": 1,
+              "leftMargin": 0.91,
+              "rightMargin": 0.91
+            }
+          },
+          "type": "separatorView",
+          "backgroundColor": "#808080"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "yAxis": 70,
+              "height": 211,
+              "leftMargin": 0,
+              "rightMargin": 0
+            },
+            "tabletLandscape": {
+              "yAxis": 70,
+              "height": 432,
+              "leftMargin": 0.97,
+              "rightMargin": 0.97
+            },
+            "tabletPortrait": {
+              "yAxis": 70,
+              "height": 432,
+              "leftMargin": 1.3,
+              "rightMargin": 1.3
+            }
+          },
+          "type": "player",
+          "key": "videoPlayer"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSizeKey": 13,
+              "yAxis": 20,
+              "xAxis": 300,
+              "width": 26,
+              "height": 26,
+              "fontSizeValue": 14
+            },
+            "tabletLandscape": {
+              "height": 170,
+              "fontSizeValue": 14,
+              "fontSizeKey": 13,
+              "width": 281,
+              "yAxis": 200,
+              "xAxis": 732
+            },
+            "tabletPortrait": {
+              "height": 40,
+              "fontSizeValue": 14,
+              "fontSizeKey": 13,
+              "width": 480,
+              "yAxis": 558,
+              "xAxis": 10
+            }
+          },
+          "type": "castView",
+          "key": "castView",
+          "textColor": "#ffffff",
+          "fontFamilyKey": "OpenSans-Extrabold",
+          "fontFamilyValue": "OpenSans"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "gridHeight": 100,
+              "yAxis": 320
+            },
+            "tabletLandscape": {
+              "gridHeight": 92,
+              "yAxis": 500
+            },
+            "tabletPortrait": {
+              "gridHeight": 92,
+              "yAxis": 500
+            }
+          },
+          "type": "tableView",
+          "key": "tableView",
+          "components": [
+            {
+              "layout": {
+                "mobile": {
+                  "yAxis": 2,
+                  "xAxis": 4,
+                  "width": 100
+                },
+                "tabletLandscape": {
+                  "yAxis": 2,
+                  "xAxis": 2,
+                  "width": 85
+                },
+                "tabletPortrait": {
+                  "yAxis": 2,
+                  "xAxis": 2,
+                  "width": 85
+                }
+              },
+              "type": "image",
+              "key": "thumbnailImage",
+              "viewGravity": "center_vertical"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "xAxis": 115,
+                  "topMargin": 5,
+                  "width": 220,
+                  "fontSize": 16,
+                  "height": 22
+                },
+                "tabletLandscape": {
+                  "xAxis": 99,
+                  "topMargin": 2.4,
+                  "width": 240,
+                  "fontSize": 16,
+                  "height": 22
+                },
+                "tabletPortrait": {
+                  "xAxis": 99,
+                  "topMargin": 1.5,
+                  "width": 240,
+                  "fontSize": 16,
+                  "height": 22
+                }
+              },
+              "fontFamily": "OpenSans",
+              "textAlignment": "left",
+              "type": "label",
+              "textColor": "#ffffff",
+              "fontWeight": "Semibold",
+              "key": "title"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "xAxis": 75,
+                  "topMargin": 6.5,
+                  "width": 175,
+                  "fontSize": 15,
+                  "height": 22
+                },
+                "tabletLandscape": {
+                  "xAxis": 85,
+                  "topMargin": 5.1,
+                  "rightMargin": 19.93,
+                  "width": 175,
+                  "fontSize": 15,
+                  "height": 20
+                },
+                "tabletPortrait": {
+                  "xAxis": 85,
+                  "topMargin": 3.5,
+                  "rightMargin": 19.93,
+                  "width": 175,
+                  "fontSize": 15,
+                  "height": 20
+                }
+              },
+              "fontFamily": "OpenSans",
+              "textAlignment": "left",
+              "type": "label",
+              "textColor": "#777777",
+              "key": "audioArtistName"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "topMargin": 4,
+                  "rightMargin": 50,
+                  "width": 23,
+                  "height": 23
+                },
+                "tabletLandscape": {
+                  "topMargin": 3.8,
+                  "xAxis": 935,
+                  "width": 30,
+                  "height": 30
+                },
+                "tabletPortrait": {
+                  "topMargin": 2.5,
+                  "rightMargin": 60,
+                  "width": 30,
+                  "height": 30
+                }
+              },
+              "action": "downloadAudio",
+              "type": "button",
+              "key": "downloadButtonAudio"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "topMargin": 4,
+                  "rightMargin": 1.6,
+                  "width": 35,
+                  "fontSize": 12,
+                  "height": 19
+                },
+                "tabletLandscape": {
+                  "topMargin": 4.5,
+                  "xAxis": 985,
+                  "width": 35,
+                  "fontSize": 12,
+                  "height": 19
+                },
+                "tabletPortrait": {
+                  "topMargin": 3,
+                  "rightMargin": 1.6,
+                  "width": 35,
+                  "fontSize": 12,
+                  "height": 19
+                }
+              },
+              "fontFamily": "OpenSans",
+              "textAlignment": "left",
+              "type": "label",
+              "textColor": "#ffffff",
+              "key": "audioDuration"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "yAxis": 90,
+                  "height": 1
+                },
+                "tabletLandscape": {
+                  "yAxis": 92,
+                  "height": 1
+                },
+                "tabletPortrait": {
+                  "yAxis": 92,
+                  "height": 1
+                }
+              },
+              "backgroundColor": "6C7074",
+              "type": "separatorView"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "caching": {}
+}

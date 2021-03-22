@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parentTopLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80000000"
+    android:orientation="horizontal">
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/media_route_button"
+        android:layout_width="32dp"
+        android:layout_height="56dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/anim_cast"
+        android:layout_marginLeft="5dp"
+        android:visibility="gone"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/app_cms_mini_video_player_title_view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/app_cms_mini_video_player_title_view" />
+
+    <com.viewlift.views.customviews.AlwaysSelectedTextView
+        android:id="@+id/app_cms_mini_video_player_title_view"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:background="@android:color/transparent"
+        android:ellipsize="marquee"
+        android:fadingEdge="horizontal"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/app_cms_video_player_title_view_text_size"
+        app:layout_constraintEnd_toStartOf="@+id/app_cms_video_player_done_button"
+        app:layout_constraintStart_toEndOf="@+id/media_route_button"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/app_cms_video_player_done_button"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:paddingTop="1dp"
+        android:paddingRight="@dimen/chromecast_toolbar_padding"
+        android:background="@android:color/transparent"
+        android:focusable="false"
+        android:src="@drawable/player_close"
+        app:layout_constraintBottom_toBottomOf="@+id/app_cms_mini_video_player_title_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/app_cms_mini_video_player_title_view" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

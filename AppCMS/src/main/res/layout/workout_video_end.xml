@@ -1,0 +1,45 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#BF000000"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/verticalLeftGuideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.25"/>
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/verticalRightGuideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.75"/>
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:id="@+id/btn_startWorkout"
+        android:fontFamily="@font/font_bold"
+        android:text="START WORKOUT"
+        android:textColor="@color/colorBlack"
+        android:layout_marginBottom="@dimen/app_cms_rest_work_out_margin"
+        app:layout_constraintLeft_toRightOf="@+id/verticalLeftGuideline"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/verticalRightGuideline"/>
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:id="@+id/btn_replyVideo"
+        android:text="REPLAY VIDEO"
+        android:textColor="@color/color_white"
+        android:fontFamily="@font/font_bold"
+        android:layout_marginTop="@dimen/app_cms_rest_work_out_margin"
+        app:layout_constraintTop_toBottomOf="@+id/btn_startWorkout"
+        android:background="@android:color/transparent"
+        app:layout_constraintLeft_toRightOf="@+id/verticalLeftGuideline"
+        app:layout_constraintRight_toLeftOf="@id/verticalRightGuideline"
+/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

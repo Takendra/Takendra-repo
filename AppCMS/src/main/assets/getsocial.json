@@ -1,0 +1,12 @@
+{
+  "appId": "n706c07769BGg",
+  "autoInit": true,
+  "debug": false,
+  "pushNotifications": {
+    "autoRegister": true,
+    "customListener": false,
+    "foreground": false
+  },
+  "disableFacebookReferralCheck": false,
+  "uiConfig": null
+}

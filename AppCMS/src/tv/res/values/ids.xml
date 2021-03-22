@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="appcms_headerTitle" type="id"/>
+    <item name="appcms_imageView" type="id"/>
+    <item name="appcms_titleView" type="id"/>
+    <item name="appcms_removeall" type="id"/>
+
+    <item name="appcms_browsefragment" type="id"/>
+    <item name="email_edit_box" type="id"/>
+    <item name="password_edit_box" type="id"/>
+
+    <item name="reset_password_continue_button" type="id"/>
+    <item name="reset_password_cancel_button" type="id"/>
+
+    <item name="autoplay_cancel_countdown_button" type="id"/>
+    <item name="countdown_id" type="id"/>
+    <item name="autoplay_play_movie_image" type="id"/>
+    <item name="autoplay_finished_movie_title" type="id"/>
+    <item name="autoplay_up_next_movie_title" type="id"/>
+    <item name="autoplay_finished_movie_image" type="id"/>
+    <item name="autoplay_rotating_loader_view_id" type="id"/>
+    <item name="up_next_text_view_id" type="id"/>
+    <item name="countdown_cancelled_text_view_id" type="id"/>
+
+    <item name="dialog_cancel_button" type="id"/>
+    <item name="request_new_code" type="id"/>
+    <item name="code_sync_text_line_1" type="id"/>
+    <item name="code_sync_text_line_2" type="id"/>
+    <item name="code_sync_text_line_3" type="id"/>
+    <item name="emailConsentCheckbox" type="id"/>
+    <item name="redemption_edit_box" type="id"/>
+    <item name="redemption_button_tv" type="id"/>
+    <item name="season_table_view" type="id"/>
+    <item name="episode_table_view" type="id"/>
+    <item name="segmentTableView" type="id"/>
+    <item name="season_table_view_background" type="id"/>
+    <item name="episode_table_view_background" type="id"/>
+    <item name="segment_table_view_background" type="id"/>
+    <item name="segment_tray_title" type="id"/>
+    <item name="trailer_video_player_view" type="id"/>
+    <item name="right_arrow_id" type="id"/>
+    <item name="left_arrow_id" type="id"/>
+    <item name="trailer_view_id" type="id"/>
+    <item name="expanded_view_id" type="id"/>
+    <item name="browse_first_row" type="id"/>
+    <item name="expanded_view_title" type="id"/>
+    <item name="expanded_view_description" type="id"/>
+    <item name="live_player_view_title" type="id"/>
+    <item name="live_player_view_description" type="id"/>
+    <item name="expanded_view_show_image" type="id"/>
+    <item name="expanded_view_video_image" type="id"/>
+    <item name="trailer_video_view" type="id"/>
+    <item name="subscription_plan_view" type="id"/>
+    <item name="user_name" type="id"/>
+    <item name="user_email" type="id"/>
+    <item name="live_player_component_id" type="id"/>
+</resources>

@@ -1,0 +1,333 @@
+{
+  "view": "AC VideoPlayerWithInfo 06",
+  "type": "AC VideoPlayerWithInfo 06",
+  "blockName": "videoPlayerInfo06",
+  "layout": {
+    "ftv": {
+      "yAxis": 0,
+      "leftMargin": 0,
+      "rightMargin": 0,
+      "height": 680
+    }
+  },
+  "components": [
+    {
+      "layout": {
+        "ftv": {
+          "yAxis": 0,
+          "leftMargin": 80,
+          "rightMargin": 0
+        }
+      },
+      "components": [
+        {
+          "layout": {
+            "ftv": {
+              "yAxis": 58,
+              "fontSize": 18,
+              "width": 850,
+              "height": 120
+            }
+          },
+          "fontFamily": "OpenSans",
+          "numberOfLines": 1,
+          "textAlignment": "left",
+          "opacity": 1,
+          "type": "label",
+          "textColor": "#ffffff",
+          "fontWeight": "Bold",
+          "key": "videoTitle"
+        },
+        {
+          "layout": {
+            "ftv": {
+              "topMargin": 50,
+              "gravity": "center",
+              "width": 287,
+              "fontSize": 13,
+              "height": 30
+            }
+          },
+          "fontFamily": "OpenSans",
+          "fontWeight": "Bold",
+          "numberOfLines": 1,
+          "gravity": "center",
+          "textAlignment": "left",
+          "opacity": 0.5,
+          "type": "label",
+          "textColor": "#ffffff",
+          "key": "videoSubTitle"
+        }
+      ],
+      "type": "headerView",
+      "key": "videoDetailHeader"
+    },
+    {
+      "layout": {
+        "ftv": {
+          "yAxis": 50,
+          "xAxis": 972,
+          "width": 860,
+          "height": 486
+        }
+      },
+      "type": "image",
+      "key": "videoThumbnailImage"
+    },
+
+    {
+      "layout": {
+        "ftv": {
+          "leftMargin": 1260,
+          "topMargin": 374,
+          "width": 400,
+          "height": 49
+        }
+      },
+      "borderColor": "ffffff",
+      "fontFamily": "OpenSans",
+      "fontSize": 18,
+      "borderWidth": 4,
+      "text": "WATCH TRAILER",
+      "type": "label",
+      "id": "watchtrailerlabel",
+      "textColor": "ffffff",
+      "fontWeight": "Bold"
+    },
+
+    {
+      "layout": {
+        "ftv": {
+          "leftMargin": 1314,
+          "topMargin": 175,
+          "width": 230,
+          "height": 230
+        }
+      },
+      "action": "watchTrailer",
+      "type": "button",
+      "key": "trailerWatchButton"
+    },
+
+    {
+      "layout": {
+        "ftv": {
+        "fontSizeKey": 11.5,
+        "topMargin": 200,
+        "leftMargin": 1190,
+        "width": 500
+        }
+      },
+    "text": "Content will be available in:",
+    "fontFamilyKey": "OpenSans-ExtraBold",
+    "fontFamilyValue": "OpenSans",
+    "type": "timer",
+    "textColor": "#ffffff",
+    "key": "timer"
+    },
+
+    {
+      "layout": {
+        "ftv": {
+          "topMargin": 509,
+          "leftMargin": 80,
+          "fontSize": 12
+        }
+      },
+      "fontFamily": "OpenSans",
+      "type": "label",
+      "text": "Have an account? LOG IN",
+      "textColor": "#ffffff",
+      "fontWeight": "SemiBold",
+      "lineSpacingMultiplier": 1.2,
+      "key": "loginText"
+    },
+    {
+      "layout": {
+        "ftv": {
+          "leftMargin": 80,
+          "topMargin": 578,
+          "width": 1920,
+          "height": 85
+        }
+      },
+      "components": [
+        {
+          "layout": {
+            "ftv": {
+              "leftMargin": 0,
+              "topMargin": 0,
+              "width": 250,
+              "fontSize": 11.5,
+              "height": 60
+            }
+          },
+          "borderColor": "ffffff",
+          "fontFamily": "OpenSans",
+          "borderWidth": 4,
+          "cornerRadius":4,
+          "text": "Rent  $999",
+          "type": "button",
+          "viewGravity": "center",
+          "isLayoutGravity": true,
+          "key" : "rentOptionButton",
+          "textColor": "ffffff",
+          "fontWeight": "ExtraBold"
+        },
+        {
+          "layout": {
+            "ftv": {
+              "leftMargin": 20,
+              "topMargin": 0,
+              "width": 250,
+              "fontSize": 11.5,
+              "height": 60
+            }
+          },
+          "borderColor": "ffffff",
+          "fontFamily": "OpenSans",
+          "borderWidth": 4,
+          "cornerRadius":4,
+          "text": "Buy",
+          "type": "button",
+          "textColor": "ffffff",
+          "viewGravity": "center",
+          "isLayoutGravity": true,
+          "fontWeight": "ExtraBold",
+          "key":"buyButton"
+        },
+        {
+          "layout": {
+            "ftv": {
+              "leftMargin": 40,
+              "topMargin": 0,
+              "width": 250,
+              "fontSize": 11.5,
+              "height": 60
+            }
+          },
+          "borderColor": "ffffff",
+          "fontFamily": "OpenSans",
+          "borderWidth": 4,
+          "cornerRadius":4,
+          "text": "Become A Member",
+          "type": "button",
+          "textColor": "ffffff",
+          "viewGravity": "center",
+          "isLayoutGravity": true,
+          "fontWeight": "ExtraBold",
+          "key": "becomeMemberButton"
+        },
+        {
+          "layout": {
+            "ftv": {
+              "leftMargin": 20,
+              "topMargin": 0,
+              "width": 250,
+              "fontSize": 11.5,
+              "height": 60
+            }
+          },
+          "borderColor": "ffffff",
+          "fontFamily": "OpenSans",
+          "borderWidth": 4,
+          "cornerRadius": 4,
+          "action": "linkAccount",
+          "viewGravity": "center",
+          "isLayoutGravity": true,
+          "text": "Choose TV Provider",
+          "type": "button",
+          "textColor": "ffffff",
+          "fontWeight": "ExtraBold",
+          "key": "link_your_account_with_tv_provider_button"
+        },
+        {
+          "layout": {
+            "ftv": {
+              "leftMargin": 20,
+              "topMargin": 0,
+              "width": 250,
+              "fontSize": 11.5,
+              "height": 60
+            }
+          },
+          "borderColor": "ffffff",
+          "fontFamily": "OpenSans",
+          "borderWidth": 4,
+          "cornerRadius": 4,
+          "action": "watchVideo",
+          "viewGravity": "center",
+          "isLayoutGravity": true,
+          "text": "START WATCHING",
+          "type": "button",
+          "textColor": "ffffff",
+          "fontWeight": "ExtraBold",
+          "key": "startWatching"
+        },
+        {
+          "layout": {
+            "ftv": {
+              "leftMargin": 20,
+              "topMargin": 0,
+              "width": 250,
+              "fontSize": 11.5,
+              "height": 60
+            }
+          },
+          "borderColor": "ffffff",
+          "fontFamily": "OpenSans",
+          "borderWidth": 4,
+          "cornerRadius": 4,
+          "action": "addToWatchlist",
+          "viewGravity": "center",
+          "isLayoutGravity": true,
+          "text": "ADD TO WATCHLIST",
+          "type": "button",
+          "textColor": "ffffff",
+          "fontWeight": "ExtraBold",
+          "key": "addToWatchlist"
+        }
+      ],
+      "itemClickAction": "lectureDetailPage",
+      "type": "parentLinearLayout",
+      "key": "parentLinearLayout"
+    },
+    {
+      "layout": {
+        "ftv": {
+          "yAxis": 255,
+          "xAxis": 80,
+          "rightMargin": 989,
+          "width": 850,
+          "fontSize": 10,
+          "height": 98
+        }
+      },
+      "fontFamily": "OpenSans",
+      "type": "label",
+      "textColor": "#ffffff",
+      "fontWeight": "SemiBold",
+      "lineSpacingMultiplier": 1.2,
+      "key": "videoDescriptionText"
+    },
+    {
+      "layout": {
+        "ftv": {
+          "fontSizeKey": 11,
+          "yAxis": 373,
+          "xAxis": 80,
+          "width": 840,
+          "rightMargin": 1050,
+          "height": 100,
+          "fontSizeValue": 11.5
+        }
+      },
+      "fontFamilyKey": "OpenSans-ExtraBold",
+      "fontFamilyValue": "OpenSans",
+      "type": "castView",
+      "textColor": "#ffffff",
+      "key": "castView"
+    }
+  ],
+  "key": "videoPlayerInfo06"
+}

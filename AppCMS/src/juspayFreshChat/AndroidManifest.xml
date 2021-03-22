@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.viewlift">
+
+    <uses-permission
+        android:name="android.permission.RECEIVE_SMS"
+        tools:node="remove" />
+
+    <uses-permission
+        android:name="android.permission.READ_SMS"
+        tools:node="remove" />
+
+
+    <application
+        android:label="@string/default_app_name"
+        android:theme="@style/AppTheme"
+        tools:replace="android:theme,android:label">
+
+
+        <activity android:name=".freshchat.FreshChatInfoActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:launchMode="singleTask" />
+
+        <activity
+            android:name=".juspay.JuspayPaymentActivity"
+            android:theme="@style/Theme.AppCompat.Translucent"
+            android:windowSoftInputMode="adjustResize" />
+        <!---Orientation property of JuspayPaymentActivity is set in JuspayPaymentActivity Class.-->
+
+        <receiver android:name=".EventReceiver">
+            <intent-filter>
+                <action android:name="LAUNCH_FRESHCHAT" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name=".freshchat.FreshchatFileProvider"
+            android:authorities="${freshchatFileProviderAuthority}"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/freshchat_file_provider_paths" />
+        </provider>
+
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
+
+    </application>
+
+</manifest>

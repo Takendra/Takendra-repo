@@ -1,0 +1,1152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+
+    <string name="error_loading_page"><![CDATA[Could not retrieve data!<br>Please try again later!]]></string>
+    <string name="error_message_please_try_again">Please try again later!</string>
+    <string name="something_wrong">Something went wrong. Please try again!</string>
+    <string name="min">M</string>
+    <string name="min_abbreviation">MIN</string>
+    <string name="sec_abbreviation">SEC</string>
+    <string name="secs_abbreviation">SECS</string>
+    <string name="mins_abbreviation">MINS</string>
+    <plurals name="mins_plural">
+        <item quantity="one">%d MIN</item>
+        <item quantity="other">%d MINS</item>
+    </plurals>
+    <plurals name="likes_plural">
+        <item quantity="one">%1$d LIKE</item>
+        <item quantity="other">%1$d LIKES</item>
+    </plurals>
+    <string name="_mins_abbreviation">%d MINS</string>
+    <string name="color_hash_prefix">#</string>
+    <string name="string_with_ellipse">%1$s&#8230;</string>
+    <string name="string_with_ellipse_and_more">%1$sMORE</string>
+    <string name="more">MORE</string>
+
+    <string name="send_to">Share Video</string>
+    <string name="done">DONE</string>
+    <string name="preview_ended">Preview ended</string>
+
+    <string name="default_notification_channel_id">com.viewlift.fcm.Notification.CHANNEL_ID</string>
+    <string name="default_notification_channel_name">com.viewlift.fcm.Notification.CHANNEL_NAME_READABLE</string>
+
+
+    <string name="app_cms_network_connectivity_error_title">Network Connectivity</string>
+    <string name="app_cms_network_connectivity_error_message">Please connect your device to a network and try again.</string>
+    <string name="app_cms_network_connectivity_error_message_download">Please connect your device to a network and try again, or click OK for go to My Downloads.</string>
+    <string name="app_cms_signout_error_msg">Are you sure you want to log out?</string>
+    <string name="app_cms_signin_error_title">LOG IN</string>
+    <string name="app_cms_signout_error_title">LOG OUT</string>
+    <string name="app_cms_signup_error_title">Sign Up</string>
+    <string name="app_cms_reset_password_title">Reset Password</string>
+    <string name="app_cms_forgot_password_title">Forgot Password</string>
+    <string name="app_cms_reset_password_success_description">Follow the instructions in the email we just sent you to reset your password.</string>
+
+    <string name="start_watching">Start Watching</string>
+    <string name="watch_now">Watch Now</string>
+    <string name="app_cms_cancel_subscription_ask_for_confirmation_message">Are you sure you wish to cancel your subscription?</string>
+    <string name="app_cms_data_error_title">Could Not Access Data</string>
+    <string name="app_cms_data_error_message">Data is currently unavailable.  Please try again later.</string>
+    <string name="app_cms_close_alert_dialog_button_text">CLOSE</string>
+
+    <string name="app_cms_ok_alert_dialog_button_text">OK</string>
+    <string name="app_cms_dismiss_alert_dialog_button_text">Dismiss</string>
+
+
+    <string name="app_cms_username_input_text_hint">Name</string>
+    <string name="app_cms_email_input_text_hint">Email</string>
+    <string name="app_cms_password_input_text_hint">Password</string>
+    <string name="app_cms_phone_input_text_hint">Phone</string>
+    <string name="please_input_your_email_address_to_send_a_reset_password_link_text">Please input your email address to send a reset password link.</string>
+    <string name="edit_profile_confirm_change_button_text">Update</string>
+    <string name="response_failure_message">No Response Received \n\nUnable to fetch data! Please pull to refresh.</string>
+    <string name="empty_history_list_message">Your history is currently empty.</string>
+    <string name="empty_watchlist_message">Your watchlist is currently empty.</string>
+    <string name="empty_library_message">You haven’t purchased anything.</string>
+
+    <!--<string name="empty_download_message">Your download is currently empty.</string>-->
+    <string name="empty_download_video_message">You haven’t downloaded anything yet.</string>
+    <string name="empty_download_audio_message">You haven’t downloaded anything yet.</string>
+    <string name="app_cms_currently_logged_out_message">CURRENTLY LOGGED OUT</string>
+    <string name="app_cms_sign_out_label">LOG OUT</string>
+    <string name="next_video_is">Next Video is:</string>
+
+    <!-- AppCMS VideoPlayer values -->
+    <string name="app_cms_login_again">Your session has expired.  Please login again.</string>
+    <string name="app_cms_error_user_already_exists">A user with that email already exists.</string>
+    <string name="app_cms_error_email_password">Email and password are not valid.</string>
+    <string name="app_cms_no_email_entered">Please enter the email to continue.</string>
+    <string name="app_cms_no_password_entered">Please enter password to continue.</string>
+    <string name="app_cms_edit_settings_button_text">EDIT</string>
+    <string name="app_cms_account_name_title_text">Name:</string>
+    <string name="app_cms_account_title_text">ACCOUNT</string>
+    <string name="app_cms_account_email_title_text">Email:</string>
+    <string name="app_cms_edit_profile_dialog_title">Edit Profile</string>
+    <string name="app_cms_update_username_dialog_title">Update Username</string>
+    <string name="app_cms_update_email_dialog_title">Update Email</string>
+
+    <string name="reset_password_text">RESET PASSWORD</string>
+
+    <string name="my_library">MY LIBRARY</string>
+
+    <!--User Management - Change Password-->
+
+    <string name="app_cms_change_password_page_title">Change Password</string>
+    <string name="app_cms_create_password_page_title">Create Password</string>
+    <string name="app_cms_old_password_input_text_hint">Old Password</string>
+    <string name="app_cms_new_password_input_text_hint">New Password</string>
+    <string name="app_cms_confirm_password_input_text_hint">Confirm Password</string>
+    <string name="app_cms_confirm_password_button_text">Change Password</string>
+    <string name="add_password_edit_email">Please create password to add Email</string>
+    <string name="add_password_edit_name">Please create password to add Name</string>
+
+
+    <string name="media_route_menu_title">Play on&#8230;</string>
+    <string name="countdown_seconds">%d seconds</string>
+
+    <string name="loading_vid_on_casting">Loading on casting device..</string>
+
+    <plurals name="countdown_seconds">
+        <item quantity="one">%d second</item>
+        <item quantity="other">%d seconds</item>
+    </plurals>
+
+    <string name="second_abbreviation">&#160;second</string>
+    <string name="seconds_abbreviation">&#160;seconds</string>
+
+    <plurals name="min_duration_unit">
+        <item quantity="one">%d MIN</item>
+        <item quantity="other">%d MINS</item>
+    </plurals>
+
+    <plurals name="sec_duration_unit">
+        <item quantity="one">%d SEC</item>
+        <item quantity="other">%d SECS</item>
+    </plurals>
+
+    <!-- Download tab -->
+    <string name="app_cms_download_tab_video_title">Video</string>
+    <string name="app_cms_download_tab_audio_title">Audio</string>
+
+    <!-- AppCMS Login values -->
+    <string name="app_cms_tve_log_in">Sign In with TV Provider</string>
+    <string name="app_cms_log_in_pager_title">LOG IN</string>
+    <string name="app_cms_subscribe_now">SUBSCRIBE NOW</string>
+    <string name="app_cms_sign_up_pager_title">SIGN UP</string>
+
+    <!-- Runtime Abbreviations -->
+    <string name="runtime_episodes_abbreviation"> EPISODES</string>
+    <string name="songs_abbreviation">SONGS</string>
+
+    <!--<string name="app_cms_appsflyer_app_uninstall_key">App Uninstall</string>
+    <string name="app_cms_appsflyer_event_app_uninstall_value">app uninstall</string>
+
+    <string name="app_cms_registered_state">Registered state</string>
+    <string name="app_cms_appsflyer_event_type_logout">Logout</string>
+    <string name="app_cms_appsflyer_entitled_state">Entitled state</string>
+    <string name="app_cms_appsflyer_registered_state">Registered state</string>
+    <string name="app_cms_appsflyer_subscription">Subscription</string>
+    <string name="app_cms_appsflyer_cancel_subscription">Cancel Payment</string>
+    <string name="app_cms_user_cancel_payment">User Cancel Payment</string>-->
+
+    <string name="app_cms_rent_time_dialog_button_title">Alert</string>
+    <string name="app_cms_cancel_subscription_title">Cancel Subscription</string>
+    <string name="drm_not_download">DRM NOT DOWNLOAD</string>
+    <string name="drm_not_cast">DRM CANNOT CAST</string>
+    <string name="drm_title">Video Session Expired</string>
+    <string name="drm_header">Please try playing the video again.</string>
+    <string name="app_cms_confirm_alert_dialog_button_text">OK</string>
+    <string name="app_cms_cancel_alert_dialog_button_text">CANCEL</string>
+    <string name="app_cms_cancel_subscription_confirmation_message">You have cancelled your subscription.</string>
+
+    <string name="app_cms_cancel_subscription_not_subscribed_message">You are currently not subscribed to any plans.</string>
+    <string name="app_cms_cancel_subscription_subscription_not_valid_message">Please check that the device is registered with a valid Gmail account.</string>
+    <string name="app_cms_subscribtion_title">Subscription</string>
+    <string name="app_cms_download_quality_title">SET YOUR DOWNLOAD QUALITY</string>
+    <string name="app_cms_download_setting_listener_key">app_cms_download_setting_listener_key</string>
+
+    <string name="app_cms_delete_history_alert_title">Delete History</string>
+    <string name="app_cms_delete_one_history_item_message">Do you want to delete video from history?</string>
+    <string name="app_cms_delete_all_history_items_message">Do you want to delete all videos from history?</string>
+
+    <string name="app_cms_delete_watchlist_alert_title">Delete Watchlist</string>
+    <string name="app_cms_delete_one_watchlist_item_message">Do you want to delete this content from watchlist?</string>
+    <string name="app_cms_delete_all_watchlist_items_message">Do you want to delete all content from watchlist?</string>
+
+    <string name="app_cms_download_retry_alert_title">Download could not finish</string>
+    <string name="app_cms_re_download_item_message">A network issue occurred, would you like to cancel this download or retry?</string>
+
+
+    <string name="app_cms_delete_download_alert_title">Delete Download</string>
+    <string name="app_cms_delete_one_download_video_item_message">Do you want to delete this content from downloads?</string>
+    <string name="app_cms_delete_one_download_audio_item_message">Do you want to delete audio from downloads?</string>
+    <string name="app_cms_delete_all_video_download_items_message">Do you want to delete all content from downloads?</string>
+    <string name="app_cms_delete_all_audio_download_items_message">Do you want to delete all audio from downloads?</string>
+
+    <string name="app_cms_subscription_title">Subscription</string>
+    <string name="app_cms_subscription_required_title">Subscription Required</string>
+    <string name="app_cms_subscription_required_message">Please subscribe to continue.</string>
+    <string name="app_cms_login_and_subscription_required_title">Login and Subscription Required</string>
+    <string name="preview_content">Premium Content</string>
+    <string name="app_cms_login_and_subscription_audio_preview_title">Preview Ended</string>
+
+    <string name="app_cms_login_and_subscription_premium_content_required_message">You need to have a valid subscription to access this content.</string>
+
+    <string name="app_cms_login_and_subscription_required_message">Please login or subscribe to continue.</string>
+    <string name="app_cms_logout_with_running_download_title">Downloading video in progress</string>
+    <string name="email_format_msg">Please enter valid email and try again.</string>
+    <string name="app_cms_logout_with_running_download_message">Logout will remove your current downloading content, You can still access your already downloaded content after re-login. Do you want to continue.</string>
+    <string name="app_cms_login_button_text">LOGIN</string>
+    <string name="logout">Logout</string>
+    <string name="app_cms_login_and_signup_button_text">SIGNUP</string>
+    <string name="app_cms_signout_button_text">LOG OUT</string>
+    <string name="app_cms_login_required_title">Login Required</string>
+    <string name="app_cms_login_required_message">Please login to continue.</string>
+    <string name="app_cms_subscription_button_text">Subscribe</string>
+    <string name="app_cms_subscribe_now_button_text">SUBSCRIBE NOW</string>
+    <string name="app_cast_overlay_text">Touch To Cast Videos On TV</string>
+    <string name="app_cms_existing_subscription_error_message">The Play Store Google ID already has a subscription. Please login to the app with an email and password that was used when the account was created.  Please login to start watching.</string>
+    <string name="app_cms_existing_subscription_logout_error_message">The Play Store Google ID already has a subscription. Please log out of this account and then select SUBSCRIBE NOW to restore this purchase and start watching.</string>
+    <string name="app_cms_existing_subscription_title">Existing Subscription</string>
+    <string name="no_data_received">No response received</string>
+    <string name="there_is_a_problem_loading_data">There is a problem loading data</string>
+    <string name="open_url_in_browser_message">Open this link in a Browser?</string>
+
+    <string name="app_cms_audio_preview_end_message">To listen to this complete audio and get access to so much more, subscribe or Login now!</string>
+
+    <string name="app_cms_subscription_upgrade_unavailable_title">Upgrade Unavailable</string>
+    <string name="app_cms_subscription_upgrade_unavailable_user_dialog">There are currently no plans available for upgrade for the plan you are currently subscribed.</string>
+    <string name="app_cms_subscription_upgrade_cancel_title">You did not purchase the subscription through the Google Play store</string>
+    <string name="app_cms_subscription_upgrade_for_web_user_dialog">To upgrade your subscription, go to the My Account section on our website.</string>
+    <string name="app_cms_subscription_upgrade_for_ios_user_dialog">To upgrade your subscription, go to Manage Subscription on your iOS device.</string>
+    <string name="app_cms_subscription_upgrade_for_roku_user_dialog">To upgrade your subscription, go to Manage Subscription on your Roku device.</string>
+    <string name="app_cms_subscription_cancel_for_web_user_dialog">To cancel your subscription, go to the My Account section on our website.</string>
+    <string name="app_cms_subscription_cancel_for_ios_user_dialog">To cancel your subscription, go to Manage Subscription on your iOS device.</string>
+
+    <string name="previous_subscription_platform_ios_user_dialog">Subscripiton was done from iTunes, please re-subscribe from your Apple Id on device from which you subscribed.</string>
+
+    <string name="previous_subscription_platform_android_user_dialog">Subscripiton was done from Google Play Store, please re-subscribe via Android device.</string>
+    <string name="previous_subscription_platform_android_from_other_payment_processor_dialog">Please re-subscribe after finishing the current cycle.</string>
+
+    <string name="previous_subscription_platform_web_user_dialog">Subscripiton was done from our website, please re-subscribe from website.</string>
+
+    <string name="previous_subscription_platform_amazon_user_dialog">Subscripiton was done from Amazon store, please re-subscribe from fire tv device.</string>
+
+    <string name="previous_subscription_platform_roku_user_dialog">Subscripiton was done from roku device, please re-subscribe from roku device.</string>
+
+    <string name="previous_subscription_platform_smartTv_user_dialog">Subscripiton was done from smart tv, please re-subscribe from smart tv.</string>
+
+    <string name="previous_subscription_platform_windows_user_dialog">Subscripiton was done from windows, please re-subscribe from window device.</string>
+
+    <string name="previous_subscription_platform_ps4_user_dialog">Subscripiton was done from ps4, please re-subscribe from ps4.</string>
+
+    <string name="previous_subscription_platform_otherDevice_user_dialog">Subscripiton was done from other device, please re-subscribe from that device.</string>
+
+    <string name="previous_subscription_platform_anndroid_from_other_processer_user_dialog">Please visit our website to manage your subscription.</string>
+
+    <string name="app_cms_download_stream_info_error_title">Streaming Info Error</string>
+    <string name="app_cms_download_streaming_info_error_message">Some error occurred with streaming info, Please try again.</string>
+
+    <string name="app_cms_download_incomplete_error_title">Download Incomplete</string>
+    <string name="app_cms_download_incomplete_error_message">Please wait until the download is completed.</string>
+    <string name="app_cms_download_file_error_message">The downloaded file does not exist in your storage. Please delete it and download it again.</string>
+
+    <string name="google_play_store_subscriptions_url">https://play.google.com/store/account/subscriptions</string>
+    <string name="app_cms_payment_cancelled_dialog_title">Payment Canceled</string>
+    <string name="app_cms_payment_canceled_body">Your payment has been canceled. Do you want to reinitiate your payment.</string>
+    <string name="app_cms_positive_confirmation_button_text">YES</string>
+    <string name="app_cms_negative_confirmation_button_text">NO</string>
+
+
+    <string name="app_cms_signup_invalid_email_and_password_message">Please enter a non-blank email and password.</string>
+    <string name="app_cms_signup_invalid_email_message">Please enter a non-blank email.</string>
+    <string name="app_cms_signup_blank_password_message">Please enter a non-blank password.</string>
+    <string name="app_cms_signup_email_matches_password_message">Please enter a password that is not the same as your email address.</string>
+    <string name="app_cms_signup_invalid_password_message">Please enter a password that is between 5 to 50 characters in length.</string>
+    <string name="loading_video_text">Loading Video</string>
+    <string name="loading_next_video_text">Loading Next Video…</string>
+    <string name="app_cms_download_write_external_storage_permission_rationale_message">May we request permission to access your external storage to download the video?</string>
+    <string name="app_cms_write_calendar_permission_rationale_message">May we request permission to access your calendar?</string>
+    <string name="app_cms_download_external_storage_write_permission_info_error_title">Download to External Storage</string>
+    <string name="app_cms_write_calendar_title">Add Calendar Events</string>
+    <string name="app_cms_download_limit_message">Download is only available for 30 days after it has been downloaded.</string>
+    <string name="app_cms_download_limit_message_30">This device has been disconnected from the internet for more than 30 days. To watch downloaded content on this device, we need to re-verify your account status. Please exit this app, connect to the internet and restart the app..</string>
+    <string name="app_cms_download_unavailable_error_message">The download is currently unavailable. Please try again later.</string>
+    <string name="app_cms_download_unavailable_error_title">Download Unavailable</string>
+    <string name="app_cms_download_failed_error_title">Not Enough Storage</string>
+    <string name="app_cms_signup_agreement_text">By clicking Sign Up, you agree to</string>
+    <!-- <string name="app_cms_download_failed_error_message">Cannot be downloaded due to low device storage, Please manage space in your storage area and try again.</string>-->
+    <string name="app_cms_download_failed_storage_error_title">Download Failed</string>
+
+    <string name="app_cms_download_failed_error_message">Your device does not have enough space to download the content! In order to free some memory : &lt;br&#47;&gt; 1. Go to Settings. &lt;br&#47;&gt; 2. Tap on Storage  </string>
+
+    <string name="app_cms_sdCard_unavailable_error_title">SDCard Unavailable</string>
+    <string name="app_cms_sdCard_unavailable_error_message">Please insert SDCard in device if it supports removeable media.</string>
+
+
+    <string name="app_cms_download_30plusday_in_offline_mode">This device has been disconnected from the internet for more than 30 days. To watch downloaded content on this device, we need to re-verify your account status. Please exit this app, connect to the internet and restart the app.</string>
+
+
+    <string name="app_cms_no_search_result">NO RESULTS FOR %1$s</string>
+
+    <string name="result_for">RESULT FOR %1$s</string>
+    <string name="results_for">RESULTS FOR %1$s</string>
+    <string name="episode">EPISODE</string>
+    <string name="episodes">EPISODES</string>
+
+    <string name="program">PROGRAM</string>
+    <string name="programs">PROGRAMS</string>
+
+    <string name="day">Day</string>
+    <string name="days">Days</string>
+    <string name="day_caps">day_caps</string>
+    <string name="days_caps">days_caps</string>
+    <string name="minute">Min</string>
+    <string name="minutes">Mins</string>
+    <string name="second">Sec</string>
+    <string name="seconds">Secs</string>
+    <string name="remaining">Remaining</string>
+    <string name="hour">Hour</string>
+    <string name="hours">Hours</string>
+
+    <string name="inr">INR</string>
+
+    <string name="day_ago">Day Ago</string>
+    <string name="days_ago">Days Ago</string>
+    <string name="minute_ago">Min Ago</string>
+    <string name="minutes_ago">Mins Ago</string>
+    <string name="second_ago">Sec Ago</string>
+    <string name="seconds_ago">Secs Ago</string>
+    <string name="hour_ago">Hour Ago</string>
+    <string name="hours_ago">Hours Ago</string>
+
+    <string name="seasons">SEASONS</string>
+    <string name="days_title">DAYS</string>
+    <string name="item_shop">{0,choice,0#Added Today|1#Added 1 Day Ago|1&lt;Added {0} Days Ago}</string>
+    <string name="app_cms_download_queue_toast_message">%1$s has been queued for download.</string>
+    <string name="app_cms_download_already_queued_toast_message">%1$s has already been queued for download.</string>
+    <string name="app_cms_subscription_cancel_for_google_play_user_dialog">Please login as the Google Play user used to create this subscription to cancel.</string>
+    <string name="app_cms_subscription_google_play_cancel_title">Google Play User is Not Logged In</string>
+
+    <!-- CCAvenue Constant Strings -->
+    <string name="app_cms_unknown_subscription_for_upgrade_title">Cannot Upgrade the Subscription</string>
+    <string name="app_cms_unknown_subscription_for_upgrade_text">This is a Web subscription. Management is possible with the device used for purchase.</string>
+    <string name="app_cms_unknown_subscription_for_cancellation_title">Cannot Cancel the Subscription</string>
+    <string name="app_cms_unknown_subscription_for_cancellation_text">The origin of the current subscription can not be determined and a cancellation can be performed at the moment.  Please try again later or contact support for help.</string>
+    <!--<string name="app_cms_rsa_trans_url">https://secure.ccavenue.com/transaction/initTrans</string>-->
+
+    <!-- content rating -->
+    <string name="content_rating_back">Back</string>
+    <string name="content_rating_text_warning">WARNING</string>
+    <string name="content_rating_viewer_discretion">Viewer Discretion Is Advised</string>
+    <string name="content_rating_description">The following content is rated:</string>
+    <string name="content_rating_description_placeholder">The following content is rated: %s</string>
+
+
+    <string name="cost_without_fraction">%.0f</string>
+    <string name="cost_with_fraction">%.2f</string>
+    <string name="password_space_error">"For password only letters, numbers and special characters can be used."</string>
+
+
+    <string name="edit_profile_name_message">Use Alphabets for Name</string>
+    <string name="mr_controller_stop_casting">Stop casting</string>
+
+
+    <string name="a_new_version_of_the_app_is_available_text">Your current app version %1$s is out of date and is no longer supported. Pls update now to continue to access %2$s.</string>
+    <string name="app_cms_upgrade_button_text">Update Now</string>
+    <string name="app_cms_upgrade_available_text">New Update Available</string>
+    <string name="app_update_prefix">Your current app version</string>
+    <string name="app_update_suffix">is out of date and is no longer supported. Pls update now to continue to access.</string>
+    <string name="app_cms_upgrade_textview_text">Your current app version %1$s is out of date and is no longer supported. Pls update now to continue to access %2$s.</string>
+
+
+    <string name="clear_history_message">CLEAR HISTORY ?</string>
+    <string name="clear_watchlist_message">CLEAR WATCHLIST ?</string>
+    <string name="remove_from_watchlist">REMOVE FROM WATCHLIST</string>
+    <string name="add_to_watchlist">ADD TO WATCHLIST</string>
+    <string name="add_to_saved">ADD TO SAVED</string>
+    <string name="remove_from_saved">REMOVE FROM SAVED</string>
+    <string name="save">SAVE</string>
+    <string name="add_to_watchlist_dialog_title">Add To Watchlist</string>
+    <string name="added_to_watchlist">Added To Watchlist</string>
+    <string name="removed_from_watchlist">Removed From Watchlist</string>
+    <string name="add_to_watchlist_dialog_text">You have to be logged in to add this to your watchlist.</string>
+    <string name="add_to_watchlist_text_for_guest_user">You have to be logged in to add this to your watchlist.</string>
+    <string name="open_account_dialog_text">You have to be logged in to view account.</string>
+    <string name="open_watchlist_dialog_text">You have to be logged in to view your Watchlist.</string>
+    <string name="open_history_dialog_text">You have to be logged in to view your History.</string>
+    <string name="logged_in_text_for_rent">You have to be logged in first.</string>
+    <string name="sign_up_tos_and_pp_text">By creating an account, you agree to our terms of use and privacy policy.</string>
+    <string name="close">Close</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="menu">Menu</string>
+    <string name="sign_in_text">LOG IN</string>
+
+    <string name="dowload_high">HIGH QUALITY</string>
+    <string name="download_medium">MEDIUM QUALITY</string>
+    <string name="download_low">LOW QUALITY</string>
+
+
+
+    <string name="no_active_subscription">NO ACTIVE SUBSCRIPTION</string>
+    <string name="subscription">SUBSCRIPTION</string>
+    <string name="subscription_required">SUBSCRIPTION REQUIRED</string>
+    <string name="subscription_purchased_from_web_msg">This subscription was purchased on our website. To modify it, please visit your account settings in a browser.</string>
+    <string name="subscription_purchased_from_android_msg">This subscription was purchased on Google Play Store. To modify it, please visit your account settings on your Android device.</string>
+    <string name="subscription_purchased_from_apple_msg">This subscription was purchased on Apple App Store. To modify it, please visit your account settings on your Apple device.</string>
+    <string name="subscription_purchased_from_roku_msg">This subscription was purchased on Roku. To modify it, please visit your account settings on your Roku device.</string>
+    <string name="subscription_purchased_from_fire_tv_msg">Please visit \"Membership and Subscription\" setting on your Amazon account to manage subscriptions.</string>
+    <string name="subscription_purchased_from_unknown_msg">This subscription was not purchased on this platform. To modify it, please visit your account settings on the platform you used to purchase the subscription.</string>
+    <string name="subscription_not_purchased">You are currently not a subscriber, please visit our website to purchase a subscription.</string>
+
+    <string name="subscription_schedule_to_cancel_on">Schedule To Be Cancelled On </string>
+
+    <string name="refreshing_data_text">Refreshing Data</string>
+    <string name="no_network_connectivity_message">No Internet Connection</string>
+    <string name="no_download_drm_message">DRM Content Cannot be Downloaded</string>
+    <string name="no_cast_drm_message">DRM Content Cannot be Casted</string>
+    <string name="app_cms_retry_text">RETRY</string>
+    <string name="app_cms_close_text">CLOSE</string>
+
+    <string name="logged_in_as">Logged in as</string>
+
+    <string name="search_blank_toast_msg">Please enter a value to search.</string>
+    <string name="email_blank_toast_msg_reset_password">Please enter email to reset password.</string>
+    <string name="published_on">Published on</string>
+
+    <string name="app_cms_download_over_cellular_disabled_error_title">Download Over Cellular Disabled</string>
+    <string name="app_cms_download_over_cellular_disabled_error_message">You are currently using a cellular only network.  Please navigate to the User Settings page and enable downloading over cellular to continue.</string>
+
+    <string name="app_cms_unable_to_play_video_error_title">Content is not available</string>
+
+    <!--
+        <string name="app_cms_unable_to_play_video_error_title">Maximum Simultaneous Streams Reached</string>
+    -->
+    <string name="app_cms_video_not_available_error_title">Error</string>
+    <string name="app_cms_video_not_available_error_message">Could not load the video. Please try again later.</string>
+
+    <string name="playback_error_message">Please try playing Video again.</string>
+    <string name="checking_for_existing_subscription_toast_message">Checking for existing subscription</string>
+    <string name="existing_subscription_does_not_exist_toast_message">Existing subscription does not exist</string>
+    <string name="logging_in_using_existing_subscription">Logging in using existing subscription</string>
+
+    <string name="app_cms_subscribe_text_message">This video is only available to Monumental Sports Network subscribers</string>
+    <string name="visit_website_msg">Please visit our website to start your subscription.</string>
+    <string name="autoplay_off_msg">Turn ON Autoplay from Settings to play next video.</string>
+    <string name="no_more_videos_in_queue">No more videos in queue.</string>
+
+    <string name="resume_watching">Resume Watching</string>
+    <string name="reload_page_from_menu">We encountered an issue while loading the live player. Please refresh this screen in the app Menu.</string>
+
+    <string name="app_cms_video_ended_text_message">No more videos in queue.</string>
+    <string name="app_cms_touch_to_cast_msg">Touch to cast the video on your \n Chromecast device.</string>
+    <string name="app_cms_cast_msg_prefix">Casting the </string>
+    <string name="app_cms_cast_msg_to"> to </string>
+
+    <string name="app_cms_live_preview_text_message">Want more access to your content?  Become a member now!</string>
+    <string name="app_cms_start_free_trial">Start Your Free Trial</string>
+
+    <string name="dialog_close_button">Close</string>
+
+    <string name="error_no_decoder">This device does not provide a decoder for <xliff:g id="mime_type">%1$s</xliff:g></string>
+
+    <string name="error_no_secure_decoder">This device does not provide a secure decoder for <xliff:g id="mime_type">%1$s</xliff:g></string>
+
+    <string name="error_querying_decoders">Unable to query device decoders</string>
+
+    <string name="error_instantiating_decoder">Unable to instantiate decoder <xliff:g id="decoder_name">%1$s</xliff:g></string>
+
+    <string name="auto">Auto</string>
+
+    <string name="invalid_email">Invalid email!</string>
+    <string name="not_valid_email">\u0020\u0020is not a valid email! Please enter a valid email!</string>
+    <string name="quote_separator">\'</string>
+    <string name="thank_you_for_subscribing">THANK YOU FOR SUBSCRIBING!</string>
+    <string name="watercoolerready">#WATERCOOLERREADY</string>
+    <string name="is_already_subscribed">\u0020\u0020is already subscribed to list Sports.</string>
+    <string name="failed_to_subscribe">Failed to subscribe!</string>
+    <string name="try_again_later">Try again later!</string>
+    <string name="photo">photo</string>
+    <string name="photos">photos</string>
+
+    <plurals name="episode_subtitle_text">
+        <item quantity="one">EPISODE</item>
+        <item quantity="other">EPISODES</item>
+    </plurals>
+
+    <plurals name="no_of_photos">
+        <item quantity="one">%1$s photo</item>
+        <item quantity="other">%1$s photos</item>
+    </plurals>
+
+    <plurals name="minute_subtitle_text">
+        <item quantity="one">MIN</item>
+        <item quantity="other">MINS</item>
+    </plurals>
+
+    <plurals name="seconds_subtitle_text">
+        <item quantity="one">SEC</item>
+        <item quantity="other">SECS</item>
+    </plurals>
+    <string name="season_episode_placeholders">S%d:E%d</string>
+    <string name="subscription_cancelled_in">Scheduled to be cancelled by %s</string>
+
+    <!-- Notificaiton Channel -->
+    <string name="notification_channel">UAMP_Channel_ID</string>
+    <string name="notification_channel_description">Channel ID for UAMP</string>
+    <string name="label_pause">Pause</string>
+    <string name="label_play">Play</string>
+    <string name="label_previous">Previous</string>
+    <string name="label_next">Next</string>
+    <string name="stop_casting">Stop Casting</string>
+    <string name="casting_to_device">Casting to %1$s</string>
+
+    <!--SSL Commerz transaction msgs-->
+    <string name="ssl_commerz_transaction_fail">Transaction failed. Please try again.</string>
+    <string name="ssl_commerz_connection_error">Error in connectivity. Please try again.</string>
+    <string name="ssl_commerz_initialization_error">Error in initialization. Please try again later also make sure you are making purchase from Bangladesh.</string>
+    <string name="ssl_commerz_transaction_cancel">Your transaction was not completed as we did not receive a clear confirmation from the payment gateway. It will take us up to 15 minutes to confirm your payment. If your payment isn\'t confirmed via email within this period, please place your order again.</string>
+    <string name="ssl_commerz_server_error">Server Error. Please try again.</string>
+    <string name="ssl_commerz_transaction_successful">Thank you for subscribing! Please visit your account for billing information.</string>
+    <string name="entitlement_api_server_error">Server Error %1$s. Please try again.</string>
+    <string name="timer_until_face_off">TIME UNTIL FACEOFF</string>
+
+    <string name="juspay_initialization_error">Error in initialization. Please try again later also make sure you are making purchase from India.</string>
+    <!-- AppCMS JSON data input keys -->
+    <string-array name="timer_text">
+        <item>D</item>
+        <item>H</item>
+        <item>M</item>
+        <item>S</item>
+    </string-array>
+
+    <string name="failed_to_add_to_watchlist">Failed to Add to Watchlist</string>
+    <string name="failed_to_remove_from_watchlist">Failed to Remove from Watchlist</string>
+
+    <string name="failed_to_add_to_follow">Failed to Add to Following</string>
+    <string name="failed_to_remove_from_follow">Failed to Remove from Following</string>
+
+    <string name="language_setting_title_key">Select Language Setting</string>
+
+    <!--FireTV Strings-->
+    <string name="action_settings">Settings</string>
+    <string name="sample_text">SimpleText superseded TeachText, which was included in System Software up until Mac OS 8. The need for SimpleText arose after Apple stopped bundling MacWrite, to ensure that every user could open and read Readme documents.</string>
+    <string name="retry_key">RETRY</string>
+    <string name="no_inernet_error">There is an error loading %1$s. Please check your Internet Connection and try again later</string>
+    <string name="api_error_message">We are having trouble connecting to %1$s, please try again later.</string>
+    <string name="app_connectivity_dialog_title">App Connectivity</string>
+    <string name="internet_connection_header">Internet Connection</string>
+    <string name="buffering_text">Buffering…</string>
+    <plurals name="mins_abbreviation">
+        <item quantity="one">MIN</item>
+        <item quantity="other">MINS</item>
+    </plurals>
+    <string name="no_data_available">No Data Available.</string>
+    <string name="no_data_in_watchlist_text">You haven\'t added anything to your watchlist.</string>
+    <string name="no_data_in_history_text">You haven\'t watched anything yet.</string>
+    <string name="no_data_in_library_text">You haven\'t purchased or rented anything yet.</string>
+    <string name="blank_email_error_msg">Please enter email to continue.</string>
+    <string name="blank_password_error_msg">Please enter password to continue.</string>
+    <string name="back">BACK</string>
+    <string name="watch_live_text">WATCH LIVE GAMES - <u>START FREE TRIAL NOW</u> </string>
+    <string name="unsubscribe_text_with_login">To continue watching and access to so much more, LOG IN below!</string>
+    <string name="unsubscribe_text">To continue watching, and access so much more, please subscribe with this account at our website.</string>
+    <string name="header">If you are currently a member of $App$, follow these instructions to link your device to membership account:</string>
+    <string name="code_sync_dialog_text_line_1">1. Log in to $App$ from your desktop.</string>
+    <string name="code_sync_dialog_text_line_2">2. Go to My Account and enter code XXXXXX to link this device to your account.</string>
+    <string name="code_sync_dialog_text_line_3">3. Upon linking your device, you can start streaming $App$ on your Apple TV immediately.</string>
+    <string name="action_not_supported">This action is not supported</string>
+    <string name="terms_of_use">terms of use</string>
+    <string name="terms_of_uses">terms of uses</string>
+    <string name="terms_of_service">Terms of Service</string>
+    <string name="privacy_policy">privacy policy</string>
+    <string name="season">Season</string>
+    <string name="no_fight_records">No fight records found</string>
+    <string name="rupee_symbol">\u20B9</string>
+    <string name="player_points">pts</string>
+    <string name="remove_title">REMOVE</string>
+    <string name="cancel">Cancel</string>
+    <string name="upgrade">Upgrade</string>
+    <string name="re_subscribe">Re-Subscribe</string>
+    <string name="open_browser">Open Browser</string>
+    <string name="title_re_try">RE-TRY</string>
+    <string name="photo_gallery_by">By </string>
+    <string name="title">title</string>
+    <string name="tray_title">tray title</string>
+    <string name="benefit_terms">See terms of use and privacy policy for more details</string>
+    <string name="empty_email_message">Please enter email to continue</string>
+    <string name="empty_password_message">Please enter password to continue.</string>
+    <string name="login_terms">Terms of Service and Privacy Policy</string>
+    <string name="i_agree_with_terms_of_services_and_privacy_policy">By clicking signup, You agree to our Terms of Services and Privacy Policy</string>
+    <string name="no_settings_available">Player settings are not available for now!</string>
+    <string name="first_payment_text">First Payment Rs. </string>
+    <string name="search_hint_text">SEARCH</string>
+    <string name="no_results">No Results</string>
+    <string name="searching">Searching</string>
+    <string name="no_search_results">No Results</string>
+
+    <string name="verify_your_password">Verify your password to Continue</string>
+    <string name="button_text_proceed">Proceed</string>
+    <string name="password_changed_successfully">Password Changed Successfully</string>
+    <string name="password_change_confirmation_message">New password should match with Confirm password.</string>
+    <string name="app_cms_download_started_message">%1$s has started downloading.</string>
+    <string name="app_cms_download_available_already_message_other_user">%1$s has already been downloaded to this device by another user.  The same copy of this video will be played instead of downloading another copy.</string>
+    <string name="app_cms_download_available_already_message">%1$s has already been downloaded to this device.</string>
+    <string name="subscription_billing_response_result_user_canceled">Billing response was cancelled by user</string>
+    <string name="subscription_billing_response_result_service_unavailable">Billing response is unavailable</string>
+    <string name="subscription_billing_response_result_item_unavailable">Billing response result item is unavailable</string>
+    <string name="subscription_billing_response_result_developer_error">Billing response result developer error</string>
+    <string name="subscription_billing_response_result_error">Billing response result error</string>
+    <string name="subscription_billing_response_item_already_purchased">Billing response item already purchased</string>
+    <string name="subscription_billing_response_item_not_owned">Billing response item not owned</string>
+    <string name="subscription_cancel_dialog_message">Are you sure you want to cancel subscription?</string>
+
+    <string name="watchlist_duration_years_ago"> years ago</string>
+    <string name="watchlist_duration_year_ago"> year ago</string>
+    <string name="watchlist_duration_months_ago"> months ago</string>
+    <string name="watchlist_duration_month_ago"> month ago</string>
+    <string name="watchlist_duration_weeks_ago"> weeks ago</string>
+    <string name="watchlist_duration_week_ago"> week ago</string>
+    <string name="watchlist_duration_days_ago"> days ago</string>
+    <string name="watchlist_duration_day_ago"> days ago</string>
+    <string name="watchlist_duration_hours_ago"> hours ago</string>
+    <string name="watchlist_duration_hour_ago"> hour ago</string>
+    <string name="watchlist_duration_mins_ago"> mins ago</string>
+    <string name="watchlist_duration_min_ago"> min ago</string>
+    <string name="watchlist_duration_sec_ago"> secs ago</string>
+    <string name="watchlist_duration_just_now">Just now</string>
+    <string name="changelanguage">Change Language</string>
+    <string name="changelanguageMessage">Are you sure you want to change the app language to %1$s?</string>
+    <string name="language_key">Language</string>
+    <string name="app_cms_my_profile_label">My %1$s</string>
+    <string name="profile_label">Profile</string>
+    <string name="ok">OK</string>
+    <!--<string name="rental_title">Uh Oh</string>-->
+    <string name="rental_title">Uh Oh</string>
+    <string name="rental_description">Unfortunately you can not purchase on this platform.Content you have already purchased will become available here automatically</string>
+    <string name="thank_you">Thank You</string>
+    <string name="email_recipt_text">An email receipt with your purchase details has been sent to</string>
+    <string name="rental_period_activation_other">Your rental period for %1$s is active until %2$s</string>
+    <string name="rental_period_activation_tomorrow">Your rental period for %1$s is active until tomorrow at %2$s</string>
+    <string name="rental_period_activation_today">Your rental period for %1$s is active until %2$s</string>
+    <string name="app_cms_library_navigation_title">Library</string>
+    <string name="app_cms_auto_play_enable_message">Auto play not enable from provider</string>
+    <string name="timer_until_pay_per_view_event">Content will be available in:</string>
+    <string name="rent_time_dialog_mssg">Once video start you have %1$s amount of hours to consume the video</string>
+    <string name="content_time_available_in_for_rent">Content will be available in : %1$s</string>
+    <string name="content_time_not_available_in_for_rent">Currently content is not available</string>
+    <string name="alert">Alert</string>
+    <string name="drm_not_message">MESSAGE</string>
+    <string name="playback_header_drm">MEDIA SESSION EXPIRED</string>
+    <string name="app_cms_film_title">FILM</string>
+    <string name="app_cms_films_title">FILMS</string>
+    <string name="cannot_purchase_msg">Unfortunately, you cannot make purchases on this platform. Content you have already purchased will become available here automatically.</string>
+
+    <string name="cannot_purchase_item_msg">This content is not enabled on your account. Please visit %1$s to purchase this item. Once it is added to your library, you may log in from your preferred device to watch the content at your leisure.</string>
+
+    <string name="rent_start_msg">Once video start you have %1$s hours to consume the video.</string>
+    <string name="next_video_loading_error_msg">There is an error in loading next video. Please try again.</string>
+    <string name="purchase_on_web">Purchase On Web</string>
+
+    <string name="added_time_ago">Added</string>
+    <string name="app_cms_series_title">SERIES</string>
+    <string name="app_cms_programs_title">PROGRAMS</string>
+    <string name="app_cms_video_title">VIDEOS</string>
+    <string name="app_cms_audio_title">AUDIO</string>
+    <string name="app_cms_article_title">ARTICLE</string>
+    <string name="app_cms_player_title">PLAYERS</string>
+    <string name="app_cms_bundle_title">BUNDLE</string>
+    <string name="app_cms_bundle_series_title">BUNDLES &amp; SERIES</string>
+
+    <string name="app_cms_gallery_title">GALLERY</string>
+
+    <string name="locationImage">locationImage</string>
+    <string name="show_header">show_header</string>
+    <string name="geo_restrict_error_message">Sorry, but this App content isn\'t available in your country</string>
+    <string name="button_dismiss">Dismiss</string>
+
+    <string name="app_cms_see_all_tray_title">SEE ALL \n %1$s</string>
+    <string name="see_all_no_of_category">%1$s Items in this category</string>
+    <string name="see_all">SEE ALL</string>
+    <string name="items_in_category">%2$s (%1$d)</string>
+    <string name="email_consent_message">Please send me email and other marketing communications regarding my account and other products from %1$s.</string>
+    <string name="provide_mobile_number_key">Please provide mobile number</string>
+    <string name="please_enter_your_phone_number_key">Please enter your phone Number</string>
+    <string name="phone_number_key">Mobile Number</string>
+    <string name="mobile_mobile_will_only_be_used">Mobile number will only be used for subscription process.</string>
+    <string name="payment_checkout">CHECKOUT</string>
+    <string name="redemption_code_text">ENTER THE REDEMPTION \n CODE BELOW \n to add to your movieSpree digital \n library</string>
+    <string name="redemption_code_first_text">ENTER THE REDEMPTION \n CODE BELOW \n</string>
+    <string name="redeem_successfully">Your code has been successfully redeemed.</string>
+    <string name="enter_valid_coupon_code">Please enter valid coupon code</string>
+    <string name="error">Error</string>
+    <string name="media_codec_error">An internal codec error occurred. Please click to restart.</string>
+    <string name="media_source_error">"The media could not be loaded, either because the server or network failed or because the format is not supported."</string>
+    <string name="unsubscribe_text_with_subscribe_and_login">To continue watching, and access so much more, subscribe or login below!</string>
+    <string name="settings_manage_subscription_text">MANAGE</string>
+    <string name="app_cms_subscription_upgrade_for_web_user_dialog_1">To manage your subscription, go to the Settings section at %1$s</string>
+    <string name="app_cms_video_playlist_title">VIDEO PLAYLIST</string>
+    <string name="playback_quality">Playback Quality</string>
+    <string name="audio_language">Audio Language</string>
+    <string name="closed_captions">Closed Captions</string>
+
+    <string name="live_now">LIVE\nNOW</string>
+    <string name="add_to_calendar">ADD TO\nCALENDAR</string>
+    <string name="pref_name_schedule_start_time">schedule</string>
+    <string name="schedule_start_time_key">schedule_key</string>
+    <string name="tag_full_heart">full</string>
+    <string name="tag_empty_heart">empty</string>
+    <string name="dailyView">dailyView</string>
+    <string name="weeklyView">weeklyView</string>
+    <string name="dailyViewBtnText">DAILY VIEW</string>
+    <string name="weeklyViewBtnText">WEEKLY VIEW</string>
+    <string name="no_equipment_needed">No equipment \nnecessary!</string>
+
+    <string name="signup_terms">By signing up you are agreeing to our Terms of Service.</string>
+    <string name="filter_button_text">SHOW ALL CLASSES</string>
+    <string name="filter_cancel_button_text">Cancel</string>
+    <string name="filter_clear_all_button_text">Clear All</string>
+    <string name="all">ALL</string>
+    <string name="browse_sort_newest">Newest</string>
+    <string name="browse_sort_popular">Most Popular</string>
+
+    <string-array name="browse_sort">
+        <item>Newest</item>
+        <item>Most Popular</item>
+    </string-array>
+    <string name="recent_class">ALL CLASSES</string>
+    <string name="about_this_concept">About this Concept</string>
+    <string name="meet_your_instructor">Meet Your Instructor</string>
+    <string name="neou_no_search_result">Whoops, no matches were found.\nTry a different term or browse the library.</string>
+    <string name="neou_no_search_result_second">browse the library.</string>
+    <string name="show_class_count">SHOW %1$s CLASSES</string>
+    <string name="no_classes">NO CLASSES FOUND</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="welcome_hello">Hello!</string>
+    <string name="signin">Sign In</string>
+    <string name="password">Password</string>
+    <string name="connected_account">Connect Account</string>
+    <string name="password_5_char">Password (5+ characters)</string>
+    <string name="create_account">Create Account</string>
+    <string name="signin_password">Enter your password to sign in!</string>
+    <string name="set_password">Add a password to set up your account</string>
+    <string name="password_reset_sent">Password Reset Sent!</string>
+    <string name="back_to_sign_in">BACK TO SIGN IN</string>
+    <string name="signin_or_create_acnt">Sign In or\nCreate an Account</string>
+    <string name="password_reset_check_email">Check your email in the next few minutes and click on the link provided.</string>
+    <string name="email_address">E-mail Address</string>
+    <string name="phone_number_input">Enter Mobile Number</string>
+    <string name="login_email_password">Login Using Email and Password</string>
+    <string name="update_phone_field">Please Update Your Mobile Number</string>
+    <string name="continue_button">CONTINUE</string>
+    <string name="continue_facebook">Continue with Facebook</string>
+    <string name="add_password_to_setup_account">Add a password to set up your account</string>
+    <string name="or_label">OR</string>
+    <string name="show">SHOW</string>
+    <string name="hide">HIDE</string>
+    <string name="reset_your_password">Reset Your Password</string>
+    <string name="reset_password_sent">Password Reset Sent</string>
+    <string name="enter_email_you_used">Enter the e-mail address you used to create\nyour NEOU account. </string>
+    <string name="dialog_profile_guest_user_title">Create an Account to Access these Features. </string>
+    <string name="dialog_profile_guest_user_message">Unlock achievements, download and bookmark content and more by creating an account!</string>
+    <string name="dialog_button_sign_up_now">Sign Up Now</string>
+    <string name="classes_available">Classes Available</string>
+    <string name="class_available">Class Available</string>
+    <string name="view_all_detail">\nWARM UP\n
+        \nX2
+        \nHigh knees
+        \nBody weight good mornings
+        \nInchworms
+        \nHigh plank step, reach back, twist
+        \nAir squats
+        \nPlank walks
+        \nPlank jacks
+        \nAlternating superman reach
+        \nSuperman flutter kicks (RD2)\n
+        \nX1
+        \n8 min AMRAP\n
+        \nThe following is 1 rep; complete 4 reps in a row then rest :
+        \n30 sec
+        \nDB reverse lunge L / R
+        \nDB front squat
+        \nDB strict press mod DB push press
+        \nDB renegade row L / R
+        \nDB strict press mod DB push press\n
+        \nCOOL DOWN / STRETCH\n\n
+    </string>
+    <!--<string name="view_all_detail">&lt;p&gt;&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;br /&gt;WARM UP&lt;br /&gt;X2&lt;br /&gt;High knees&lt;br /&gt;Body weight good mornings&lt;br /&gt;Inchworms&lt;br /&gt;High plank step, reach back, twist&lt;br /&gt;Air squats&lt;br /&gt;Plank walks&lt;br /&gt;Plank jacks&lt;br /&gt;Alternating superman reach&lt;br /&gt;Superman flutter kicks (RD2)\n&lt;br /&gt;X1&lt;br /&gt;8 min AMRAP&lt;br /&gt;The following is 1 rep; complete 4 reps in a row then rest :&lt;br /&gt;30 sec&lt;br /&gt;DB reverse lunge L &lt;br /&gt;DB front squat&lt;br /&gt;DB strict press mod DB push press&lt;br /&gt;DB renegade row L &lt;br /&gt;DB strict press mod DB push press&lt;br /&gt;COOL DOWN / STRETCH&lt;/p&gt; &lt;p&gt;&amp;nbsp;&lt;/p&gt;</string>-->
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+        <item>Prefer not to say</item>
+    </string-array>
+    <string-array name="body_type">
+        <item>Underweight</item>
+        <item>Average</item>
+        <item>Athletic</item>
+        <item>Overweight</item>
+    </string-array>
+    <string-array name="how_often_exercise">
+        <item>Rarely or Never</item>
+        <item>1&#8211;3 times a week</item>
+        <item>3&#8211;5 times a week</item>
+        <item>6&#8211;7 times a week</item>
+        <item>Several times a day </item>
+    </string-array>
+
+    <string name="empty_follow_message">Follow concepts you like to get notifications of newly added classes and special challanges</string>
+    <string name="how_often_do_you_exercise">How Often Do You Exercise?</string>
+    <string name="current_body_type">Current Body Type</string>
+    <string name="fitness_goal">Fitness Goal</string>
+    <string name="welcome_to_app">Welcome to %1$s</string>
+    <string name="set_up_profile">Set Up Your Profile</string>
+    <string name="profile_tos">We aim to help you discover the best workouts to match your fitness goals and abilities. See our privacy policy for complete details.</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="gender">Gender</string>
+    <string name="birthday">Birthday</string>
+    <string name="birthday_offer">Share your birth date to be eligible for a free subscription gift from %1$s!</string>
+    <string name="current_fitness_level">Current Fitness Level</string>
+    <string name="type_of_classes">Which type of Classes Interest You?</string>
+    <string name="error_msg_unknown">An unexpected error occurred</string>
+    <string name="name_validation">Name should contain minimum 3 characters &amp; maximum 100 characters</string>
+    <string name="not_item_available_inqueue">No item available in queue</string>
+    <string name="add_to_download_queue">Adding in download queue&#8230;"</string>
+    <string name="offline_video_qualities">Fetching Video Qualities&#8230;"</string>
+    <string name="offline_channel_description">Service to download content&#8230;"</string>
+
+    <string name="encourage_user_to_login">To watch this video and much more, Log In or Subscribe Now</string>
+    <string name="max_stream_error_text">User has exceeded the concurrent stream limit.</string>
+    <string name="no_previous_audio">No Previous item available in playlist</string>
+    <string name="no_next_audio">No Next item available in queue</string>
+    <string name="live_streaming">Streaming&#8230;</string>
+    <string name="page_title_settings">Settings</string>
+    <string name="downloaded">Downloaded</string>
+    <string name="closed_caption_off">Off</string>
+    <string name="downloading">Downloading…</string>
+    <string name="web_subscription_msg">To continue watching, please activate your free trial or subscription by logging in at</string>
+    <string name="web_subscription_msg_prefix">To continue watching, please activate your free trial or subscription by logging in at</string>
+    <string name="web_subscription_msg_suffix">our website</string>
+    <string name="app_inbox">Notifications</string>
+
+    <string name="wallets">WALLETS</string>
+    <string name="credit_debit_cards">CREDIT/DEBIT CARDS</string>
+    <string name="add_a_new_card">Add A New Card</string>
+    <string name="save_and_pay_via_cards">Save and Pay via Cards.</string>
+    <string name="netbankings">NETBANKINGS</string>
+    <string name="more_banks">MORE BANKS</string>
+    <string name="enter_virtual_payment_address">Enter Virtual Payment Address</string>
+    <string name="eg_abc123_upi">eg.abc123@upi</string>
+    <string name="pay">PAY</string>
+    <string name="select_bank">SELECT BANK</string>
+    <string name="enter_your_card_details">ENTER YOUR CARD DETAILS</string>
+    <string name="card_number">Card Number</string>
+    <string name="mm">MM</string>
+    <string name="yy">YY</string>
+    <string name="cvv">CVV</string>
+    <string name="cardholder_nmae">Cardholder Name</string>
+    <string name="securely_save_card_details">Securely save card details</string>
+    <string name="click_to_allow_recurring_payment">Click to allow recurring payment</string>
+    <string name="card_details_will_be_saved_securely_based_of_the_industrial_standards">Card details will be saved securely, based of the industrial standards</string>
+
+    <string name="please_fill_valid_details">Please fill valid details</string>
+    <string name="please_try_again">Please Try Again</string>
+    <string name="retry_button_text">Retry Btn</string>
+    <string name="backtohome_button_text">Back To Home</string>
+    <string name="please_enter_cvv_number">Please enter cvv number</string>
+    <string name="success_message">Transaction Successful</string>
+    <string name="fail_message">Please try again.</string>
+    <string name="success_message_title">Thank you</string>
+    <string name="pending_message_title">Pending</string>
+    <string name="fail_message_title">Subscription failure</string>
+    <string name="to_pay_title_text">To Pay</string>
+    <string name="have_a_promo_code">Have a promo code?</string>
+    <string name="apply">APPLY</string>
+    <string name="this_code_has_expired">This code has expired.</string>
+    <string name="invalid_promo_code_msg">This is an invalid code. Please confirm your code and try again.</string>
+    <string name="charged">CHARGED</string>
+    <string name="success">SUCCESS</string>
+    <string name="failure">FAILURE</string>
+
+    <string name="download_title">DOWNLOAD</string>
+
+    <string name="authorizing">AUTHORIZING</string>
+    <string name="pending_vbv">PENDING_VBV</string>
+    <string name="current_order">currentOrder</string>
+    <string name="juspay_payload">juspayPayload</string>
+    <string name="status">status</string>
+    <string name="remove">Remove</string>
+    <string name="pending_message">This may take up to few minutes. Please check your account settings after sometime for subscription status.</string>
+    <string name="subscriptionLeftMessage">Your subscription is about to end, click here to re-subscribe.</string>
+    <string name="subscriptionExpiredMessage">Your subscription is over, click here to re-subscribe.</string>
+    <string name="subscriptionInitiatedMessage">You have intiated your subscription process but you are not subscribed yet, click here to subscribe.</string>
+    <string name="initiated">INITIATED</string>
+    <string name="skip">SKIP</string>
+    <string name="start_browsing">Start Browsing</string>
+    <string name="user_personlization_title">User Personalization</string>
+    <string name="user_personlization_sub_title">Select genres that interest you.</string>
+    <string name="already_subscribe_msg">You are already subscribed. Please sign in with the following account: \n %1$s</string>
+    <string name="already_subscribe_msg_deep_link">You are already subscribed</string>
+    <string name="go_to_home">GO TO HOME</string>
+    <string name="rating_prompt_message">Do you love this app?</string>
+    <string name="rating_prompt_confirmation_message">Do you wish to talk to the customer care?</string>
+    <string name="personalize_settings_header">User Personalization</string>
+    <string name="manage_personalization">EDIT PERSONALIZATION</string>
+    <string name="enter_4_digit_pin">Enter your 4-digit PIN to access this restricted title</string>
+    <string name="confirm">Confirm</string>
+    <string name="parental_control_header">PARENTAL CONTROLS</string>
+    <string name="viewing_restrictions_cta">Viewing Restrictions</string>
+    <string name="viewing_restrictions_enabled">Viewing Restrictions Enabled</string>
+    <string name="setup_pin_cta">Set Pin</string>
+    <string name="reset_pin_cta">Reset Pin</string>
+    <string name="enter_pin">ENTER PIN</string>
+    <string name="save_rating_cta">Save</string>
+    <string name="all_rating_category">Kids</string>
+    <string name="all_rating_message">All videos require a PIN</string>
+    <string name="seven_rating_category">Older Kids</string>
+    <string name="seven_rating_message">Videos with these ratings require a PIN: 7+, 13+, 16+, 18+</string>
+    <string name="thirteen_rating_category">Teens</string>
+    <string name="thirteen_rating_message">Videos with these ratings require a PIN: 13+, 16+, 18+</string>
+    <string name="sixteen_rating_category">Young Adults</string>
+    <string name="sixteen_rating_message">Videos with these ratings require a PIN: 16+, 18+</string>
+    <string name="eighteen_rating_category">Adults</string>
+    <string name="eighteen_rating_message">Videos with this rating require a PIN: 18+</string>
+    <string name="tap_age_message">Tap age to set restrictions</string>
+    <string name="enter_video_pin">Please enter your Video PIN</string>
+    <string name="in_correct_pin_message">Incorrect PIN. Please try again</string>
+    <string name="auth_with_google">Authenticate with Google</string>
+    <string name="auth_with_facebook">Authenticate with Facebook</string>
+    <string name="please_choose_any_age_to_set_restrictions">Please choose any age to set restrictions</string>
+    <string name="manage_parental_from_mobile_or_web">you can manage your parental control settings only from mobile or website.</string>
+    <string name="use_pin">Use Pin</string>
+    <string name="face_id">Face ID</string>
+    <string name="touch_id">Touch ID</string>
+    <string name="face_id_enabled_title">Face ID enabled</string>
+    <string name="touch_id_enabled_title">Touch ID enabled</string>
+    <string name="enable_touch_id">Enable Touch Id</string>
+    <string name="enable_face_id">Enable Face ID</string>
+    <string name="enable_touch_id_message">Use your phone touch instead of your Parental Controls PIN to watch restricted videos. Viewing restrictions must be turned on to enable Touch ID</string>
+    <string name="enable_face_id_message">Use your face instead of your Parental Controls PIN to watch restricted videos. Viewing restrictions must be turned on to enable Face ID</string>
+    <string name="touch_id_not_enrolled">Please go to device settings and set up Touch ID.</string>
+    <string name="view_more">View More</string>
+
+    <string name="inbox">%1$s INBOX</string>
+    <string name="my">My</string>
+    <string name="and">and</string>
+    <string name="manage_subscription">MANAGE SUBSCRIPTION</string>
+    <string name="autoplay_off">Autoplay Off</string>
+    <string name="autoplay_on">Autoplay On</string>
+    <string name="closed_caption_off_key">Closed Caption Off</string>
+    <string name="closed_caption_on_key">Closed Caption On</string>
+    <string name="select">Select</string>
+    <string name="email_us_at">Email us at</string>
+    <string name="call_us_at">Call is at</string>
+    <string name="just_finished">Just Finished</string>
+    <string name="cancel_countdown">Cancel Countdown</string>
+    <string name="countdown_cancelled">Countdown Cancelled</string>
+    <string name="grab_a_grown_up">Grab a Grown Up</string>
+    <string name="press_and_hold_item">To continue, press and hold the</string>
+    <string name="previous_searches">PREVIOUS SEARCHES:</string>
+    <string name="clear_history">CLEAR HISTORY</string>
+    <string name="show_for_big_kids">This show is for big kids. Grab a grownup to help you watch!</string>
+    <string name="answer_math_problem_message">To continue, answer the math problem below:</string>
+    <string name="find_an_adult">Sorry that\'s not the right answer. Find an adult to get help!</string>
+    <string name="selected">Selected</string>
+    <string name="facebook_error">Facebook login failed</string>
+    <string name="google_error">Google login failed</string>
+    <string name="back_video_btn_txt">BACK TO VIDEO</string>
+    <string name="rest_btn_txt">REST</string>
+    <string name="repeat_circuit_btn_txt">REPEAT CIRCUIT</string>
+    <string name="next_circuit_btn_txt">NEXT CIRCUIT</string>
+    <string name="rest_details">Drink water,take deep breaths, get your mind right for next set.</string>
+    <string name="rest_workout_screen">rest_workout</string>
+    <string name="page_availability">"This page is available for logged-In users only."</string>
+    <string name="alreadyLoggedIn">Already Logged-In</string>
+    <string name="pleaseLoginToViewMyAha">Please login to view My aha</string>
+    <string name="originals">/originals/</string>
+    <string name="congratulations">CONGRATULATIONS</string>
+    <string name="invite_success_message">We have sent an SMS to your friends. When your friend has successfully completed their first purchase and the order has been delivered, you will receive a gift code via email and SMS</string>
+    <string name="get_social_free_message">Your hoichoi subscription will be extended by 1 month once your friend subscribes!</string>
+    <string name="get_social_share_with_friend"> Share hoichoi with your friends</string>
+    <string name="get_social_friend_get_discount"> your friends get 20% discount on subscribing</string>
+    <string name="get_social_get_extra_subscription"> you get 2 month extra for each referred subscribtion</string>
+    <string name="get_social_share_via_text"> Share via</string>
+    <string name="get_social_terms_and_condition_text"></string>
+    <string name="get_social_sign_in_button_text"> Sign in to refer a friend</string>
+    <string name="get_social_subscribe_button_text"> Subscribe to refer a friend</string>
+    <string name="updateValidNumber">This number is already registered</string>
+    <string name="player_text_live">LIVE</string>
+    <string name="login_facebook">Log In With Facebook</string>
+    <string name="login_google">Log In With Google</string>
+    <string name="signup_facebook">Sign Up With Facebook</string>
+    <string name="signup_google">Sign Up With Google</string>
+    <string name="enter_email">Enter Your Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_number">Enter Your Phone Number</string>
+    <string name="ways_to_watch">Ways to Watch</string>
+    <string name="become_member">Become a Member</string>
+    <string name="rent_options">Rent Options</string>
+    <string name="buy_options">Purchase Options</string>
+    <string name="rent">Rent</string>
+    <string name="rented">Rented</string>
+    <string name="purchased">Purchased</string>
+    <string name="buy">Purchase</string>
+    <string name="choose_tv">Choose TV Provider</string>
+    <string name="own">Own</string>
+    <string name="have_account">Already have an Account?</string>
+    <string name="ways_to_watch_msg">To continue watching, and access so much more, subscribe or login using any option listed below!</string>
+    <string name="already_have_account">Already have account?<u>SIGN IN</u></string>
+
+    <string name="math_problem_continue">To continue, answer the math problem below:</string>
+    <string name="math_problem_error">Sorry, that\'s not the right answer. Find an adult to get help!</string>
+    <string name="math_problem_header">This show is for big kids. Grab a grownup to help you watch</string>
+    <string name="age_rating_g">G</string>
+    <string name="age_rating_y">Y</string>
+    <string name="age_rating_y7">Y7</string>
+    <string name="age_rating_ua">UA</string>
+    <string name="age_rating_pg">PG</string>
+    <string name="age_rating_fourteen">14</string>
+    <string name="age_raging_r">R</string>
+    <string name="age_rating_converted_g">0+</string>
+    <string name="age_rating_converted_y">2+</string>
+    <string name="age_rating_converted_y7">7+</string>
+    <string name="age_rating_converted_ua">12+</string>
+    <string name="age_rating_converted_pg">13+</string>
+    <string name="age_rating_converted_fourteen">14+</string>
+    <string name="age_rating_converted_eighteen">18+</string>
+    <string name="age_rating_converted_default">NR</string>
+    <string name="null_value">null</string>
+    <string-array name="app_cms_setting_page_content_key">
+        <item>accountDetailsView</item>
+        <item>personalizationView</item>
+        <item>utilitiesView</item>
+        <item>subscriptionView</item>
+        <item>logOut</item>
+    </string-array>
+
+    <string name="app_exit_alert_message">Are you sure you want to exit?</string>
+
+    <string-array name="app_cms_setting_page_content_value">
+        <item>@string/account_details</item>
+        <item>@string/personalization</item>
+        <item>@string/app_settings</item>
+        <item>@string/app_cms_subscription_title</item>
+        <item>@string/log_out_label</item>
+    </string-array>
+
+    <string name="account">Account</string>
+    <string name="billing">Billing</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="email">Email</string>
+    <string name="mobile">Mobile</string>
+    <string name="signin_continue">sign in &amp; continue</string>
+    <string name="signup_continue">sign up &amp; continue</string>
+    <string name="select_payment">Select a Payment Method</string>
+    <string name="payment_msg">You will be re-directed to verify your account</string>
+    <string name="account_details">Account Details</string>
+    <string name="need_help">Need help with your account?</string>
+    <string name="billing_payment">Billing &amp; Payments</string>
+    <string name="name">Name</string>
+    <string name="interest">Your Interest</string>
+    <string name="purchases">Purchases</string>
+    <string name="personalization">Personalization</string>
+    <string name="recurring_billing">Recurring Billing</string>
+    <string name="recurring_purchases">Recurring Purchases:</string>
+    <string name="on_demand_purchases">On Demand Purchases:</string>
+    <string name="see_all_purchases">see all purchases</string>
+    <string name="billing_history">Billing History</string>
+    <string name="see_full_history">see full history</string>
+    <string name="next_billing">Next Bill (MM-DD-YY):</string>
+    <string name="payment_processor">Payment Processor</string>
+    <string name="upgrade_plan">You do not have access to this feature with your current plan. Upgrade your account here.</string>
+    <string name="add_topic">Add A Topic</string>
+    <string name="app_settings">App Settings</string>
+    <string name="downnload_settings">Download Settings</string>
+    <string name="downnload_quality">Download Qaulity</string>
+    <string name="autoplay">Autoplay</string>
+    <string name="change">Change</string>
+    <string name="cellular_data">Cellular Data</string>
+    <string name="use_sd_card_download">Use SD Card for Download</string>
+    <string name="app_version">App Version</string>
+    <string name="please_enter_your_password_to_continue">Please enter your password to continue</string>
+    <string name="phone_not_valid">Phone Number is Not Vaid. Please Enter Mobile with Country Code.</string>
+    <string name="edit_name">Edit Name</string>
+    <string name="edit_email">Edit Email</string>
+    <string name="please_enter_your_email_to_continue">Please enter your email to continue</string>
+    <string name="edit_email_from_website">To edit your account, go to</string>
+    <string name="enter_name">Enter Your Name</string>
+    <string name="email_required">Enter Your Email</string>
+    <string name="email_required_msg">Please enter your email address to continue</string>
+    <string name="otp_header">Please Enter 4 Digit OTP SENT TO NUMBER %1$s</string>
+    <string name="resend_otp">RESEND OTP</string>
+    <string name="guest_tve_login_message">To continue watching, and access so much more, login with your TV provider.</string>
+    <string name="help_prefix">Email us at %1$s %2$s </string>
+    <string name="help_suffix">to speak to a customer service representative.</string>
+    <string name="price_after_free_trail_ends">Price after free trial ends.</string>
+    <string name="choose_a_plan">CHOOSE A PLAN</string>
+    <string name="log_out_label">Log Out</string>
+    <string name="small_font">Small</string>
+    <string name="regular_font">Regular</string>
+    <string name="large_font">Large</string>
+    <string name="coming_soon">COMING SOON</string>
+    <string name="updates">Updates</string>
+    <string name="notifications">Notifications</string>
+    <string name="check_out_this_app">Check out this app</string>
+    <string name="player_notification_channel_id">Player Notification</string>
+    <string name="player_notification_channel_name">Video Player Notification</string>
+    <string name="player_notification_channel_desc">notification for video player control</string>
+    <string name="addNumber">ADD PHONE NUMBER</string>
+    <string name="content_unavailable_tv_provider">This content is not available on your TV provider.</string>
+    <string name="loading">Loading…</string>
+    <string name="no_season">No More Seasons</string>
+    <string name="no_episode">No More Episodes</string>
+    <string name="no_video">No More Videos</string>
+    <string name="not_applicable">N/A</string>
+    <string name="download_unavailable">Download is not available for this video</string>
+    <string name="cast_unavailable">Casting is not available for this video</string>
+    <string name="hd_stream_unavailable">HD streaming is not available for this video</string>
+    <string name="series_include">Series Includes:</string>
+    <string name="video_unavailable_platform">This video is not available on this platform</string>
+    <string name="product_not_available">Product is not available on store.</string>
+
+    <string name="get_social_referred_friends_link">Status of Referred friends</string>
+    <string name="get_social_referred_friends_list">List of Referred friends</string>
+    <string name="get_social_serial_number_text">S.N.</string>
+    <string name="get_social_referred_friends_title">Referred Friends</string>
+    <string name="get_social_install_channel_title">install Channel</string>
+    <string name="get_social_subscription_status_title">Subscription Status</string>
+    <string name="get_social_subscription_date_title">Subscription Date</string>
+    <string name="get_social_subscribed_text">Subscribed</string>
+    <string name="get_social_no_record_found_text">No Record found</string>
+    <string name="openVideoPlayer">openVideoPlayer</string>
+    <string name="term_and_condition_text">See term of use and privacy policy for more details.</string>
+    <string name="time_period_verbiage">Standard rental term is 30 days from purchase and 48 hours from pressing play button unless otherwise stated. By continuing, you agree to the Terms of Service, Privacy Policy and verify that you are at least 18 years of age.</string>
+    <string name="steps">%1$s Of 3</string>
+    <string name="add_billing">Add Billing</string>
+    <string name="enter_promo_code">Enter Promo Code</string>
+    <string name="verify_first_pay">First Payment</string>
+    <string name="on_separator">on</string>
+    <string name="promo_heading">Have Promo Code?</string>
+    <string name="apply_promo">Apply Code</string>
+    <string name="add_promo">Add</string>
+    <string name="remove_promo">Remove</string>
+    <string name="plan_subscription">Plan Subscription</string>
+    <string name="total">Total</string>
+    <string name="discount_applied">Discount Applied</string>
+    <string name="total_billing">Total Billing</string>
+    <string name="discount_of_applied">Discount of %1$s applied</string>
+
+    <string name="skipRecapButtonText">Skip Recap</string>
+    <string name="skipIntroButtonText">Skip Intro</string>
+    <string name="startFromBeginningText">Start from Beginning</string>
+    <string name="upgrade_subscription">Upgrade Subscription</string>
+    <string name="web_purchase_msg">Use the referral link on web browser to redeem your referral bonus.</string>
+
+
+    <string name="transaction_title">Transaction</string>
+    <string name="transaction_success_msg">Your transaction is successful. Visit settings or library to view your purchases.</string>
+    <string name="invalid_otp">Incorrect OTP</string>
+    <string name="invalid_msison">Not a valid ooredoo number</string>
+</resources>

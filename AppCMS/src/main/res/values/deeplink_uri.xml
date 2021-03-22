@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="signin_key_for_deeplink" translatable="false">signin</string>
+    <string name="signup_key_for_deeplink" translatable="false">signup</string>
+    <string name="download_key_for_deeplink" translatable="false">downloads</string>
+    <string name="watchlist_key_for_deeplink" translatable="false">watchlist</string>
+    <string name="settings_key_for_deeplink" translatable="false">user</string>
+    <string name="account_key_for_deeplink" translatable="false">account</string>
+    <string name="history_key_for_deeplink" translatable="false">history</string>
+    <string name="genres_key_for_deeplink" translatable="false">genres</string>
+    <string name="home_url" translatable="false">home</string>
+    <string name="myaha_url" translatable="false">kids</string>
+    <string name="my_aha_key_for_deeplink" translatable="false">aha kids</string>
+    <string name="series_key_for_deeplink" translatable="false">/series/</string>
+    <string name="open_video_key_for_deeplink" translatable="false">/openVideoPlayer/</string>
+    <!--<string name="referrals_key_for_deeplink" translatable="false">/referrals</string>-->
+    <string name="referral_key_for_deeplink" translatable="false">/referral</string>
+    <string name="show_key_for_deeplink" translatable="false">/show/</string>
+    <string name="refer_earn_key_for_deeplink" translatable="false">refer_earn</string>
+    <string name="referEarn_key_for_deeplink" translatable="false">referEarn</string>
+    <string name="refer_earn_title_key_for_deeplink" translatable="false">R &amp; E</string>
+    <string name="refer_earn_page_name_key_for_deeplink" translatable="false">Refer and Earn</string>
+
+</resources>

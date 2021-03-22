@@ -1,0 +1,66 @@
+*.iml
+.gradle
+/local.properties/*
+.DS_Store
+build/*
+/captures/*
+.externalNativeBuild
+.cxx
+/AppCMS/release/*
+*.apk
+/*.json
+/.idea/*
+.idea/
+/AppCMS/mobile/release/*
+/AppCMS/.cxx
+AppCMS/.cxx/*
+/AppCMS/buildout
+/AppCMS/buildout/*
+/AppCMS/mobileNonflavour
+/library/buildout
+/library/buildout/*
+/library/build
+/library/build/*
+/sample/build/*
+!build/build.xml
+# built application files
+
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# built native files (uncomment if you build your own)
+# *.o
+# *.so
+
+# generated files
+bin/
+gen/
+
+# Ignore gradle files
+.gradle/
+build/
+gradle/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+library/build/
+sample/build/
+htmlspanner/build/
+AppCMS/.idea/
+AppCMS/local.properties
+AppCMS/gradle/
+AppCMS/src/main/assets/version.properties
+
+*.gradle
+AppCMS/*.gradle
+Apps/*.gradle
+
+backup/**
+.vscode/**
+__pycache__/**

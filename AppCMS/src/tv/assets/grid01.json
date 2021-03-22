@@ -1,0 +1,97 @@
+{
+  "id": "bae2a7c3-3aaf-460e-a13c-fd8250b19592",
+  "settings": {
+    "columns": {
+      "tablet": 3,
+      "desktop": 4,
+      "mobile": 2,
+      "ott": 4
+    },
+    "thumbnailType": "landscape"
+  },
+  "view": "AC Grid 01",
+  "type": "AC Grid 01",
+  "blockName": "categoryDetail01",
+  "layout": {
+    "ftv": {
+      "yAxis": 0,
+      "leftMargin": 0,
+      "rightMargin": 0,
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "components": [
+    {
+      "layout": {
+        "ftv": {
+          "fontSize": 20
+        }
+      },
+      "fontFamily": "OpenSans",
+      "textAlignment": "center_horizontal",
+      "type": "label",
+      "textColor": "#008EE0",
+      "fontWeight": "Semibold",
+      "key": "categoryTrayTitle"
+    },
+    {
+      "layout": {
+        "ftv": {
+          "width": 1920,
+          "height": 1080,
+          "topMargin": 60,
+          "leftMargin": 30
+        }
+      },
+      "itemClickAction": "lectureDetailPage",
+      "components": [
+        {
+          "layout": {
+            "ftv": {
+              "padding": 6,
+              "topMargin": 15,
+              "width": 414,
+              "height": 233
+            }
+          },
+          "type": "image",
+          "key": "thumbnailImage"
+        },
+        {
+          "layout": {
+            "ftv": {
+              "padding": 6,
+              "topMargin": 15,
+              "width": 414,
+              "height": 233
+            }
+          },
+          "type": "image",
+          "key": "badgeImage"
+        },
+        {
+          "layout": {
+            "ftv": {
+              "leftMargin": 10,
+              "topMargin": 270,
+              "rightMargin": 0,
+              "fontSize": 11,
+              "height": 40,
+              "width": 414
+            }
+          },
+          "fontFamily": "OpenSans",
+          "textAlignment": "left",
+          "type": "label",
+          "textColor": "#ffffff",
+          "fontWeight": "Semibold",
+          "key": "thumbnailTitle"
+        }
+      ],
+      "type": "tableView",
+      "key": "seeAllCollectionGrid"
+    }
+  ],
+  "key": "tray03"
+}

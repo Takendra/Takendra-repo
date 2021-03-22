@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="error_parsing_layout_data_textsize">20sp</dimen>
+    <dimen name="upgrade_textsize">20sp</dimen>
+    <bool name="isTablet">true</bool>
+    <dimen name="dot_selector_listview_height">16dp</dimen>
+    <dimen name="dot_selector_height">8dp</dimen>
+    <dimen name="dot_selector_width">8dp</dimen>
+    <dimen name="dot_selector_item_height">12dp</dimen>
+    <dimen name="dot_selector_item_width">12dp</dimen>
+    <dimen name="dot_selector_margin_left">0dp</dimen>
+    <dimen name="dot_selector_margin_right">0dp</dimen>
+
+    <dimen name="dot_selector_03_item_width">25dp</dimen>
+    <dimen name="dot_selector_03_item_height">2dp</dimen>
+    <dimen name="dot_selector_03_width">14dp</dimen>
+    <dimen name="dot_selector_03_height">13dp</dimen>
+
+    <dimen name="appbar_elevation">4dp</dimen>
+
+    <dimen name="menu_item_height">36dp</dimen>
+    <dimen name="bottom_navbar_height">59dp</dimen>
+    <!-- bottom_navbar_text_size this will always 12 we can't increase it.  -->
+    <dimen name="bottom_navbar_text_size">12sp</dimen>
+    <dimen name="nav_item_text_size">14sp</dimen>
+    <dimen name="news_nav_item_text_size">10sp</dimen>
+    <dimen name="button_text_size">16sp</dimen>
+
+    <dimen name="nav_item_margin">8dp</dimen>
+    <dimen name="nav_image_height">24dp</dimen>
+    <dimen name="nav_image_width">74dp</dimen>
+    <dimen name="nav_item_padding">0dp</dimen>
+    <dimen name="nav_item_large_width">168dp</dimen>
+    <dimen name="nav_item_large_height">60dp</dimen>
+    <dimen name="nav_item_separator_height">1dp</dimen>
+    <dimen name="nav_item_top_padding">6dp</dimen>
+    <dimen name="nav_item_bottom_padding">10dp</dimen>
+    <dimen name="nav_item_left_right_padding">5dp</dimen>
+    <dimen name="nav_item_min_width">120dp</dimen>
+    <dimen name="nav_item_max_width">130dp</dimen>
+
+    <dimen name="full_screen_item_min_width">20dp</dimen>
+
+
+    <dimen name="castview_padding">24dp</dimen>
+    <dimen name="searchbar_elevation">36dp</dimen>
+    <dimen name="search_item_padding_default">8dp</dimen>
+    <dimen name="search_item_title_padding_default">16dp</dimen>
+    <dimen name="app_cms_no_search_results_textsize">24sp</dimen>
+
+    <dimen name="app_cms_video_player_title_view_text_size">18sp</dimen>
+    <dimen name="close_button_margin">8dp</dimen>
+    <dimen name="back_button_margin">20dp</dimen>
+    <dimen name="close_button_size">24dp</dimen>
+    <dimen name="back_button_size">20dp</dimen>
+    <dimen name="new_version_available_close_button_size">24dp</dimen>
+    <dimen name="app_cms_search_bar_width">480dp</dimen>
+    <dimen name="mssg_btn_margin">60dp</dimen>
+
+    <dimen name="login_button_phone">360dp</dimen>
+    <dimen name="login_button_phone_height">38dp</dimen>
+    <dimen name="button_margin">40dp</dimen>
+    <dimen name="phone_button_margin">60dp</dimen>
+    <dimen name="phone_margin">16dp</dimen>
+    <dimen name="app_cms_searchbar_top_margin">300dp</dimen>
+    <dimen name="app_cms_searchbar_top_margin_land">140dp</dimen>
+    <dimen name="app_cms_logged_out_message_textsize">10sp</dimen>
+    <dimen name="app_cms_settings_page_title_textsize">18sp</dimen>
+    <dimen name="app_cms_resetpassword_page_title_textsize">18sp</dimen>
+    <dimen name="app_cms_account_title_textsize">18sp</dimen>
+    <dimen name="app_cms_account_padding">4dp</dimen>
+    <dimen name="app_cms_separator_view_height">1dp</dimen>
+    <dimen name="app_cms_text_input_height">44dp</dimen>
+    <dimen name="app_cms_text_input_margin">8dp</dimen>
+    <dimen name="app_cms_continue_watching_tray_height">71dp</dimen>
+    <dimen name="app_cms_episode_tray_height">71dp</dimen>
+    <dimen name="app_cms_continue_watching_tray_image_width">125dp</dimen>
+    <dimen name="app_cms_episode_tray_image_width">125dp</dimen>
+    <dimen name="app_cms_continue_watching_tray_image_height">70dp</dimen>
+    <dimen name="app_cms_continue_watching_play_button_width">25dp</dimen>
+    <dimen name="app_cms_episode_play_button_width">25dp</dimen>
+    <dimen name="app_cms_continue_watching_play_button_height">28dp</dimen>
+    <dimen name="app_cms_episode_play_button_height">28dp</dimen>
+    <dimen name="app_cms_continue_watching_progressbar_height">5dp</dimen>
+    <dimen name="app_cms_episode_progressbar_height">5dp</dimen>
+    <dimen name="app_cms_continue_watching_description_width">222dp</dimen>
+    <dimen name="app_cms_video_controller_cc_left_margin">24dp</dimen>
+    <dimen name="app_cms_video_controller_cc_width">34dp</dimen>
+    <dimen name="app_cms_volume_controller_width">40dp</dimen>
+    <dimen name="app_cms_video_controller_cc_height">34dp</dimen>
+    <dimen name="app_cms_not_items_label_text_size">24sp</dimen>
+    <dimen name="app_cms_planmetapage_end_margin">4dp</dimen>
+    <dimen name="app_cms_continue_watching_tray_marginLeft">8dp</dimen>
+    <dimen name="app_cms_episode_tray_marginStart">8dp</dimen>
+
+
+    <dimen name="app_cms_download_quality_rendition_width">70dp</dimen>
+    <dimen name="app_cms_logo_top_margin">16dp</dimen>
+    <dimen name="app_cms_close_button_margin">24dp</dimen>
+    <dimen name="nav_item_container_padding">24dp</dimen>
+    <dimen name="nav_item_login_container_padding">48dp</dimen>
+    <dimen name="app_cms_more_title_text_size">22sp</dimen>
+
+    <dimen name="app_cms_content_rating_title_header_text_size">12sp</dimen>
+    <dimen name="app_cms_content_rating_title_text_size">18sp</dimen>
+    <dimen name="app_cms_content_rating_view_margin">13dp</dimen>
+    <dimen name="app_cms_content_rating_title_margin_left">45dp</dimen>
+    <dimen name="a_new_version_of_the_app_is_available_textsize">16sp</dimen>
+    <dimen name="new_version_available_elevation">8dp</dimen>
+    <dimen name="app_cms_force_upgrade_element_margin">8dp</dimen>
+    <dimen name="app_cms_force_upgrade_button_padding">8dp</dimen>
+    <dimen name="app_cms_upgrade_now_text_margin">32dp</dimen>
+    <fraction name="app_cms_content_rating_progress_bar_margin_bottom_percent">3.4%</fraction>
+    <fraction name="mainContainerHeightPercent">22%</fraction>
+    <fraction name="mainContainerWidthPercent">90%</fraction>
+    <fraction name="tray_item_more_dialog_Height">40%</fraction>
+    <dimen name="tray_item_more_dialog_PanelPedding">20dp</dimen>
+    <dimen name="tray_item_more_dialog_ButtonMargin">20dp</dimen>
+    <dimen name="app_cms_toolbar_margin_top">8dp</dimen>
+
+    <dimen name="app_cms_mini_player_height">170dp</dimen>
+    <dimen name="app_cms_mini_player_width">303dp</dimen>
+    <dimen name="app_cms_mini_player_border_size">5dp</dimen>
+    <dimen name="app_cms_mini_player_margin">20dp</dimen>
+    <dimen name="app_cms_mini_player_unmute_button_size">22dp</dimen>
+
+    <dimen name="app_cms_team_list_view_margin_top">20dp</dimen>
+
+    <dimen name="app_cms_dialog_close_button_margin_top">20dp</dimen>
+    <dimen name="app_cms_dialog__margin">20dp</dimen>
+    <dimen name="app_cms_dialog_list_divider_height">5dp</dimen>
+
+    <dimen name="streaming_quality_view_margin">8dp</dimen>
+    <dimen name="streaming_quality_view_padding">12dp</dimen>
+    <dimen name="streaming_quality_view_padding_top">4dp</dimen>
+    <dimen name="chromecast_default_width">36dp</dimen>
+    <dimen name="chromecast_default_height">36dp</dimen>
+    <dimen name="chromecast_default_margin_end">0dp</dimen>
+    <dimen name="chromecast_default_padding_end">4dp</dimen>
+    <dimen name="chromecast_default_padding_top">4dp</dimen>
+
+    <dimen name="chromecast_toolbar_padding">8dp</dimen>
+
+    <dimen name="logo_icon_height">40dp</dimen>
+
+    <dimen name="app_cms_audio_player_controller_height">48dp</dimen>
+    <dimen name="app_cms_audio_player_controller_padding">5dp</dimen>
+    <dimen name="app_cms_audio_player_thumbnail_pading">2dp</dimen>
+    <dimen name="app_cms_audio_player_sep_pading">10dp</dimen>
+    <dimen name="app_cms_audio_next_width">20dp</dimen>
+    <dimen name="app_cms_audio_next_height">20dp</dimen>
+    <dimen name="app_cms_audio_play_width">40dp</dimen>
+    <dimen name="app_cms_audio_play_height">50dp</dimen>
+    <dimen name="app_cms_audio_play_control_height">70dp</dimen>
+    <dimen name="app_cms_audio_image_padding">15dp</dimen>
+    <dimen name="app_cms_player_track_image_height">500dp</dimen>
+
+    <dimen name="app_cms_audio_controller_play_width">26dp</dimen>
+    <dimen name="app_cms_audio_controller_play_height">33dp</dimen>
+    <dimen name="app_cms_audio_controller_play_control_height">45dp</dimen>
+
+    <dimen name="app_cms_audio_shuffle_width">35dp</dimen>
+    <dimen name="app_cms_audio_shuffle_height">25dp</dimen>
+
+
+    <dimen name="app_cms_audio_playlist_width">30dp</dimen>
+    <dimen name="app_cms_audio_playlist_height">22dp</dimen>
+
+    <dimen name="app_cms_audio_item_padding">30dp</dimen>
+
+    <dimen name="app_cms_audio_audio_icon_width">30dp</dimen>
+    <dimen name="app_cms_audio_audio_icon_height">20dp</dimen>
+    <dimen name="action_bar_logo_width">113dp</dimen>
+    <dimen name="action_bar_logo_height">32dp</dimen>
+    <dimen name="see_all_header_height">45dp</dimen>
+    <item name="app_cms_plan_pay_font" type="dimen" format="float">1.0</item>
+    <item name="app_cms_plan_duration_font" type="dimen" format="float">1.0</item>
+    <item name="app_cms_plan_price_font" type="dimen" format="float">1.5</item>
+    <dimen name="mobile_video_detail_item_margin">30dp</dimen>
+    <dimen name="landscape_video_detail_item_margin">100dp</dimen>
+    <dimen name="portrait_video_detail_item_margin">70dp</dimen>
+
+    <dimen name="tray05_width">270dp</dimen>
+    <dimen name="tray05_height">180dp</dimen>
+
+    <dimen name="carousel_tab_guidline_padding">16dp</dimen>
+    <dimen name="arrow_button_margin">5dp</dimen>
+    <dimen name="browse_page_filter_top_margin">90dp</dimen>
+
+    <dimen name="tool_bar_logo_height">42dp</dimen>
+    <dimen name="tool_bar_news_logo_height">30dp</dimen>
+    <dimen name="player_control_button_width_height">60dp</dimen>
+    <dimen name="player_control_setting_button_width_height">32dp</dimen>
+    <dimen name="player_control_text_size">14sp</dimen>
+    <dimen name="app_cms_rest_work_out_margin">8dp</dimen>
+    <dimen name="app_cms_news_logo_margin">2dp</dimen>
+    <dimen name="sp12">12sp</dimen>
+    <dimen name="service_lable">80sp</dimen>
+    <dimen name="description_leble">80sp</dimen>
+    <dimen name="title_lbl">140sp</dimen>
+
+    <dimen name="get_social_text_size">14sp</dimen>
+    <dimen name="get_social_sn_text_width">60dp</dimen>
+    <dimen name="get_social_referred_friends_text_width">130dp</dimen>
+    <dimen name="get_social_install_channel_text_width">110dp</dimen>
+    <dimen name="get_social_subscription_status_text_width">110dp</dimen>
+    <dimen name="get_social_subscription_date_text_width">130dp</dimen>
+    <dimen name="app_cms_view_plan_cell_margin_10">10dp</dimen>
+    <dimen name="app_cms_view_plan_cell_margin_12">12dp</dimen>
+
+    <dimen name="app_cms_retry_promt_margin">15dp</dimen>
+    <dimen name="card_avatar_border_width">200dp</dimen>
+</resources>

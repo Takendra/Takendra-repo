@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_clear_overlay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/dialog_bg_color"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <TextView
+        android:focusable="false"
+        android:id="@+id/text_overlay_title"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_centerHorizontal="true"
+        android:text="TITLE"
+        android:textColor="#ffffff"
+        android:layout_margin="12dp"
+        android:textSize="22dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:visibility="visible"/>
+
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/text_overlay_title"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:focusable="true"
+        android:nextFocusLeft="@null"
+        android:nextFocusRight="@null"
+        android:nextFocusUp="@null"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/edit_text_second"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/edit_text"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:focusable="true"
+        android:nextFocusLeft="@null"
+        android:nextFocusRight="@null"
+        android:visibility="gone"
+        android:textColor="#ffffff"
+        android:textSize="12sp" />
+
+
+    <EditText
+        android:id="@+id/edit_text_third"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/edit_text_second"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:focusable="true"
+        android:nextFocusLeft="@null"
+        android:nextFocusRight="@null"
+        android:visibility="gone"
+        android:textColor="#ffffff"
+        android:textSize="12sp" />
+
+
+    <LinearLayout
+        android:id="@+id/button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="20dp"
+            android:letterSpacing="0.12"
+            android:nextFocusDown="@null"
+            android:nextFocusLeft="@null"
+            android:nextFocusRight="@null"
+            android:nextFocusUp="@+id/text_overlay_description"
+            android:textAllCaps="true"
+            android:textColor="@color/btn_color_with_opacity"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            android:letterSpacing="0.12"
+            android:nextFocusDown="@null"
+            android:nextFocusLeft="@null"
+            android:nextFocusRight="@null"
+            android:layout_marginStart="20dp"
+            android:nextFocusUp="@+id/text_overlay_description"
+            android:textAllCaps="true"
+            android:textColor="@color/btn_color_with_opacity"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_neutral"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            android:letterSpacing="0.12"
+            android:layout_marginStart="20dp"
+            android:nextFocusDown="@null"
+            android:nextFocusLeft="@null"
+            android:nextFocusRight="@null"
+            android:nextFocusUp="@+id/text_overlay_description"
+            android:textAllCaps="true"
+            android:textColor="@color/btn_color_with_opacity"
+            android:textSize="12sp" />
+    </LinearLayout>
+</RelativeLayout>

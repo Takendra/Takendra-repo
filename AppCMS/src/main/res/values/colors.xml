@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <color name="login_page_brackground">#58595B</color>
+    <color name="colorGrayLight">#d4d8dc</color>
+    <color name="colorBrandTrays">#a9a9a9</color>
+    <color name="colorLive">#ff1d38</color>
+    <color name="backgroundTextViewColor">#6A6A6A</color>
+    <color name="recentClassesColor">#BF000000</color>
+    <color name="instagramBackground">#40ffffff</color>
+    <color name="weekviewGridNodata">#ffffff</color>
+    <color name="weekviewGridNodataold">#4a4a4a</color>
+    <color name="noClassesScheduled">#9b9b9b</color>
+    <color name="link">#4a90e2</color>
+    <color name="expandable_grid_color">#131415</color>
+    <color name="browse_category_selection">#ea0000</color>
+    <color name="lightBlack">#191919</color>
+    <color name="left_navigation_focused_color">#26FFFFFF</color>
+    <color name="left_navigation_unFocused_color">#0DFFFFFF</color>
+    <color name="player_focus">#ea0000</color>
+    <color name="btn_color_with_opacity">#26FFFFFF</color>
+    <color name="dialog_bg_color">#FFFFFF</color>
+
+    <color name="colorPrimaryDark">#1F1D1D</color>
+    <color name="colorPrimary">#292727</color>
+    <color name="colorAccent">#DC5734</color>
+    <color name="cursorColor">#828282</color>
+    <color name="backgroundColor">#292727</color>
+    <color name="splash_progress_color">#000000</color>
+    <color name="blackTransparentColor">#8F000000</color>
+    <color name="colorNavBarText">#8C8C8C</color>
+    <color name="facebookBlue">#3B5998</color>
+    <color name="googleRed">#C04B4C</color>
+    <color name="disabledButtonColor">#9D9FA2</color>
+    <color name="semiTransparentColor">#47000000</color>
+    <color name="transparentColor">#00000000</color>
+    <color name="audioSeekBg">#414344</color>
+    <color name="volumeProgress">#B5B5B5</color>
+    <color name="color_grey">#7A7A7A</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="splashbackgroundColor">#292727</color>
+    <color name="color_grey_dialog">#1A1A1A</color>
+    <color name="recommendedbackgroundColor">#262626</color>
+    <color name="rest_workout_bg_color">#ffe7d6</color>
+    <color name="colorBlack">#333</color>
+    <color name="colorWhite">#fff</color>
+</resources>

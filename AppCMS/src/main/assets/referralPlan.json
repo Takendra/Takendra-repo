@@ -1,0 +1,488 @@
+{
+  "moduleList": [
+    {
+      "settings": {},
+      "view": "AC Referral Plans",
+      "type": "AC Referral Plans",
+      "blockName": "referralPlans",
+      "isConstrainteView": true,
+      "layout": {
+        "mobile": {
+          "leftMargin": 0,
+          "marginLeft": 0,
+          "marginRight": 0,
+          "yAxis": 0,
+          "topMargin": 0,
+          "rightMargin": 0,
+          "bottomMargin": 0,
+          "width": 0,
+          "marginBottom": 0,
+          "marginTop": 0,
+          "height": 0
+        },
+        "tabletLandscape": {
+          "gridHeight": 0,
+          "leftMargin": 0,
+          "xAxis": 0,
+          "yAxis": 0,
+          "topMargin": 0,
+          "rightMargin": 0,
+          "bottomMargin": 0,
+          "width": 0,
+          "gridWidth": 0,
+          "height": 0
+        },
+        "tabletPortrait": {
+          "gridHeight": 0,
+          "trayPadding": 0,
+          "leftMargin": 0,
+          "xAxis": 0,
+          "yAxis": 0,
+          "topMargin": 0,
+          "rightMargin": 0,
+          "bottomMargin": 0,
+          "width": 0,
+          "fontSize": 0,
+          "height": 0
+        }
+      },
+      "components": [
+        {
+          "layout": {
+            "mobile": {
+              "width": 24,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginRight": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_topOf": "parent"
+            },
+            "tabletLandscape": {
+              "width": 24,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginRight": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_topOf": "parent"
+            },
+            "tabletPortrait": {
+              "width": 24,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginRight": 10,
+              "rightTo_rightOf": "parent",
+              "topTo_topOf": "parent"
+            }
+          },
+          "action": "close",
+          "key": "closeButton",
+          "id": "closeButton",
+          "viewGravity": "end",
+          "type": "button"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "height": 1,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginRight": 10,
+              "topTo_bottomOf": "closeButton",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent"
+            },
+            "tabletLandscape": {
+              "height": 2,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "constraint_MarginRight": 10,
+              "topTo_bottomOf": "closeButton",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent"
+            },
+            "tabletPortrait": {
+              "height": 2,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "topTo_bottomOf": "closeButton",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent"
+            }
+          },
+          "backgroundColor": "#6C7074",
+          "type": "separatorView",
+          "id": "separatorViewPageTitle"
+        },
+        {
+          "type": "label",
+          "layout": {
+            "mobile": {
+              "fontSize": 20,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTO_topOf": "parent",
+              "rightTo_leftOf": "closeButton",
+              "bottomTo_topOf": "separatorViewPageTitle"
+            },
+            "tabletLandscape": {
+              "fontSize": 18,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTO_topOf": "parent",
+              "rightTo_leftOf": "closeButton",
+              "bottomTo_topOf": "separatorViewPageTitle"
+            },
+            "tabletPortrait": {
+              "fontSize": 18,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "topTO_topOf": "parent",
+              "rightTo_leftOf": "closeButton",
+              "bottomTo_topOf": "separatorViewPageTitle"
+            }
+          },
+
+          "textAlignment": "center",
+          "fontWeight": "Bold",
+          "key": "title",
+          "id": "title"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 100,
+              "fontSize": 20,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 40,
+              "constraint_MarginLeft": 30,
+              "constraint_MarginRight": 30,
+              "topTo_bottomOf": "separatorViewPageTitle",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent"
+            },
+            "tabletLandscape": {
+              "width": 180,
+              "fontSize": 40,
+              "height": 30,
+              "constraint_MarginBottom": 20,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 30,
+              "constraint_MarginRight": 30,
+              "topTo_bottomOf": "separatorViewPageTitle",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent"
+            },
+            "tabletPortrait": {
+              "width": 180,
+              "fontSize": 40,
+              "height": 30,
+              "constraint_MarginBottom": 20,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 30,
+              "constraint_MarginRight": 30,
+              "topTo_bottomOf": "separatorViewPageTitle",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent"
+            }
+          },
+
+          "textAlignment": "center",
+          "fontSize": "16",
+          "text": "",
+          "key": "referredBy",
+          "id": "referredBy",
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 700,
+              "ratio": "16:9",
+              "constraint_MarginBottom": 60,
+              "constraint_MarginTop": 60,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "referredBy"
+
+            },
+            "tabletLandscape": {
+              "ratio": "16:9",
+              "constraint_MarginBottom": 60,
+              "constraint_MarginTop": 60,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "referredBy"
+            },
+            "tabletPortrait": {
+              "ratio": "16:9",
+              "constraint_MarginBottom": 60,
+              "constraint_MarginTop": 60,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "referredBy"
+            }
+          },
+          "key": "offerImage",
+          "id": "offerImage",
+          "type": "image"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 100,
+              "fontSize": 30,
+              "height": 15,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "referredBy",
+              "bottomTo_bottomOf": "proceedToPayment"
+            },
+            "tabletLandscape": {
+              "width": 180,
+              "fontSize": 30,
+              "height": 15,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "referredBy",
+              "bottomTo_bottomOf": "proceedToPayment"
+            },
+            "tabletPortrait": {
+              "width": 180,
+              "fontSize": 30,
+              "height": 15,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "referredBy",
+              "bottomTo_bottomOf": "proceedToPayment"
+            }
+          },
+
+          "textAlignment": "center",
+          "text": "",
+          "fontWeight": "Bold",
+          "textColor": "#000000",
+          "fontSize": "30",
+          "key": "offerPlanName",
+          "id": "offerPlanName",
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 100,
+              "fontSize": 55,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "offerPlanName"
+            },
+            "tabletLandscape": {
+              "width": 180,
+              "fontSize": 55,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "offerPlanName"
+            },
+            "tabletPortrait": {
+              "width": 180,
+              "fontSize": 55,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "offerPlanName"
+            }
+          },
+
+          "textAlignment": "center",
+          "text": "",
+          "textColor": "#000000",
+          "fontWeight": "Bold",
+          "fontSize": "55",
+          "key": "offerPrice",
+          "id": "offerPrice",
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 100,
+              "fontSize": 40,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "offerPrice"
+            },
+            "tabletLandscape": {
+              "width": 180,
+              "fontSize": 40,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "offerPrice"
+            },
+            "tabletPortrait": {
+              "width": 180,
+              "fontSize": 40,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "offerPrice"
+            }
+          },
+
+          "textAlignment": "center",
+          "text": "",
+          "fontWeight": "Bold",
+          "textColor": "#000000",
+          "fontSize": "35",
+          "key": "strikeThrough",
+          "id": "strikeThrough",
+          "type": "label"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 150,
+              "height": 40,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "offerPrice"
+            },
+            "tabletLandscape": {
+              "width": 180,
+              "fontSize": 15,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "offerPrice"
+            },
+            "tabletPortrait": {
+              "width": 180,
+              "fontSize": 12,
+              "height": 30,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginLeft": 10,
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "topTo_bottomOf": "offerPrice"
+            }
+          },
+          "key": "crossImage",
+          "id": "crossImage",
+          "type": "image"
+        },
+        {
+          "layout": {
+            "mobile": {},
+            "tabletLandscape": {},
+            "tabletPortrait": {}
+          },
+          "barrierDirection": "BOTTOM",
+          "referenceIds": "offerImage,separatorViewPageTitle,title",
+          "type": "barrier",
+          "key": "barrier",
+          "id": "barrierPhoneField"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "width": 200,
+              "fontSize": 16,
+              "height": 30,
+              "constraint_MarginRight": 30,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 30,
+              "topTo_bottomOf": "offerImage",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent"
+            },
+            "tabletLandscape": {
+              "width": 300,
+              "fontSize": 18,
+              "height": 30,
+              "constraint_MarginRight": 20,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 20,
+              "topTo_bottomOf": "offerImage",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent"
+            },
+            "tabletPortrait": {
+              "width": 300,
+              "fontSize": 18,
+              "height": 30,
+              "constraint_MarginRight": 18,
+              "constraint_MarginTop": 30,
+              "constraint_MarginLeft": 20,
+              "topTo_bottomOf": "offerImage",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent"
+            }
+          },
+
+          "textAlignment": "center",
+          "text": "PROCEED TO PAYMENT",
+          "key": "proceedToPayment",
+          "type": "button",
+          "id":"proceedToPayment"
+        }
+      ]
+    }
+  ],
+  "caching": {},
+  "version": "0.0.11"
+}

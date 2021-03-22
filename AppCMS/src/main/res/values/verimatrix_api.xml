@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="verimatrix__base_url">https://idp.securetve.com/rest/1.0/</string>
+    <!--    <string name="verimatrix_partner_id" >urn:motv:com:sp:staging:1</string>-->
+    <!--    <string name="verimatrix_partner_id" >urn:outdoorchannel:com:sp:motv:prod:1</string>-->
+    <string name="tvprovider_verimatrix">verimatrix</string>
+    <string name="verimatrix_partner_id">urn:motv:com:sp:prod:1</string>
+    <string name="verimatrix_chooser">%1$s%2$s/chooser</string>
+    <string name="verimatrix_bounce">%1$s%2$s/bounce</string>
+    <string name="verimatrix_init">%1$s%2$s/init/%3$s</string>
+    <string name="verimatrix_logout">%1$s%2$s/slo</string>
+    <string name="verimatrix_resource_access">%1$s%2$s/identity/resourceAccess/%3$s</string>
+    <string name="verimatrix_resource_access_list">%1$s%2$s/identity/resourceAccess/?%3$s</string>
+
+    <string name="verimatrix_api_type_init">init</string>
+    <string name="verimatrix_api_type_bounce">bounce</string>
+    <string name="verimatrix_api_type_logout">logout_result</string>
+    <string name="verimatrix_api_type_resource_access">authz_query</string>
+    <string name="verimatrix_api_type_resource_access_list">authz_query_list</string>
+
+    <string name="verimatrix_shortcode">%1$s%2$s/shortcode</string>
+    <string name="verimatrix_shortcode_fed_data">id=%1$s&amp;version=1&amp;key_id=1&amp;nonce=%2$s&amp;timestamp=%3$s&amp;signature=%4$s</string>
+
+    <string name="verimatrix__base_url_shortcode">https://idp.securetve.com/rest/1.1/</string>
+    <string name="tv_verimatrix_init">%1$s%2$s/init</string>
+    <string name="tv_verimatrix_resource_access">%1$s%2$s/identity/resourceAccess?resource_id=outdoor&amp;resource_id=WFN&amp;resource_id=sportsman</string>
+</resources>
+

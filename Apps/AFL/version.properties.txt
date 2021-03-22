@@ -1,0 +1,17 @@
+#Mon Jun 25 20:41:22 IST 2018
+AppPackageName=com.afl.arenafootballleague
+ApptentiveSignatureKey=3662489474d4a82ad0f6dda0abfbb19c
+XAPI=dxR5sdnFKQ1YB9yMNBpWu9DHqRLRleHF5Sy2fhCF
+AppVersionName=3.7
+AppVersionCode=19
+BaseUrl=https\://appcmsprod.viewlift.com
+AppName=AFL
+SiteId=0000015a-a977-d135-adda-fb7fb65f0000
+UseHLS=true
+ApptentiveApiKey=ANDROID-ARENA-FOOTBALL-LEAGUE
+GcmSender=555758730103
+AppsFlyerDevKey=00000000000
+FacebookAppId=429210224078179
+HostName=www.arenafootball.com
+HostNameSuffix=*.www.arenafootball.com/
+AppTitle=AFL

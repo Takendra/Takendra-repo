@@ -1,0 +1,50 @@
+{
+  "id": "bae2a7c3-3aaf-460e-a13c-fd8250b19592",
+  "view": "AC StandaloneVideoPlayer 02",
+  "type": "AC StandaloneVideoPlayer 02",
+  "blockName": "standaloneVideoPlayer02",
+  "layout": {
+    "ftv": {
+      "padding": 0,
+      "rightMargin": 0,
+      "height": 568,
+      "width": 1010
+    }
+  },
+  "components": [
+    {
+      "layout": {
+        "ftv": {
+          "topMargin": 100,
+          "leftMargin": 100,
+          "topMargin": 10,
+          "width": 170,
+          "fontSize": 12,
+          "height": 53
+        }
+      },
+      "borderColor": "ffffff",
+      "text": "LIVE",
+      "cornerRadius":4,
+      "opacity": 100,
+      "type": "toggleSwitch",
+      "fontSize": 12,
+      "textColor": "#ffffff",
+      "key": "liveToggleSwitch"
+    },
+    {
+      "layout": {
+        "ftv": {
+          "height": 548,
+          "width": 973
+        }
+      },
+      "type": "player",
+      "key": "trailerVideoPlayer",
+      "stroke":3,
+      "padding":3
+    }
+  ],
+  "key": "standaloneVideoPlayer02",
+  "view": "AC StandaloneVideoPlayer 02"
+}

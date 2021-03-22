@@ -1,0 +1,173 @@
+{
+  "moduleList": [
+    {
+      "id": "79706be9-270e-4cf1-b148-ce7590a9f4be",
+      "settings": {
+        "searchThumbnailType": "landscape"
+      },
+      "view": "AC Masthead 01",
+      "type": "AC Masthead 01",
+      "blockName": "masthead01",
+      "layout": {},
+      "components": []
+    },
+    {
+      "id": "d4aa86bd-433b-4a21-8669-509abfad7e45",
+      "settings": {
+        "columns": {
+          "tablet": 4,
+          "desktop": 6,
+          "mobile": 3,
+          "ott": 6
+        },
+        "thumbnailType": "portrait"
+      },
+      "view": "AC CategoryDetail 02",
+      "type": "AC CategoryDetail 02",
+      "blockName": "categoryDetail02",
+      "layout": {
+        "desktop": {},
+        "mobile": {},
+        "tabletLandscape": {},
+        "tabletPortrait": {}
+      },
+      "components": [
+        {
+          "layout": {
+            "mobile": {
+              "yAxis": 0,
+              "fontSize": 18,
+              "height": 40
+            },
+            "tabletLandscape": {
+              "yAxis": 0,
+              "leftMargin": 0.97,
+              "rightMargin": 0.97,
+              "fontSize": 24,
+              "height": 33
+            },
+            "tabletPortrait": {
+              "yAxis": 0,
+              "leftMargin": 1.3,
+              "rightMargin": 1.3,
+              "fontSize": 24,
+              "height": 33
+            }
+          },
+          "fontFamily": "OpenSans",
+          "numberOfLines": 1,
+          "textAlignment": "center",
+          "type": "label",
+          "textColor": "#ffffff",
+          "fontWeight": "Semibold",
+          "key": "trayTitle"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "gridHeight": 155,
+              "topMargin": 8,
+              "bottomMargin": 0,
+              "gridWidth": 170,
+              "trayPaddingVertical": 2,
+              "leftMargin": 10
+            },
+            "tabletLandscape": {
+              "gridHeight": 190,
+              "trayPadding": 8,
+              "leftMargin": 0.98,
+              "topMargin": 10,
+              "rightMargin": 0.98,
+              "bottomMargin": 0,
+              "gridWidth": 240
+            },
+            "tabletPortrait": {
+              "gridHeight": 190,
+              "trayPadding": 8,
+              "leftMargin": 1.3,
+              "topMargin": 7,
+              "rightMargin": 1.3,
+              "bottomMargin": 0,
+              "gridWidth": 240
+            }
+          },
+          "trayClickAction": "lectureDetailPage",
+          "components": [
+            {
+              "layout": {
+                "mobile": {
+                  "yAxis": 0,
+                  "xAxis": 0,
+                  "width": 170,
+                  "height": 128
+                },
+                "tabletLandscape": {
+                  "yAxis": 0,
+                  "xAxis": 0,
+                  "width": 240,
+                  "height": 170
+                },
+                "tabletPortrait": {
+                  "yAxis": 0,
+                  "xAxis": 0,
+                  "width": 240,
+                  "height": 170
+                }
+              },
+              "type": "image",
+              "key": "thumbnailImage"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "yAxis": 115,
+                  "fontSize": 11,
+                  "height": 20
+                },
+                "tabletLandscape": {
+                  "yAxis": 155,
+                  "leftMargin": 0,
+                  "rightMargin": 0,
+                  "fontSize": 14,
+                  "thumbnailWidth": 240,
+                  "thumbnailHeight": 170,
+                  "height": 19
+                },
+                "tabletPortrait": {
+                  "yAxis": 144,
+                  "leftMargin": 0,
+                  "rightMargin": 0,
+                  "fontSize": 14,
+                  "thumbnailWidth": 240,
+                  "thumbnailHeight": 170,
+                  "height": 19
+                }
+              },
+              "fontFamily": "OpenSans",
+              "textAlignment": "left",
+              "type": "label",
+              "textColor": "#ffffff",
+              "fontWeight": "Semibold",
+              "key": "thumbnailTitle"
+            }
+          ],
+          "isHorizontalScroll": false,
+          "type": "collectionGrid",
+          "supportPagination": false,
+          "key": "collectionGrid"
+        }
+      ]
+    },
+    {
+      "id": "f94315c3-2069-4fe3-9e9e-484eae4785a9",
+      "settings": {},
+      "view": "AC Footer 02",
+      "type": "AC Footer 02",
+      "blockName": "footer02"
+    }
+  ],
+  "caching": {
+    "isEnabled": false
+  },
+  "version": "0.0.40"
+}

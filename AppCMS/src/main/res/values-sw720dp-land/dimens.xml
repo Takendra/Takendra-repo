@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <fraction name="app_cms_content_rating_progress_bar_margin_bottom_percent">6.6%</fraction>
+    <fraction name="mainContainerWidthPercent">67%</fraction>
+    <fraction name="mainContainerHeightPercent">28%</fraction>
+    <dimen name="app_cms_continue_watching_tray_marginLeft">15dp</dimen>
+    <dimen name="sp12">12sp</dimen>
+    <dimen name="description_leble">80sp</dimen>
+    <dimen name="title_lbl">140sp</dimen>
+
+    <dimen name="get_social_text_size">20sp</dimen>
+    <dimen name="get_social_sn_text_width">80dp</dimen>
+    <dimen name="get_social_referred_friends_text_width">250dp</dimen>
+    <dimen name="get_social_install_channel_text_width">200dp</dimen>
+    <dimen name="get_social_subscription_status_text_width">200dp</dimen>
+    <dimen name="get_social_subscription_date_text_width">200dp</dimen>
+    <dimen name="app_cms_view_plan_cell_margin_10">10dp</dimen>
+    <dimen name="app_cms_view_plan_cell_margin_12">12dp</dimen>
+</resources>

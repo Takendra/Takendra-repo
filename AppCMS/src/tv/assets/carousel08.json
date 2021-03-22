@@ -1,0 +1,269 @@
+{
+  "layout": {
+    "ftv": {
+      "height": 560,
+      "yAxis": 0,
+      "xAxis": 0,
+      "padding": 30,
+      "backgroundColor": "#172e3c"
+    }
+  },
+  "components": [
+    {
+      "layout": {
+        "ftv": {
+          "topMargin": 15,
+          "bottomMargin": 15
+        }
+      },
+      "trayClickAction": "lectureDetailPage",
+      "components": [
+        {
+          "layout": {
+            "ftv": {
+              "height": 481,
+              "padding": 6,
+              "width": 1710
+            }
+          },
+          "type": "image",
+          "key": "wideCarouselImage"
+        },
+        {
+          "layout": {
+            "ftv": {
+              "height": 481,
+              "padding": 6,
+              "width": 1710
+            }
+          },
+          "type": "image",
+          "key": "wideBadgeImage"
+        },
+        {
+          "layout": {
+            "ftv": {
+              "leftMargin": 20,
+              "topMargin": 360,
+              "rightMargin": 0,
+              "height": 40
+            }
+          },
+          "fontSize": 14,
+          "fontFamily": "OpenSans",
+          "textAlignment": "left",
+          "type": "label",
+          "textColor": "#ffffff",
+          "fontWeight": "Regular",
+          "key": "thumbnailTitleWithBg"
+        },
+        {
+          "layout": {
+            "ftv": {
+              "topMargin": 410,
+              "leftMargin": 20,
+              "height": 40
+            }
+          },
+          "fontSize": 8,
+          "borderColor": "#ffffff",
+          "fontFamily": "OpenSans",
+          "borderWidth": 4,
+          "cornerRadius": 10,
+          "letterSpacing": 0.12,
+          "text": "WATCH NOW",
+          "type": "button",
+          "key": "watchNowCarousel",
+          "textColor": "#ffffff",
+          "fontWeight": "Semibold"
+        }
+      ],
+      "type": "carousel",
+      "key": "carousel"
+    }
+  ],
+  "key": "carousel08",
+  "blockName": "carousel08",
+  "type": "AC Carousel 08",
+  "view": "AC Carousel 08",
+  "modules": [
+    {
+      "layout": {
+        "ftv": {
+          "height": 560,
+          "yAxis": 0,
+          "xAxis": 0,
+          "padding": 425,
+          "backgroundColor": "#172e3c"
+        }
+      },
+      "components": [
+        {
+          "layout": {
+            "ftv": {
+              "topMargin": 15,
+              "bottomMargin": 15
+            }
+          },
+          "trayClickAction": "lectureDetailPage",
+          "components": [
+            {
+              "layout": {
+                "ftv": {
+                  "height": 481,
+                  "padding": 6,
+                  "width": 855
+                }
+              },
+              "type": "image",
+              "key": "carouselImage"
+            },
+            {
+              "layout": {
+                "ftv": {
+                  "height": 481,
+                  "padding": 6,
+                  "width": 855
+                }
+              },
+              "type": "image",
+              "key": "badgeImage"
+            },
+            {
+              "layout": {
+                "ftv": {
+                  "leftMargin": 20,
+                  "topMargin": 360,
+                  "rightMargin": 0,
+                  "height": 40
+                }
+              },
+              "fontSize": 14,
+              "fontFamily": "OpenSans",
+              "textAlignment": "left",
+              "type": "label",
+              "textColor": "#ffffff",
+              "fontWeight": "Regular",
+              "key": "thumbnailTitleWithBg"
+            },
+            {
+              "layout": {
+                "ftv": {
+                  "topMargin": 410,
+                  "leftMargin": 20,
+                  "height": 40
+                }
+              },
+              "fontSize": 8,
+              "borderColor": "#ffffff",
+              "fontFamily": "OpenSans",
+              "borderWidth": 4,
+              "cornerRadius": 10,
+              "letterSpacing": 0.12,
+              "text": "WATCH NOW",
+              "type": "button",
+              "key": "watchNowCarousel",
+              "textColor": "#ffffff",
+              "fontWeight": "Semibold"
+            }
+          ],
+          "type": "carousel",
+          "key": "carousel"
+        }
+      ],
+      "key": "carousel01",
+      "blockName": "carousel01",
+      "type": "AC Carousel 01",
+      "view": "AC Carousel 01"
+    },
+    {
+      "layout": {
+        "ftv": {
+          "height": 560,
+          "yAxis": 0,
+          "xAxis": 0,
+          "padding": 30,
+          "backgroundColor": "#172e3c"
+        }
+      },
+      "components": [
+        {
+          "layout": {
+            "ftv": {
+              "topMargin": 15,
+              "bottomMargin": 15
+            }
+          },
+          "trayClickAction": "lectureDetailPage",
+          "components": [
+            {
+              "layout": {
+                "ftv": {
+                  "height": 481,
+                  "padding": 6,
+                  "width": 1710
+                }
+              },
+              "type": "image",
+              "key": "wideCarouselImage"
+            },
+            {
+              "layout": {
+                "ftv": {
+                  "height": 481,
+                  "padding": 6,
+                  "width": 1710
+                }
+              },
+              "type": "image",
+              "key": "wideBadgeImage"
+            },
+            {
+              "layout": {
+                "ftv": {
+                  "leftMargin": 20,
+                  "topMargin": 360,
+                  "rightMargin": 0,
+                  "height": 40
+                }
+              },
+              "fontSize": 14,
+              "fontFamily": "OpenSans",
+              "textAlignment": "left",
+              "type": "label",
+              "textColor": "#ffffff",
+              "fontWeight": "Regular",
+              "key": "thumbnailTitleWithBg"
+            },
+            {
+              "layout": {
+                "ftv": {
+                  "topMargin": 410,
+                  "leftMargin": 20,
+                  "height": 40
+                }
+              },
+              "fontSize": 8,
+              "borderColor": "#ffffff",
+              "fontFamily": "OpenSans",
+              "borderWidth": 4,
+              "cornerRadius": 10,
+              "letterSpacing": 0.12,
+              "text": "WATCH NOW",
+              "type": "button",
+              "key": "watchNowCarousel",
+              "textColor": "#ffffff",
+              "fontWeight": "Semibold"
+            }
+          ],
+          "type": "carousel",
+          "key": "carousel"
+        }
+      ],
+      "key": "carousel08",
+      "blockName": "carousel08",
+      "type": "AC Carousel 08",
+      "view": "AC Carousel 08"
+    }
+  ]
+}

@@ -1,0 +1,453 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false">
+
+    <RelativeLayout
+        android:id="@+id/app_cms_parent_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/new_version_available_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/new_version_available_elevation"
+        android:visibility="gone"
+        tools:background="@android:color/black"
+        tools:textColor="@android:color/white">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/new_version_available_close_button"
+            android:layout_width="@dimen/new_version_available_close_button_size"
+            android:layout_height="@dimen/new_version_available_close_button_size"
+            android:layout_gravity="end"
+            android:layout_marginStart="@dimen/close_button_margin"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="@dimen/close_button_margin"
+            android:background="@android:color/transparent"
+            android:padding="0dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/cancel" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/new_version_available_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/app_cms_upgrade_now_text_margin"
+            android:layout_marginEnd="@dimen/app_cms_upgrade_now_text_margin"
+            android:singleLine="false"
+            android:textAlignment="center"
+            android:textSize="@dimen/a_new_version_of_the_app_is_available_textsize" />
+
+    </FrameLayout>
+
+    <ProgressBar
+        android:id="@+id/app_cms_page_loading_progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/app_cms_parent_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/app_cms_bottom_nav_container"
+        android:layout_below="@id/app_cms_main_header"
+        android:layout_gravity="center_vertical"
+        android:visibility="visible">
+
+
+        <androidx.drawerlayout.widget.DrawerLayout
+            android:id="@+id/app_cms_left_drawer_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+
+            <FrameLayout
+                android:id="@+id/content_frame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <FrameLayout
+                    android:id="@+id/app_cms_fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="1">
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/app_cms_addon_fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="1"
+                    android:visibility="invisible" />
+
+
+            </FrameLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/app_cms_left_Navigation_Drawer_list"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:choiceMode="singleChoice"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0dp" />
+
+        </androidx.drawerlayout.widget.DrawerLayout>
+
+
+        <!--<RelativeLayout-->
+        <!--android:id="@+id/app_cms_controller"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:background="#00000000"-->
+        <!--android:visibility="visible">-->
+
+        <!--</RelativeLayout>-->
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/search_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:elevation="@dimen/new_version_available_elevation"
+        android:gravity="center_vertical"
+        android:visibility="gone">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/no_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/app_cms_upgrade_now_text_margin"
+            android:layout_marginEnd="@dimen/app_cms_upgrade_now_text_margin"
+            android:singleLine="false"
+            android:text="No search result"
+            android:textAlignment="center"
+            android:textSize="@dimen/a_new_version_of_the_app_is_available_textsize" />
+
+    </RelativeLayout>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/app_cms_bottom_nav_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/controls_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:paddingTop="2dp">
+
+            <FrameLayout
+                android:id="@+id/app_cms_cast_conroller"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:visibility="visible" />
+
+            <fragment
+                android:id="@+id/fragment_playback_controls"
+                android:name="com.viewlift.audio.ui.PlaybackControlsFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                tools:layout="@layout/fragment_playback_controls" />
+
+        </FrameLayout>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/app_cms_tab_nav_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/app_cms_main_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/app_cms_start_free_trial_tool"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_cms_appbarlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/new_version_available_parent"
+            android:background="?attr/colorPrimary"
+            android:elevation="@dimen/appbar_elevation"
+            android:fitsSystemWindows="true"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/app_cms_fixed_banner_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_red_dark"
+                android:gravity="center_vertical"
+                android:minHeight="50dp"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:visibility="gone">
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/app_cms_close_banner_button"
+                    android:layout_width="@dimen/close_button_size"
+                    android:layout_height="@dimen/close_button_size"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@string/close"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/cancel" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/bannerId"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/font_italic"
+                    android:gravity="center"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16dp"
+                    tools:text="Banner" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/app_cms_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                app:contentInsetStart="8dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center">
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/app_cms_news_logo_margin"
+                        android:layout_marginBottom="@dimen/app_cms_news_logo_margin"
+                        android:visibility="gone"
+                        android:id="@+id/app_cms_new_template_header"
+                        android:layout_height="match_parent"
+                        >
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_centerVertical="true"
+                            android:adjustViewBounds="true"
+                            android:maxHeight="@dimen/tool_bar_logo_height"
+                            android:src="@drawable/logo_icon" />
+
+                        <androidx.appcompat.widget.SwitchCompat
+                            android:id="@+id/app_cms_mini_player_available"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_toRightOf="@+id/app_cms_news_toolbar_logo"
+                            android:layout_marginLeft="@dimen/nav_item_margin"
+                            android:layout_centerVertical="true"
+                            android:padding="@dimen/arrow_button_margin"
+                            android:scaleType="fitXY"
+                            />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+                    <FrameLayout
+                        android:id="@+id/readMessageIdFl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:clipToPadding="false"
+                        android:focusable="true"
+                        android:visibility="gone">
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/bellIcon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="#00000000"
+                            android:src="@drawable/baseline_notification_important_white_18dp"
+                            android:visibility="gone" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/cart_badge"
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_gravity="end|top"
+                            android:layout_marginEnd="3dp"
+                            android:background="@drawable/circle_badge"
+                            android:gravity="center"
+                            android:padding="3dp"
+                            android:text=""
+                            android:textColor="@android:color/white"
+                            android:textSize="10sp" />
+
+                    </FrameLayout>
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_centerHorizontal="true">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/btnHeaderSubscribe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="22dp"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="25dp"
+                            android:layout_centerVertical="true"
+                            android:paddingTop="4dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:layout_toRightOf="@+id/app_cms_toolbar_logo"
+                            android:text=""
+                            android:textSize="10sp"
+                            android:textAlignment="center"/>
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/app_cms_toolbar_logo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:adjustViewBounds="true"
+                            android:gravity="center_horizontal"
+                            android:maxHeight="@dimen/tool_bar_logo_height"
+                            android:src="@drawable/logo_icon" />
+                    </RelativeLayout>
+
+                    <androidx.appcompat.widget.AppCompatImageButton
+                        android:id="@+id/app_cms_left_nav_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="-50dp"
+                        android:background="#00000000"
+                        android:maxHeight="35dp"
+                        android:padding="5dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/menu_"
+                        android:visibility="gone" />
+
+                    <androidx.appcompat.widget.AppCompatImageButton
+                        android:id="@+id/app_cms_profile_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignEnd="@+id/app_cms_left_nav_btn"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="-40dp"
+                        android:background="#00000000"
+                        android:padding="5dp"
+                        android:src="@drawable/profile"
+                        android:visibility="visible" />
+
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:orientation="horizontal">
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/app_cms_search_button"
+                            android:layout_width="@dimen/close_button_size"
+                            android:layout_height="@dimen/close_button_size"
+                            android:layout_gravity="center"
+                            android:layout_margin="@dimen/close_button_margin"
+                            android:background="@android:color/transparent"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/icon_search"
+                            android:visibility="gone" />
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/app_cms_share_button"
+                            android:layout_width="@dimen/close_button_size"
+                            android:layout_height="@dimen/close_button_size"
+                            android:layout_margin="@dimen/close_button_margin"
+                            android:background="@android:color/transparent"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/ic_share"
+                            android:visibility="gone" />
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/app_cms_close_button"
+                            android:layout_width="@dimen/close_button_size"
+                            android:layout_height="@dimen/close_button_size"
+                            android:layout_margin="@dimen/close_button_margin"
+                            android:background="@android:color/transparent"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/cancel"
+                            android:visibility="gone" />
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:id="@+id/ll_media_route_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="horizontal">
+
+                            <androidx.appcompat.widget.AppCompatImageButton
+                                android:id="@+id/media_route_button"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:background="#00000000"
+                                android:padding="5dp"
+                                android:src="@drawable/anim_cast"
+                                android:visibility="gone" />
+
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                </RelativeLayout>
+
+            </androidx.appcompat.widget.Toolbar>
+
+
+        </com.google.android.material.appbar.AppBarLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</RelativeLayout>
+    <include layout="@layout/fragment_ways_to_bottom"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,395 @@
+{
+  "layout": {
+    "ftv": {
+      "yAxis": 0,
+      "xAxis": 0,
+      "width": 1920,
+      "height": 940
+    }
+  },
+  "key": "authentication01_activate_device",
+  "components": [
+    {
+      "layout": {
+        "ftv": {
+          "yAxis": 195,
+          "xAxis": 0,
+          "width": -1,
+          "height": 940,
+          "orientation": "horizontal"
+        }
+      },
+      "components": [
+        {
+          "layout": {
+            "ftv": {
+              "yAxis": 0,
+              "xAxis": 0,
+              "width": -1,
+              "height": 410,
+              "orientation": "vertical"
+            }
+          },
+          "components": [
+            {
+              "layout": {
+                "ftv": {
+                  "yAxis": 0,
+                  "xAxis": 0,
+                  "width": 450,
+                  "height": 65,
+                  "fontSize": 12
+                }
+              },
+              "type": "textfield",
+              "key": "emailTextField",
+              "fontSize": 12,
+              "letterSpacing": 0.5,
+              "textColor": "#000000",
+              "cornerRadius": 4,
+              "hintColor": "#b8b6b5",
+              "fontFamily": "OpenSans",
+              "protected": false,
+              "textAlignment": "left",
+              "borderEnable":false,
+              "text": "Email",
+              "opacity": 46
+            },
+            {
+              "layout": {
+                "ftv": {
+                  "yAxis": 40,
+                  "xAxis": 0,
+                  "width": 450,
+                  "fontSize": 12,
+                  "height": 65
+                }
+              },
+              "letterSpacing": 0.5,
+              "type": "textfield",
+              "textColor": "#000000",
+              "cornerRadius": 4,
+              "hintColor": "#b8b6b5",
+              "fontFamily": "OpenSans",
+              "protected": true,
+              "fontSize": 12,
+              "borderEnable":false,
+              "textAlignment": "left",
+              "text": "Password",
+              "opacity": 46,
+              "key": "passwordTextField"
+            },
+            {
+              "layout": {
+                "ftv": {
+                  "yAxis": 10,
+                  "xAxis": 0,
+                  "width": 450,
+                  "fontSize": 12,
+                  "height": 35
+                }
+              },
+              "type": "label",
+              "action": "forgotPassword",
+              "text": "FORGOT PASSWORD?",
+              "fontFamily": "OpenSans",
+              "viewGravity":"right",
+              "numberOfLines": 1,
+              "textAlignment": "right",
+              "key": "forgotPasswordLabel",
+              "textColor": "#ffffff",
+              "fontWeight": "Semibold"
+            },
+            {
+              "layout": {
+                "ftv": {
+                  "yAxis": 40,
+                  "xAxis": 0,
+                  "width": 450,
+                  "fontSize": 12,
+                  "height": 85
+                }
+              },
+              "borderColor": "#ffffff",
+              "fontFamily": "OpenSans",
+              "letterSpacing": 0.12,
+              "text": "LOG IN",
+              "cornerRadius": 4,
+              "fontSize": 12,
+              "type": "button",
+              "textColor": "#ffffff",
+              "fontWeight": "Semibold",
+              "borderWidth": 4,
+              "action": "login",
+              "viewGravity":"center",
+              "key": "login button"
+            },
+            {
+              "layout": {
+                "ftv": {
+                  "yAxis": 40,
+                  "xAxis": 0,
+                  "width": -1,
+                  "height": 30,
+                  "orientation": "horizontal"
+                }
+              },
+              "viewGravity":"center",
+              "components": [
+                {
+                  "layout": {
+                    "ftv": {
+
+                      "height": 2,
+                      "xAxis": 0,
+                      "width": 196
+                    }
+                  },
+                  "type": "separatorView",
+                  "backgroundColor": "#ffffff"
+                },
+                {
+                  "layout": {
+                    "ftv": {
+                      "yAxis": 0,
+                      "xAxis": 10,
+                      "height": 30,
+                      "fontSize": 10,
+                      "width": 0
+                    }
+                  },
+                  "type": "label",
+                  "fontFamily": "OpenSans",
+                  "numberOfLines": 1,
+                  "textAlignment": "center_horizontal",
+                  "letterSpacing": 4.5,
+                  "key": "orSeparatorLabel",
+                  "textColor": "#ffffff",
+                  "fontWeight": "Semibold"
+                },
+                {
+                  "layout": {
+                    "ftv": {
+
+                      "xAxis": 10,
+                      "width": 205,
+                      "height": 2
+                    }
+                  },
+                  "backgroundColor": "#ffffff",
+                  "type": "separatorView"
+                }
+              ],
+              "type": "loginModuleComponentView",
+              "key": "loginModuleComponentOrSeparatorView"
+            }
+          ],
+          "viewGravity":"center_horizontal",
+          "type": "loginModuleComponentView",
+          "key": "loginView"
+        },
+        {
+          "layout": {
+            "ftv": {
+              "yAxis": 40,
+              "xAxis": 0,
+              "width": -1,
+              "height": 85,
+              "orientation": "horizontal"
+            }
+          },
+          "components": [
+            {
+              "layout": {
+                "ftv": {
+                  "yAxis": 0,
+                  "xAxis": 0,
+                  "width": 205,
+                  "fontSize": 9,
+                  "height": -1,
+                  "swipeLeftMargin":450
+                }
+              },
+              "borderColor": "#ffffff",
+              "fontFamily": "OpenSans",
+              "borderWidth": 4,
+              "fontSize": 9,
+              "action": "linkAccount",
+              "letterSpacing": 0.12,
+              "text": "ACTIVATE DEVICE",
+              "cornerRadius": 4,
+              "type": "button",
+              "textColor": "#ffffff",
+              "fontWeight": "Semibold",
+              "viewGravity":"center",
+              "key": "link_your_account_button"
+            },
+            {
+              "layout": {
+                "ftv": {
+                  "yAxis": 0,
+                  "leftMargin": 40,
+                  "width": 205,
+                  "fontSize": 9,
+                  "height": -1,
+                  "swipeLeftMargin":450
+                }
+              },
+              "borderColor": "#ffffff",
+              "fontFamily": "OpenSans",
+              "fontSize": 9,
+              "borderWidth": 4,
+              "letterSpacing": 0.12,
+              "action": "linkAccount",
+              "text": "Sign In With TV Provider",
+              "cornerRadius": 4,
+              "type": "button",
+              "key": "link_your_account_with_tv_provider_button",
+              "textColor": "#ffffff",
+              "fontWeight": "Semibold",
+              "viewGravity":"center"
+            }
+          ],
+          "viewGravity":"center_horizontal",
+          "type": "loginModuleComponentView",
+          "key": "loginModuleComponentView"
+        }
+      ],
+      "itemClickAction": "lectureDetailPage",
+      "type": "loginModuleView",
+      "key": "loginModuleView"
+    },
+    {
+      "layout": {
+        "ftv": {
+          "yAxis": 195,
+          "xAxis": 0,
+          "width": -1,
+          "height": 940,
+          "orientation": "horizontal"
+        }
+      },
+      "components": [
+        {
+          "layout": {
+            "ftv": {
+              "yAxis": 0,
+              "xAxis": 0,
+              "width": -1,
+              "height": 940,
+              "orientation": "vertical"
+            }
+          },
+          "components": [
+            {
+              "layout": {
+                "ftv": {
+                  "yAxis": 0,
+                  "width": 450,
+                  "height": 65,
+                  "fontSize": 48
+                }
+              },
+              "type": "textfield",
+              "key": "emailTextField",
+              "fontSize": 12,
+              "letterSpacing": 0.5,
+              "textColor": "#000000",
+              "cornerRadius": 4,
+              "hintColor": "#b8b6b5",
+              "fontFamily": "OpenSans",
+              "protected": false,
+              "textAlignment": "left",
+              "borderEnable":false,
+              "text": "Email",
+              "opacity": 46
+            },
+            {
+              "layout": {
+                "ftv": {
+                  "yAxis": 40,
+                  "width": 450,
+                  "fontSize": 48,
+                  "height": 65
+                }
+              },
+              "letterSpacing": 0.5,
+              "type": "textfield",
+              "textColor": "#000000",
+              "cornerRadius": 4,
+              "hintColor": "#b8b6b5",
+              "fontFamily": "OpenSans",
+              "protected": true,
+              "fontSize": 12,
+              "borderEnable":false,
+              "textAlignment": "left",
+              "text": "Password",
+              "opacity": 46,
+              "key": "passwordTextField"
+            },
+            {
+              "layout": {
+                "ftv": {
+                  "yAxis": 40,
+                  "width": 450,
+                  "fontSize": 12,
+                  "height": 150
+                }
+              },
+              "fontFamily": "OpenSans",
+              "type": "checkbox",
+              "key": "emailConsentCheckbox",
+              "textColor": "#ffffff",
+              "fontWeight": "Regular",
+              "viewGravity":"center_horizontal"
+            },
+            {
+              "layout": {
+                "ftv": {
+                  "yAxis": 50,
+                  "xAxis": 0,
+                  "width": 450,
+                  "fontSize": 12,
+                  "height": 85
+                }
+              },
+              "borderColor": "#ffffff",
+              "fontFamily": "OpenSans",
+              "borderWidth": 4,
+              "action": "signup",
+              "text": "SIGN UP",
+              "cornerRadius": 4,
+              "fontSize": 12,
+              "type": "button",
+              "textColor": "#ffffff",
+              "fontWeight": "Semibold",
+              "viewGravity":"center",
+              "key": "login button"
+            },
+            {
+              "layout": {
+                "ftv": {
+                  "topMargin": 45,
+                  "width": 450,
+                  "fontSize": 9
+                }
+              },
+              "fontFamily": "OpenSans",
+              "numberOfLines": 2,
+              "textAlignment": "center",
+              "type": "label",
+              "textColor": "#FFFFFF",
+              "key": "signupfooterview"
+            }
+          ],
+          "viewGravity":"center_horizontal",
+          "type": "loginModuleComponentView",
+          "key": "loginView"
+        }
+      ],
+      "itemClickAction": "lectureDetailPage",
+      "type": "signUpModuleView",
+      "key": "signUpModuleView"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutItem"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<RelativeLayout
+    android:id="@+id/iconLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_centerVertical="true"
+    android:layout_gravity="left"
+    android:padding="5dp"
+    android:background="@drawable/outer_background"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="18dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp">
+    <ImageView
+        android:id="@+id/equipment_icon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:scaleType="fitXY"
+        android:layout_centerInParent="true"
+        android:src="@drawable/equipment_0" />
+</RelativeLayout>
+    <TextView
+        android:id="@+id/equipment_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/iconLayout"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#ffffff"
+        android:textSize="8sp"
+        android:visibility="visible" />
+
+    <View
+        android:id="@+id/bottomDividerView"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/divider"
+
+        />
+</RelativeLayout>

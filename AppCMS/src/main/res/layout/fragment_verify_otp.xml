@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context="com.viewlift.views.fragments.VerifyOTPPhoneFragment">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/closeDialogButtton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:src="@drawable/ic_close_black_24dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/verify_otp_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Please Enter 4 Digit OTP SENT TO NUMBER XXXX"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:textSize="15sp" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/input_one"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_bg_stroke"
+            android:gravity="center"
+            android:maxLength="1"
+            android:inputType="number" />
+
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/input_two"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="@dimen/close_button_margin"
+            android:layout_marginRight="@dimen/close_button_margin"
+            android:background="@drawable/button_bg_stroke"
+            android:gravity="center"
+            android:maxLength="1"
+            android:inputType="number" />
+
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/input_three"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="@dimen/close_button_margin"
+            android:background="@drawable/button_bg_stroke"
+            android:gravity="center"
+            android:maxLength="1"
+            android:inputType="number" />
+
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/input_four"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_bg_stroke"
+            android:gravity="center"
+            android:maxLength="1"
+            android:inputType="number" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <ProgressBar
+        android:id="@+id/progressVerify"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+    </ProgressBar>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/verifyOTP"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_bg_stroke"
+        android:gravity="center"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="VERIFY OTP" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/resendOTP"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="RESEND OTP"
+        android:textColor="@color/colorWhite" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

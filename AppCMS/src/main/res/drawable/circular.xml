@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/secondaryProgress">
+        <shape
+            android:innerRadiusRatio="2.5"
+            android:shape="ring"
+            android:thickness="2dp"
+            android:useLevel="true">
+
+
+            <gradient
+                android:centerColor="#9B9B9B"
+                android:endColor="#9B9B9B"
+                android:startColor="#9B9B9B"
+                android:type="sweep" />
+        </shape>
+    </item>
+
+    <item android:id="@android:id/progress">
+       <!-- <rotate
+            android:fromDegrees="270"
+            android:toDegrees="270">
+            <shape
+                android:innerRadiusRatio="2.5"
+                android:shape="ring"
+                android:thickness="1dp"
+                android:useLevel="true">&lt;!&ndash; this line fixes the issue for lollipop api 21 &ndash;&gt;
+
+                <gradient
+                    android:angle="0"
+                    android:endColor="#007DD6"
+                    android:startColor="#007DD6"
+                    android:type="sweep"
+                    android:useLevel="false" />
+            </shape>
+        </rotate>-->
+        <rotate
+            android:fromDegrees="270"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:toDegrees="270">
+
+            <shape
+                android:innerRadiusRatio="2.5"
+                android:shape="ring"
+                android:thickness="2dp"
+                android:useLevel="true">
+
+
+                <rotate
+                    android:fromDegrees="0"
+                    android:pivotX="50%"
+                    android:pivotY="50%"
+                    android:toDegrees="360" />
+
+                <gradient
+                    android:centerColor="#00FF00"
+                    android:endColor="#00FF00"
+                    android:startColor="#00FF00"
+                    android:type="sweep" />
+
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/containerView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/blackTransparentColor"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/pinMsgTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:fontFamily="@font/font_extra_bold"
+        android:maxLines="2"
+        android:text="@string/viewing_restrictions_enabled"
+        android:textColor="@color/color_white"
+        android:textSize="16sp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/pinError"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/font_regular"
+        android:maxLines="2"
+        android:text="@string/in_correct_pin_message"
+        android:textColor="#f4181c"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pinMsgTitle" />
+
+    <TextView
+        android:id="@+id/pinMsg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/font_regular"
+        android:gravity="center"
+        android:maxLines="2"
+        android:text="@string/enter_video_pin"
+        android:textColor="@color/color_white"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pinError" />
+
+    <com.viewlift.views.customviews.otpView.OtpView
+        android:id="@+id/pinView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:imeOptions="flagNoFullscreen"
+        android:inputType="number"
+        android:nextFocusForward="@+id/confirmBtn"
+        android:nextFocusDown="@+id/confirmBtn"
+        android:nextFocusLeft="@null"
+        android:nextFocusRight="@null"
+        android:nextFocusUp="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pinMsg" />
+
+    <Button
+        android:id="@+id/confirmBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/font_regular"
+        android:text="@string/confirm"
+        android:nextFocusUp="@+id/pinView"
+        android:nextFocusLeft="@+id/cancelBtn"
+        android:nextFocusDown="@null"
+        android:nextFocusRight="@null"
+        app:layout_constraintStart_toEndOf="@+id/cancelBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pinView"
+        app:layout_constraintHorizontal_chainStyle="packed"/>
+
+    <Button
+        android:id="@+id/cancelBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/font_regular"
+        android:text="@string/cancel"
+        android:nextFocusLeft="@null"
+        android:nextFocusDown="@null"
+        android:nextFocusUp="@+id/pinView"
+        android:nextFocusRight="@+id/confirmBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/confirmBtn"
+        app:layout_constraintTop_toBottomOf="@+id/pinView" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/pinAuthGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="pinMsgTitle,pinMsg,pinView,confirmBtn,cancelBtn"/>
+
+
+    <TextView
+        android:id="@+id/touchErrorTxt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/font_regular"
+        android:maxLines="2"
+        android:textColor="#f4181c"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pinMsgTitle" />
+
+    <Button
+        android:id="@+id/usePinBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/font_regular"
+        android:textColor="@color/colorWhite"
+        android:text="@string/use_pin"
+        android:nextFocusUp="@+id/pinView"
+        android:nextFocusLeft="@+id/cancelBtn"
+        android:nextFocusDown="@null"
+        android:nextFocusRight="@null"
+        app:layout_constraintStart_toEndOf="@+id/cancelBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pinView"
+        app:layout_constraintHorizontal_chainStyle="packed"/>
+
+    <Button
+        android:id="@+id/touchCancelBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/font_regular"
+        android:text="@string/cancel"
+        android:textColor="@color/colorWhite"
+        android:nextFocusLeft="@null"
+        android:nextFocusDown="@null"
+        android:nextFocusUp="@+id/pinView"
+        android:nextFocusRight="@+id/confirmBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/confirmBtn"
+        app:layout_constraintTop_toBottomOf="@+id/pinView" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/touchErrorGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:constraint_referenced_ids="touchErrorTxt,usePinBtn,touchCancelBtn"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

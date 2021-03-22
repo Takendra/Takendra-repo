@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:amazon="http://schemas.amazon.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.viewlift">
+
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.screen.portrait"
+        android:required="false" />
+
+    <!-- This permission ensures that no other application can intercept your
+    ADM messages. -->
+    <!--<permission
+        android:name="air.com.snagfilms.permission.RECEIVE_ADM_MESSAGE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="air.com.snagfilms.permission.RECEIVE_ADM_MESSAGE" />-->
+
+    <!-- This permission allows your app access to receive push notifications
+    from ADM. -->
+    <uses-permission android:name="com.amazon.device.messaging.permission.RECEIVE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Allows unlocking your device and activating its screen so UI tests can succeed -->
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <!-- Allows for storing and retrieving screenshots -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- Allows changing locales -->
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="com.amazon.device.permission.COMRADE_CAPABILITIES" />
+
+    <application
+        android:banner="@drawable/androidtv_banner_image"
+        android:label="@string/default_app_name"
+        android:icon="@drawable/manage_app_logo"
+        tools:replace="android:label,android:icon">
+        <meta-data android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true"/>
+
+        <amazon:enable-feature
+            android:name="com.amazon.device.messaging"
+            android:required="true" />
+
+        <service
+            android:name="com.viewlift.tv.adm.AppCMSADMMessageHandler"
+            android:exported="false" />
+        <receiver
+            android:name="com.viewlift.tv.adm.AppCMSADMMessageAlertReceiver"
+            android:permission="com.amazon.device.messaging.permission.SEND">
+
+            <!-- To interact with ADM, your app must listen for the following intents. -->
+            <intent-filter>
+                <action android:name="com.amazon.device.messaging.intent.REGISTRATION" />
+                <action android:name="com.amazon.device.messaging.intent.RECEIVE" />
+
+                <!-- Replace the name in the category tag with your app's package name. -->
+                <category android:name="air.com.snagfilms" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="com.amazon.device.iap.ResponseReceiver">
+            <intent-filter>
+                <action
+                    android:name="com.amazon.inapp.purchasing.NOTIFY"
+                    android:permission="com.amazon.inapp.purchasing.Permission.NOTIFY" />
+            </intent-filter>
+        </receiver>
+
+
+        <activity
+            android:name="com.viewlift.tv.AppCmsTVSplashActivity"
+            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="air.com.snagfilms.PLAY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:host="*"
+                    android:scheme="@string/video_player_deep_link" />
+        </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.viewlift.tv.views.activity.AppCmsTvErrorActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="@string/title_activity_app_cms_tv_error" />
+
+        <activity
+            android:name="com.viewlift.tv.views.activity.AppCmsHomeActivity"
+            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar"
+            android:label="AppCmsHomeActivity"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden|adjustPan" />
+
+        <activity android:name="com.viewlift.tv.views.activity.AppCMSTVPlayVideoActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="air.com.snagfilms.PLAY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.viewlift.tv.views.activity.AppCMSTVAutoplayActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <receiver android:name=".tv.receiver.CapabilityRequestReceiver" >
+            <intent-filter>
+                <action android:name="com.amazon.device.REQUEST_CAPABILITIES" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

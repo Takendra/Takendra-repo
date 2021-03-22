@@ -1,0 +1,158 @@
+{
+  "moduleList": [
+    {
+      "id": "b7d62e96-4016-4cce-b07a-013dd6a2da22",
+      "settings": {
+        "searchThumbnailType": "landscape"
+      },
+      "view": "AC Masthead 01",
+      "type": "AC Masthead 01",
+      "blockName": "masthead01",
+      "layout": {},
+      "components": []
+    },
+    {
+      "id": "dba0c701-ad79-4b1c-a067-a71b51c181ca",
+      "settings": {
+        "items": [
+          {
+            "imageUrl": "https://snagfilms-a.akamaihd.net/1c2cf214-62ec-46af-938d-16c42c8f2661/images/73/22/760032ee448b87950801f78acaf4/1542733368581_joiniconimages-tab.png",
+            "title": "EXCLUSIVE ORIGINAL SHOWS"
+          },
+          {
+            "imageUrl": "https://snagfilms-a.akamaihd.net/1c2cf214-62ec-46af-938d-16c42c8f2661/images/cf/57/4ecd23ac4880b14a607e39314902/1542733374229_10kiconimages-tab.png",
+            "title": "LARGEST CATALOGUE OF BENGALI MOVIES"
+          },
+          {
+            "imageUrl": "https://snagfilms-a.akamaihd.net/1c2cf214-62ec-46af-938d-16c42c8f2661/images/3b/6d/aa1a30494e569cb8f0ed4ce544ba/1542733344290_streamoniconimages-tab.png",
+            "title": "MUSIC STREAMING WITH 1000+ SONGS"
+          },
+          {
+            "imageUrl": "https://snagfilms-a.akamaihd.net/1c2cf214-62ec-46af-938d-16c42c8f2661/images/9e/ed/6aa363a04c9bba995c7805500b48/1542733351470_shape1images-tab.png",
+            "title": "DOWNLOAD OFFLINE AND WATCH ANYTIME, ANYWHERE"
+          },
+          {
+            "imageUrl": "https://snagfilms-a.akamaihd.net/1c2cf214-62ec-46af-938d-16c42c8f2661/images/20/ba/55bebe6e457893f154f6718fad32/1542733363166_neweachmonthiconimages-tab.png",
+            "title": "AD-FREE CONTENT"
+          },
+          {
+            "imageUrl": "https://snagfilms-a.akamaihd.net/1c2cf214-62ec-46af-938d-16c42c8f2661/images/e8/1a/ed1dfd4a4ccd89a38439257001d3/1542733357761_oneaccounticonimages-tab.png",
+            "title": "MULTIPLE DEVICES: WATCH ON A DEVICE OF YOUR CHOICE"
+          }
+        ]
+      },
+      "view": "AC ImageTextRow 02",
+      "type": "AC ImageTextRow 02",
+      "blockName": "imageTextRow02",
+      "layout": {
+        "mobile": {
+          "leftMargin": 0,
+          "topMargin": 0,
+          "rightMargin": 0,
+          "bottomMargin": 0
+        },
+        "tabletLandscape": {
+          "leftMargin": 0,
+          "topMargin": 0,
+          "rightMargin": 0,
+          "bottomMargin": 0
+        },
+        "tabletPortrait": {
+          "leftMargin": 0,
+          "topMargin": 0,
+          "rightMargin": 0,
+          "bottomMargin": 0
+        }
+      },
+      "components": [
+
+
+        {
+          "layout": {
+            "mobile": {
+              "trayPadding": 10,
+              "leftMargin": 3.2,
+              "topMargin": 4,
+              "rightMargin": 3.2,
+              "bottomMargin": 0
+            },
+            "tabletLandscape": {
+              "trayPadding": 30,
+              "leftMargin": 3.2,
+              "topMargin": 4,
+              "rightMargin": 3.2,
+              "bottomMargin": 0
+            },
+            "tabletPortrait": {
+              "trayPadding": 30,
+              "leftMargin": 3.2,
+              "topMargin": 4,
+              "rightMargin": 3.2,
+              "bottomMargin": 0
+            }
+          },
+          "components": [
+            {
+              "layout": {
+                "mobile": {
+                  "yAxis": 66,
+                  "xAxis": 5,
+                  "fontSize": 12,
+                  "width": 135
+                },
+                "tabletLandscape": {
+                  "yAxis": 120,
+                  "xAxis": 5,
+                  "fontSize": 15,
+                  "width": 160
+                },
+                "tabletPortrait": {
+                  "yAxis": 130,
+                  "xAxis": 5,
+                  "fontSize": 16,
+                  "width": 180
+                }
+              },
+              "fontFamily": "OpenSans",
+              "textAlignment": "center",
+              "type": "label",
+              "textColor": "#ffffff",
+              "key": "planFeatureTitle"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "yAxis": 15,
+                  "xAxis": 0,
+                  "width": 60,
+                  "height": 45
+                },
+                "tabletLandscape": {
+                  "yAxis": 40,
+                  "xAxis": 0,
+                  "width": 80,
+                  "height": 65
+                },
+                "tabletPortrait": {
+                  "yAxis": 40,
+                  "xAxis": 0,
+                  "width": 90,
+                  "height": 75
+                }
+              },
+              "type": "image",
+              "key": "planFeatureImage"
+            }
+          ],
+          "type": "collectionGrid",
+          "backgroundColor": "121212",
+          "key": "collectionGrid"
+        }
+      ]
+    }
+  ],
+  "caching": {
+    "isEnabled": false
+  },
+  "version": "0.0.53"
+}

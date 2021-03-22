@@ -1,0 +1,2 @@
+keystore_alias_name: motoamericalive
+keystore_password: M0t0Live

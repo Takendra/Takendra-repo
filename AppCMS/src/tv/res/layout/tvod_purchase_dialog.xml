@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_clear_overlay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:focusable="false"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/text_overlay_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:focusable="false"
+        android:gravity="center_vertical"
+        android:text="Rent Options"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/parentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:focusable="false"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/episodeRootView"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_below="@+id/text_overlay_title"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:focusable="false">
+
+            <RelativeLayout
+                android:id="@+id/episodeView"
+                android:layout_width="228dp"
+                android:layout_height="43dp"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true">
+
+                <TextView
+                    android:id="@+id/episodeTitle"
+                    android:layout_width="153dp"
+                    android:layout_height="match_parent"
+                    android:ellipsize="end"
+                    android:focusable="false"
+                    android:gravity="left|center"
+                    android:maxLines="1"
+                    android:paddingLeft="20dp"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/episodePlanPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_toRightOf="@+id/episodeTitle"
+                    android:focusable="false"
+                    android:gravity="center|end"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp"
+                    android:visibility="visible" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/episodeEdit"
+                android:layout_width="64dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_toRightOf="@+id/episodeView"
+                android:focusable="true"
+                android:gravity="center"
+                android:nextFocusDown="@null"
+                android:text="Edit"
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                android:visibility="visible" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/seasonRootView"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_below="@+id/episodeRootView"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:focusable="false">
+
+            <RelativeLayout
+                android:id="@+id/seasonView"
+                android:layout_width="228dp"
+                android:layout_height="43dp"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true">
+
+                <TextView
+                    android:id="@+id/seasonTitle"
+                    android:layout_width="153dp"
+                    android:layout_height="match_parent"
+                    android:ellipsize="end"
+                    android:focusable="false"
+                    android:gravity="left|center"
+                    android:maxLines="1"
+                    android:paddingLeft="20dp"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/seasonPlanPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_toRightOf="@+id/seasonTitle"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp"
+                    android:visibility="visible" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/seasonEdit"
+                android:layout_width="64dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_toRightOf="@+id/seasonView"
+                android:focusable="true"
+                android:gravity="center"
+                android:nextFocusDown="@null"
+                android:text="Edit"
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                android:visibility="visible" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/seriesView"
+            android:layout_width="228dp"
+            android:layout_height="43dp"
+            android:layout_below="@+id/seasonRootView"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <TextView
+                android:id="@+id/seriesTitle"
+                android:layout_width="153dp"
+                android:layout_height="match_parent"
+                android:ellipsize="end"
+                android:focusable="false"
+                android:gravity="left|center"
+                android:maxLines="1"
+                android:paddingLeft="20dp"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/seriesPlanPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_toRightOf="@+id/seriesTitle"
+                android:focusable="false"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                android:visibility="visible" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="246dp"
+        android:layout_below="@+id/text_overlay_title"
+        android:layout_marginTop="20dp"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/text_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recyclerView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:focusable="false"
+        android:gravity="center_vertical"
+        android:text="you have 30 days to start watching this video and 2 days to finish once started. By continuing, you agree to these Terms and Conditions, Privacy Policy and GDPR. "
+        android:textColor="#ffffff"
+        android:textSize="10dp"
+        android:visibility="visible" />
+
+</LinearLayout>

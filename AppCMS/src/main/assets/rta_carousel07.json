@@ -1,0 +1,74 @@
+{
+  "id": "bae2a7c3-3aaf-460e-a13c-fd8250b19592",
+  "settings": {
+    "columns": {
+      "tablet": 3,
+      "desktop": 4,
+      "mobile": 2,
+      "ott": 4
+    },
+    "thumbnailType": "landscape"
+  },
+  "view": "AC Carousel 07",
+  "type": "AC Carousel 07",
+  "blockName": "carousel07",
+  "layout": {
+    "ftv": {
+
+      "width": 1920,
+      "height": 1080
+
+    }
+  },
+  "components": [
+    {
+      "layout": {
+        "ftv": {
+          "height": 1080,
+          "width": 1920
+        }
+      },
+      "type": "image",
+      "key": "videoThumbnailImage",
+      "action": "showDetailPage"
+    },
+    {
+      "layout": {
+        "ftv": {
+          "height": 1080,
+          "width": 1920
+        }
+      },
+      "type": "player",
+      "key": "trailerVideoPlayer",
+      "stroke":0,
+      "padding":0
+    },
+    {
+      "layout": {
+        "ftv": {
+          "yAxis": 0,
+          "xAxis": 850,
+          "width": 80,
+          "height": 328,
+          "rightMargin":105
+        }
+      },
+      "type": "image",
+      "key": "rightArrow"
+    },
+    {
+      "layout": {
+        "ftv": {
+          "yAxis": 0,
+          "xAxis": 12,
+          "width": 80,
+          "height": 328
+        }
+      },
+      "type": "image",
+      "key": "leftArrow"
+    }
+  ],
+  "key": "carousel07"
+}

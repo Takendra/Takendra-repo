@@ -1,0 +1,253 @@
+{
+  "moduleList": [
+    {
+      "id": "c2b57f33-6822-44ca-9660-9a4d77f9198a",
+      "settings": {},
+      "view": "AC SelectPlan 06",
+      "type": "AC SelectPlan 06",
+      "blockName": "selectPlan06",
+      "layout": {
+        "mobile": {
+          "leftMargin": 0,
+          "topMargin": 0,
+          "rightMargin": 0,
+          "bottomMargin": 0
+        },
+        "tabletLandscape": {
+          "leftMargin": 0,
+          "topMargin": 0,
+          "rightMargin": 0,
+          "bottomMargin": 0
+        },
+        "tabletPortrait": {
+          "leftMargin": 0,
+          "topMargin": 0,
+          "rightMargin": 0,
+          "bottomMargin": 0
+        }
+      },
+      "isConstrainteView": true,
+      "components": [
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 18,
+              "topTo_topOf": "parent",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "constraint_MarginTop": 1.05,
+              "constraint_MarginRight": 50,
+              "constraint_MarginLeft": 50
+            },
+            "tabletLandscape": {
+              "fontSize": 18,
+              "topTo_topOf": "parent",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "constraint_MarginTop": 1.05,
+              "constraint_MarginRight": 50,
+              "constraint_MarginLeft": 50
+            },
+            "tabletPortrait": {
+              "fontSize": 18,
+              "topTo_topOf": "parent",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "constraint_MarginTop": 1.05,
+              "constraint_MarginRight": 50,
+              "constraint_MarginLeft": 50
+            }
+          },
+          "type": "label",
+          "textAlignment": "center",
+          "text": "Choose a Plan",
+          "key": "title",
+          "fontWeight": "Bold",
+          "id": "pageTitle"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 18,
+              "topTo_bottomOf": "pageTitle",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "constraint_MarginTop": 20,
+              "constraint_MarginRight": 50,
+              "constraint_MarginLeft": 50
+            },
+            "tabletLandscape": {
+              "topTo_bottomOf": "pageTitle",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "constraint_MarginTop": 20,
+              "constraint_MarginRight": 50,
+              "constraint_MarginLeft": 50
+            },
+            "tabletPortrait": {
+              "topTo_bottomOf": "pageTitle",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "constraint_MarginTop": 20,
+              "constraint_MarginRight": 50,
+              "constraint_MarginLeft": 50
+            }
+          },
+          "textAlignment": "center",
+          "type": "label",
+          "key": "videoDescriptionText",
+          "text": "you can upgrade or cancel at any time",
+          "id": "pageDescription"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "topTo_bottomOf": "pageDescription",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "constraint_MarginTop": 20,
+              "constraint_MarginRight": 50,
+              "constraint_MarginLeft": 50
+            },
+            "tabletLandscape": {
+              "topTo_bottomOf": "pageDescription",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "constraint_MarginTop": 20,
+              "constraint_MarginRight": 50,
+              "constraint_MarginLeft": 50
+            },
+            "tabletPortrait": {
+              "topTo_bottomOf": "pageDescription",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "constraint_MarginTop": 20,
+              "constraint_MarginRight": 50,
+              "constraint_MarginLeft": 50
+            }
+          },
+          "type": "tableLayout",
+          "key": "tableLayoutPlanFeatures",
+          "id": "tableLayoutPlanFeatures"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 14,
+              "topTo_bottomOf": "tableLayoutPlanFeatures",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "constraint_MarginRight": 150,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 150
+            },
+            "tabletLandscape": {
+              "fontSize": 14,
+              "topTo_bottomOf": "tableLayoutPlanFeatures",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "constraint_MarginRight": 150,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 150
+            },
+            "tabletPortrait": {
+              "fontSize": 14,
+              "topTo_bottomOf": "tableLayoutPlanFeatures",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "constraint_MarginRight": 150,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 150
+            }
+          },
+          "type": "label",
+          "textAlignment": "center",
+          "key": "planTerms",
+          "id": "planTerms"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "fontSize": 18,
+              "topTo_bottomOf": "planTerms",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "constraint_MarginRight": 150,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 150,
+              "constraint_MarginBottom": 80,
+              "height": 50
+            },
+            "tabletLandscape": {
+              "fontSize": 18,
+              "topTo_bottomOf": "planTerms",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "constraint_MarginRight": 150,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 150,
+              "constraint_MarginBottom": 80,
+              "height": 50
+            },
+            "tabletPortrait": {
+              "fontSize": 18,
+              "topTo_bottomOf": "planTerms",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "constraint_MarginRight": 150,
+              "constraint_MarginTop": 20,
+              "constraint_MarginLeft": 150,
+              "constraint_MarginBottom": 80,
+              "height": 50
+            }
+          },
+          "type": "button",
+          "textAlignment": "center",
+          "text": "SUBSCRIBE",
+          "key": "buttonSubscribe",
+          "id": "buttonSubscribe"
+        }
+        /*{
+          "layout": {
+            "mobile": {
+              "fontSize": 18,
+              "bottomTo_bottomOf": "parent",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "constraint_MarginRight": 150,
+              "constraint_MarginLeft": 150,
+              "constraint_MarginBottom": 80,
+              "height": 50
+            },
+            "tabletLandscape": {
+              "fontSize": 18,
+              "topTo_topOf": "parent",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "constraint_MarginTop": 1.05,
+              "constraint_MarginRight": 12,
+              "constraint_MarginLeft": 50
+            },
+            "tabletPortrait": {
+              "fontSize": 18,
+              "topTo_topOf": "parent",
+              "leftTo_leftOf": "parent",
+              "rightTo_rightOf": "parent",
+              "constraint_MarginTop": 1.05,
+              "constraint_MarginRight": 12,
+              "constraint_MarginLeft": 50
+            }
+          },
+          "type": "floatingButton",
+          "textAlignment": "center",
+          "text": "SUBSCRIBE",
+          "key": "buttonFloatingSubscribe",
+          "id": "buttonSubscribe"
+        }*/
+      ]
+    }
+  ],
+  "caching": null,
+  "version": "0.0.4",
+  "pageStyle": null
+}

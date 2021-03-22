@@ -1,0 +1,178 @@
+{
+  "moduleList": [
+    {
+      "id": "a5ec3a4d-66d1-4073-83f0-5849b8c03005",
+      "settings": {},
+      "view": "News Recommendation 01",
+      "type": "News Recommendation 01",
+      "blockName": "newsRecommendation01",
+      "isConstrainteView": true,
+      "layout": {
+        "mobile": {
+          "yAxis": 0,
+          "leftMargin": 0,
+          "rightMargin": 0
+        },
+        "tabletLandscape": {
+          "yAxis": 0,
+          "leftMargin": 0,
+          "xAxis": 0,
+          "rightMargin": 0
+        },
+        "tabletPortrait": {
+          "yAxis": 0,
+          "leftMargin": 0,
+          "xAxis": 0,
+          "rightMargin": 0
+        }
+      },
+      "components": [
+        {
+          "layout": {
+            "mobile": {
+              "yAxis": 0,
+              "leftMargin": 2.67,
+              "rightMargin": 2.67,
+              "fontSize": 18,
+              "height": 24,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginRight": 10,
+              "constraint_MarginLeft": 20,
+              "topTo_topOf": "parent",
+              "leftTo_leftOf": "parent"
+            },
+            "tabletLandscape": {
+              "yAxis": 0,
+              "leftMargin": 0.97,
+              "rightMargin": 0.97,
+              "fontSize": 24,
+              "height": 33,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginRight": 10,
+              "constraint_MarginLeft": 20,
+              "topTo_topOf": "parent",
+              "leftTo_leftOf": "parent"
+            },
+            "tabletPortrait": {
+              "yAxis": 0,
+              "leftMargin": 1.3,
+              "rightMargin": 1.3,
+              "fontSize": 24,
+              "height": 33,
+              "constraint_MarginBottom": 10,
+              "constraint_MarginTop": 10,
+              "constraint_MarginRight": 10,
+              "constraint_MarginLeft": 20,
+              "topTo_topOf": "parent",
+              "leftTo_leftOf": "parent"
+            }
+          },
+          "numberOfLines": 1,
+          "textAlignment": "left",
+          "type": "label",
+          "textColor": "#008EE0",
+          "fontWeight": "Semibold",
+          "key": "trayTitle",
+          "id": "trayTitle"
+        },
+        {
+          "layout": {
+            "mobile": {
+              "constraint_MarginTop": 7,
+              "trayPadding": 10,
+              "constraint_MarginLeft": 20,
+              "topTo_bottomOf": "trayTitle",
+              "leftTo_leftOf": "parent"
+            },
+            "tabletLandscape": {
+              "ratio": "3:4",
+              "constraint_MarginTop": 7,
+              "constraint_MarginLeft": 20,
+              "trayPadding": 5,
+              "topTo_bottomOf": "trayTitle",
+              "leftTo_leftOf": "parent"
+            },
+            "tabletPortrait": {
+              "gridHeight": 170,
+              "gridWidth": 120,
+              "ratio": "3:4",
+              "constraint_MarginTop": 7,
+              "trayPadding": 0,
+              "topTo_bottomOf": "trayTitle",
+              "leftTo_leftOf": "parent"
+            }
+          },
+          "components": [
+            {
+              "layout": {
+                "mobile": {
+                  "constraint_MarginTop": 1,
+                  "leftTo_leftOf": "parent",
+                  "topTo_topOf": "parent",
+                  "width": 110,
+                  "ratio": "3:4"
+                },
+                "tabletLandscape": {
+                  "constraint_MarginTop": 1,
+                  "leftTo_leftOf": "parent",
+                  "topTo_topOf": "parent",
+                  "width": 125,
+                  "ratio": "3:4"
+                },
+                "tabletPortrait": {
+                  "constraint_MarginTop": 1,
+                  "leftTo_leftOf": "parent",
+                  "topTo_topOf": "parent",
+                  "width": 150,
+                  "ratio": "3:4"
+                }
+              },
+              "type": "image",
+              "key": "thumbnailImage",
+              "id": "thumbnailImage"
+            },
+            {
+              "layout": {
+                "mobile": {
+                  "fontSize": 13,
+                  "rightTo_rightOf": "thumbnailImage",
+                  "topTo_topOf": "thumbnailImage"
+                },
+                "tabletLandscape": {
+                  "fontSize": 13,
+                  "rightTo_rightOf": "thumbnailImage",
+                  "topTo_topOf": "thumbnailImage"
+                },
+                "tabletPortrait": {
+                  "fontSize": 13,
+                  "rightTo_rightOf": "thumbnailImage",
+                  "topTo_topOf": "thumbnailImage"
+                }
+              },
+              "type": "label",
+              "backgroundColor": "#99000000",
+              "key": "videoDuration",
+              "id": "videoDuration",
+              "leftpadding": 2,
+              "rightPadding": 2,
+              "topPadding": 2,
+              "bottomPadding": 2
+            }
+          ],
+          "type": "collectionGrid",
+          "key": "collectionGrid",
+          "id": "collectionGrid",
+          "trayClickAction": "lectureDetailPage"
+        }
+      ],
+      "key": "newsRecommendation01"
+    }
+  ],
+  "caching": {
+    "isEnabled": false
+  },
+  "version": "0.0.14"
+}
+

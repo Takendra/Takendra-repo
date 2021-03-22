@@ -1,0 +1,1252 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <array name="device_type">
+        <item>android_phone</item>
+        <item>android_tablet</item>
+        <item>fire_tv</item>
+    </array>
+    <array name="platform">
+        <item>android</item>
+        <item>fireTv</item>
+    </array>
+    <array name="purchase_type">
+        <item>PURCHASE</item>
+        <item>RENT</item>
+    </array>
+    <string name="app_cms_main_url">%1$s/%2$s/main.json</string>
+
+    <string name="app_cms_language_url">%1$s/App-Const-Strings/android/%2$s/android_string_newjson.json</string>
+    <string name="app_cms_language_url_ftv">%1$s/App-Const-Strings/ftv/%2$s/ftv_string_newjson.json</string>
+    <string name="app_cms_url_with_appended_timestamp">%1$s</string>
+    <string name="app_cms_site_api_url">%1$s/content/sites?domainName=%2$s</string>
+    <string name="app_cms_geo_data_api_url">https://fodw2vxmqk.execute-api.us-east-1.amazonaws.com/prod_geo_locator/ipgeolocator</string>
+
+    <!--App CMS Email Consent Data API-->
+    <string name="app_cms_weather_feed">http://data-services.wsi.com/200904-01/661387618/Weather/Report/USCA0987</string>
+
+    <!-- AppCMS StreamingInfo API -->
+    <string name="app_cms_ticker_feed">http://media.kron4.com/nxs-krontv-media-us-east-1/bti/tailor/fcastdata_sanfrancisco_today.xml</string>
+
+    <!-- AppCMS Search API -->
+    <string name="app_cms_email_consent_data_api">https://snagfilms-a.akamaihd.net/emailconsent/%1$s.json</string>
+    <string name="app_cms_streaminginfo_api_url">%1$s/content/videos/%2$s?site=%3$s&amp;fields=streamingInfo</string>
+    <string name="app_cms_search_api_url">%1$s/search/v1?site=%2$s&amp;searchTerm=%3$s&amp;languageCode=%4$s</string>
+    <string name="app_cms_search_api_url_with_types">%1$s/search/v1?site=%2$s&amp;searchTerm=%3$s&amp;languageCode=%4$s&amp;types=%5$s&amp;countryCode=%6$s</string>
+    <!--<string name="search_types_for_app" >video,series,image,article,audio,bundle,playlist,photo,videoPlaylist,person</string>-->
+    <string name="app_cms_search_api_url_video_only">%1$s/search/v1?site=%2$s&amp;searchTerm=%3$s&amp;types=%4$s&amp;languageCode=%5$s</string>
+    <string name="search_types_for_app">video,series,article,audio,bundle,playlist,videoPlaylist,person</string>
+
+    <!-- AppCMS Search Filter API -->
+    <string name="search_types_for_tv">video,series,bundle</string>
+    <string name="type_video_only">videos</string>
+    <string name="app_cms_search_filter_api_url">%1$s/search/v1?site=%2$s&amp;searchTerm=%3$s&amp;languageCode=%4$s&amp;types=%5$s</string>
+    <string name="app_cms_search_api_v2_url_person">%1$s/search/v2/list?site=%2$s&amp;type=%3$s&amp;sortBy=%4$s&amp;sortOrder=%5$s&amp;languageCode=%6$s</string>
+    <string name="app_cms_search_api_v2_browse_list">%1$s/search/v2/list?site=%2$s&amp;field=%3$s&amp;sortBy=%4$s&amp;value=%5$s&amp;languageCode=%6$s&amp;type=%7$s</string>
+
+    <!-- AppCMS Like API -->
+    <string name="app_cms_search_api_v2_browse_all_list">%1$s/search/v2/list?site=%2$s&amp;sortBy=%3$s&amp;languageCode=%4$s&amp;type=%5$s</string>
+    <string name="app_cms_search_api_v2_vod_related_episode_list">%1$s/search/v2/list?site=%2$s&amp;episodeId=%3$s&amp;languageCode=%4$s</string>
+    <string name="app_cms_like_count_api_url">%1$s/user/count/likes/%2$s?site=%3$s</string>
+    <string name="app_cms_like_post_api_url">%1$s/user/likes?userId=%2$s&amp;?site=%3$s</string>
+
+    <string name="app_cms_like_delete_api_url">%1$s/user/likes/%2$s?site=%3$s&amp;userId=%4$s</string>
+    <string name="app_cms_like_status_api_url">%1$s/user/likes?userId=%2$s&amp;site=%3$s&amp;contentId=%4$s&amp;contentType=%5$s</string>
+    <string name="api_url_user_me">%1$s/user/me?userId=%2$s&amp;site=%3$s&amp;ignoreMissingProfile=true</string>
+
+    <string name="api_url_user_me_description">%1$s/user/me/description?userId=%2$s&amp;site=%3$s</string>
+    <string name="api_url_submit_user_me_description">%1$s/user/me/description?userId=%2$s&amp;site=%3$s</string>
+
+    <!-- AppCMS Ads API -->
+    <string name="app_cms_search_api_filter_category">%1$s/content/categories?site=%2$s&amp;languageCode=%3$s</string>
+    <string name="app_cms_search_api_filter_equipment">%1$s/fitness/all-equipment?site=%2$s&amp;languageCode=%3$s</string>
+
+    <!-- <string name="app_cms_spotx_ads_api_url">%1$s&amp;app[bundle]=%2$&amp;app[name]=%3$s&lt;!&ndash;&amp;
+         device[devicetype]=%4$s&amp;device[ifa]=%5$s&amp;device[make]=%6$s&amp;device[model]=%7$s&amp;device[dnt]=%8$s&amp;player_height=%9$s
+         &amp;player_width=%10$s&amp;ip_addr=%11$s&amp;device[ua]=%12$s&amp;idtype=rida&amp;correlator=%13$s&ndash;&gt;</string>-->
+
+    <!-- AppCMS Beacon API -->
+    <string name="app_cms_ads_api_url">%1$s&amp;correlator=%2$d&amp;cust_params=%3$s</string>
+    <string name="app_cms_spotx_ads_api_url">%1$s&amp;app[bundle]=%2$s&amp;app[name]=%3$s&amp;device[devicetype]=%4$d&amp;device[ifa]=%5$s&amp;device[make]=%6$s&amp;device[model]=%7$s&amp;player_height=%8$d&amp;player_width=%9$d&amp;ip_addr=%10$s&amp;device[ua]=%11$s&amp;idtype=rida&amp;correlator=%12$d</string>
+    <string name="app_cms_beacon_url_base">https://1a7ahu122g.execute-api.us-east-1.amazonaws.com/production_beacon/firehouse-proxy</string>
+    <string name="app_cms_beacon_url">https://%1$s/events?aid=%2$s&amp;cid=%3$s&amp;pfm=%4$s&amp;dp1=%5$s&amp;vid=%6$s&amp;url=%7$s&amp;ref=%8$s&amp;pa=%9$s&amp;vpos=%10$d&amp;uid=%11$s</string>
+    <string name="app_cms_beacon_chromecast_dp2_url">&amp;dp2=Chromecast</string>
+    <string name="app_cms_beacon_platform">Android</string>
+    <string name="app_cms_beacon_fire_tv_platform">FireTV</string>
+    <string name="app_cms_beacon_android_tv_platform">AndroidTV</string>
+    <string name="app_cms_beacon_dpm_android">Standard Android OS</string>
+    <string name="app_cms_beacon_dpm_fire_os">Fire OS</string>
+    <string name="app_cms_beacon_video_player_parent_screen_name">VideoPlayer</string>
+    <string name="app_cms_beacon_casting_screen_name">CastingView</string>
+    <string name="app_cms_query_param_android_phone">android_phone</string>
+    <string name="app_cms_query_param_fire_tv">fire_tv</string>
+    <string name="app_cms_query_param_android_tv">android_tv</string>
+    <string name="app_cms_query_param_one_plus_tv">OnePlusTv</string>
+    <!-- AppCMS Google Analytics -->
+    <string name="app_cms_query_param_android_platform">android</string>
+
+    <!-- AppCMS SignIn API -->
+    <string name="app_cms_query_param_amazon_platform">amazon</string>
+
+    <!-- AppCMS SignIn API -->
+    <string name="app_cms_template_page_separator">&#160;-&#160;</string>
+
+    <!-- AppCMS SignIn API -->
+    <string name="app_cms_signin_api_url">%1$s/identity/signin?platform=%2$s&amp;device=%3$s&amp;site=%4$s&amp;deviceId=%5$s&amp;deviceName=%6$s</string>
+
+    <!-- AppCMS SignOut API -->
+    <string name="app_cms_update_api_url">%1$s/identity/user/updatePhone?platform=%2$s&amp;device=%3$s&amp;site=%4$s&amp;deviceId=%5$s&amp;userId=%6$s</string>
+
+    <!-- CCAvenue is plan upgradable test API -->
+    <string name="app_cms_resend_otp_api_url">%1$s/identity/otp/resend?platform=%2$s&amp;device=%3$s&amp;site=%4$s&amp;deviceId=%5$s&amp;deviceName=%6$s</string>
+
+    <!-- AppCMS SignUp API -->
+    <string name="app_cms_signout_api_url">%1$s/identity/signout?site=%2$s&amp;platform=%3$s&amp;deviceId=%4$s&amp;deviceName=%5$s</string>
+
+    <!-- AppCMS Refresh Identity API -->
+    <string name="app_cms_ccavenue_is_plan_upgradable_url">%1$s/ccavenue/ccavenue/sistatus?site=%2$s</string>
+
+    <!--AppCMS Change Password API-->
+    <string name="app_cms_signup_api_url">%1$s/identity/signup?platform=%2$s&amp;device=%3$s&amp;site=%4$s&amp;deviceId=%5$s&amp;deviceName=%6$s</string>
+
+    <!-- AppCMS Forgot Password API -->
+    <string name="app_cms_refresh_identity_api_url">%1$s/identity/refresh/%2$s</string>
+
+    <!-- AppCMS Facebook Login API -->
+    <string name="app_cms_change_password_api_url">%1$s/identity/password?site=%2$s</string>
+
+    <!--AppCMS Google Login API-->
+    <string name="app_cms_forgot_password_api_url">%1$s/identity/password/forgot?site=%2$s</string>
+
+    <!--AppCMS TVE Login API-->
+    <string name="app_cms_facebook_login_api_url">%1$s/identity/signin/facebook?device=android_phone&amp;site=%2$s&amp;platform=android&amp;deviceId=%3$s&amp;deviceName=%4$s</string>
+    <!--    <string name="app_cms_tve_login_api_url">%1$s/identity/signin/tve?device=android_phone&amp;site=%2$s&amp;platform=android&amp;deviceId=%3$s&amp;deviceName=%4$s</string>-->
+    <string name="app_cms_google_login_api_url">%1$s/identity/signin/google?device=android_phone&amp;site=%2$s&amp;platform=android&amp;deviceId=%3$s&amp;deviceName=%4$s</string>
+
+    <!-- AppCMS User Identity API -->
+    <string name="app_cms_tve_login_api_url">%1$s/identity/signin/tve?device=%2$s&amp;site=%3$s&amp;platform=%4$s&amp;deviceId=%5$s&amp;deviceName=%6$s</string>
+
+    <!-- AppCMS Update Video Watch History API -->
+    <!--    <string name="app_cms_update_watch_history_api_url" >%1$s/content/video/history?version=v2&amp;ddeviceId=%2$s</string>-->
+    <!--<string name="app_cms_update_watch_history_api_url" >%1$s/user/userId/history/video?version=v2</string>-->
+    <string name="app_cms_tve_sign_out_api_url">%1$s/identity/tveSignout?site=%2$s&amp;</string>
+
+    <!-- AppCMS User Video Status API -->
+    <!--depricated after History API V2 chnages-->
+    <string name="app_cms_user_identity_api_url">%1$s/identity/user?site=%2$s</string>
+    <!--<string name="app_cms_video_status_api_url"   >%1$s/content/video/history/user/%2$s?site=%3$s&amp;videoId=%4$s</string>-->
+
+    <!-- AppCMS Shows Status API-->
+    <!--<string name="app_cms_shows_status_api_url"   >%1$s/content/pages?path=/shows/title/sujith&amp;site=%2$s&amp;includeContent=true</string>-->
+    <!--    <string name="app_cms_shows_status_api_url">%1$s%2$s?path=%3$s&amp;site=%4$s&amp;includeContent=true&amp;includeWatchHistory=%5$b&amp;languageCode=%6$s</string>-->
+    <string name="app_cms_update_watch_history_api_url">%1$s/user/%2$s/history/video?version=v2</string>
+    <string name="app_cms_billing_history_url">%1$s/payments/billing-history?site=%2$s</string>
+    <string name="app_cms_video_status_api_url">%1$s/user/info/video/%2$s?site=%3$s</string>
+    <string name="app_cms_shows_status_api_url">%1$s%2$s?path=%3$s&amp;site=%4$s&amp;includeContent=true&amp;languageCode=%5$s&amp;device=%6$s&amp;store_countryCode=%7$s</string>
+
+
+    <!--path or id
+    site
+    includeContent
+    offset
+    moduleOffset
+    moduleLimit
+    languageCode
+    countryCode
+    modules
+    userId
+    <string name="app_cms_category_api_url">%1$s%2$s?path=%3$s&amp;site=%4$s&amp;includeContent=true&amp;offset=%5$s&amp;languageCode=%6$s&amp;countryCode=%7$s&amp;modules=%8$s&amp;userId=%9$s</string>
+    <string name="app_cms_category_api_url">%1$s%2$s?path=%3$s&amp;site=%4$s&amp;modules=%5$s&amp;includeContent=true&amp;offset=%6$s&amp;languageCode=%7$s</string>
+ -->
+    <string name="app_cms_see_all_category_api_url_with_user_id">%1$s%2$s?path=%3$s&amp;site=%4$s&amp;includeContent=%5$s&amp;offset=%6$s&amp;languageCode=%7$s&amp;countryCode=%8$s&amp;userId=%9$s</string>
+    <string name="app_cms_see_all_category_api_url">%1$s%2$s?path=%3$s&amp;site=%4$s&amp;includeContent=%5$s&amp;offset=%6$s&amp;languageCode=%7$s&amp;countryCode=%8$s</string>
+
+    <!-- Restore Purchase API -->
+
+    <string name="app_cms_category_api_url">%1$s%2$s?path=%3$s&amp;site=%4$s&amp;includeContent=true&amp;offset=%5$s&amp;languageCode=%6$s&amp;countryCode=%7$s&amp;modules=%8$s&amp;</string>
+    <string name="app_cms_pages_api_url">%1$s/pages?site=%2$s&amp;modules=%3$s</string>
+    <!-- -->
+    <string name="app_cms_restore_purchase_api_url">%1$s/identity/signin/android?site=%2$s&amp;platform=android&amp;deviceId=%3$s&amp;deviceName=%4$s</string>
+
+    <string name="app_cms_amazon_restore_purchase_api_url">%1$s/subscription/restore?site=%2$s</string>
+
+    <string name="app_cms_signed_url_api_url">%1$s/content/signature/%2$s?site=%3$s</string>
+
+    <string name="app_cms_article_api_url">%1$s/content/article?id=%2$s&amp;site=%3$s&amp;languageCode=%4$s</string>
+
+    <string name="app_cms_article_api_url_with_perma">%1$s/content/article?path=%2$s&amp;site=%3$s&amp;languageCode=%4$s</string>
+    <string name="app_cms_schedule_api_url">%1$s/content/event/schedule?site=%2$s&amp;languageCode=%3$s</string>
+    <string name="app_cms_photogallery_api_url">%1$s/content/photogallery?id=%2$s&amp;site=%3$s&amp;languageCode=%4$s</string>
+
+    <!--Article API-->
+    <string name="app_cms_roster_data_page_api_url">%1$s/search/v2/list?site=%2$s&amp;type=%3$s&amp;languageCode=%4$s</string>
+
+    <!-- AppCMS Content Detail API -->
+    <string name="app_cms_library_data_page_api_url">%1$s/transaction/getData?site=%2$s&amp;userId=%3$s</string>
+    <string name="app_cms_library_purchase_data_page_api_url">%1$s/transaction/purchases/metadata?site=%2$s&amp;userId=%3$s&amp;contentMeta=true</string>
+
+    <!--Get Sync Code and Code Sync API-->
+    <string name="app_cms_article_api">http://%1$s%2$s?app=true&amp;languageCode=%3$s</string>
+    <string name="app_cms_content_detail_api_url">%1$s/content/videos/%2$s?site=%3$s&amp;languageCode=%4$s</string>
+    <string name="app_cms_get_code_api_url">%1$s/user/device/code?deviceId=%2$s&amp;platform=%3$s&amp;site=%4$s&amp;deviceName=%5$s&amp;device=%6$s</string>
+
+    <string name="app_cms_sync_code_api_url">%1$s/user/device/details?deviceId=%2$s&amp;platform=%3$s&amp;site=%4$s&amp;deviceName=%5$s&amp;device=%6$s</string>
+    <!-- AppCMS Validate Redemption Code API -->
+    <string name="app_cms_desync_device_api_url">%1$s/user/device/desync?deviceId=%2$s&amp;platform=%3$s&amp;site=%4$s&amp;deviceName=%5$s&amp;device=%6$s</string>
+    <!-- AppCMS Redeem API -->
+    <string name="google_play_store_upgrade_app_url">http://play.google.com/store/apps/details?id=%1$s</string>
+
+
+    <!-- AppCMS JSON data input keys -->
+    <string name="app_cms_validate_redemption_code_api_url">%1$s/subscription/transaction/validate?site=%2$s&amp;languageCode=%3$s</string>
+
+    <string name="app_cms_validate_offer_code_api_url">%1$s/subscription/offer/validate?site=%2$s&amp;languageCode=%3$s</string>
+    <string name="app_cms_redeem_offer_api_url">%1$s/subscription/offer?site=%2$s&amp;languageCode=%3$s</string>
+
+
+    <!-- AppCMS JSON data input keys -->
+    <string name="app_cms_redeem_api_url">%1$s/transaction/transaction?site=%2$s&amp;languageCode=%3$s</string>
+
+
+    <!-- Names of the apps where we need Splash progress-->
+    <string name="app_cms_main_svod_service_type_key">SVOD</string>
+
+
+    <string name="app_cms_main_avod_service_type_key">AVOD</string>
+    <string name="app_cms_main_tvod_service_type_key">TVOD</string>
+
+    <string name="app_cms_page_font_bold_key">Bold</string>
+
+    <string name="app_cms_page_font_regular_key">Regular</string>
+
+
+    <string name="app_cms_page_font_semibold_key">Semibold</string>
+    <string name="app_cms_page_font_extrabold_key">ExtraBold</string>
+
+
+    <string name="app_cms_page_font_black_key">Black</string>
+    <string name="app_cms_page_font_black_italic_key">BlackItalic</string>
+    <string name="app_cms_page_font_bold_italic_key">BoldItalic</string>
+    <string name="app_cms_page_font_italic_key">Italic</string>
+    <string name="app_cms_page_font_hairline_key">Hairline</string>
+    <string name="app_cms_page_font_hairline_italic_key">HairlineItalic</string>
+    <string name="app_cms_page_font_heavy_key">Heavy</string>
+    <string name="app_cms_page_font_heavy_italic_key">HeavyItalic</string>
+    <string name="app_cms_page_font_light_key">Light</string>
+    <string name="app_cms_page_font_light_italic_key">LightItalic</string>
+    <string name="app_cms_page_font_medium_key">Medium</string>
+    <string name="app_cms_page_font_medium_italic_key">MediumItalic</string>
+    <string name="app_cms_page_font_thin_key">Thin</string>
+    <string name="app_cms_page_font_thin_italic_key">ThinItalic</string>
+    <string name="app_cms_page_font_semibold_italic_key">SemiboldItalic</string>
+    <string name="app_cms_page_font_family_key">Open Sans</string>
+    <string name="app_cms_page_font_lato_family_key">Lato</string>
+    <string name="app_cms_page_font_montserrat_family_key">Montserrat</string>
+    <string name="app_cms_page_font_titillium_web_family_key">Titillium Web</string>
+
+    <string name="app_cms_page_font_din_pro_family_key">Din Pro</string>
+    <string name="app_cms_page_font_proxima_nova_family_key">Proxima Nova</string>
+    <string name="app_cms_page_api_url">%1$s%2$s?site=%3$s&amp;%4$s%5$s&amp;includeContent=true&amp;languageCode=%6$s&amp;device=%7$s&amp;store_countryCode=%8$s</string>
+    <string name="app_cms_page_api_url_with_user_id">%1$s%2$s?site=%3$s&amp;%4$s%5$s&amp;includeContent=true&amp;userId=%6$s&amp;languageCode=%7$s </string>
+    <string name="app_cms_cached_page_api_url">%1$s/content/pages?site=%2$s&amp;pageId=%3$s&amp;includeContent=true&amp;languageCode=%4$s&amp;device=%5$s&amp;store_countryCode=%6$s</string>
+    <string name="app_cms_cached_page_api_url_with_user_id">%1$s/content/pages?site=%2$s&amp;pageId=%3$s&amp;includeContent=true&amp;userId=%4$s&amp;languageCode=%5$s </string>
+
+    <string name="app_cms_module_content_paginated_api_url">%1$s/content/pages?site=%2$s&amp;path=%3$s&amp;includeContent=true&amp;languageCode=%4$s&amp;countryCode=%5$s&amp;modules=%6$s&amp;offset=%7$s </string>
+
+
+    <!-- TODO : uncomment if you want to use old uncached api. -->
+    <!-- AppCMS Data values -->
+    <!--   <string name="app_cms_page_api_url" >%1$s%2$s?site=%3$s&amp;%4$s%5$s&amp;includeContent=true&amp;includeWatchHistory=true&amp;languageCode=%6$s </string>
+       <string name="app_cms_page_api_url_with_user_id" >%1$s%2$s?site=%3$s&amp;%4$s%5$s&amp;includeContent=true&amp;includeWatchHistory=true&amp;userId=%6$s&amp;languageCode=%7$s </string>
+       <string name="app_cms_cached_page_api_url" >%1$s/content/pages?site=%2$s&amp;pageId=%3$s&amp;includeContent=true&amp;includeWatchHistory=true&amp;languageCode=%4$s </string>
+       <string name="app_cms_cached_page_api_url_with_user_id" >%1$s/content/pages?site=%2$s&amp;pageId=%3$s&amp;includeContent=true&amp;includeWatchHistory=true&amp;userId=%4$s&amp;languageCode=%5$s </string> -->
+
+    <!-- AppCMS Data values new url without some unused params -->
+    <string name="app_cms_page_api_view_plans_url_country" translatable="false">%1$s%2$s?site=%3$s&amp;device=%4$s&amp;path=/viewplans&amp;includeContent=true&amp;languageCode=%5$s&amp;store_countryCode=%6$s</string>
+    <string name="app_cms_page_api_view_plans_url" translatable="false">%1$s%2$s?site=%3$s&amp;device=%4$s&amp;path=/viewplans&amp;includeContent=true&amp;languageCode=%5$s</string>
+    <string name="app_cms_page_id_query_parameter" translatable="false">pageId=</string>
+    <string name="app_cms_page_path_query_parameter" translatable="false">path=</string>
+
+
+    <string name="app_cms_api_key" translatable="false">vdTAMerEdh8t5t7xtUAa199qBKQuFLXb5cuG93ZF</string>
+    <string name="app_cms_video_detail_api_url">%1$s/content/videos?ids=%2$s&amp;site=%3$s&amp;languageCode=%4$s</string>
+    <string name="app_cms_show_detail_api_url">%1$s/content/series/?id=%2$s&amp;site=%3$s&amp;languageCode=%4$s</string>
+    <string name="app_cms_entitlement_api_url">%1$s/entitlement/video/status?id=%2$s&amp;deviceId=%3$s&amp;deviceType=%4$s&amp;contentConsumption=%5$s&amp;download=%6$b</string>
+    <string name="app_cms_get_follows_api_url">%1$s/user/follows?site=%2$s&amp;userId=%3$s&amp;contentType=SERIES&amp;languageCode=%4$s</string>
+    <!-- <string name="app_cms_entitlement_api_url_drm" translatable="false">%1$s/entitlement/video/status?id=%2$s&amp;deviceId=%3$s&amp;deviceType=%4$s&amp;contentConsumption=%5$s&amp;download=%6$s</string> -->
+
+
+    <!-- AppCMS Video Detail API -->
+    <string name="app_cms_edit_follows_api_url">%1$s/user/follows?site=%2$s&amp;userId=%3$s&amp;contentIds=%4$s</string>
+
+    <!-- AppCMS Show Detail API -->
+    <string name="app_cms_remove_follows_api_url">%1$s/user/follows/%2$s?site=%3$s&amp;userId=%4$s</string>
+
+    <!--  AppCMS entitlement Detail API -->
+    <string name="app_cms_watchlist_api_url">%1$s/user/queues?site=%2$s&amp;userId=%3$s&amp;languageCode=%4$s&amp;limit=1000</string>
+
+    <string name="app_cms_edit_watchlist_api_url">%1$s/user/queues?site=%2$s&amp;userId=%3$s&amp;contentIds=%4$s&amp;languageCode=%5$s</string>
+    <string name="app_cms_clear_watchlist_api_url">%1$s/user/queues?site=%2$s&amp;userId=%3$s</string>
+    <string name="app_cms_api_history_module_key">HistoryModule</string>
+
+    <!-- AppCMS WatchList API -->
+    <string name="app_cms_history_api_url">%1$s/user/%2$s/history/video?site=%3$s&amp;version=v2&amp;limit=%4$s&amp;page=%5$s&amp;languageCode=%6$s</string>
+    <string name="app_cms_series_history_api_url">%1$s/content/video/history/user/%2$s?version=v2&amp;site=%3$s&amp;userId=%4$s&amp;offset=0&amp;languageCode=%5$s&amp;page=1&amp;seriesId=%6$s</string>
+    <string name="app_cms_edit_history_api_url">%1$s/user/%2$s/history/video?version=v2&amp;videoIds=%3$s&amp;site=%4$s&amp;languageCode=%5$s</string>
+
+    <!--AppCMS History API-->
+    <string name="app_cms_clear_history_api_url">%1$s/user/userId/history/video?version=v2&amp;site=%2$s</string>
+    <!--    <string name="app_cms_history_api_url" >%1$s/content/video/history/user/%2$s?version=v2&amp;site=%3$s&amp;userId=%4$s&amp;offset=0&amp;languageCode=%5$s</string>-->
+    <!--<string name="app_cms_history_api_url" >%1$s/user/userId/history/video?site=%2$s&amp;version=v2&amp;limit=%3$s&amp;page=%4$s&amp;languageCode=%5$s</string>-->
+    <string name="app_cms_subscription_api_url">%1$s/content/pages/site=%2$s&amp;path=%3$s&amp;includeContent=true</string>
+    <!--<string name="app_cms_history_api_url" >%1$s/user/%2$s/history/video/?site=%3$s&amp;userId=%4$s&amp;offset=0&amp;version=v2&amp;page=1&amp;languageCode=%5$s</string>-->
+    <string name="app_cms_subscription_platform_key">android_phone</string>
+    <!--    <string name="app_cms_edit_history_api_url" >%1$s/content/video/history/user/%2$s?version=v2&amp;site=%3$s&amp;videoIds=%4$s&amp;languageCode=%5$s</string>-->
+    <!--<string name="app_cms_edit_history_api_url" >%1$s/user/userId/history/video?version=v2&amp;videoIds=%2$s&amp;site=%3$s&amp;languageCode=%4$s</string>-->
+    <string name="app_cms_subscription_tv_platformapi_key">ftv</string>
+    <!--    <string name="app_cms_clear_history_api_url" >%1$s/content/video/history/user/%2$s?version=v2&amp;site=%3$s</string>-->
+    <string name="app_cms_subscription_tv_platform_key">fire_tv</string>
+
+    <!--AppCMS Subscription API-->
+    <string name="app_cms_subscription_key">android</string>
+    <string name="app_cms_subscription_tv_key">amazon-iap</string>
+    <string name="ua_android_device_key">android</string>
+    <string name="app_cms_subscription_plan_api_url">%1$s/subscription/plan?site=%2$s&amp;device=android_phone</string>
+    <string name="app_cms_subscription_plan_list_api_url">%1$s/subscription/plans?site=%2$s&amp;device=android_phone</string>
+    <string name="app_cms_subscription_plan_list_key">list</string>
+    <string name="app_cms_subscription_subscribed_plan_key">subscribed_plan</string>
+
+    <!--AppCMS Subscription Plan API-->
+    <string name="app_cms_check_ccavenue_plan_status_key">ccavenue_plan_status</string>
+    <string name="app_cms_subscription_plan_create_key">create</string>
+    <string name="app_cms_subscription_plan_update_key">update</string>
+    <string name="app_cms_subscription_plan_cancel_key">cancel</string>
+    <string name="app_cms_subscription_receipt_validate_key">validate</string>
+    <string name="app_cms_user_id">userId</string>
+    <string name="app_cms_site_name">site</string>
+    <string name="app_cms_register_subscription_api_url">%1$s/subscription/subscribe?site=%2$s&amp;platform=%3$s</string>
+    <string name="app_cms_cancel_subscription_api_url">%1$s/subscription/cancel?site=%2$s&amp;platform=%3$s</string>
+    <string name="app_cms_get_current_subscription_api_url">%1$s/subscription/user?userid=%2$s&amp;site=%3$s</string>
+    <string name="app_cms_google_play_subscription_validation_api_url">%1$s/subscription/android/validate_android_receipt?site=%2$s</string>
+    <string name="app_cms_purchase_product_api_url">%1$s/transaction/transaction?store_countryCode=%2$s</string>
+
+    <!-- AppCMS Register Subscription API -->
+    <string name="app_cms_menu_icon_name">icon-menu</string>
+
+    <!-- AppCMS Cancel Subscription API -->
+    <string name="app_cms_menu_label">Menu</string>
+
+    <!-- AppCMS Get Current Subscription API -->
+    <string name="app_cms_live_icon_name">live_</string>
+
+    <!-- AppCMS Validate Google Play Subscription API -->
+    <string name="app_cms_home_icon_name">icon-home</string>
+
+    <!-- AppCMS Navigation menu -->
+    <string name="app_cms_team_icon_name">teams_</string>
+    <string name="app_cms_home_label">Home</string>
+    <string name="app_cms_movies_icon_name">icon-movies</string>
+    <string name="app_cms_movies_label">Movies</string>
+    <string name="app_cms_search_icon_name">icon-search</string>
+    <string name="app_cms_search_label">Search</string>
+    <string name="app_cms_shows_icon_name">icon-shows</string>
+    <string name="app_cms_shows_label">Shows</string>
+    <string name="app_cms_teams_label">Teams</string>
+    <string name="app_cms_team_label">Team</string>
+    <string name="app_cms_getrental_api_url">%1$s/transaction/changeStatus?userId=%2$s&amp;videoId=%3$s</string>
+    <string name="app_cms_update_view_start_api_url">%1$s/transaction/changeStatus?userId=%2$s&amp;videoId=%3$s&amp;viewStart=%4$s</string>
+    <string name="app_cms_gettransactiondata_api_url">%1$s/transaction/getData?userId=%2$s&amp;contentId=%3$s&amp;type=%4$s&amp;contentMeta=%5$s&amp;site=%6$s</string>
+    <string name="app_cms_anonymous_auth_token_api_url">%1$s/identity/anonymous-token?site=%2$s</string>
+
+
+    <!--AppCMS TVOD  API -->
+
+    <string name="app_cms_image_with_resize_query">%1$s?impolicy=resize&amp;w=%2$d&amp;h=%3$d</string>
+    <string name="subscription_ios_payment_processor">iOS</string>
+
+    <string name="subscription_roku_payment_processor">ROKU</string>
+
+
+    <!--AppCMS AnonymousAuthToken API -->
+
+
+    <string name="subscription_ios_payment_processor_friendly">iTunes</string>
+
+    <!-- AppCMS Image with Resize Query -->
+    <string name="subscription_android_payment_processor">Android</string>
+
+
+    <!-- AppCMS Payment Processor values -->
+    <string name="subscription_prepaid_payment_processor">PREPAID</string>
+    <string name="subscription_android_payment_processor_friendly">Google Play</string>
+    <string name="subscription_ccavenue_payment_processor">ccavenue</string>
+    <string name="subscription_ccavenue_payment_processor_friendly">CCAvenue</string>
+    <string name="subscription_sslcommerz_payment_processor">sslcommerz</string>
+    <string name="subscription_sslcommerz_payment_processor_friendly">SSLCOMMERZ</string>
+    <string name="subscription_web_payment_processor_friendly">Stripe</string>
+    <string name="subscription_no_payment_processor_friendly">None</string>
+    <string name="subscription_juspay_payment_processor">JUSPAY</string>
+    <string name="subscription_paygate_payment_processor">PAYGATE</string>
+    <string name="subscription_paygate_payment_processor_friendly">PayGate</string>
+    <string name="subscription_juspay_payment_processor_friendly">JusPay</string>
+    <string name="subscription_unsubscribed_plan_value">Unsubscribed</string>
+    <string name="subscription_unknown_payment_processor_friendly">Unknown</string>
+    <string name="app_cms_view_plan_module_key">ViewPlanModule</string>
+    <string name="facebook_auth_provider_name_key">facebook</string>
+    <string name="google_auth_provider_name_key">google</string>
+    <string name="app_cms_math_problem_page_tag">math_problem</string>
+    <string name="app_cms_tv_providers_page_tag">tv_providers</string>
+    <string name="app_cms_web_view_page_tag">web_view</string>
+    <string name="app_cms_entitlement_screen_tag">enntitlement_screen</string>
+
+
+    <string name="contact_us">Contact Us</string>
+    <string name="support">Support</string>
+    <string name="frequently_asked_questions">Frequently Asked Questions</string>
+    <string name="faq">FAQ</string>
+
+
+    <string name="app_cms_floodlight_url_base">https://ad.doubleclick.net/ddm/activity/</string>
+    <string name="app_cms_floodlight_url">src=6070801;cat=appco0;type=msnbm0;dc_rdid=%1$s&amp;dc_lat=;tag_for_child_directed_treatment=;ord=%2$s&amp;</string>
+    <string name="content_type_event">EVENT</string>
+    <string name="app_cms_ppe_shows">SHOW</string>
+
+    <string name="app_cms_shows_deeplink_path_name">show</string>
+    <string name="app_cms_content_type_episode">EPISODE</string>
+    <!--video content type-->
+    <string name="navigation_settings_primaryCta_placement">Banner</string>
+    <string name="navigation_settings_primaryCta_placement_masthead">Masthead</string>
+    <string name="PURCHASE_TYPE_TVOD">TVOD</string>
+    <string name="PURCHASE_TYPE_PPV">PPV</string>
+
+
+    <string name="PURCHASE_TYPE_SVOD">SVOD</string>
+    <string name="PURCHASE_TYPE_SVOD_TVOD">SVOD+TVOD</string>
+
+    <string name="PURCHASE_TYPE_SVOD_PPV">SVOD+PPV</string>
+    <string name="PURCHASE_TYPE_FREE">FREE</string>
+    <string name="forward_slash">/</string>
+    <string name="app_cms_plan_renewal_cycle_type_monthly">MONTH</string>
+    <string name="plan_type_month">month</string>
+    <string name="plan_type_months">months</string>
+
+
+    <string name="edit_account">Edit Account</string>
+    <string name="plan_type_monthly">monthly</string>
+    <string name="app_cms_plan_renewal_cycle_type_yearly">YEAR</string>
+    <string name="plan_type_year">year</string>
+    <string name="plan_type_years">years</string>
+    <string name="plan_type_yearly">annual</string>
+    <string name="plan_type_yearly_for_robi">yearly</string>
+    <string name="app_cms_plan_renewal_cycle_type_week">WEEK</string>
+    <string name="app_cms_plan_renewal_cycle_type_daily">DAY</string>
+    <string name="plan_type_weekly">weekly</string>
+    <string name="plan_type_day">day</string>
+    <string name="plan_type_days">days</string>
+    <string name="plan_type_daily">daily</string>
+    <string name="app_cms_video_content_type">VIDEO</string>
+    <string name="app_cms_series_content_type">SERIES</string>
+    <string name="app_cms_season_content_type">SEASON</string>
+    <string name="app_cms_originals_content_type">originals</string>
+    <string name="app_cms_kids_content_type">kids</string>
+    <string name="app_cms_content_type_paid">PAID</string>
+    <string name="app_cms_content_type_free">FREE</string>
+
+    <string name="app_cms_action_teamdetail_key">Team Detail</string>
+    <string name="app_cms_action_playlistpage_key">Playlist Page</string>
+
+    <!-- AppCMS Content Types -->
+    <string name="app_cms_action_musicHub_page_key">Music Hub</string>
+    <string name="app_cms_playlist_api_url">%1$s/content/playlist?id=%2$s&amp;site=%3$s</string>
+    <string name="app_cms_audio_detail_api_url">%1$s/content/audio?site=%2$s&amp;id=%3$s</string>
+    <string name="get_recommendation_api_url">%1$s/user/recommendations/getRecommendations?userId=%2$s&amp;site=%3$s&amp;countryCode=%4$s&amp;languageCode=%5$s&amp;requestType=%6$s&amp;contentType=%7$s&amp;moduleId=%8$s</string>
+    <string name="get_recommendation_with_genre_api_url">%1$s/user/recommendations/getRecommendations?userId=%2$s&amp;site=%3$s&amp;countryCode=%4$s&amp;languageCode=%5$s&amp;requestType=%6$s&amp;contentType=%7$s&amp;moduleId=%8$s&amp;genreValue=%9$s</string>
+
+    <string name="save_recommendation_api_url">%1$s/user/recommendations/saveUserRecommendation?site=%2$s</string>
+    <!-- AppCMS Playlist API -->
+    <string name="get_recommendation_user_genre">%1$s/user/recommendations/getUserGenres</string>
+    <!-- AppCMS Audio detail API -->
+    <string name="app_cms_sslcommerz_initiate_api_url">%1$s/sslcommerz/initiate?site=%2$s&amp;device=android_phone</string>
+
+
+    <!-- Appcms Recommendation Api -->
+    <string name="app_cms_ccavenue_rsa_key_api_url">%1$s/ccavenue/ccavenue/rsakey?x=%2$s</string>
+    <string name="app_cms_team_standing_api_url">https://dev-mse.viewlift.com/season/standings/15140</string>
+    <string name="app_cms_team_roaster_api_url">http://dev-mse.viewlift.com/team-roster-standing/%1$s/%2$s</string>
+
+    <!--AppCMS SSLCommerz Initiate API-->
+    <string name="app_cms_team_pointstreak_apikey">eed4734a29280843c17f4233f030c6b8</string>
+    <!--APPCMS CCAve RSA KEY-->
+    <string name="app_cms_event_archieve_api_url">http://app2.compuboxdata.com/compustrike_api/events_archive?api_key=%1$s&amp;event_id=%2$s&amp;format=json</string>
+
+
+    <!--    Teams Api-->
+    <string name="deeplink_close_player_activity_action">deeplink_close_player_activity_action</string>
+    <!--<string name="app_cms_team_roaster_api_url"   >http://dev-mse.viewlift.com/team-roster-standing/53006/15140</string>-->
+    <string name="server_address">https://pvfrfk0pr9.execute-api.us-east-1.amazonaws.com/saveAdmId</string>
+    <string name="LAUNCHER_DEEPLINK_ACTION">air.com.snagfilms.PLAY</string>
+    <string name="play_audio_action">playAudio</string>
+
+
+    <!--Android Keys-->
+    <string name="ga_audio_download_action">From Playlist</string>
+    <string name="ga_audio_download_category">Audio Download</string>
+    <string name="ga_video_download_action">From Playlist</string>
+    <string name="ga_video_download_category">Video Download</string>
+    <string name="ga_preinstall_category">xiaomipreinstall</string>
+    <string name="play_audio_category">player-audio</string>
+    <string name="app_cms_link_your_account_action">linkAccount</string>
+    <string name="app_cms_link_change_language_action">changeLanguage</string>
+    <string name="app_cms_sign_up_page_action">signUpPageAction</string>
+
+    <string name="play_video_category">player-video</string>
+    <string name="recommend_video_category">isRecommendation</string>
+    <string name="personalization_video_category">isPersonalization</string>
+    <string name="recommend_tray_clicked">isRecommendationClicked</string>
+    <string name="adm_directive_adjust_seek_position">AdjustSeekPosition</string>
+    <string name="audio_fragment_tag_key">audio_fragment</string>
+    <string name="media_type_playlist">PLAYLIST</string>
+    <string name="media_type_player">PLAYER</string>
+    <string name="media_type_bundle">BUNDLE</string>
+    <string name="media_type_audio">AUDIO</string>
+    <string name="media_type_episode">EPISODIC</string>
+    <string name="media_type_video">VIDEO</string>
+    <string name="content_type_audio">AUDIO</string>
+
+    <string name="content_type_person">PERSON</string>
+    <string name="content_type_video">VIDEO</string>
+    <string name="content_type_bundle">BUNDLE</string>
+    <string name="content_type_series">SERIES</string>
+    <string name="media_type_series">SERIES</string>
+    <string name="content_type_videos">VIDEOS</string>
+    <string name="content_type_show">SHOW</string>
+
+    <string name="content_type_season">SEASON</string>
+    <string name="app_cms_module_list_footer_key">footer01</string>
+    <string name="app_cms_module_list_tray3_key">tray03</string>
+    <string name="thrid_party_login_intent_extra_key">3rdpartylogin</string>
+    <string name="deeplink_uri_extra_key">deeplink_uri</string>
+    <string name="openBrowser_uri_extra_key">openBrowser_uri</string>
+    <string name="close_one_page_key">close_one_page</string>
+    <string name="signed_policy_key">signed_policy</string>
+    <string name="signed_signature_key">signed_signature</string>
+    <string name="signed_keypairid_key">signed_keypairid</string>
+    <string name="video_content_data">content_data</string>
+    <string name="tvod_cast_allowed">tvod_cast_allowed</string>
+    <string name="tvod_content">tvod_content</string>
+    <string name="svod_content">svod_content</string>
+    <string name="app_cms_autoplay_finished_movie_title_key">finishedMovieNameTitle</string>
+    <string name="app_cms_autoplay_finished_movie_image_key">finishedMovieImage</string>
+    <string name="blank_string"></string>
+    <string name="force_reload_from_network_key">force_reload_from_network</string>
+    <string name="free_content_key">free_content</string>
+    <string name="appcmsuijson_directoryname">androidui</string>
+    <string name="server_client_id" translatable="false">710504969361-h1krg26hgfo11lod66b4t0ss0u24kkg9.apps.googleusercontent.com</string>
+    <string name="motv_server_client_id" translatable="false">995271685041-dvumik5i26a8e80qs239qvpjaus1bra0.apps.googleusercontent.com</string>
+    <string name="app_cms_enc_val">enc_val</string>
+    <string name="app_cms_redirect_url">redirect_url</string>
+    <string name="app_cms_cancel_url">cancel_url</string>
+    <!--    <string name="server_client_id" translatable="false">525148171038-1dgfbunn8l27oilqldve5qg7cref8ua1.apps.googleusercontent.com</string>-->
+    <string name="app_cms_rsa_key_url">rsa_key_url</string>
+    <string name="app_cms_plan_id">plan_id</string>
+    <string name="app_cms_search_sharepref_key">app_cms_sharepref_result</string>
+    <string name="app_cms_search_value_size_key">app_cms_search_value_size</string>
+    <string name="app_cms_search_value_key">app_cms_search_value_</string>
+    <string name="download_file_prefix">file:///</string>
+    <string name="sent_beacon_play_key">sent_beacon_play</string>
+    <string name="play_index_key">play_index</string>
+    <string name="GCM_SENDER_ID_APPFLYERS">525148171038</string>
+    <string name="app_cms_plan_type">af_plan_type</string>
+    <string name="app_cms_appsflyer_order_id">af_order_id</string>
+    <string name="app_cms_appsflyer_product_id">af_product_id</string>
+    <string name="app_cms_appsflyer_app_open_key">App Open</string>
+    <string name="app_cms_appsflyer_event_app_open_value">app open</string>
+    <string name="app_cms_appsflyer_login_key">Login</string>
+    <string name="app_cms_appsflyer_login_status_key">Login Status</string>
+    <string name="app_cms_appsflyer_event_login_value">login success</string>
+    <string name="app_cms_appsflyer_logout_key">Logout</string>
+
+    <string name="app_cms_appsflyer_event_logout_value">logout success</string>
+    <string name="app_cms_appsflyer_app_registration_key">App Registration</string>
+    <string name="app_cms_appsflyer_event_app_registration_value">app registration</string>
+
+    <string name="app_cms_appsflyer_subscription_key">Subscribe</string>
+    <string name="app_cms_appsflyer_event_subscription_value">subscribe</string>
+
+    <string name="app_cms_appsflyer_unsubscribe_key">UnSubscribe</string>
+    <string name="app_cms_appsflyer_event_unsubscribe_value">unsubscribe</string>
+
+    <string name="app_cms_appsflyer_film_viewing_key">Film Viewing</string>
+    <string name="app_cms_appsflyer_event_film_viewing_value">film viewing</string>
+
+    <string name="app_cms_access_code">access_code</string>
+    <string name="app_cms_merchant_id">merchant_id</string>
+
+    <string name="app_cms_order_id">order_id</string>
+    <string name="app_cms_amount">amount</string>
+    <!--CCAvenue Strings-->
+    <string name="app_cms_currency">currency</string>
+    <string name="app_cms_rsa_trans_url">https://test.ccavenue.com/transaction/initTrans</string>
+    <string name="app_cms_ccavenue_payment_success">ccavenue_payment_success</string>
+    <string name="app_cms_appsflyer_login_status">af_login_status</string>
+    <string name="app_cms_appsflyer_film_id">af_film_id</string>
+    <string name="app_cms_appsflyer_course_id">af_course_id</string>
+    <string name="app_cms_appsflyer_sub_category">af_film_sub_category</string>
+    <!-- apps flyer keys -->
+    <string name="app_cms_appsflyer_video_view">film viewing</string>
+    <string name="app_cms_appsflyer_signup_success">SignUp Success</string>
+    <string name="app_cms_appsflyer_login_success">Login Success</string>
+    <string name="app_cms_login">Login</string>
+    <string name="app_cms_signup">Sign Up</string>
+    <string name="app_cms_code_redemption_header">Code Redemption</string>
+    <string name="app_cms_code_redemption_success">Your code has been successfully redeemed</string>
+    <string name="phone_country_code">+91</string>
+    <string name="update_phone_number">UPDATE PHONE</string>
+    <string name="app_cms_button_color_key">app_cms_button_color</string>
+    <string name="google_authentication_refresh_token_api">https://accounts.google.com/o/oauth2/token</string>
+    <string name="google_authentication_refresh_token_api_grant_type">refresh_token</string>
+
+    <string name="google_authentication_refresh_token_api_client_id">645588968155-a4u8gq9hh99i2kirqqj7kv245n522cb4.apps.googleusercontent.com</string>
+
+    <!-- AppCMS Apptentive API -->
+    <string name="google_authentication_refresh_token_api_client_secret">pu8Jv5P5-S8et5cCixtkGniK</string>
+
+    <!-- Google Authentication API -->
+    <string name="google_authentication_refresh_token_api_refresh_token">1/OIB6BWDZ8xO4sL4BjeE-95AO68TlBlU3xlpe34nMhFE</string>
+    <string name="google_cancel_subscription_api">https://www.googleapis.com/androidpublisher/v2/applications/$1%s/purchases/subscriptions/$2%s/tokens/$3%s:cancel</string>
+    <string name="app_cms_more_text_key">app_cms_more_text</string>
+    <string name="app_cms_more_title_key">app_cms_more_title</string>
+    <string name="app_cms_page_id_key">app_cms_page_id</string>
+    <!-- Google Cancel Subscription API -->
+    <string name="app_cms_page_autoplay_key">AutoPlay Screen</string>
+    <string name="app_cms_page_autoplay_land_key">AutoPlay Screen (Landscape)</string>
+    <string name="app_cms_page_autoplay_port_key">AutoPlay Screen (Portrait)</string>
+    <string name="app_cms_page_crw_screen_key">Content Rating Warning Screen</string>
+    <string name="app_cms_closed_captions_toggle_button_key">closedCaptionsToggle</string>
+    <string name="related_movies_id_list">related_movies_id</string>
+    <string name="add_to_watchlist_content_type_video">video</string>
+    <string name="delete_history_content_type_video">video</string>
+
+    <!--User Management - Closed Captions-->
+    <string name="app_cms_border_color_key">app_cms_border_color</string>
+    <string name="app_cms_edit_profile_username_key">app_cms_edit_profile_username_key</string>
+    <string name="app_cms_password_reset_email_key">app_cms_password_reset_email</string>
+    <string name="play_ads_key">play_ads</string>
+    <string name="is_trailer_key">is_trailer</string>
+    <string name="watched_time_key">watched_time</string>
+    <string name="played_movie_image_url">played_movie_image</string>
+    <string name="run_time_key">run_time</string>
+    <string name="app_cms_default_video_ext">m3u8</string>
+    <string name="dialog_item_key">dialog_item</string>
+    <string name="dialog_item_title_key">title</string>
+    <string name="dialog_item_description_key">description</string>
+    <string name="dialog_item_text_color_key">text_color</string>
+
+    <string name="video_player_title_key">video_player_title</string>
+    <string name="video_player_permalink_key">video_player_permalink</string>
+    <string name="video_player_font_color_key">video_player_font_color</string>
+    <string name="video_player_closed_caption_key">video_player_closed_caption</string>
+
+    <!-- Age rating values -->
+    <string name="video_player_watched_time_key">video_player_watched_time</string>
+    <string name="video_player_run_time_key">video_player_run_time</string>
+    <string name="video_player_is_trailer_key">isTrailer</string>
+    <string name="video_primary_category_key">video_primary_category</string>
+    <string name="opensans_bold_ttf">fonts/OpenSans-Bold.ttf</string>
+    <string name="opensans_semibold_ttf">fonts/OpenSans-Semibold.ttf</string>
+    <string name="opensans_extrabold_ttf">fonts/OpenSans-ExtraBold.ttf</string>
+    <string name="opensans_regular_ttf">fonts/OpenSans-Regular.ttf</string>
+    <string name="montserrat_bold_ttf">fonts/Montserrat-Bold.ttf</string>
+    <string name="montserrat_semibold_ttf">fonts/Montserrat-SemiBold.ttf</string>
+    <string name="montserrat_extrabold_ttf">fonts/Montserrat-ExtraBold.ttf</string>
+    <string name="montserrat_regular_ttf">fonts/Montserrat-Regular.ttf</string>
+
+    <string name="montserrat_extra_light_italic_ttf">fonts/Montserrat-ExtraLightItalic.ttf</string>
+    <string name="proxima_nova_bold_ttf">fonts/ProximaNova-Bold.ttf</string>
+    <string name="proxima_nova_semibold_ttf">fonts/ProximaNova-Semibold.ttf</string>
+    <string name="proxima_nova_regular_ttf">fonts/ProximaNova-Regular.ttf</string>
+    <string name="proxima_nova_light_ttf">fonts/ProximaNova-Light.ttf</string>
+
+    <string name="din_pro_bold_otf">fonts/din_pro_bold.otf</string>
+    <string name="din_pro_semibold_otf">fonts/din_pro_semi_bold.otf</string>
+    <string name="din_pro_extrabold_otf">fonts/din_pro_extra_bold.otf</string>
+    <string name="din_pro_regular_otf">fonts/din_pro_regular.otf</string>
+
+    <string name="din_pro_italic_otf">fonts/din_pro_italic.otf</string>
+    <string name="titillium_web_bold_ttf">fonts/TitilliumWeb-Bold.ttf</string>
+    <string name="titillium_web_semibold_ttf">fonts/TitilliumWeb-SemiBold.ttf</string>
+    <string name="titillium_web_semibold_italic_ttf">fonts/TitilliumWeb-SemiBoldItalic.ttf</string>
+    <string name="titillium_web_extrabold_ttf">fonts/TitilliumWeb-ExtraBold.ttf</string>
+
+    <string name="titillium_web_regular_ttf">fonts/TitilliumWeb-Regular.ttf</string>
+    <string name="titillium_web_regular_light_ttf">fonts/TitilliumWeb-RegularLight.ttf</string>
+    <string name="titillium_web_italic_ttf">fonts/TitilliumWeb-Italic.ttf</string>
+    <string name="titillium_web_light_ttf">fonts/TitilliumWeb-Light.ttf</string>
+    <string name="titillium_web_light_italic_ttf">fonts/TitilliumWeb-LightItalic.ttf</string>
+    <string name="titillium_web_black_ttf">fonts/TitilliumWeb-Black.ttf</string>
+    <string name="titillium_web_bold_italic_ttf">fonts/TitilliumWeb-BoldItalic.ttf</string>
+    <string name="titillium_web_extra_light_ttf">fonts/TitilliumWeb-ExtraLight.ttf</string>
+    <string name="font_bold_ttf">fonts/%1$s-Bold.ttf</string>
+    <string name="font_italic_ttf">fonts/%1$s-Italic.ttf</string>
+    <string name="font_semibold_ttf">fonts/%1$s-Semibold.ttf</string>
+    <string name="font_semibold_italic_ttf">fonts/%1$s-SemiboldItalic.ttf</string>
+
+    <string name="font_bold_italic_ttf">fonts/%1$s-BoldItalic.ttf</string>
+    <string name="font_black_ttf">fonts/%1$s-Black.ttf</string>
+    <string name="font_black_italic_ttf">fonts/%1$s-BlackItalic.ttf</string>
+    <string name="font_light_ttf">fonts/%1$s-Light.ttf</string>
+    <string name="font_light_italic_ttf">fonts/%1$s-LightItalic.ttf</string>
+    <string name="font_hairline_ttf">fonts/%1$s-Hairline.ttf</string>
+    <string name="font_hairline_italic_ttf">fonts/%1$s-HairlineItalic.ttf</string>
+    <string name="font_heavy_ttf">fonts/%1$s-Heavy.ttf</string>
+    <string name="font_heavy_italic_ttf">fonts/%1$s-HeavyItalic.ttf</string>
+    <string name="font_medium_ttf">fonts/%1$s-Medium.ttf</string>
+    <string name="font_medium_italic_ttf">fonts/%1$s-MediumItalic.ttf</string>
+    <string name="font_thin_ttf">fonts/%1$s-Thin.ttf</string>
+    <string name="font_thin_italic_ttf">fonts/%1$s-ThinItalic.ttf</string>
+    <string name="font_extrabold_ttf">fonts/%1$s-ExtraBold.ttf</string>
+    <string name="font_regular_ttf">fonts/%1$s-Regular.ttf</string>
+    <string name="helvaticaneu_bold">fonts/HelveticaNeu-Bold.ttf</string>
+    <string name="helvaticaneu_italic">fonts/HelveticaNeu-Italic.ttf</string>
+    <string name="lato_regular">fonts/Lato-Regular.ttf</string>
+    <string name="lato_medium">fonts/Lato-Medium.ttf</string>
+
+    <string name="lato_light">fonts/Lato-Light.ttf</string>
+    <string name="lato_bold">fonts/Lato-Bold.ttf</string>
+    <string name="search_button_text">GO</string>
+    <string name="search_button_text_result">APPLY</string>
+    <string name="bg_color_key">bg_color</string>
+    <string name="button_color_key">button_color</string>
+    <string name="text_color_key">text_color</string>
+    <string name="utf8enc">UTF-8</string>
+    <string name="https_scheme">https://</string>
+    <string name="video_player_request_ads_key">video_player_request_ads</string>
+    <string name="text_plain_mime_type">text/plain</string>
+    <string name="st_privacy_policy_icon_key">icon-privacy-policy</string>
+    <string name="st_privacy_policy_icon_key1">icon-privacy</string>
+    <string name="st_tos_icon_key">icon-terms</string>
+
+    <string name="player_video_playing_on_pause_key">player_video_playing_on_pause</string>
+    <string name="text_with_color"><![CDATA[<font color=\'#%1$s\'>%2$s</font>]]></string>
+    <string name="video_player_hls_url_key">video_player_hls_url</string>
+    <string name="video_layer_film_id_key">film_id</string>
+    <string name="video_player_ads_url_key">video_player_ads_url</string>
+    <string name="video_player_recommended_videos_key">video_player_recommended_videos_key</string>
+    <string name="video_fragment_tag_key">video_fragment</string>
+    <string name="app_cms_text_color_key">app_cms_text_color</string>
+    <string name="app_cms_bg_color_key">app_cms_bg_color</string>
+    <string name="app_cms_on_action_internal_events_key">app_cms_on_action_internal_events</string>
+    <string name="resume_internal_events_key">resume_internal_events</string>
+    <string name="text_separator">&#160;|&#160;</string>
+    <string name="blank_separator">&#160;</string>
+    <string name="app_cms_bundle_key">app_cms_bundle</string>
+    <string name="app_cms_mini_player_enable">isEnableMiniPlayer</string>
+    <string name="app_cms_action_live_toggle">actionLiveToggle</string>
+    <string name="app_cms_selected_season_key">selected_season</string>
+    <string name="launch_binder_key">launch_binder</string>
+    <string name="video_player_data_key">video_player_data</string>
+    <string name="drawer_open">drawer_open</string>
+    <string name="drawer_close">drawer_close</string>
+    <string name="page_id">initial_url</string>
+    <string name="close_self_key">close_self</string>
+    <string name="app_cms_binder_stack_size_key">app_cms_binder_stack_size</string>
+    <string name="app_cms_binder_stack_element_key">app_cms_binder_stack_%1$d</string>
+    <string name="navigation_item_key">navigation_item</string>
+    <string name="menu_navigation_key">menu_navigation</string>
+    <string name="ellipse_char">&#8230;</string>
+    <string name="fragment_page_bundle_key">fragment_page</string>
+    <string name="app_cms_binder_key">app_cms_binder</string>
+    <string name="app_cms_video_player_binder_key">app_cms_video_player_binder</string>
+    <string name="app_cms_video_player_bundle_binder_key">app_cms_video_player_bundle_binder</string>
+    <string name="app_cms_download_setting_bundle_key">app_cms_download_setting_bundle_key</string>
+    <string name="app_cms_download_setting_binder_key">app_cms_download_setting_binder_key</string>
+    <string name="default_app_name">@string/app_name</string>
+    <string name="title_activity_app_cms_tv_error">AppCmsTvErrorActivity</string>
+    <string name="font_open_sans">OpenSans</string>
+    <string name="font_open_sans_semibold">OpenSans-Semibold</string>
+    <string name="font_cabin">Cabin</string>
+    <string name="font_montserrat">Montserrat</string>
+    <string name="register_internet_receiver_key">shouldRegisterInternetReciever</string>
+
+
+    <!--FireTV Keys.-->
+    <string name="error_dialog_fragment_tag">ErrorDialog</string>
+    <string name="video_image_key">video_image_key</string>
+    <string name="item_position">nav_item_position</string>
+    <string name="tray_item_data">tray_item_data</string>
+    <string name="title_activity_app_cms_sub_nav_item">AppCmsSubNavItemActivity</string>
+    <string name="text_case_sentence">sentence</string>
+    <string name="text_case_small">small</string>
+    <string name="text_case_caps">caps</string>
+    <string name="default_code">XXXXXX</string>
+    <string name="st_home_icon_key">icon-home</string>
+    <string name="st_shows_icon_key">icon-shows</string>
+    <string name="st_show_icon_key">icon-grid</string>
+    <string name="st_teams_icon_key">icon-bracket</string>
+    <string name="st_tick_icon_key">icon-tick</string>
+    <string name="st_watchlist_icon_key">icon-watchlist</string>
+    <string name="st_history_icon_key">icon-clock</string>
+    <string name="st_settings_icon_key">icon-gear</string>
+    <string name="st_search_icon_key">icon-search</string>
+    <string name="st_autoplay_icon_key">icon-autoplay</string>
+    <string name="st_closed_caption_icon_key">icon-cc</string>
+    <string name="st_manage_subscription_icon_key">icon-manage-subscription</string>
+    <string name="st_account_icon_key">icon-account</string>
+    <string name="st_faq_icon_key">icon-faq</string>
+    <string name="st_signin_icon_key">icon-signin</string>
+    <string name="st_user_icon_key">icon-user</string>
+    <string name="news_user_login_icon_key">icon-user-login</string>
+    <string name="st_signout_icon_key">icon-signout</string>
+    <string name="st_signup_icon_key">icon-signup</string>
+    <string name="st_contact_icon_key">icon-contact</string>
+    <string name="st_subscription_icon_key">icon-subscription</string>
+    <string name="st_menu_icon_key">icon-menu</string>
+    <string name="st_movies_icon_key">icon-movies</string>
+    <string name="st_language_icon_key">icon-language</string>
+    <string name="st_live_icon_key">icon-live</string>
+    <string name="news_live_icon_key">icon-live-news</string>
+    <string name="st_about_us_icon_key">icon-about</string>
+    <string name="news_saved_icon_key">icon-saved</string>
+    <string name="news_shows_icon_key">icon-shows-news</string>
+    <string name="news_gear_icon_key">icon-gear-news</string>
+    <string name="st_genre_icon_key">icon-genre</string>
+    <string name="st_generees_icon_key">icon-generees</string>
+    <string name="is_tos_dialog_page_key">istospage</string>
+    <string name="is_login_dialog_page_key">isloginpage</string>
+    <string name="tv_dialog_msg_key">dialog_msg_key</string>
+    <string name="tv_dialog_header_key">dialog_header_key</string>
+    <string name="tv_dialog_positive_button_key">dialog_positive_button_text_key</string>
+    <string name="tv_dialog_negative_button_key">dialog_negative_button_text_key</string>
+    <string name="tv_dialog_neutral_button_key">dialog_neutral_button_text_key</string>
+    <string name="tv_dialog_content_type_key">dialog_content_type_key</string>
+    <string name="tv_dialog_content_datum">dialog_content_datum</string>
+    <string name="tv_dialog_width_key">dialog_width_key</string>
+    <string name="tv_dialog_height_key">dialog_height_key</string>
+    <string name="tv_dialog_type_key">dialog_type</string>
+    <string name="app_cms_default_download_quality">720p</string>
+    <string name="retryCallBinderKey">retryCallBinderKey</string>
+    <string name="retryCallBundleKey">retryCallBundleKey</string>
+    <string name="app_cms_setting_page_personalization_view_key">personalizationView</string>
+    <string name="app_cms_setting_page_subscription_view_key">subscriptionView</string>
+    <string name="app_cms_setting_page_log_out_key">logOut</string>
+    <string name="tv_generic_dialog_key">generic_dialog_key</string>
+    <string name="json_data_msg_key">message</string>
+    <string name="json_data_time_key">timeStamp</string>
+    <string name="json_content_id_key">contentID</string>
+    <string name="json_seek_delta_key">seekDelta</string>
+
+    <string name="json_seek_search_string_key">searchString</string>
+    <string name="json_data_type_key">dataType</string>
+    <string name="json_data_consolidation_key">collapse_key</string>
+    <!--ADM specific keys-->
+    <string name="intent_msg_action">com.amazon.sample.admmessenger.ON_MESSAGE</string>
+    <string name="intent_msg_category">com.amazon.sample.admmessenger.MSG_CATEGORY</string>
+    <string name="adm_directive_search_and_play">SearchAndPlay</string>
+    <string name="adm_directive_search_and_display_results">SearchAndDisplayResults</string>
+    <string name="adm_directive_play">play</string>
+    <string name="adm_directive_pause">pause</string>
+    <string name="adm_directive_fast_forward">FastForward</string>
+    <string name="adm_directive_rewind">Rewind</string>
+    <string name="adm_directive_start_over">StartOver</string>
+    <string name="adm_directive_next">Next</string>
+    <string name="adm_directive_previous">Previous</string>
+    <string name="view_plans">viewplans</string>
+    <string name="refferal_plan">referralplans</string>
+    <string name="app_cms_page_path_fighter">fighter</string>
+    <string name="app_cms_page_path_roster">roster</string>
+    <string name="app_cms_event_key_type">EVENT</string>
+    <string name="my_profile_pageid">MyProfile</string>
+    <string name="search_pageid">search</string>
+    <string name="app_cms_settings_page_title_text">Settings</string>
+
+    <string name="app_cms_action_change_password_key">changePassword</string>
+    <string name="app_cms_video_page_page_name">Video Page</string>
+    <string name="app_cms_watchlist_navigation_title">Watchlist</string>
+    <string name="app_cms_favorites_navigation_title">Favorites</string>
+    <string name="app_cms_follow_navigation_title">Following</string>
+    <string name="app_cms_download_page_title">Downloads</string>
+    <string name="app_cms_history_navigation_title">History</string>
+    <string name="drm_enabled">isDrmEnabled</string>
+    <string name="license_url">licenseUrl</string>
+    <string name="license_token">licenseToken</string>
+    <string name="app_cms_payment_purchase_key">purchase_key</string>
+    <string name="app_cms_payment_sharepref_key">app_cms_payment_sharepref_result</string>
+    <string name="app_cms_launch_login_page_action">launchLoginPage</string>
+    <string name="app_cms_launch_setup_profile_action">launchSetupProfile</string>
+
+
+    <string name="app_cms_video_playlist_page_action">launchVideoPlaylistPage</string>
+    <string name="package_name_myoutdoortv">com.myoutdoortv</string>
+    <string name="tv_package_name_myoutdoortv">com.myoutdoor.tv</string>
+    <string name="package_name_hoichoi">com.viewlift.hoichoi</string>
+
+
+    <!-- Facebook Event Keys -->
+    <string name="package_name_kronon">com.app.kronon</string>
+    <string name="package_name_afa">com.app.afaplay</string>
+
+    <string name="package_name_prothom">com.prothomalo</string>
+    <string name="package_name_aha">ahaflix.tv</string>
+    <string name="package_name_moviespree">com.millcreek.bingeflix</string>
+
+    <string name="web_view_plans_path">https://%1$s/viewplans</string>
+    <string name="app_cms_user_exists_api_url">%1$s/identity/email?site=%2$s</string>
+    <string name="app_cms_search_vod_detail_classes_api_url">%1$s/search/v1?site=%2$s&amp;episodeId=%3$s</string>
+    <string name="api_object_tag">tag</string>
+    <string name="app_cms_browse_filter_classes_api_url">%1$s/search/v1?site=%2$s&amp;types=video&amp;vodOnly=true</string>
+    <string name="view_plans_label">VIEW PLANS</string>
+    <string name="page_ui_url">%1$s/%2$s/android/%3$s.json?version=%4$s</string>
+    <string name="page_ui_url_firetv">%1$s/%2$s/fireTv/%3$s.json?version=%4$s</string>
+
+
+    <string name="app_cms_ui_block_tray_setting_thumbnail_type_landscape">landscape</string>
+    <string name="font_family_open_sans">Open Sans</string>
+    <string name="app_cms_pagename_juspayPayment_screen_key">Juspay Payment</string>
+    <string name="app_cms_wallet_payment_page_action">launchWalletPaymentPage</string>
+
+
+    <string name="app_cms_net_banking_payment_page_action">launchNetBankingPaymentPage</string>
+    <string name="app_cms_juspay_create_order_api_url">%1$s/subscription/subscribe</string>
+    <string name="app_cms_juspay_card_list_api_url">%1$s/subscription/card?customer_id=%2$s</string>
+
+
+    <string name="app_cms_juspay_delete_card_api_url">%1$s/subscription/card</string>
+    <string name="app_cms_juspay_card_info_api_url">https://api.juspay.in/cardbins/%1$s?merchant_id=%2$s&amp;options.check_mandate_support=true</string>
+
+
+    <string name="app_cms_offer_validate_api_url">%1$s/subscription/offer/validate?site=%2$s</string>
+    <string name="app_cms_offer_discount_api_url">%1$s/subscription/calculate/discount?userId=%2$s&amp;countryCode=%3$s&amp;planId=%4$s&amp;site=%5$s&amp;offerCode=%6$s</string>
+    <string name="app_cms_tvod_offer_discount_api_url">%1$s/subscription/calculate/discount?userId=%2$s&amp;countryCode=%3$s&amp;planId=%4$s&amp;site=%5$s&amp;offerCode=%6$s&amp;transactionType=%7$s</string>
+
+    <string name="app_cms_location_api_url">https://api-internal-us-east-1.viewlift.com/ip/ipgeolocator?site=%1$s</string>
+
+    <string name="app_cms_text_alignment_right">right</string>
+    <string name="app_cms_page_season_table_view_key">seasonTableView</string>
+    <string name="app_cms_page_episode_table_view_key">episodeTableView</string>
+    <string name="app_cms_page_segment_table_view_key">segmentTableView</string>
+    <string name="app_cms_page_parent_linear_view_key">parentLinearLayout</string>
+    <string name="app_cms_page_parent_linear_activate_device_view_key">parentLinearLayoutActivateDevice</string>
+    <string name="app_cms_page_video_whatsapp_key">whatsAppButton</string>
+
+    <string name="app_cms_page_launch_whatsapp_action">launchWhatsApp</string>
+    <string name="app_cms_page_setting_subscriptionGroup_key">subscriptionGroup</string>
+    <string name="app_cms_page_setting_downloadGroup_key">downloadGroup</string>
+    <string name="app_cms_settings_page_personalization_key">personalization</string>
+    <string name="app_cms_page_setting_parentalControlsHeader_key">parentalControlsHeader</string>
+    <string name="app_cms_settings_page_parentalControls_key">parentalControls</string>
+    <string name="app_cms_page_setting_parentalControlToggle_key">parentalControlToggle</string>
+    <string name="app_cms_action_launchParentalControls">launchParentalControls</string>
+    <string name="app_cms_action_manageParentalControls">manageParentalControls</string>
+    <string name="app_cms_action_launchViewingRestrictionsPage">launchViewingRestrictionsPage</string>
+    <string name="app_cms_action_launchChangeVideoPinPage">launchChangeVideoPinPage</string>
+    <string name="app_cms_action_saveVideoPin">saveVideoPin</string>
+    <string name="app_cms_action_setParentalRating">setParentalRating</string>
+    <string name="app_cms_page_lockedImageView">lockedImageView</string>
+    <string name="app_cms_page_group_key">group</string>
+    <string name="app_cms_page_setting_autoPlayGroup_key">autoPlayGroup</string>
+    <string name="app_cms_page_setting_mobileInfoGroup_key">mobileInfoGroup</string>
+    <string name="app_cms_page_setting_personalizationGroup_key">personalizationGroup</string>
+    <string name="app_cms_page_setting_parentalControlsGroup_key">parentalControlsGroup</string>
+    <string name="app_cms_page_login_passwordHintView">passwordHintView</string>
+    <string name="app_cms_parental_controls_page_tag">parental_controls</string>
+    <string name="app_cms_reauthorise_user_page_tag">reauthorise_user</string>
+    <string name="app_cms_viewing_restrictions_page_tag">viewing_restrictions</string>
+    <string name="app_cms_pin_view_page_tag">pin_view</string>
+    <string name="app_cms_get_social_page_tag">get_social</string>
+    <string name="app_cms_page_login_module_component_view_with_short_code_key">loginModuleComponentWithShortCode</string>
+    <string name="app_cms_page_login_module_component_or_separator_view_key">loginModuleComponentOrSeparatorView</string>
+    <string name="app_cms_page_sign_up_module_view_key">signUpModuleView</string>
+    <string name="standalone_player_tvod_purchase">standaloneplayertvodpurchase</string>
+
+    <string name="recommendation_get_genres_url">%1$s/recommendation/getUserGenres</string>
+    <string name="font_din_pro">Din Pro</string>
+    <string name="font_proxima_nova">Proxima Nova</string>
+    <string name="web_view_url">webviewUrl</string>
+    <string name="pricing_model_SVOD">SVOD</string>
+    <string name="pricing_model_TVOD">TVOD</string>
+    <string name="pricing_model_AVOD">AVOD</string>
+    <!--Recommendation API-->
+    <string name="pricing_model_FREE">FREE</string>
+
+    <string name="pricing_model_TVE">TVE</string>
+    <string name="pricing_model_SVOD_TVE">SVOD+TVE</string>
+    <string name="pricing_model_SVOD_TVOD">SVOD+TVOD</string>
+    <string name="pricing_model_SVOD_TVOD_TVE">SVOD+TVOD+TVE</string>
+    <string name="content_pages">/content/pages/</string>
+    <string name="font_titillium_web">Titillium Web</string>
+    <string name="app_cms_identity_parental_api_url">%1$s/identity/parental</string>
+    <string name="app_cms_rating_map_api">%1$s/assets/rating-map.json</string>
+    <string name="login_type_google">login type google</string>
+    <string name="login_type_facebook">login type facebook</string>
+    <string name="login_type_email">login type email</string>
+    <string name="login_type_otp">login type otp</string>
+    <string name="tag_promo">promo</string>
+    <string name="app_cms_pagename_refer_earn_key">Refer &amp; Earn</string>
+    <string name="app_cms_pagename_refer_and_earn_key">Refer and Earn</string>
+    <!--AppCMS Parental Control API -->
+    <string name="hardcoded_url_hoichoi_aha">https://prod-api-cached-2.viewlift.com</string>
+    <string name="hardcoded_url_hoichoi_aha_staging">https://staging-api-cached-2.viewlift.com</string>
+
+    <string name="app_cms_page_subscription_page_name_key">View Plans</string>
+    <string name="app_cms_page_shows_page_name_key">Shows Page</string>
+    <string name="app_cms_page_show_page_name_key">Show Page</string>
+    <string name="provider_viewlift">viewlift</string>
+
+    <string name="subscription_status_suspended">SUSPENDED</string>
+    <string name="subscription_status_cancelled">CANCELLED</string>
+    <string name="subscription_status_completed">COMPLETED</string>
+    <string name="subscription_status_refund">REFUND</string>
+
+
+    <string name="subscription_status_deferred_cancellation">DEFERRED_CANCELLATION</string>
+
+    <string name="app_cms_page_juspay_walletGroup_key">walletGroup</string>
+    <string name="app_cms_page_juspay_netBankingGroup_key">netBankingGroup</string>
+    <string name="app_cms_page_juspay_cardGroup_key">cardGroup</string>
+    <string name="app_cms_page_juspay_upiGroup_key">upiGroup</string>
+    <string name="app_cms_ancillary_page">Ancillary Page</string>
+    <string name="rentOptionButton">rentOptionButton</string>
+
+    <string name="in_app_update_download_msg">An update has just been downloaded.</string>
+    <string name="in_app_update_install_label">RESTART</string>
+
+    <string name="download_exists_offline_header">Download Exists</string>
+    <string name="download_exists_offline_message">Already Downloaded By Other User. Do You want to delete that User Download?</string>
+    <string name="download_quality_text_key" translatable="false">Download Quality</string>
+    <string-array name="app_cms_download_quality_array_high_medium_low">
+        <item>HIGH</item>
+        <item>MEDIUM</item>
+        <item>LOW</item>
+    </string-array>
+
+    <!--OFFLINE DRM STRINGS-->
+    <string name="exo_download_description">Download</string>
+    <string name="download_start_error">Failed to start download</string>
+    <string name="track_selection_title">Select tracks</string>
+    <string name="exo_extension">mpd</string>
+    <string name="drm_scheme">widevine</string>
+    <string name="drm_token_key_axinom">X-AxDRM-Message</string>
+    <string name="video_player_is_offline">is_app_offline</string>
+    <string name="svodAll">svodAll</string>
+
+    <string name="app_cms_pagename_subscription_flow_page_key">Subscription Flow</string>
+    <string name="page_content_data">pageContentData</string>
+
+    //TIMWE Robi and GP Data Bundle
+    <string name="app_cms_data_bundle_api_url">%1$s/subscription/subscribe?site=%2$s&amp;countryCode=%3$s</string>
+    <string name="app_cms_subscription_otp_api_url">%1$s/subscription/subscription/otp?site=%2$s&amp;countryCode=%3$s</string>
+    <string name="gp_data_bundle">GP DATA BUNDLE</string>
+    <string name="carrier_billing">carrier-billing</string>
+    <string name="data_bundle">dataBundle</string>
+    <string name="charge">charge</string>
+    <string name="gp">GP</string>
+    <string name="robi">ROBI</string>
+    <string name="tim_we_ooredoo">TIMWE OOREDOO</string>
+    <string name="otp">otp</string>
+    <string name="oordeoo">OOREDOO</string>
+
+
+    <string-array name="app_cms_modules_to_ignore">
+        <item>AC Masthead 01</item>
+        <item>AC Masthead 02</item>
+        <item>AC Masthead 03</item>
+        <item>AC Footer 01</item>
+        <item>AC Footer 02</item>
+        <item>AC Footer 03</item>
+        <item>AC Footer 04</item>
+        <item>AC RawHtml 01</item>
+        <item>null</item>
+    </string-array>
+    <string-array name="app_cms_modules_to_ignore_tv">
+        <item>AC Masthead 01</item>
+        <item>AC Footer 01</item>
+        <item>AC WebFrame 01</item>
+        <item>AC Footer 02</item>
+        <item>AC Banner 01</item>
+        <item>AC BrandNavigation 01</item>
+    </string-array>
+
+    <string-array name="app_cms_deprecate_modules_ignore">
+        <item>AC Masthead 01</item>
+        <item>AC Masthead 02</item>
+        <item>AC Masthead 03</item>
+        <item>AC Footer 01</item>
+        <item>AC Footer 02</item>
+        <item>AC Footer 03</item>
+        <item>AC Footer 04</item>
+        <item>AC Authentication 01</item>
+        <item>AC ShowDetail 01</item>
+        <item>AC SelectPlan 02</item>
+        <item>AC VideoPlayerWithInfo 01</item>
+        <item>AC VideoPlayerWithInfo 02</item>
+        <item>AC StandaloneVideoPlayer 01</item>
+        <item>AC UserManagement 01</item>
+        <item>AC UserManagement 02</item>
+        <item>AC RawHtml 01</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="app_cms_deprecate_modules_ignore_tv">
+        <item>AC Masthead 01</item>
+        <item>AC Masthead 02</item>
+        <item>AC Masthead 03</item>
+        <item>AC Footer 01</item>
+        <item>AC Footer 02</item>
+        <item>AC Footer 03</item>
+        <item>AC Footer 04</item>
+        <item>AC WebFrame 01</item>
+        <item>AC Banner 01</item>
+        <item>AC BrandNavigation 01</item>
+        <item>AC SelectPlan 02</item>
+        <item>AC SelectPlan 01</item>
+        <item>AC VideoPlayerWithInfo 01</item>
+        <item>AC VideoPlayerWithInfo 02</item>
+        <item>AC Authentication 01</item>
+        <item>AC UserManagement 01</item>
+        <item>AC UserManagement 02</item>
+        <item>AC ShowDetail 01</item>
+    </string-array>
+
+    <string-array name="app_cms_splash_progress_needed">
+        <item>com.viewlift.failarmy2</item>
+        <item>com.viewlift.jukinvideo</item>
+        <item>com.viewlift.peopleawesome</item>
+        <item>com.viewlift.thepetcollective</item>
+        <item>com.viewlift.peopleareawesome</item>
+    </string-array>
+    <string-array name="app_cms_jukin_search_tray">
+        <item>com.viewlift.failarmy2</item>
+        <item>com.viewlift.jukinvideo</item>
+        <item>com.viewlift.peopleawesome</item>
+        <item>com.viewlift.thepetcollective</item>
+        <item>com.viewlift.thepetcollective</item>
+        <item>com.myoutdoor.tv</item>
+    </string-array>
+    <string-array name="app_cms_subscription_purchase_on_web">
+        <item>com.supercross.videopass</item>
+    </string-array>
+    <string-array name="app_cms_download_quality_array">
+        <item>720p</item>
+        <item>360p</item>
+    </string-array>
+
+    <string-array name="app_cms_tray_modules">
+        <item>@string/carousel_nodule</item>
+        <item>@string/carousel_nodule_four</item>
+        <item>@string/carousel_module_eight</item>
+        <item>AC ContinueWatching 01</item>
+        <item>AC ContinueWatching 02</item>
+        <item>AC Tray 01</item>
+        <item>AC Tray 03</item>
+        <item>AC Tray 12</item>
+        <item>@string/standaloneplayer</item>
+        <item>@string/app_cms_page_video_player_key</item>
+        <item>AC EventCarousel 01</item>
+        <item>AC FullWidthCarousel 01</item>
+        <item>AC WeatherTray 01</item>
+        <item>AC Grid 01</item>
+        <item>AC Tray 11</item>
+        <item>AC Recommendation 01</item>
+        <item>AC User Personalization 01</item>
+        <item>AC RecommendPopular 01</item>
+        <item>AC StandaloneVideoPlayer 04</item>
+        <item>News Recommendation 01</item>
+        <item>News Tray 02</item>
+    </string-array>
+
+    <string-array name="app_cms_modules">
+        <item>AC RedeemOffer 01</item>
+        <item>AC RedeemOffer 02</item>
+        <item>AC VideoPlayerWithInfo 02</item>
+        <item>@string/appcms_detail_module</item>
+        <item>@string/appcms_detail_module_six</item>
+        <item>@string/appcms_detail_module_seven</item>
+        <item>@string/app_cms_ancillary_pages_module</item>
+        <item>@string/app_cms_reset_password_module</item>
+        <item>@string/app_cms_reset_password3_module</item>
+        <item>@string/app_cms_contact_us_module</item>
+        <item>@string/app_cms_page_history_module_key</item>
+        <item>@string/app_cms_page_history_module_key2</item>
+        <item>@string/app_cms_page_history_module_key4</item>
+        <item>@string/app_cms_page_watchlist_module_key</item>
+        <item>@string/app_cms_page_watchlist_module_key2</item>
+        <item>@string/app_cms_page_watchlist_module_key3</item>
+        <item>@string/app_cms_page_autoplay_module_key_01</item>
+        <item>@string/app_cms_page_autoplay_module_key_02</item>
+        <item>@string/app_cms_page_autoplay_module_key_03</item>
+        <item>@string/app_cms_page_autoplay_module_key_04</item>
+        <item>@string/app_cms_page_autoplay_landscape_module_key_01</item>
+        <item>@string/app_cms_page_autoplay_portrait_module_key_01</item>
+        <item>@string/app_cms_page_link_your_account_module</item>
+        <item>@string/app_cms_page_authentication_module</item>
+        <item>@string/app_cms_page_authentication_module_17</item>
+        <item>@string/app_cms_page_news_authentication_module</item>
+        <item>@string/app_cms_setting_module</item>
+        <item>AC UserManagement 02</item>
+        <item>@string/app_cms_page_user_management_module_key3</item>
+        <item>@string/app_cms_page_user_management_module_key4</item>
+        <item>@string/app_cms_page_user_management_module_key5</item>
+        <item>@string/app_cms_page_news_authentication_module</item>
+        <item>AC SubNav 01</item>
+        <item>AC LanguageSettings 01</item>
+        <item>AC Library 01</item>
+        <item>AC CategoryDetail 02</item>
+        <item>AC Grid 01</item>
+        <item>AC SelectPlan 01</item>
+        <item>AC SelectPlan 02</item>
+        <item>AC SelectPlan 06</item>
+        <item>AC CustomNavigation 01</item>
+        <item>AC PageLink 01</item>
+        <item>expanded01</item>
+        <item>@string/standaloneplayer02</item>
+        <item>@string/carousel_nodule_seven</item>
+        <item>@string/app_cms_page_module_key_showdetail_06</item>
+        <item>AC StandaloneVideoPlayer 04</item>
+        <item>AC VideoPlayerWithInfo 05</item>
+    </string-array>
+
+    <string-array name="app_cms_detail_module">
+        <item>AC VideoPlayerWithInfo 02</item>
+    </string-array>
+
+    <string-array name="app_cms_upi_end_point">
+        <item>pingpay</item>
+        <item>axisbank</item>
+        <item>apl</item>
+        <item>axisb</item>
+        <item>abfspay</item>
+        <item>fbl</item>
+        <item>hdfcbankjd</item>
+        <item>ikwik</item>
+        <item>idfcbank</item>
+        <item>indus</item>
+        <item>yesbank</item>
+        <item>ybl</item>
+        <item>okaxis</item>
+        <item>okhdfcbank</item>
+        <item>okicici</item>
+        <item>oksbi</item>
+        <item>barodapay</item>
+        <item>icici</item>
+        <item>icicibank</item>
+        <item>myicici</item>
+        <item>paytm</item>
+        <item>sbi</item>
+        <item>hdfc</item>
+    </string-array>
+    <!--<string name="app_cms_subscription_plan_by_id_api_userid_url">%1$s/subscription/plans?site=%2$s&amp;userId=%3$s&amp;ids=%4$s&amp;device=%5$s&amp;visible=true&amp;store_countryCode=%6$s</string>
+    <string name="app_cms_subscription_plan_all_api_userid_url">%1$s/subscription/plans?site=%2$s&amp;userId=%3$s&amp;monetizationModel=SVOD&amp;device=%4$s&amp;visible=true&amp;store_countryCode=%5$s</string>
+    <string name="app_cms_subscription_plan_by_id_api_url">%1$s/subscription/plans?site=%2$s&amp;ids=%3$s&amp;device=%4$s&amp;visible=true&amp;store_countryCode=%5$s</string>
+    <string name="app_cms_subscription_plan_all_api_url">%1$s/subscription/plans?site=%2$s&amp;monetizationModel=SVOD&amp;device=%3$s&amp;visible=true&amp;store_countryCode=%4$s</string>
+-->
+    <string name="app_cms_subscription_plan_by_id_api_userid_url">%1$s/subscription/plans?site=%2$s&amp;userId=%3$s&amp;ids=%4$s&amp;device=%5$s&amp;visible=%6$b&amp;store_countryCode=%7$s</string>
+    <string name="app_cms_subscription_plan_all_api_userid_url">%1$s/subscription/plans?site=%2$s&amp;userId=%3$s&amp;monetizationModel=SVOD&amp;device=%4$s&amp;visible=%5$b&amp;store_countryCode=%6$s</string>
+    <string name="app_cms_subscription_plan_by_id_api_url">%1$s/subscription/plans?site=%2$s&amp;ids=%3$s&amp;device=%4$s&amp;visible=%5$b&amp;store_countryCode=%6$s</string>
+    <string name="app_cms_subscription_plan_all_api_url">%1$s/subscription/plans?site=%2$s&amp;monetizationModel=SVOD&amp;device=%3$s&amp;visible=%4$b&amp;store_countryCode=%5$s</string>
+    <string-array name="app_cms_package_list">
+        <item>com.myoutdoortv</item>
+        <item>com.myoutdoor.tv</item>
+        <item>com.millcreek.bingeflix</item>
+        <item>com.app.marqueetv</item>
+    </string-array>
+
+</resources>
+

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="app_cms_content_rating_title_header_text_size">18sp</dimen>
+    <fraction name="app_cms_content_rating_progress_bar_margin_bottom_percent">2.5%</fraction>
+    <fraction name="mainContainerWidthPercent">57%</fraction>
+    <fraction name="mainContainerHeightPercent">35%</fraction>
+    <dimen name="app_cms_continue_watching_tray_marginLeft">15dp</dimen>
+    <bool name="isTablet">false</bool>
+    <dimen name="nav_item_margin">10dp</dimen>
+
+
+    <dimen name="app_cms_audio_play_width">55dp</dimen>
+    <dimen name="app_cms_audio_play_height">65dp</dimen>
+    <dimen name="app_cms_audio_play_control_height">70dp</dimen>
+    <dimen name="app_cms_audio_item_padding">50dp</dimen>
+    <dimen name="action_bar_logo_width">144dp</dimen>
+    <dimen name="action_bar_logo_height">32dp</dimen>
+
+    <item name="app_cms_plan_pay_font" type="dimen" format="float">0.6</item>
+    <item name="app_cms_plan_duration_font" type="dimen" format="float">0.6</item>
+    <item name="app_cms_plan_price_font" type="dimen" format="float">0.9</item>
+    <dimen name="browse_page_filter_top_margin">98dp</dimen>
+
+    <dimen name="player_control_button_width_height">60dp</dimen>
+    <dimen name="player_control_setting_button_width_height">40dp</dimen>
+    <dimen name="player_control_text_size">20sp</dimen>
+    <dimen name="sp12">12sp</dimen>
+    <dimen name="description_leble">80sp</dimen>
+    <dimen name="title_lbl">140sp</dimen>
+
+
+    <dimen name="get_social_text_size">18sp</dimen>
+    <dimen name="get_social_sn_text_width">60dp</dimen>
+    <dimen name="get_social_referred_friends_text_width">200dp</dimen>
+    <dimen name="get_social_install_channel_text_width">150dp</dimen>
+    <dimen name="get_social_subscription_status_text_width">150dp</dimen>
+    <dimen name="get_social_subscription_date_text_width">150dp</dimen>
+    <dimen name="app_cms_view_plan_cell_margin_10">10dp</dimen>
+    <dimen name="app_cms_view_plan_cell_margin_12">12dp</dimen>
+
+</resources>

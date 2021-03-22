@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_cms_continue_watching_tray_height">80dp</dimen>
+
+    <dimen name="app_cms_mini_player_height">113dp</dimen>
+    <dimen name="app_cms_mini_player_width">200dp</dimen>
+
+    <item name="app_cms_plan_pay_font" type="dimen" format="float">0.8</item>
+    <item name="app_cms_plan_duration_font" type="dimen" format="float">0.8</item>
+    <item name="app_cms_plan_price_font" type="dimen" format="float">1.0</item>
+
+
+    <dimen name="arrow_button_margin">10dp</dimen>
+    <dimen name="sp12">12sp</dimen>
+    <dimen name="description_leble">80sp</dimen>
+    <dimen name="title_lbl">140sp</dimen>
+    <dimen name="app_cms_view_plan_cell_margin_10">10dp</dimen>
+    <dimen name="app_cms_view_plan_cell_margin_12">12dp</dimen>
+</resources>
